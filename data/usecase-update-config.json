@@ -1,0 +1,19 @@
+{
+  "namespace": {
+    "heading_prefix": "Case",
+    "anchor_prefix": "case",
+    "numbering_order": "document",
+    "menu_policy": "per-case",
+    "category_anchors": ["engineering", "graphics", "games", "knowledge", "evaluations"]
+  },
+  "requirements": {
+    "takeaway": true,
+    "localized_title_translation": true,
+    "allowed_types": ["Demo", "Tutorial", "Evaluation", "Integration", "Benchmark", "Limit"]
+  },
+  "structured_data": {
+    "path": "data/use-cases.json",
+    "items_key": "items",
+    "source_field": "source_url"
+  }
+}

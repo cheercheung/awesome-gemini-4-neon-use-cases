@@ -1,0 +1,19 @@
+name: Verify case catalog
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify generated README editions and catalog
+        run: python3 scripts/build_readmes.py --check
+      - name: Verify whitespace
+        run: git diff --check

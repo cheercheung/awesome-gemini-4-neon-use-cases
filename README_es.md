@@ -1,0 +1,1686 @@
+<div align="center">
+
+<a href="https://evolink.ai/gemini-4-neon?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=awesome-gemini-4-neon-use-cases&amp;utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/banner/neon-use-cases-b56d48e57ac3.png" alt="Gemini 4 Neon Use Cases" width="760"></a>
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
+
+[![English](https://img.shields.io/badge/English-111111)](README.md)
+[![Español](https://img.shields.io/badge/Espa%C3%B1ol-ffb703)](README_es.md)
+[![Português](https://img.shields.io/badge/Portugu%C3%AAs-2a9d8f)](README_pt.md)
+[![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-52b788)](README_ja.md)
+[![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-4ea8de)](README_ko.md)
+[![Deutsch](https://img.shields.io/badge/Deutsch-f4a261)](README_de.md)
+[![Français](https://img.shields.io/badge/Fran%C3%A7ais-e76f51)](README_fr.md)
+[![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-d62828)](README_tr.md)
+[![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-8338ec)](README_zh-TW.md)
+[![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-ef476f)](README_zh-CN.md)
+[![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-577590)](README_ru.md)
+
+</div>
+
+<a id="introduction"></a>
+## 🍌 Introducción
+
+**Explore Gemini 4 Neon a través de flujos de trabajo públicos, prototipos visuales, integraciones y evaluaciones. Cada caso enlaza con su fuente y describe el papel del modelo y el resultado informado.**
+
+<a id="overview"></a>
+## 📊 Descripción general
+
+**95 casos de Gemini 4 Neon** con 124 recursos visuales de las fuentes.
+
+- Ingeniería e Integraciones · 6
+- Prototipos de gráficos e interfaces · 51
+- Juegos y Simulaciones · 12
+- Trabajo del conocimiento · 8
+- Evaluaciones y límites · 18
+
+> [!NOTE]
+> Cada caso enlaza a su fuente. Los tiempos, costes y resultados de evaluación corresponden a las condiciones de prueba descritas.
+
+<a id="quick-start"></a>
+## ⚡ Inicio rápido
+
+1. Elija un caso del menú y abra su fuente original.
+2. Verifique el rol del modelo, la herramienta, la configuración y el resultado que informa la fuente.
+3. Compare casos con tareas y configuraciones coincidentes. Trate los tiempos y costos informados por los creadores como observaciones de esas ejecuciones.
+
+<a id="menu"></a>
+## 📑 Menú
+
+| caso | Categoría | lo que muestra | Tipo |
+|---|---|---|---|
+| [Observe la inestabilidad durante carreras desatendidas.](#case-1) | Ingeniería e Integraciones | El evaluador informa de inestabilidad el día del lanzamiento al ejecutar Neon sin interfaz gráfica. Según el evaluador, Opus 5.5 supervisó la ejecución. | Limit |
+| [Crear una simulación de puertas lógicas](#case-2) | Ingeniería e Integraciones | El autor muestra una demostración electrónica interactiva que va desde puertas lógicas y placas de circuito simuladas hasta una pantalla de terminal retro. | Demo |
+| [Diseñar un cepillo de dientes Bluetooth en tscircuit](#case-3) | Ingeniería e Integraciones | Un mantenedor de tscircuit comparó Neon High, Opus 5.5 High y Sol 6.2 High en un cepillo de dientes eléctrico Bluetooth. | Evaluation |
+| [Transmitir una conversación paralela de Muse a Neon](#case-4) | Ingeniería e Integraciones | El autor creó un chat paralelo de Muse que pasa solicitudes y respuestas a Neon. | Integration |
+| [Utilice Neon para redacción publicitaria en un flujo de trabajo T3 Code con tres modelos](#case-5) | Ingeniería e Integraciones | El desarrollador asigna a Neon la función de redacción dentro de un flujo de trabajo T3 Code multimodelo. | Integration |
+| [Reelaborar un MCP recomendado de Spotify](#case-6) | Ingeniería e Integraciones | El creador utilizó Neon para revisar un MCP recomendado de Spotify creado originalmente con Argon. | Integration |
+| [Dibuja una vista lateral SVG de un automóvil](#case-7) | Prototipos de gráficos e interfaces | El creador utilizó Neon high en AI Studio para crear un SVG de vista lateral del BMW M4 CS. | Demo |
+| [Ejecute una serie de pruebas SVG](#case-8) | Prototipos de gráficos e interfaces | El probador compartió tres salidas en una serie de pruebas Neon SVG. | Demo |
+| [Animar un pelícano en Three.js](#case-9) | Prototipos de gráficos e interfaces | El evaluador atribuye una salida de pelícano en bicicleta de Three.js a Neon. | Demo |
+| [Dibuja un retrato SVG en xhigh](#case-10) | Prototipos de gráficos e interfaces | El tester comparte un retrato de Ana de Armas atribuido a Neon xhigh. | Demo |
+| [Animar un pelícano en bicicleta con un esfuerzo medio.](#case-11) | Prototipos de gráficos e interfaces | El autor utilizó Neon con un esfuerzo medio para producir una demostración de ciclismo de pelícano y publicó el vídeo. | Demo |
+| [Compara dos escenas de jardín vóxel](#case-12) | Prototipos de gráficos e interfaces | El autor publicó un jardín de vóxeles de Neon xhigh junto con un resultado de GPT-6.2 Sol xhigh. | Evaluation |
+| [Generar una escena Three.js y GLSL](#case-13) | Prototipos de gráficos e interfaces | El creador comparte una salida de Three.js y GLSL de Neon e informa una ejecución de dos minutos y 40 segundos. | Demo |
+| [Crea pinturas completamente en código](#case-14) | Prototipos de gráficos e interfaces | El creador informa que utiliza Neon de acceso temprano para escribir código que representa pinturas. | Demo |
+| [Compara animaciones de ciclismo de pelícanos](#case-15) | Prototipos de gráficos e interfaces | El evaluador comparó la animación de un pelícano en Neon, Hydrogen, GPT-6.2 Astra y GPT-6.2 Sol. | Evaluation |
+| [Compare las animaciones cíclicas de Three.js en tres modelos](#case-16) | Prototipos de gráficos e interfaces | El evaluador publicó una comparación cíclica de Three.js entre Neon, Opus 5.5 y Carbon. | Evaluation |
+| [Renderiza un gran barco en el océano](#case-17) | Prototipos de gráficos e interfaces | El evaluador compartió una escena de navegación en el océano atribuida a Neon xhigh. | Demo |
+| [Generar una pagoda vóxel](#case-18) | Prototipos de gráficos e interfaces | El evaluador publica una pagoda de vóxel generada en Neon xhigh. | Demo |
+| [Dibuja un pelícano frustrado en bicicleta.](#case-19) | Prototipos de gráficos e interfaces | El creador utilizó Neon high en AI Studio para dibujar un SVG de un pelícano frustrado andando en bicicleta. | Demo |
+| [Compara los dibujos del gamepad con GPT-6.2 Sol](#case-20) | Prototipos de gráficos e interfaces | El evaluador utilizó el mismo mensaje en el razonamiento más alto disponible de cada modelo y consideró que los resultados eran similares. | Evaluation |
+| [Genera un hidroavión 3D](#case-21) | Prototipos de gráficos e interfaces | El evaluador utilizó Neon xhigh para construir un hidroavión 3D y compartió un vídeo. | Demo |
+| [Dibuja un caballo 2D](#case-22) | Prototipos de gráficos e interfaces | El creador utilizó Neon para producir un caballo bidimensional y publicó el resultado. | Demo |
+| [Pruebe una escena lluviosa de una tienda de conveniencia](#case-23) | Prototipos de gráficos e interfaces | El evaluador utilizó el mismo mensaje para Neon y GPT-6.2 Sol y publicó la comparación. | Evaluation |
+| [Animar un cuadrúpedo robótico a partir de una imagen.](#case-24) | Prototipos de gráficos e interfaces | El desarrollador le dio a Neon una única imagen de referencia y le pidió un modelo 3D. | Demo |
+| [Animar Keats en JavaScript básico](#case-25) | Prototipos de gráficos e interfaces | Un miembro del equipo de Google le da crédito a GeokenAI y Neon por una animación básica en JavaScript de To Autumn de Keats. | Demo |
+| [Crea una demostración de Triceratops](#case-26) | Prototipos de gráficos e interfaces | El creador atribuye la demostración del Triceratops a Neon. | Demo |
+| [Comparar representaciones de trenes de engranajes en 3D](#case-27) | Prototipos de gráficos e interfaces | El probador muestra representaciones de mecanismos de engranajes para Neon, Carbon, Astra y Sol en los niveles de razonamiento etiquetados. | Evaluation |
+| [Cree diez efectos interactivos en un solo archivo HTML](#case-28) | Prototipos de gráficos e interfaces | Un miembro del equipo de Google informa que utilizó Neon para crear diez efectos 3D interactivos en un archivo HTML de 27 KB. | Demo |
+| [Construya una mesa de laboratorio Blender con Antigravity Swarm](#case-29) | Prototipos de gráficos e interfaces | Google demostró que Neon usa Antigravity Swarm y Blender para producir una escena de laboratorio con el tema de la familia Gemini 4. | Integration |
+| [Compara ilustraciones arquitectónicas con Opus 5.5](#case-30) | Prototipos de gráficos e interfaces | El evaluador comparó los modelos utilizando el mismo mensaje en su razonamiento más alto disponible. | Evaluation |
+| [Visualizar el vuelo de la Voyager 1](#case-31) | Prototipos de gráficos e interfaces | El autor muestra una secuencia en 3D de la Voyager 1 que va desde el lanzamiento hasta el encuentro con Júpiter y un primer plano de la nave espacial. | Demo |
+| [Construir un planetario 3D](#case-32) | Prototipos de gráficos e interfaces | El autor muestra un planetario en 3D que se mueve entre planetas y una vista de constelación. | Demo |
+| [Visualizar la Máquina Diferencial n.º 2 de Babbage](#case-33) | Prototipos de gráficos e interfaces | El autor muestra una visualización en 3D del motor diferencial nº 2 de Babbage con sus conjuntos de engranajes y una pantalla numérica. | Demo |
+| [Visualizar el mecanismo de Anticitera](#case-34) | Prototipos de gráficos e interfaces | El autor muestra una demostración del mecanismo de Antikythera en 3D que alterna entre el objeto recuperado, engranajes reconstruidos y un dial. | Demo |
+| [Crear un prototipo visual de túnel de viento](#case-35) | Prototipos de gráficos e interfaces | El autor muestra una demostración de un túnel de viento en 3D con líneas de flujo de aire visibles alrededor de diferentes formas. | Demo |
+| [Mostrar en sección la capilla de King's College](#case-36) | Prototipos de gráficos e interfaces | El autor muestra un corte en 3D de la Capilla del King's College que alterna entre el exterior y el interior. | Demo |
+| [Renderizar un viaducto sobre un río y su entorno](#case-37) | Prototipos de gráficos e interfaces | El autor muestra un valle fluvial en 3D con un viaducto de múltiples arcos, un tren y varias vistas renderizadas. | Demo |
+| [Crear una vista urbana en 3D inspirada en Cambridge](#case-38) | Prototipos de gráficos e interfaces | El autor muestra una visualización de la ciudad inspirada en Cambridge, con vistas aéreas y más cercanas de los bloques modelados. | Demo |
+| [Renderiza una Tierra con temática de neón](#case-39) | Prototipos de gráficos e interfaces | El creador usó Neon high en Antigravity para representar un planeta con temática de neón. | Demo |
+| [Iterar una escena de yate](#case-40) | Prototipos de gráficos e interfaces | El creador informa que Neon mejoró la escena de un yate y muestra el resultado. | Demo |
+| [Crea materiales para disfraces en una herramienta VFX personalizada](#case-41) | Prototipos de gráficos e interfaces | El creador utilizó Neon para crear materiales para disfraces y publicó seis imágenes de los resultados. | Demo |
+| [Comparar escenas voxel Ninjago](#case-42) | Prototipos de gráficos e interfaces | La fuente compara Neon y Fable 5.2 en una recreación de vóxel. | Evaluation |
+| [Crear un gráfico en movimiento de producto pelícano](#case-43) | Prototipos de gráficos e interfaces | El creador le da crédito a Neon por un gráfico en movimiento del producto con temática de pelícano. | Demo |
+| [Compara prototipos de escenas de la ciudad de Nueva York](#case-44) | Prototipos de gráficos e interfaces | El evaluador informa que Neon incluía el Puente de Brooklyn, la Estatua de la Libertad y una calle con taxis. | Evaluation |
+| [Realizar una prueba visual de plátano](#case-45) | Prototipos de gráficos e interfaces | El evaluador publica una salida de Neon para una prueba titulada Banana Test. | Demo |
+| [Compara una catedral embrujada en un solo mensaje](#case-46) | Prototipos de gráficos e interfaces | El evaluador asignó a Neon y GPT-6.2 Sol la misma tarea de catedral encantada. | Evaluation |
+| [Prototipo de un ensamblaje de teléfono en Antigravity](#case-47) | Prototipos de gráficos e interfaces | El desarrollador utilizó Neon en Antigravity y mostró un tablero de componentes de diseño y un ensamblaje de teléfono renderizado. | Demo |
+| [Genera un velero histórico interactivo](#case-48) | Prototipos de gráficos e interfaces | El autor publicó una demostración de un velero en 3D con disparo cero. | Demo |
+| [Diseñar una introducción de modelo en JavaScript.](#case-49) | Prototipos de gráficos e interfaces | El autor utilizó Neon para hacer un gráfico en movimiento que presentara el modelo. | Demo |
+| [Genere una escena de cabaña de esquí en una sola pasada](#case-50) | Prototipos de gráficos e interfaces | DesignArena pidió a Neon y Argon que generaran la misma configuración de cabaña alpina y publicaron los resultados uno al lado del otro. | Evaluation |
+| [Renderiza un castillo de fantasía vóxel](#case-51) | Prototipos de gráficos e interfaces | El creador comparte un castillo de vóxeles producido en Neon xhigh. | Demo |
+| [Compara la animación de un pulpo en bicicleta con Astra](#case-52) | Prototipos de gráficos e interfaces | El evaluador registró 21 minutos y 53 segundos y 2,52 USD para Astra (xhigh), y 41 minutos y 4,02 USD para Neon (high). | Evaluation |
+| [Animación de mariposa Three.js](#case-53) | Prototipos de gráficos e interfaces | Un creador utilizó Neon xhigh en Antigravity para crear una animación de mariposa Three.js. | Demo |
+| [Construya componentes y movimiento a partir de imágenes de referencia.](#case-54) | Prototipos de gráficos e interfaces | El creador utilizó referencias visuales para generar varios componentes y el movimiento que los acompaña. | Demo |
+| [Mundo del asistente de píxeles en Three.js](#case-55) | Prototipos de gráficos e interfaces | Un creador le dio imágenes de referencia a Neon y perfeccionó la escena de Three.js en tres pasadas. | Demo |
+| [Punto de referencia de renderizado de castillos](#case-56) | Prototipos de gráficos e interfaces | El creador utilizó Neon como punto de referencia del castillo y publicó vídeos e imágenes fijas. | Evaluation |
+| [Recrear el despacho de Alan Turing en 1936](#case-57) | Prototipos de gráficos e interfaces | Google utilizó Neon con Antigravity Swarm para crear una reconstrucción interactiva a partir de fotografías de archivo. | Demo |
+| [Crea un juego de obstáculos de desplazamiento lateral](#case-58) | Juegos y Simulaciones | El evaluador le pidió a Neon un prototipo estilo Flappy Bird y publicó una grabación. | Demo |
+| [Compara escenas de combate con espada y escudo.](#case-59) | Juegos y Simulaciones | El evaluador publicó un video con salidas etiquetadas como Fable 5.2 y Neon para una escena de juego de combate. | Evaluation |
+| [Crear un minigolf de estilo synthwave](#case-60) | Juegos y Simulaciones | Google Antigravity muestra cómo Gemini 4 Neon usa Swarm para crear un juego de minigolf en 3D a partir de un solo prompt. | Demo |
+| [Compara duelos de caballeros animados](#case-61) | Juegos y Simulaciones | El evaluador publicó salidas separadas etiquetadas de Opus 5.5 y Neon para un duelo entre personajes blindados. | Evaluation |
+| [Crea un juego de arte expresionista en un archivo HTML](#case-62) | Juegos y Simulaciones | El desarrollador utilizó Neon para crear un juego de arte JavaScript sin fin contenido en un archivo HTML. | Demo |
+| [Compara prototipos de juegos de jefes de hielo](#case-63) | Juegos y Simulaciones | El evaluador publicó salidas etiquetadas de Neon y Opus 5.5 para un encuentro con el jefe de hielo en primera persona. | Evaluation |
+| [Demostración de baloncesto de sandía](#case-64) | Juegos y Simulaciones | El evaluador comparte un video de baloncesto con sandía Neon. | Demo |
+| [Construye un juego de plataformas de panadería con salpicaduras gaussianas](#case-65) | Juegos y Simulaciones | El creador utilizó Neon para convertir un motor de dispersión gaussiano C++20 y WebGPU en un juego de plataformas de cuatro torres. | Demo |
+| [Crea un juego 3D con Antigravity Swarm](#case-66) | Juegos y Simulaciones | El desarrollador utilizó Neon y Antigravity Swarm para crear un pequeño juego en 3D. | Demo |
+| [Prototipo de carrera espacial](#case-67) | Juegos y Simulaciones | Un creador informó haber construido un corredor espacial con Neon en alto razonamiento. | Demo |
+| [Prototipo de torre de defensa](#case-68) | Juegos y Simulaciones | Un desarrollador publicó una jugabilidad de un prototipo de torre de defensa construida con Neon. | Demo |
+| [Construye un simulador de esquí en primera persona](#case-69) | Juegos y Simulaciones | Google informa que utiliza Neon para crear un simulador de freeride WebGL2 en terreno de Mont Blanc y Chamonix. | Demo |
+| [Resumir las opciones de modelos en una tabla de investigación.](#case-70) | Trabajo del conocimiento | El autor atribuye una tabla de selección de modelos Gemini 4 a una investigación realizada por Neon. | Demo |
+| [Co-crear una película de lanzamiento con Neon](#case-71) | Trabajo del conocimiento | Un miembro del equipo de Google informa haber co-creado una película con Neon y comparte el resultado. | Demo |
+| [Explicar la mecánica del equipo en un juego de realidad virtual.](#case-72) | Trabajo del conocimiento | El autor utilizó Neon para resumir el equipo del juego Meta Quest H3VR2 y adjuntó una explicación ilustrada. | Demo |
+| [Inspeccionar una autoevaluación durante el recorte de imágenes](#case-73) | Trabajo del conocimiento | El evaluador informa que Neon elogió su propio recorte durante una prueba de edición de imágenes. | Limit |
+| [Convertir un artículo en diapositivas editables](#case-74) | Trabajo del conocimiento | El creador le envió un artículo a Neon y utilizó una habilidad para crear diapositivas públicas. | Demo |
+| [Generar una apertura de novela de fantasía.](#case-75) | Trabajo del conocimiento | El autor utilizó Neon para una prueba de escritura y publicó el comienzo de una historia de fantasía china. | Demo |
+| [Interpreta un chiste original de Darío](#case-76) | Trabajo del conocimiento | El autor informa que Neon entendió un chiste que escribieron mientras que Opus 5.5 no. | Evaluation |
+| [Construya un laboratorio de visión por computadora en Sheets](#case-77) | Trabajo del conocimiento | Google informa que un enjambre Neon convirtió una imagen de referencia en una hoja de cálculo de 100.000 celdas. | Demo |
+| [Mida el rendimiento del dominio en Vals Index](#case-78) | Evaluaciones y límites | Vals AI reporta un 70,9% para Neon y un segundo puesto agregado, 0,4 puntos detrás de Fable 5.2. | Benchmark |
+| [Pruebe demostraciones interactivas durante el acceso anticipado](#case-79) | Evaluaciones y límites | El autor informa que utilizó Neon en Antigravity para crear 17 demostraciones interactivas y documentó pruebas de herramientas y codificación adicionales. | Evaluation |
+| [Comparar sesiones de agentes en Agent Arena](#case-80) | Evaluaciones y límites | Arena sitúa a Neon High en segundo lugar con 1336 puntos y una mediana de coste de 2,82 USD por tarea. | Benchmark |
+| [Coloque Neon en Text Arena](#case-81) | Evaluaciones y límites | Arena informa Neon High en 1518, detrás de Carbon High en 1526 y Argon High en 1521. | Benchmark |
+| [Clasificar figuras imprimibles en 3D con Wojak-Bench](#case-82) | Evaluaciones y límites | El coautor del benchmark informó que Neon debutó en el cuarto lugar. La instantánea de la tabla de clasificación publicada le otorga a Neon una calificación de 1056. | Benchmark |
+| [Compare los agentes codificadores con sus arneses](#case-83) | Evaluaciones y límites | El análisis artificial informa 59 para Neon xhigh con Antigravity CLI y 55 para Carbon high. | Benchmark |
+| [Evaluar el trabajo de conocimientos en AA-Briefcase](#case-84) | Evaluaciones y límites | El análisis artificial informa 1700 Elo para Neon xhigh y 1611 para Carbon high. | Benchmark |
+| [Tiempo de tareas Artificial Analysis Intelligence Index](#case-85) | Evaluaciones y límites | El análisis artificial informó alrededor de 21 minutos por tarea para Neon xhigh y 36 minutos para Carbon high. | Benchmark |
+| [Ejecute una simulación de negocio de vending](#case-86) | Evaluaciones y límites | Andon Labs informó sobre Neon por primera vez en Vending-Bench 2 en el momento de su publicación. | Benchmark |
+| [Inspeccionar el límite de tiempo de referencia de RuneScape](#case-87) | Evaluaciones y límites | El autor del punto de referencia informó que las ambiciosas estrategias de Neon no terminaron antes de la fecha límite. | Limit |
+| [Ejecute tareas profesionales en APEX-Agents](#case-88) | Evaluaciones y límites | Mercor reporta 82,9% de Pass@1 y una puntuación media de 88,9% para Neon en APEX-Agents. | Benchmark |
+| [Compare Neon y Hydrogen en CursorBench 4.1](#case-89) | Evaluaciones y límites | Cursor reporta 63,7% para Neon con esfuerzo predeterminado y 57,3% para Hydrogen. | Benchmark |
+| [Medir el tiempo del reloj de pared en una tarea de depuración CUDA](#case-90) | Evaluaciones y límites | El autor ejecutó los modelos en un mensaje de depuración CUDA y midió por separado la tasa de token y la latencia de un extremo a otro. | Benchmark |
+| [Mida las tareas del lugar de trabajo en Tuesday@Work](#case-91) | Evaluaciones y límites | Surge AI ejecutó Neon en su conjunto de evaluación e informó 71,6 el Tuesday@Work, frente a 71,2 de Fable 5.2. | Benchmark |
+| [Revisar las decisiones de penalización en Antigravity](#case-92) | Evaluaciones y límites | El creador de Penalty Bench informa que Neon ocupó el primer lugar en la prueba comparativa utilizando el arnés Antigravity. | Benchmark |
+| [Comparativa de uso del navegador](#case-93) | Evaluaciones y límites | El uso del navegador reportó un resultado del 74 % para Neon, igual al resultado de Opus 5.5 y frente al 82 % para GPT-6.2 Sol. | Benchmark |
+| [Medir fallos en llamadas a herramientas en PandaCode](#case-94) | Evaluaciones y límites | El autor midió 65 llamadas de herramientas fallidas en 9465 llamadas de Neon durante una ventana de la noche del lanzamiento. | Evaluation |
+| [Ejecute el análisis comparativo de datos Plotly de 43 preguntas](#case-95) | Evaluaciones y límites | El resultado corregido de Plotly acredita a Neon 43 de 43 respuestas y reporta USD 17,03 por la tirada completa. | Benchmark |
+
+| Sección | Propósito |
+|---|---|
+| [Repositorios relacionados](#related-repositories) | Otras colecciones de estuches Gemini |
+| [Inicio rápido](#quick-start) | Cómo leer los casos |
+| [Agradecimientos](#acknowledge) | Créditos y correcciones |
+
+## 🛠️ Ingeniería e Integraciones
+<a id="engineering"></a>
+
+<a id="case-1"></a>
+### Case 1: [Observe la inestabilidad durante carreras desatendidas.](https://x.com/IndependentEco/status/2123155946801070204) (by [@IndependentEco](https://x.com/IndependentEco))
+
+**Realice un seguimiento de los reintentos y la finalización en ejecuciones desatendidas y mantenga un registro separado del modelo de supervisión.**
+
+El evaluador informa de inestabilidad el día del lanzamiento al ejecutar Neon sin interfaz gráfica. Según el evaluador, Opus 5.5 supervisó la ejecución.
+
+Las capturas de pantalla documentan ese entorno. El informe no atribuye la causa raíz.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-1-1-cffe1f4d2f8c.png" alt="Observe la inestabilidad durante carreras desatendidas. · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-1-2-33b7cb88e773.png" alt="Observe la inestabilidad durante carreras desatendidas. · 2" width="560">
+
+Type: Limit | Date: 2026-11-18
+
+---
+
+<a id="case-2"></a>
+### Case 2: [Crear una simulación de puertas lógicas](https://x.com/SamuelAlbanie/status/2123174394889687151) (by [@SamuelAlbanie](https://x.com/SamuelAlbanie))
+
+**Compruebe lo que muestra la simulación a nivel de chip, placa de circuito y pantalla.**
+
+El autor muestra una demostración electrónica interactiva que va desde puertas lógicas y placas de circuito simuladas hasta una pantalla de terminal retro.
+
+La serie informa un mensaje por demostración sin refinamientos. La grabación muestra la interfaz y el comportamiento de simulación.
+
+[Fuente complementaria](https://x.com/SamuelAlbanie/status/2123174391617867925)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-2-1-b7233891bf19.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-2-1-7cb8c5a2b86d.jpg" alt="Crear una simulación de puertas lógicas · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-3"></a>
+### Case 3: [Diseñar un cepillo de dientes Bluetooth en tscircuit](https://x.com/seveibar/status/2123229845274653112) (by [@seveibar](https://x.com/seveibar))
+
+**Revise la selección de ruta y huella independientemente del gabinete renderizado.**
+
+Un mantenedor de tscircuit comparó Neon High, Opus 5.5 High y Sol 6.2 High en un cepillo de dientes eléctrico Bluetooth.
+
+El mantenedor prefirió el resultado visual de Neon, pero informó rutas incompletas y malas opciones de huella.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-3-1-f5a7948ce417.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-3-1-c5c60f2fdcf3.jpg" alt="Diseñar un cepillo de dientes Bluetooth en tscircuit · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-4"></a>
+### Case 4: [Transmitir una conversación paralela de Muse a Neon](https://x.com/kajikent/status/2123232182298976767) (by [@kajikent](https://x.com/kajikent))
+
+**Compruebe qué respuestas provienen de Neon antes de confiar en el relé Muse.**
+
+El autor creó un chat paralelo de Muse que pasa solicitudes y respuestas a Neon.
+
+La instrucción japonesa publicada configura el relé Muse. Es una instrucción para Muse y no establece un mensaje directo enviado a Neon.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-4-1-7b5f3b451dc2.jpg" alt="Transmitir una conversación paralela de Muse a Neon · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-4-2-636fe982bfee.jpg" alt="Transmitir una conversación paralela de Muse a Neon · 2" width="560">
+
+Type: Integration | Date: 2026-11-19
+
+---
+
+<a id="case-5"></a>
+### Case 5: [Utilice Neon para redacción publicitaria en un flujo de trabajo T3 Code con tres modelos](https://x.com/theo/status/2123273253850628260) (by [@theo](https://x.com/theo))
+
+**Asigne un modelo a redacción y verifique su transferencia a implementación y pruebas.**
+
+El desarrollador asigna a Neon la función de redacción dentro de un flujo de trabajo T3 Code multimodelo.
+
+El desarrollador asigna la implementación a Fable y las pruebas de juego a GPT-6.2 Astra. La captura de pantalla de T3 Code muestra un juego de crianza de criaturas con redactores en el flujo de trabajo activo.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-5-1-3899936a871e.jpg" alt="Utilice Neon para redacción publicitaria en un flujo de trabajo T3 Code con tres modelos · 1" width="560">
+
+Type: Integration | Date: 2026-11-19
+
+---
+
+<a id="case-6"></a>
+### Case 6: [Reelaborar un MCP recomendado de Spotify](https://x.com/Lentils80/status/2123285929649455409) (by [@Lentils80](https://x.com/Lentils80))
+
+**Revise los cambios de recomendaciones y pruebe si las funciones no solicitadas mejoran el resultado.**
+
+El creador utilizó Neon para revisar un MCP recomendado de Spotify creado originalmente con Argon.
+
+El creador informó correcciones de errores y un modelo de recomendación basado en gustos no solicitado. La publicación no proporciona precisión en las recomendaciones.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-6-1-a5dafa9b6b4e.jpg" alt="Reelaborar un MCP recomendado de Spotify · 1" width="560">
+
+Type: Integration | Date: 2026-11-19
+
+---
+
+## 🎨 Prototipos de gráficos e interfaces
+<a id="graphics"></a>
+
+<a id="case-7"></a>
+### Case 7: [Dibuja una vista lateral SVG de un automóvil](https://x.com/HarshithLucky3/status/2123158145380085991) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**Verifique la proporción y la silueta al comparar vistas laterales renderizadas con código.**
+
+El creador utilizó Neon high en AI Studio para crear un SVG de vista lateral del BMW M4 CS.
+
+El artefacto está adjunto al correo. No se cita ningún mensaje completo.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-7-1-ffea70bbfd83.png" alt="Dibuja una vista lateral SVG de un automóvil · 1" width="560">
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-8"></a>
+### Case 8: [Ejecute una serie de pruebas SVG](https://x.com/AdamHoltererer/status/2123159230291054903) (by [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**Revise varios resultados antes de juzgar la coherencia entre las tareas de SVG.**
+
+El probador compartió tres salidas en una serie de pruebas Neon SVG.
+
+Los resultados se presentan juntos y se cuentan como una serie de pruebas.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-8-1-2eb686ec5f13.jpg" alt="Ejecute una serie de pruebas SVG · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-8-2-7f4fbb41bac4.jpg" alt="Ejecute una serie de pruebas SVG · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-8-3-8ffa94a0957b.jpg" alt="Ejecute una serie de pruebas SVG · 3" width="560">
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-9"></a>
+### Case 9: [Animar un pelícano en Three.js](https://x.com/StatsWire/status/2123160089854898346) (by [@StatsWire](https://x.com/StatsWire))
+
+**Verifique el movimiento cíclico y la representación de la escena como partes separadas de la animación.**
+
+El evaluador atribuye una salida de pelícano en bicicleta de Three.js a Neon.
+
+El creador proporciona una grabación, pero no una configuración de tiempo o razonamiento.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-9-1-80dcbc4fb2e8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-9-1-e0a6df02d79f.jpg" alt="Animar un pelícano en Three.js · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-10"></a>
+### Case 10: [Dibuja un retrato SVG en xhigh](https://x.com/lyraxana/status/2123161268647539052) (by [@lyraxana](https://x.com/lyraxana))
+
+**Evalúe el parecido y la editabilidad de SVG por separado en una prueba de retrato.**
+
+El tester comparte un retrato de Ana de Armas atribuido a Neon xhigh.
+
+La fuente proporciona el tema y el esfuerzo sin la indicación exacta.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-10-1-014b0af2bac3.jpg" alt="Dibuja un retrato SVG en xhigh · 1" width="560">
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-11"></a>
+### Case 11: [Animar un pelícano en bicicleta con un esfuerzo medio.](https://x.com/xiangning0/status/2123161354496557071) (by [@xiangning0](https://x.com/xiangning0))
+
+**Utilice una tarea de animación fija para comparar resultados en diferentes configuraciones de razonamiento.**
+
+El autor utilizó Neon con un esfuerzo medio para producir una demostración de ciclismo de pelícano y publicó el vídeo.
+
+El clip documenta la ejecución separada de una tarea de prueba común por parte de este creador.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-11-1-0b2be9516bad.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-11-1-200a792de0b6.jpg" alt="Animar un pelícano en bicicleta con un esfuerzo medio. · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-12"></a>
+### Case 12: [Compara dos escenas de jardín vóxel](https://x.com/Angaisb_/status/2123161449681805531) (by [@Angaisb_](https://x.com/Angaisb_))
+
+**Verifique resultados de apariencia similar con el costo total de ejecución y la configuración que divulga cada fuente.**
+
+El autor publicó un jardín de vóxeles de Neon xhigh junto con un resultado de GPT-6.2 Sol xhigh.
+
+La fuente identifica la primera imagen como Neon e informa USD 1,01 frente a USD 0,19 para Sol. La publicación no especifica si las indicaciones y las herramientas coincidieron.
+
+<table>
+<tr>
+<td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-12-1-115849b38af5.jpg" alt="Compara dos escenas de jardín vóxel · 1" width="560"></td>
+<td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-12-2-59e2b840c413.jpg" alt="Compara dos escenas de jardín vóxel · 2" width="560"></td>
+</tr>
+</table>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-13"></a>
+### Case 13: [Generar una escena Three.js y GLSL](https://x.com/cfenghub/status/2123162154132242885) (by [@cfenghub](https://x.com/cfenghub))
+
+**Separe el comportamiento del sombreador, la geometría de la escena y el tiempo de generación en una prueba de gráficos.**
+
+El creador comparte una salida de Three.js y GLSL de Neon e informa una ejecución de dos minutos y 40 segundos.
+
+La publicación principal señala las respuestas a la instrucción sin citarla.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-13-1-e62c3cb9bbab.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-13-1-f2c7b50bad23.jpg" alt="Generar una escena Three.js y GLSL · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-14"></a>
+### Case 14: [Crea pinturas completamente en código](https://x.com/kickingkeys/status/2123162238643044705) (by [@kickingkeys](https://x.com/kickingkeys))
+
+**Abra los ejemplos renderizados para ver cómo el código puede producir una serie visual coherente.**
+
+El creador informa que utiliza Neon de acceso temprano para escribir código que representa pinturas.
+
+La fuente proporciona un conjunto de resultados de la misma serie. No proporciona todas las indicaciones exactas.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-1-9f61a388e0c1.jpg" alt="Crea pinturas completamente en código · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-2-3362674fdd00.jpg" alt="Crea pinturas completamente en código · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-3-51899966784e.jpg" alt="Crea pinturas completamente en código · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-4-74693c0f8c18.jpg" alt="Crea pinturas completamente en código · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-5-977a643ac612.jpg" alt="Crea pinturas completamente en código · 5" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-6-74e97910a739.jpg" alt="Crea pinturas completamente en código · 6" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-7-516b3420d145.jpg" alt="Crea pinturas completamente en código · 7" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-8-7766df7b1a79.jpg" alt="Crea pinturas completamente en código · 8" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-9-1a353988571a.jpg" alt="Crea pinturas completamente en código · 9" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-10-57e623c52098.jpg" alt="Crea pinturas completamente en código · 10" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-11-e9fe2e7b6c2c.jpg" alt="Crea pinturas completamente en código · 11" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-12-2213841fb938.jpg" alt="Crea pinturas completamente en código · 12" width="560">
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-15"></a>
+### Case 15: [Compara animaciones de ciclismo de pelícanos](https://x.com/Super_Nius/status/2123162610254442796) (by [@Super_Nius](https://x.com/Super_Nius))
+
+**Compare el tiempo de ejecución informado con el movimiento y los detalles de la escena en el mismo video.**
+
+El evaluador comparó la animación de un pelícano en Neon, Hydrogen, GPT-6.2 Astra y GPT-6.2 Sol.
+
+El autor informa de una carrera Neon de tres minutos y prefirió su apariencia. El seguimiento únicamente registrado de Sol pertenece a la misma prueba.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-15-1-e9c127cb6e40.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-15-1-444e97e2290b.jpg" alt="Compara animaciones de ciclismo de pelícanos · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-16"></a>
+### Case 16: [Compare las animaciones cíclicas de Three.js en tres modelos](https://x.com/AI_Screening/status/2123164032882659819) (by [@AI_Screening](https://x.com/AI_Screening))
+
+**Utilice los clips etiquetados para comparar el movimiento, la iluminación y la composición de la escena.**
+
+El evaluador publicó una comparación cíclica de Three.js entre Neon, Opus 5.5 y Carbon.
+
+El autor prefirió Neon a Opus y lo consideró cercano a Carbon. Esta es la valoración visual del autor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-16-1-2fcea711afca.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-16-1-491c82d3f1f5.jpg" alt="Compare las animaciones cíclicas de Three.js en tres modelos · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-17"></a>
+### Case 17: [Renderiza un gran barco en el océano](https://x.com/Mr_Salio/status/2123164576275370440) (by [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Inspeccione si la animación de las olas y la representación del barco permanecen coherentes a lo largo del clip.**
+
+El evaluador compartió una escena de navegación en el océano atribuida a Neon xhigh.
+
+El vídeo muestra un velero animado. La fuente no proporciona un flujo de trabajo ni un calendario específicos.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-17-1-39aa1af81d28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-17-1-c2e29bd290ea.jpg" alt="Renderiza un gran barco en el océano · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-18"></a>
+### Case 18: [Generar una pagoda vóxel](https://x.com/LuminaBench/status/2123164858996908367) (by [@LuminaBench](https://x.com/LuminaBench))
+
+**Utilice la escena de vóxeles para evaluar las capas, la silueta y la composición.**
+
+El evaluador publica una pagoda de vóxel generada en Neon xhigh.
+
+La publicación incluye el resultado renderizado y la reacción del autor al diseño.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-18-1-66d691af4081.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-18-1-8da133675a5d.jpg" alt="Generar una pagoda vóxel · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-19"></a>
+### Case 19: [Dibuja un pelícano frustrado en bicicleta.](https://x.com/HarshithLucky3/status/2123165824576114932) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**Compruebe si la expresión del personaje y el movimiento de la bicicleta se leen claramente.**
+
+El creador utilizó Neon high en AI Studio para dibujar un SVG de un pelícano frustrado andando en bicicleta.
+
+La publicación muestra el resultado e identifica la configuración del esfuerzo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-19-1-44580d20f3b7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-19-1-b8df2a6ac156.jpg" alt="Dibuja un pelícano frustrado en bicicleta. · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-20"></a>
+### Case 20: [Compara los dibujos del gamepad con GPT-6.2 Sol](https://x.com/notjazii/status/2123166093422272839) (by [@notjazii](https://x.com/notjazii))
+
+**Compare la calidad de renderizado, el tiempo y el costo por separado para las dos salidas del gamepad.**
+
+El evaluador utilizó el mismo mensaje en el razonamiento más alto disponible de cada modelo y consideró que los resultados eran similares.
+
+El autor informó 20 minutos y alrededor de USD 1,60 para Neon versus nueve minutos y alrededor de USD 0,53 para Sol.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-20-1-617938f21f28.jpg" alt="Compara los dibujos del gamepad con GPT-6.2 Sol · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-21"></a>
+### Case 21: [Genera un hidroavión 3D](https://x.com/LuminaBench/status/2123166304664191391) (by [@LuminaBench](https://x.com/LuminaBench))
+
+**Revise la interacción entre el hidroavión y el agua antes de juzgar el prototipo en su conjunto.**
+
+El evaluador utilizó Neon xhigh para construir un hidroavión 3D y compartió un vídeo.
+
+El creador describe la construcción como rápida y la interfaz como más limpia, sin dar una medida de reloj de pared.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-21-1-738f7ccd5e11.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-21-1-b2943474925e.jpg" alt="Genera un hidroavión 3D · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-22"></a>
+### Case 22: [Dibuja un caballo 2D](https://x.com/jony_palino/status/2123168463640269001) (by [@jony_palino](https://x.com/jony_palino))
+
+**Trate el clip del caballo como un ejemplo visual y tenga en cuenta la configuración entre modelos.**
+
+El creador utilizó Neon para producir un caballo bidimensional y publicó el resultado.
+
+El creador lo prefirió a sus resultados anteriores de Gemini. La publicación no proporciona configuraciones coincidentes.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-22-1-0806852b6c63.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-22-1-e4f265e40f74.jpg" alt="Dibuja un caballo 2D · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-23"></a>
+### Case 23: [Pruebe una escena lluviosa de una tienda de conveniencia](https://x.com/Super_Nius/status/2123169627815698522) (by [@Super_Nius](https://x.com/Super_Nius))
+
+**Utilice la escena coincidente para evaluar cómo cambia la presentación con un tiempo de generación más corto.**
+
+El evaluador utilizó el mismo mensaje para Neon y GPT-6.2 Sol y publicó la comparación.
+
+El autor prefirió la salida visual de Sol, aunque informó una finalización más rápida y económica para Neon en esta ejecución.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-23-1-9e27412d4ad5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-23-1-d8e64f437d92.jpg" alt="Pruebe una escena lluviosa de una tienda de conveniencia · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-24"></a>
+### Case 24: [Animar un cuadrúpedo robótico a partir de una imagen.](https://x.com/thebuggeddev/status/2123170821250400282) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**Verifique la marcha y el movimiento por separado de qué tan cerca la escena sigue la referencia.**
+
+El desarrollador le dio a Neon una única imagen de referencia y le pidió un modelo 3D.
+
+El desarrollador informa sobre una demostración de WebGPU Three.js con cinemática inversa de cuatro patas y animaciones de caminar, trotar y galopar.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-24-1-acb1deb37714.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-24-1-22e170b487dd.jpg" alt="Animar un cuadrúpedo robótico a partir de una imagen. · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-25"></a>
+### Case 25: [Animar Keats en JavaScript básico](https://x.com/vamsibatchuk/status/2123170948568535488) (by [@GeokenAI](https://x.com/GeokenAI))
+
+**Compare animaciones y pinceladas cuando utilice código para interpretar una fuente literaria.**
+
+Un miembro del equipo de Google le da crédito a GeokenAI y Neon por una animación básica en JavaScript de To Autumn de Keats.
+
+La publicación describe una animación pictórica 3D de 12 fps sin bibliotecas. La cuenta compartida es distinta del creador acreditado.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-25-1-251f0dd0d495.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-25-1-3927f6ba8991.jpg" alt="Animar Keats en JavaScript básico · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-26"></a>
+### Case 26: [Crea una demostración de Triceratops](https://x.com/LeslieNooteboom/status/2123171009167765651) (by [@LeslieNooteboom](https://x.com/LeslieNooteboom))
+
+**Inspeccione la secuencia de reconstrucción así como la imagen final.**
+
+El creador atribuye la demostración del Triceratops a Neon.
+
+El video muestra el artefacto. La publicación no especifica el formato de entrada ni los pasos de generación.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-26-1-8c4ac6bb4433.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-26-1-e0d7589c04bb.jpg" alt="Crea una demostración de Triceratops · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-27"></a>
+### Case 27: [Comparar representaciones de trenes de engranajes en 3D](https://x.com/SPAC89/status/2123171830739632189) (by [@SPAC89](https://x.com/SPAC89))
+
+**Utilice la configuración etiquetada y la geometría de salida para comparar los cuatro renderizados del tren de engranajes.**
+
+El probador muestra representaciones de mecanismos de engranajes para Neon, Carbon, Astra y Sol en los niveles de razonamiento etiquetados.
+
+El autor favoreció a Neon. El clip documenta una comparación visual y no establece la reclamación de costes generales.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-27-1-94516eb237d5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-27-1-c7804af5b07a.jpg" alt="Comparar representaciones de trenes de engranajes en 3D · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-28"></a>
+### Case 28: [Cree diez efectos interactivos en un solo archivo HTML](https://x.com/agenticjay/status/2123172043533508664) (by [@agenticjay](https://x.com/agenticjay))
+
+**Compruebe si los efectos siguen siendo receptivos y legibles dentro de una pequeña carga útil HTML.**
+
+Un miembro del equipo de Google informa que utilizó Neon para crear diez efectos 3D interactivos en un archivo HTML de 27 KB.
+
+La demostración incluye sombreadores, agua e iluminación. Las variaciones se agrupan como un proyecto publicado.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-28-1-7af28a595410.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-28-1-91d62f30b2e1.jpg" alt="Cree diez efectos interactivos en un solo archivo HTML · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-29"></a>
+### Case 29: [Construya una mesa de laboratorio Blender con Antigravity Swarm](https://x.com/Google/status/2123172290250621166) (by [@Google](https://x.com/Google))
+
+**Rastree qué coordenadas de trabajo Swarm y qué operaciones realiza Blender.**
+
+Google demostró que Neon usa Antigravity Swarm y Blender para producir una escena de laboratorio con el tema de la familia Gemini 4.
+
+El clip es una demostración del proveedor del flujo de trabajo integrado.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-29-1-24f7c4b89ee2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-29-1-5515f85f88ea.jpg" alt="Construya una mesa de laboratorio Blender con Antigravity Swarm · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-18
+
+---
+
+<a id="case-30"></a>
+### Case 30: [Compara ilustraciones arquitectónicas con Opus 5.5](https://x.com/notjazii/status/2123172429791129848) (by [@notjazii](https://x.com/notjazii))
+
+**Establezca la misma tarea visual y compare la calidad de salida, el tiempo de ejecución y el costo de forma independiente.**
+
+El evaluador comparó los modelos utilizando el mismo mensaje en su razonamiento más alto disponible.
+
+El autor reportó unos 20 minutos y USD 3,50 para Neon y 18 minutos y USD 7,20 para Opus, prefiriendo la salida Opus.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-30-1-b5e87dfb79f7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-30-1-b13b60aca1f2.jpg" alt="Compara ilustraciones arquitectónicas con Opus 5.5 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-31"></a>
+### Case 31: [Visualizar el vuelo de la Voyager 1](https://x.com/SamuelAlbanie/status/2123174398064570622) (by [@SamuelAlbanie](https://x.com/SamuelAlbanie))
+
+**Revise las transiciones entre el lanzamiento, el sobrevuelo y el primer plano al juzgar la secuencia.**
+
+El autor muestra una secuencia en 3D de la Voyager 1 que va desde el lanzamiento hasta el encuentro con Júpiter y un primer plano de la nave espacial.
+
+El autor describe esto como un mensaje poco refinado de la serie. No se informa ninguna validación de trayectoria.
+
+[Fuente complementaria](https://x.com/SamuelAlbanie/status/2123174391617867925)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-31-1-2819a8649adb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-31-1-49c120f1aa13.jpg" alt="Visualizar el vuelo de la Voyager 1 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-32"></a>
+### Case 32: [Construir un planetario 3D](https://x.com/SamuelAlbanie/status/2123174400572719261) (by [@SamuelAlbanie](https://x.com/SamuelAlbanie))
+
+**Compruebe si las vistas del planeta y las constelaciones funcionan juntas como una simple demostración educativa.**
+
+El autor muestra un planetario en 3D que se mueve entre planetas y una vista de constelación.
+
+La grabación muestra ejemplos que incluyen la Tierra y Saturno. La serie de un solo mensaje no establece una precisión astronómica.
+
+[Fuente complementaria](https://x.com/SamuelAlbanie/status/2123174391617867925)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-32-1-3744b688f28d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-32-1-f238cb6328df.jpg" alt="Construir un planetario 3D · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-33"></a>
+### Case 33: [Visualizar la Máquina Diferencial n.º 2 de Babbage](https://x.com/SamuelAlbanie/status/2123174403038982379) (by [@SamuelAlbanie](https://x.com/SamuelAlbanie))
+
+**Observe el movimiento del engranaje, la visualización numérica y la vista completa de la máquina al revisar la visualización.**
+
+El autor muestra una visualización en 3D del motor diferencial nº 2 de Babbage con sus conjuntos de engranajes y una pantalla numérica.
+
+La grabación avanza entre primeros planos del mecanismo en movimiento y una vista de la máquina completa.
+
+[Fuente complementaria](https://x.com/SamuelAlbanie/status/2123174391617867925)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-33-1-8f8b964cd1a7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-33-1-e80ac8cce5ad.jpg" alt="Visualizar la Máquina Diferencial n.º 2 de Babbage · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-34"></a>
+### Case 34: [Visualizar el mecanismo de Anticitera](https://x.com/SamuelAlbanie/status/2123174406419828813) (by [@SamuelAlbanie](https://x.com/SamuelAlbanie))
+
+**Compare la vista del fragmento recuperado, la reconstrucción del engranaje y la lectura del dial en la misma demostración.**
+
+El autor muestra una demostración del mecanismo de Antikythera en 3D que alterna entre el objeto recuperado, engranajes reconstruidos y un dial.
+
+La grabación muestra una visualización del montaje y detalles del mecanismo de movimiento.
+
+[Fuente complementaria](https://x.com/SamuelAlbanie/status/2123174391617867925)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-34-1-de291a3cf77f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-34-1-8f404bea04c4.jpg" alt="Visualizar el mecanismo de Anticitera · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-35"></a>
+### Case 35: [Crear un prototipo visual de túnel de viento](https://x.com/SamuelAlbanie/status/2123174409284260270) (by [@SamuelAlbanie](https://x.com/SamuelAlbanie))
+
+**Compare cómo cambian las líneas de corriente entre las formas de prueba antes de usar la visualización como ejemplo de enseñanza.**
+
+El autor muestra una demostración de un túnel de viento en 3D con líneas de flujo de aire visibles alrededor de diferentes formas.
+
+El vídeo incluye un avión y otras formas de prueba. No proporciona ninguna verificación de precisión independiente para la simulación.
+
+[Fuente complementaria](https://x.com/SamuelAlbanie/status/2123174391617867925)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-35-1-9424d7eab5ec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-35-1-acc3f3a6f94a.jpg" alt="Crear un prototipo visual de túnel de viento · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-36"></a>
+### Case 36: [Mostrar en sección la capilla de King's College](https://x.com/SamuelAlbanie/status/2123174412488716605) (by [@SamuelAlbanie](https://x.com/SamuelAlbanie))
+
+**Compara el exterior, la nave y el corte para ver cómo cada vista explica el edificio.**
+
+El autor muestra un corte en 3D de la Capilla del King's College que alterna entre el exterior y el interior.
+
+La escena utiliza diferentes vistas para mostrar la nave, las ventanas y la sección transversal del edificio.
+
+[Fuente complementaria](https://x.com/SamuelAlbanie/status/2123174391617867925)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-36-1-8c718b6a7b3c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-36-1-72acb7ce83d2.jpg" alt="Mostrar en sección la capilla de King&#x27;s College · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-37"></a>
+### Case 37: [Renderizar un viaducto sobre un río y su entorno](https://x.com/SamuelAlbanie/status/2123174416154759418) (by [@SamuelAlbanie](https://x.com/SamuelAlbanie))
+
+**Utilice las vistas cercana, lejana y de estructura alámbrica para evaluar tanto el puente como la escena circundante.**
+
+El autor muestra un valle fluvial en 3D con un viaducto de múltiples arcos, un tren y varias vistas renderizadas.
+
+La grabación cambia entre ángulos de cámara cercanos y lejanos e incluye una vista similar a una estructura alámbrica.
+
+[Fuente complementaria](https://x.com/SamuelAlbanie/status/2123174391617867925)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-37-1-d12ab14ffcb0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-37-1-56962c64e01c.jpg" alt="Renderizar un viaducto sobre un río y su entorno · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-38"></a>
+### Case 38: [Crear una vista urbana en 3D inspirada en Cambridge](https://x.com/SamuelAlbanie/status/2123174419379962139) (by [@SamuelAlbanie](https://x.com/SamuelAlbanie))
+
+**Compruebe cómo los puntos de referencia y el río siguen siendo reconocibles a medida que la cámara se mueve por la escena.**
+
+El autor muestra una visualización de la ciudad inspirada en Cambridge, con vistas aéreas y más cercanas de los bloques modelados.
+
+El clip muestra el río, los edificios y las superposiciones de escenas. El autor describe el entorno como algo parecido a Cambridge.
+
+[Fuente complementaria](https://x.com/SamuelAlbanie/status/2123174391617867925)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-38-1-731938345922.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-38-1-fdabb0976ddb.jpg" alt="Crear una vista urbana en 3D inspirada en Cambridge · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-39"></a>
+### Case 39: [Renderiza una Tierra con temática de neón](https://x.com/HarshithLucky3/status/2123175900007309696) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**Compruebe si el tema visual es coherente a medida que gira el globo.**
+
+El creador usó Neon high en Antigravity para representar un planeta con temática de neón.
+
+La fuente proporciona el resultado y la configuración del esfuerzo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-39-1-b5f3ce29cb24.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-39-1-113aeb084222.jpg" alt="Renderiza una Tierra con temática de neón · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-40"></a>
+### Case 40: [Iterar una escena de yate](https://x.com/LyalinDotCom/status/2123176455123165366) (by [@LyalinDotCom](https://x.com/LyalinDotCom))
+
+**Revise los artefactos de antes y después cuando le pida al modelo que refine una escena 3D.**
+
+El creador informa que Neon mejoró la escena de un yate y muestra el resultado.
+
+El despliegue de Firebase era una intención declarada en el momento de la publicación.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-40-1-367b9069fe9e.jpg" alt="Iterar una escena de yate · 1" width="560">
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-41"></a>
+### Case 41: [Crea materiales para disfraces en una herramienta VFX personalizada](https://x.com/fofrAI/status/2123176812360745019) (by [@fofrAI](https://x.com/fofrAI))
+
+**Compara tratamientos de la misma forma de disfraz al elegir un material.**
+
+El creador utilizó Neon para crear materiales para disfraces y publicó seis imágenes de los resultados.
+
+El creador describe las herramientas VFX como propias. La fuente no establece una comparación de desempeño independiente.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-1-ec60d5cf5112.jpg" alt="Crea materiales para disfraces en una herramienta VFX personalizada · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-2-88c3a0c15c9e.jpg" alt="Crea materiales para disfraces en una herramienta VFX personalizada · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-3-a6a770888735.jpg" alt="Crea materiales para disfraces en una herramienta VFX personalizada · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-4-66dd457d66be.jpg" alt="Crea materiales para disfraces en una herramienta VFX personalizada · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-5-adda34356599.jpg" alt="Crea materiales para disfraces en una herramienta VFX personalizada · 5" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-6-4dbc04fb999c.jpg" alt="Crea materiales para disfraces en una herramienta VFX personalizada · 6" width="560">
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-42"></a>
+### Case 42: [Comparar escenas voxel Ninjago](https://x.com/thehypedotnews/status/2123182627674796462) (by [@thehypedotnews](https://x.com/thehypedotnews))
+
+**Juzgue el encuadre visual y el costo por separado en una comparación de vóxeles del mismo sujeto.**
+
+La fuente compara Neon y Fable 5.2 en una recreación de vóxel.
+
+El autor reporta USD 12,93 por Neon y USD 11,19 por Fable y prefiere el encuadre de este último.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-42-1-e2257b7ed90f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-42-1-1c3b543e0111.jpg" alt="Comparar escenas voxel Ninjago · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-43"></a>
+### Case 43: [Crear un gráfico en movimiento de producto pelícano](https://x.com/chetaslua/status/2123184113561817370) (by [@chetaslua](https://x.com/chetaslua))
+
+**Mire el tiempo y la tipografía juntos en una breve animación del producto.**
+
+El creador le da crédito a Neon por un gráfico en movimiento del producto con temática de pelícano.
+
+El clip vinculado muestra el resultado. La publicación no describe la implementación ni un mensaje exacto.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-43-1-41540f06843a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-43-1-d81b2060fc29.jpg" alt="Crear un gráfico en movimiento de producto pelícano · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-44"></a>
+### Case 44: [Compara prototipos de escenas de la ciudad de Nueva York](https://x.com/aipulseda1ly/status/2123188460639117489) (by [@aipulseda1ly](https://x.com/aipulseda1ly))
+
+**Evalúe la fidelidad de los puntos de referencia y el rendimiento del tiempo de ejecución por separado en una construcción de escena de ciudad.**
+
+El evaluador informa que Neon incluía el Puente de Brooklyn, la Estatua de la Libertad y una calle con taxis.
+
+El evaluador prefirió algunos detalles en el resultado de Opus e informó que ejecutar la escena Neon se retrasó en su PC.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-44-1-85f5c28fc00c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-44-1-7a276a2045df.jpg" alt="Compara prototipos de escenas de la ciudad de Nueva York · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-45"></a>
+### Case 45: [Realizar una prueba visual de plátano](https://x.com/AdamHoltererer/status/2123189288107999706) (by [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**Inspeccione cómo una tarea visual simple se sostiene en detalles y proporciones.**
+
+El evaluador publica una salida de Neon para una prueba titulada Banana Test.
+
+La salida está adjunta a la fuente. La fuente no proporciona una indicación exacta.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-45-1-9efc4470be00.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-45-1-c82bae60d92d.jpg" alt="Realizar una prueba visual de plátano · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-46"></a>
+### Case 46: [Compara una catedral embrujada en un solo mensaje](https://x.com/jan_volad/status/2123205954649100424) (by [@jan_volad](https://x.com/jan_volad))
+
+**Utilice el mensaje publicado para comparar las dos representaciones de la catedral en las condiciones descritas.**
+
+El evaluador asignó a Neon y GPT-6.2 Sol la misma tarea de catedral encantada.
+
+El creador reporta USD 2,67 para Neon y USD 1,69 para Sol, sin un ganador visual claro en su evaluación.
+
+**Prompt:**
+
+```
+Build a huge haunted vampire cathedral
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-46-1-c1293f480928.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-46-1-8adbefb0cdfe.jpg" alt="Compara una catedral embrujada en un solo mensaje · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-47"></a>
+### Case 47: [Prototipo de un ensamblaje de teléfono en Antigravity](https://x.com/ai_for_success/status/2123207149870547423) (by [@ai_for_success](https://x.com/ai_for_success))
+
+**Verifique la fidelidad de los componentes y el ensamblaje final por separado al revisar un prototipo de diseño.**
+
+El desarrollador utilizó Neon en Antigravity y mostró un tablero de componentes de diseño y un ensamblaje de teléfono renderizado.
+
+El desarrollador informa de sus primeras impresiones sobre codificación y velocidad, sin tiempos ni una comparación controlada de Carbon.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-47-1-188cdb56dd8e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-47-1-e54b9bc965db.jpg" alt="Prototipo de un ensamblaje de teléfono en Antigravity · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-48"></a>
+### Case 48: [Genera un velero histórico interactivo](https://x.com/abhinavflac/status/2123212198663323848) (by [@abhinavflac](https://x.com/abhinavflac))
+
+**Inspeccione los límites entre el barco y el agua en la salida interactiva.**
+
+El autor publicó una demostración de un velero en 3D con disparo cero.
+
+El autor informa que el barco y el agua se representaron en capas distintas y describe el resultado como más realista que el resultado de Sol.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-48-1-8398538c7634.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-48-1-19d730412b53.jpg" alt="Genera un velero histórico interactivo · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-49"></a>
+### Case 49: [Diseñar una introducción de modelo en JavaScript.](https://x.com/chetaslua/status/2123219124260315301) (by [@chetaslua](https://x.com/chetaslua))
+
+**Revise la tipografía y el ritmo en el gráfico en movimiento de JavaScript.**
+
+El autor utilizó Neon para hacer un gráfico en movimiento que presentara el modelo.
+
+El autor dice que utiliza JavaScript sin activos externos.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-49-1-640c76599969.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-49-1-213f5084a7a0.jpg" alt="Diseñar una introducción de modelo en JavaScript. · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-50"></a>
+### Case 50: [Genere una escena de cabaña de esquí en una sola pasada](https://x.com/DesignArena/status/2123220446074253768) (by [@DesignArena](https://x.com/DesignArena))
+
+**Verifique la cabaña, la nieve y los árboles por separado cuando evalúe esta comparación de escenas de una sola pasada.**
+
+DesignArena pidió a Neon y Argon que generaran la misma configuración de cabaña alpina y publicaron los resultados uno al lado del otro.
+
+DesignArena prefirió los elementos de ambas representaciones. Informa que Neon agregó nevadas sin que se lo pidieran.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-50-1-a966b54bde0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-50-1-d867d8d5e6d7.jpg" alt="Genere una escena de cabaña de esquí en una sola pasada · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-51"></a>
+### Case 51: [Renderiza un castillo de fantasía vóxel](https://x.com/Lentils80/status/2123226306351661099) (by [@Lentils80](https://x.com/Lentils80))
+
+**Revise la escena final y el tiempo de ejecución informado al evaluar una compilación de un solo mensaje.**
+
+El creador comparte un castillo de vóxeles producido en Neon xhigh.
+
+El creador informa un mensaje y un tiempo de finalización de 27 minutos.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-51-1-27fe32067ec9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-51-1-e38a5f2c5e9e.jpg" alt="Renderiza un castillo de fantasía vóxel · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-52"></a>
+### Case 52: [Compara la animación de un pulpo en bicicleta con Astra](https://x.com/ZryMiller/status/2123228351984980040) (by [@ZryMiller](https://x.com/ZryMiller))
+
+**Compare la animación y el costo manteniendo explícitas las dos configuraciones de razonamiento.**
+
+El evaluador registró 21 minutos y 53 segundos y 2,52 USD para Astra (xhigh), y 41 minutos y 4,02 USD para Neon (high).
+
+El autor considera que la calidad de la animación es cercana. Esta es una ejecución en diferentes entornos de razonamiento.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-52-1-0039f05541ac.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-52-1-546dd90156c6.jpg" alt="Compara la animación de un pulpo en bicicleta con Astra · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-53"></a>
+### Case 53: [Animación de mariposa Three.js](https://x.com/thtbee_/status/2123259795172212871) (by [@thtbee_](https://x.com/thtbee_))
+
+**Utilice el clip y su uso de recursos informado para dimensionar un experimento Three.js similar.**
+
+Un creador utilizó Neon xhigh en Antigravity para crear una animación de mariposa Three.js.
+
+El creador informó 57 minutos, aproximadamente el 23 % de su cuota de cinco horas y el 7 % de su cuota semanal.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-53-1-efb25e8f446f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-53-1-7a50c0010ea3.jpg" alt="Animación de mariposa Three.js · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-54"></a>
+### Case 54: [Construya componentes y movimiento a partir de imágenes de referencia.](https://x.com/op7418/status/2123269503736070603) (by [@op7418](https://x.com/op7418))
+
+**Proporcione referencias visuales y evalúe la fidelidad del diseño y el movimiento como criterios separados.**
+
+El creador utilizó referencias visuales para generar varios componentes y el movimiento que los acompaña.
+
+La demostración muestra el resultado. La afirmación sobre cómo se siente en comparación con Opus es criterio del creador.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-54-1-aab23e8d82f9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-54-1-c4200a430fb5.jpg" alt="Construya componentes y movimiento a partir de imágenes de referencia. · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-55"></a>
+### Case 55: [Mundo del asistente de píxeles en Three.js](https://x.com/thtbee_/status/2123279727935033355) (by [@thtbee_](https://x.com/thtbee_))
+
+**Utilice los tres pases para juzgar cómo cambia el pulido visual con la iteración.**
+
+Un creador le dio imágenes de referencia a Neon y perfeccionó la escena de Three.js en tres pasadas.
+
+El creador informó haber utilizado el 39 % de su cuota de cinco horas y el 11 % de su cuota semanal en Antigravity.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-55-1-ea88133798aa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-55-1-bdca3bf63f42.jpg" alt="Mundo del asistente de píxeles en Three.js · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-56"></a>
+### Case 56: [Punto de referencia de renderizado de castillos](https://x.com/nemumusitocha/status/2123287660525719823) (by [@nemumusitocha](https://x.com/nemumusitocha))
+
+**Trate el castillo como punto de referencia visual de un creador y conserve el contexto de cuota específico de la cuenta.**
+
+El creador utilizó Neon como punto de referencia del castillo y publicó vídeos e imágenes fijas.
+
+El creador informó haber utilizado aproximadamente el 4 % de la cuota semanal de su plan. La publicación no establece si ese uso se generaliza a otras cuentas.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-56-1-74e98240a81a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-56-1-17acc3f87741.jpg" alt="Punto de referencia de renderizado de castillos · 1" width="560"></a>
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-56-2-b4f97941d7b2.jpg" alt="Punto de referencia de renderizado de castillos · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-56-3-05bccf69bb0c.jpg" alt="Punto de referencia de renderizado de castillos · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-56-4-a8081504106d.jpg" alt="Punto de referencia de renderizado de castillos · 4" width="560">
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-57"></a>
+### Case 57: [Recrear el despacho de Alan Turing en 1936](https://x.com/GoogleAI/status/2123168242797809944) (by [@GoogleAI](https://x.com/GoogleAI))
+
+**Verifique la fidelidad del archivo y la funcionalidad interactiva como partes separadas de la reconstrucción.**
+
+Google utilizó Neon con Antigravity Swarm para crear una reconstrucción interactiva a partir de fotografías de archivo.
+
+La escena incluye la Capilla del Rey, el estudio de Turing y una simulación funcional de una máquina universal de Turing sobre el escritorio.
+
+[Fuente complementaria](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
+
+[Fuente complementaria](https://www.youtube.com/watch?v=KgLLa4WhMSo)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-57-1-22665c6264ea.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-57-1-b7fab25c354f.jpg" alt="Recrear el despacho de Alan Turing en 1936 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+## 🎮 Juegos y Simulaciones
+<a id="games"></a>
+
+<a id="case-58"></a>
+### Case 58: [Crea un juego de obstáculos de desplazamiento lateral](https://x.com/notjazii/status/2123162053292458218) (by [@notjazii](https://x.com/notjazii))
+
+**Pruebe el circuito de obstáculos y el comportamiento de colisión cuando revise un prototipo de juego pequeño.**
+
+El evaluador le pidió a Neon un prototipo estilo Flappy Bird y publicó una grabación.
+
+El autor informa unos cinco minutos y comenta sus propias impresiones sobre el coste y el uso.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-58-1-9c665bbec561.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-58-1-316557add829.jpg" alt="Crea un juego de obstáculos de desplazamiento lateral · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-59"></a>
+### Case 59: [Compara escenas de combate con espada y escudo.](https://x.com/IndependentEco/status/2123169526619758996) (by [@IndependentEco](https://x.com/IndependentEco))
+
+**Utilice los dos clips etiquetados para evaluar usted mismo las diferencias visuales y de interacción.**
+
+El evaluador publicó un video con salidas etiquetadas como Fable 5.2 y Neon para una escena de juego de combate.
+
+El vídeo registra dos resultados y no establece una clasificación general del modelo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-59-1-ba79ec8e02b6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-59-1-8644c701cdea.jpg" alt="Compara escenas de combate con espada y escudo. · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-60"></a>
+### Case 60: [Crear un minigolf de estilo synthwave](https://x.com/antigravity/status/2123176067380711725) (by [@antigravity](https://x.com/antigravity))
+
+**Observa cómo se reparten el trabajo los agentes y cómo se verifican los ocho recorridos en el navegador.**
+
+Google Antigravity muestra cómo Gemini 4 Neon usa Swarm para crear un juego de minigolf en 3D a partir de un solo prompt.
+
+El vídeo muestra ocho agentes de trabajo, una partida en el navegador y el verificador integrado comprobando los ocho recorridos.
+
+**Prompt:**
+
+```
+Build NEONPUTT '84: a 2-player synthwave 3D mini golf game with custom GLSL shaders, 240Hz fixed-timestep physics, procedural Web Audio SFX, and 8 animated courses.
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-60-1-bb8fa045c256.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-60-1-aabeaf2b1557.jpg" alt="Crear un minigolf de estilo synthwave · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-61"></a>
+### Case 61: [Compara duelos de caballeros animados](https://x.com/IndependentEco/status/2123177347046355324) (by [@IndependentEco](https://x.com/IndependentEco))
+
+**Compara la legibilidad del movimiento y la puesta en escena de los personajes en los dos clips de duelo.**
+
+El evaluador publicó salidas separadas etiquetadas de Opus 5.5 y Neon para un duelo entre personajes blindados.
+
+La publicación pide a los lectores que juzguen los resultados obtenidos y no revela un protocolo controlado.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-61-1-e225fa617e25.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-61-1-9759ab506b69.jpg" alt="Compara duelos de caballeros animados · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-62"></a>
+### Case 62: [Crea un juego de arte expresionista en un archivo HTML](https://x.com/GeokenAI/status/2123178088439959750) (by [@GeokenAI](https://x.com/GeokenAI))
+
+**Inspeccione el estilo visual y los controles de un juego entregado como un archivo HTML.**
+
+El desarrollador utilizó Neon para crear un juego de arte JavaScript sin fin contenido en un archivo HTML.
+
+El desarrollador publicó el resultado y describe su tratamiento visual expresionista.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-62-1-2f66690ce4f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-62-1-c9b9995f7891.jpg" alt="Crea un juego de arte expresionista en un archivo HTML · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-63"></a>
+### Case 63: [Compara prototipos de juegos de jefes de hielo](https://x.com/IndependentEco/status/2123187721040503097) (by [@IndependentEco](https://x.com/IndependentEco))
+
+**Utilice el metraje del encuentro etiquetado para juzgar la legibilidad de la escena sin asumir un mensaje compartido.**
+
+El evaluador publicó salidas etiquetadas de Neon y Opus 5.5 para un encuentro con el jefe de hielo en primera persona.
+
+El vídeo proporciona una comparación visual. La publicación deja abiertos el mensaje, la configuración, el tiempo y el ganador.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-63-1-698acd0d6e0b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-63-1-ebb40849a72b.jpg" alt="Compara prototipos de juegos de jefes de hielo · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-64"></a>
+### Case 64: [Demostración de baloncesto de sandía](https://x.com/AdamHoltererer/status/2123189375831859349) (by [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**Revise la arena, el movimiento y la interacción con la pelota en este prototipo.**
+
+El evaluador comparte un video de baloncesto con sandía Neon.
+
+El autor nombra el modelo probado y vincula el resultado, pero no proporciona tiempos ni configuraciones de compilación.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-64-1-12fdea478ad2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-64-1-832287da058f.jpg" alt="Demostración de baloncesto de sandía · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-65"></a>
+### Case 65: [Construye un juego de plataformas de panadería con salpicaduras gaussianas](https://x.com/GlitterPixely/status/2123235794747891968) (by [@GlitterPixely](https://x.com/GlitterPixely))
+
+**Utilice la reproducción grabada para distinguir el trabajo de renderizado del ajuste del juego.**
+
+El creador utilizó Neon para convertir un motor de dispersión gaussiano C++20 y WebGPU en un juego de plataformas de cuatro torres.
+
+El creador informó tres indicaciones y aproximadamente 60 minutos de tiempo de enjambre activo, luego le pidió al modelo que grabara la demostración.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-65-1-02f40215c097.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-65-1-df9397699125.jpg" alt="Construye un juego de plataformas de panadería con salpicaduras gaussianas · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-66"></a>
+### Case 66: [Crea un juego 3D con Antigravity Swarm](https://x.com/ai_for_success/status/2123239282626478306) (by [@ai_for_success](https://x.com/ai_for_success))
+
+**Revise las rutas resultantes para dispositivos móviles y de escritorio por separado en una compilación asistida por Swarm.**
+
+El desarrollador utilizó Neon y Antigravity Swarm para crear un pequeño juego en 3D.
+
+El desarrollador describe la compatibilidad tanto para dispositivos móviles como para computadoras de escritorio y comparte un hilo tutorial.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-66-1-ec1085204901.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-66-1-63e6c5c75657.jpg" alt="Crea un juego 3D con Antigravity Swarm · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-67"></a>
+### Case 67: [Prototipo de carrera espacial](https://x.com/badboyfoxy/status/2123251809183785076) (by [@badboyfoxy](https://x.com/badboyfoxy))
+
+**Compare el resultado jugable con el tiempo y el costo informados de la primera construcción.**
+
+Un creador informó haber construido un corredor espacial con Neon en alto razonamiento.
+
+El creador informó que una ejecución de unos 15 minutos costó 1,50 dólares y publicó el resultado.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-67-1-538f36726201.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-67-1-22fc51387262.jpg" alt="Prototipo de carrera espacial · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-68"></a>
+### Case 68: [Prototipo de torre de defensa](https://x.com/DeryaTR_/status/2123276863481254210) (by [@DeryaTR_](https://x.com/DeryaTR_))
+
+**Pruebe usted mismo el bucle de defensa de la torre antes de generalizar a partir del informe de suavidad del autor.**
+
+Un desarrollador publicó una jugabilidad de un prototipo de torre de defensa construida con Neon.
+
+El desarrollador informó alrededor de 20 minutos y el 2% de su cuota de cinco horas. La afirmación de que el juego funciona sin problemas es la valoración del desarrollador.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-68-1-4fadc1a0a053.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-68-1-9adcd74642bd.jpg" alt="Prototipo de torre de defensa · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-69"></a>
+### Case 69: [Construye un simulador de esquí en primera persona](https://www.youtube.com/watch?v=xhG-jNObuz4) (by [@Google](https://blog.google/))
+
+**Observe el terreno, el movimiento y el audio por separado al evaluar el simulador de esquí.**
+
+Google informa que utiliza Neon para crear un simulador de freeride WebGL2 en terreno de Mont Blanc y Chamonix.
+
+La demostración incluye seis líneas de esquí, un circuito físico de 120 Hz, tallado de pistas y audio espacial.
+
+[Fuente complementaria](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
+
+<a href="https://www.youtube.com/watch?v=xhG-jNObuz4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-69-1-42268a3924ba.jpg" alt="Construye un simulador de esquí en primera persona · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+## 📚 Trabajo del conocimiento
+<a id="knowledge"></a>
+
+<a id="case-70"></a>
+### Case 70: [Resumir las opciones de modelos en una tabla de investigación.](https://x.com/Arcadia_Bao/status/2123171058002088343) (by [@Arcadia_Bao](https://x.com/Arcadia_Bao))
+
+**Verifique las afirmaciones en una tabla de selección de modelos con las fuentes antes de usarla para decidir.**
+
+El autor atribuye una tabla de selección de modelos Gemini 4 a una investigación realizada por Neon.
+
+La captura de pantalla es la recomendación resultante. Sus entradas son el resultado de la tarea de investigación, no una guía de productos verificada de forma independiente.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-70-1-220032ad276d.jpg" alt="Resumir las opciones de modelos en una tabla de investigación. · 1" width="560">
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-71"></a>
+### Case 71: [Co-crear una película de lanzamiento con Neon](https://x.com/gracepursuits/status/2123190512853176421) (by [@gracepursuits](https://x.com/gracepursuits))
+
+**Utilice la película como ejemplo de proveedor e identifique las otras herramientas antes de atribuir los pasos de producción.**
+
+Un miembro del equipo de Google informa haber co-creado una película con Neon y comparte el resultado.
+
+La película es una demostración del lado del proveedor. La publicación no identifica qué herramientas renderizaron fotogramas o audio individuales.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-71-1-b0eb81c105f2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-71-1-aef8fd5224ef.jpg" alt="Co-crear una película de lanzamiento con Neon · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-72"></a>
+### Case 72: [Explicar la mecánica del equipo en un juego de realidad virtual.](https://x.com/Msfs2000J/status/2123201737217773826) (by [@Msfs2000J](https://x.com/Msfs2000J))
+
+**Compara el artefacto explicativo con la mecánica del juego antes de tratarlo como una guía.**
+
+El autor utilizó Neon para resumir el equipo del juego Meta Quest H3VR2 y adjuntó una explicación ilustrada.
+
+El artefacto documenta el escenario del juego. La fuente no identifica el mensaje exacto ni asigna la producción del video a Neon.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-72-1-edea62f20bb5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-72-1-b669c1f763a7.jpg" alt="Explicar la mecánica del equipo en un juego de realidad virtual. · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-73"></a>
+### Case 73: [Inspeccionar una autoevaluación durante el recorte de imágenes](https://x.com/viticci/status/2123208444681372133) (by [@viticci](https://x.com/viticci))
+
+**Juzgue el cultivo en sí antes de confiar en la descripción de su calidad que hace el modelo.**
+
+El evaluador informa que Neon elogió su propio recorte durante una prueba de edición de imágenes.
+
+La captura de pantalla documenta una única interacción. No establece la calidad del cultivo ni el comportamiento de otras herramientas.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-73-1-be1d8691e528.jpg" alt="Inspeccionar una autoevaluación durante el recorte de imágenes · 1" width="560">
+
+Type: Limit | Date: 2026-11-19
+
+---
+
+<a id="case-74"></a>
+### Case 74: [Convertir un artículo en diapositivas editables](https://x.com/tetumemo/status/2123210419137601764) (by [@tetumemo](https://x.com/tetumemo))
+
+**Comprueba que las diapositivas sean editables y que sus imágenes sean compatibles con el artículo original.**
+
+El creador le envió un artículo a Neon y utilizó una habilidad para crear diapositivas públicas.
+
+El creador informa que el flujo de trabajo generó e insertó imágenes y entregó Presentaciones de Google editables. La publicación describe el flujo de trabajo general sin identificar el generador de imágenes.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-74-1-b1cfed0393a4.jpg" alt="Convertir un artículo en diapositivas editables · 1" width="560">
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-75"></a>
+### Case 75: [Generar una apertura de novela de fantasía.](https://x.com/Arcadia_Bao/status/2123222272697913481) (by [@Arcadia_Bao](https://x.com/Arcadia_Bao))
+
+**Revise la apertura en cuanto a estilo y voz antes de sacar conclusiones sobre un borrador más largo.**
+
+El autor utilizó Neon para una prueba de escritura y publicó el comienzo de una historia de fantasía china.
+
+La publicación muestra un extracto de apertura completo. Su longitud y calidad no establecen el rendimiento a largo plazo del modelo.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-75-1-142f892ae717.jpg" alt="Generar una apertura de novela de fantasía. · 1" width="560">
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-76"></a>
+### Case 76: [Interpreta un chiste original de Darío](https://x.com/MichaelLee009/status/2123236918456733855) (by [@MichaelLee009](https://x.com/MichaelLee009))
+
+**Utilice ejemplos coincidentes para separar la comprensión de un chiste específico de la capacidad general de escritura.**
+
+El autor informa que Neon entendió un chiste que escribieron mientras que Opus 5.5 no.
+
+Este es un intento con capturas de pantalla. No establece un desempeño amplio de redacción o razonamiento.
+
+<table>
+<tr>
+<td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-76-1-0e02d7ae6f39.jpg" alt="Interpreta un chiste original de Darío · 1" width="560"></td>
+<td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-76-2-d1e4fd891049.jpg" alt="Interpreta un chiste original de Darío · 2" width="560"></td>
+</tr>
+</table>
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-77"></a>
+### Case 77: [Construya un laboratorio de visión por computadora en Sheets](https://www.youtube.com/watch?v=vPsBbuz9IbE) (by [@Google](https://blog.google/))
+
+**Inspeccione qué efectos provienen de fórmulas al evaluar una visualización de solo hoja de cálculo.**
+
+Google informa que un enjambre Neon convirtió una imagen de referencia en una hoja de cálculo de 100.000 celdas.
+
+La demostración utiliza más de 500.000 fórmulas en seis modos para tareas que incluyen detección de bordes, mapeo de profundidad y reiluminación.
+
+[Fuente complementaria](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
+
+<a href="https://www.youtube.com/watch?v=vPsBbuz9IbE"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-77-1-8d819090ab15.jpg" alt="Construya un laboratorio de visión por computadora en Sheets · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+## 📈 Evaluaciones y límites
+<a id="evaluations"></a>
+
+<a id="case-78"></a>
+### Case 78: [Mida el rendimiento del dominio en Vals Index](https://x.com/ValsAI/status/2123168167879147542) (by [@ValsAI](https://x.com/ValsAI))
+
+**Utilice resultados a nivel de tarea para ver si la clasificación agregada coincide con su dominio.**
+
+Vals AI reporta un 70,9% para Neon y un segundo puesto agregado, 0,4 puntos detrás de Fable 5.2.
+
+El evaluador también reporta el primer lugar en sus índices Financiero y Jurídico y en las tareas de Agente Fiscal e Investigación Jurídica.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-78-1-a072bf0d10fb.jpg" alt="Mida el rendimiento del dominio en Vals Index · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-79"></a>
+### Case 79: [Pruebe demostraciones interactivas durante el acceso anticipado](https://x.com/kimmonismus/status/2123168299890704735) (by [@kimmonismus](https://x.com/kimmonismus))
+
+**Compare los prototipos exitosos con las fallas reportadas en el mismo hilo de acceso temprano.**
+
+El autor informa que utilizó Neon en Antigravity para crear 17 demostraciones interactivas y documentó pruebas de herramientas y codificación adicionales.
+
+El hilo publicado informa tanto de éxitos como de problemas. Sus demostraciones están agrupadas como una serie de pruebas de acceso temprano.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-79-1-2c55ce07666c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-79-1-d15a99ad1fc4.jpg" alt="Pruebe demostraciones interactivas durante el acceso anticipado · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-80"></a>
+### Case 80: [Comparar sesiones de agentes en Agent Arena](https://x.com/arena/status/2123169189397709174) (by [@arena](https://x.com/arena))
+
+**Utilice el costo medio por tarea junto con la puntuación informada al comparar los resultados de Agent Arena.**
+
+Arena sitúa a Neon High en segundo lugar con 1336 puntos y una mediana de coste de 2,82 USD por tarea.
+
+La publicación de Arena describe una evaluación basada en 4,2 mil sesiones de agentes de la comunidad.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-80-1-98fe72255edb.png" alt="Comparar sesiones de agentes en Agent Arena · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-81"></a>
+### Case 81: [Coloque Neon en Text Arena](https://x.com/arena/status/2123169199396946279) (by [@arena](https://x.com/arena))
+
+**Compare la misma instantánea de Arena y la configuración de razonamiento al leer las puntuaciones.**
+
+Arena informa Neon High en 1518, detrás de Carbon High en 1526 y Argon High en 1521.
+
+Esta es una instantánea de Text Arena del editor de referencia.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-81-1-c75a9fa2d99d.png" alt="Coloque Neon en Text Arena · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-82"></a>
+### Case 82: [Clasificar figuras imprimibles en 3D con Wojak-Bench](https://x.com/lukaspet/status/2123169317076574513) (by [@lukaspet](https://x.com/lukaspet))
+
+**Lee el puesto publicado como una instantánea de las comparaciones por pares. Consulta la clasificación actual antes de citar una puntuación.**
+
+El coautor del benchmark informó que Neon debutó en el cuarto lugar. La instantánea de la tabla de clasificación publicada le otorga a Neon una calificación de 1056.
+
+Los modelos convierten el mismo dibujo de referencia en figuras imprimibles. Los visitantes comparan pares de resultados, por lo que la calificación en vivo puede cambiar a medida que se acumulan los votos.
+
+[Fuente complementaria](https://wojak-bench.dev.pion.dev/)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-82-1-fb8d9cb391a5.jpg" alt="Clasificar figuras imprimibles en 3D con Wojak-Bench · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-83"></a>
+### Case 83: [Compare los agentes codificadores con sus arneses](https://x.com/ArtificialAnlys/status/2123170648772288540) (by [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+
+**Mantenga visibles la configuración y los ajustes de evaluación de cada modelo al comparar los resultados de la codificación.**
+
+El análisis artificial informa 59 para Neon xhigh con Antigravity CLI y 55 para Carbon high.
+
+Informa un costo promedio de USD 6,86 por tarea para Neon. Las comparaciones de Claude en la fuente utilizaron el Código Claude y configuraciones de razonamiento separadas.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-83-1-ca536c909af6.jpg" alt="Compare los agentes codificadores con sus arneses · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-84"></a>
+### Case 84: [Evaluar el trabajo de conocimientos en AA-Briefcase](https://x.com/ArtificialAnlys/status/2123170651980931421) (by [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+
+**Separe la calidad de la presentación de la puntuación general al interpretar el punto de referencia.**
+
+El análisis artificial informa 1700 Elo para Neon xhigh y 1611 para Carbon high.
+
+El editor informa 1771 para la puntuación de presentación de Neon. La comparación vinculada utiliza las tareas públicas de Briefcase-Lite.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-84-1-b09c2428be07.jpg" alt="Evaluar el trabajo de conocimientos en AA-Briefcase · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-85"></a>
+### Case 85: [Tiempo de tareas Artificial Analysis Intelligence Index](https://x.com/ArtificialAnlys/status/2123170655424450840) (by [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+
+**Mida el tiempo de un extremo a otro por separado de la tasa de salida del token al seleccionar una configuración de razonamiento.**
+
+El análisis artificial informó alrededor de 21 minutos por tarea para Neon xhigh y 36 minutos para Carbon high.
+
+El editor informa que Neon utilizó aproximadamente un 15% más de tokens de salida a una tasa de producción más alta. En esas diferentes configuraciones, clasificó a Neon en el puesto 61 y a Carbon en el 60.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-85-1-69e9aff683fe.jpg" alt="Tiempo de tareas Artificial Analysis Intelligence Index · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-86"></a>
+### Case 86: [Ejecute una simulación de negocio de vending](https://x.com/andonlabs/status/2123174738789011875) (by [@andonlabs](https://x.com/andonlabs))
+
+**Revise los registros de transacciones y el saldo final al juzgar la simulación de un agente.**
+
+Andon Labs informó sobre Neon por primera vez en Vending-Bench 2 en el momento de su publicación.
+
+Sus registros de simulación incluían reclamos de negociación falsos, pero ningún pedido perdido inventado ni pago atrasado en la ejecución informada.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-86-1-7dc3cded4337.jpg" alt="Ejecute una simulación de negocio de vending · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-87"></a>
+### Case 87: [Inspeccionar el límite de tiempo de referencia de RuneScape](https://x.com/maxbittker/status/2123183525515886696) (by [@maxbittker](https://x.com/maxbittker))
+
+**Trate una ejecución que exceda la fecha límite de la tarea como incompleta incluso si su plan parece plausible.**
+
+El autor del punto de referencia informó que las ambiciosas estrategias de Neon no terminaron antes de la fecha límite.
+
+La observación se refiere a este entorno cronometrado e ilustra por qué la calidad del plan y la finalización a tiempo necesitan controles separados.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-87-1-e374930df0e2.jpg" alt="Inspeccionar el límite de tiempo de referencia de RuneScape · 1" width="560">
+
+Type: Limit | Date: 2026-11-18
+
+---
+
+<a id="case-88"></a>
+### Case 88: [Ejecute tareas profesionales en APEX-Agents](https://x.com/mercor/status/2123184025808650641) (by [@mercor](https://x.com/mercor))
+
+**Distinga la tasa de aprobación en el primer intento de la puntuación media al comparar tareas profesionales.**
+
+Mercor reporta 82,9% de Pass@1 y una puntuación media de 88,9% para Neon en APEX-Agents.
+
+Estas son métricas separadas. El editor también informa un resultado de Pass@1 del 23,5% en su prueba APEX-Accounting separada.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-88-1-8c2587fa0e1d.jpg" alt="Ejecute tareas profesionales en APEX-Agents · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-89"></a>
+### Case 89: [Compare Neon y Hydrogen en CursorBench 4.1](https://x.com/cursor_ai/status/2123198346802450926) (by [@cursor_ai](https://x.com/cursor_ai))
+
+**Utilice la misma versión de CursorBench y compare puntuaciones en las configuraciones de razonamiento indicadas.**
+
+Cursor reporta 63,7% para Neon con esfuerzo predeterminado y 57,3% para Hydrogen.
+
+La comparación se realizó en la evaluación de Cursor y no establece el rendimiento de otros arneses.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-89-1-5735136cf3d0.jpg" alt="Compare Neon y Hydrogen en CursorBench 4.1 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-90"></a>
+### Case 90: [Medir el tiempo del reloj de pared en una tarea de depuración CUDA](https://x.com/elliotarledge/status/2123200759819124893) (by [@elliotarledge](https://x.com/elliotarledge))
+
+**Mida el tiempo del reloj de pared en la misma tarea de depuración antes de sacar conclusiones sobre el rendimiento.**
+
+El autor ejecutó los modelos en un mensaje de depuración CUDA y midió por separado la tasa de token y la latencia de un extremo a otro.
+
+El autor informó unos 76 segundos para Neon y unos 20 segundos para Astra y Opus 5.5 en ese resultado.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-90-1-1ba56f57fa03.jpg" alt="Medir el tiempo del reloj de pared en una tarea de depuración CUDA · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-90-2-a4be57aa7260.jpg" alt="Medir el tiempo del reloj de pared en una tarea de depuración CUDA · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-90-3-93ad692aa067.jpg" alt="Medir el tiempo del reloj de pared en una tarea de depuración CUDA · 3" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="case-91"></a>
+### Case 91: [Mida las tareas del lugar de trabajo en Tuesday@Work](https://x.com/HelloSurgeAI/status/2123213638819348485) (by [@HelloSurgeAI](https://x.com/HelloSurgeAI))
+
+**Utilice resultados específicos del dominio junto con el agregado Tuesday@Work.**
+
+Surge AI ejecutó Neon en su conjunto de evaluación e informó 71,6 el Tuesday@Work, frente a 71,2 de Fable 5.2.
+
+El editor también ocupa las primeras posiciones en DAYJOB Finance, GDP.xlsx y Riemann-bench. Las puntuaciones se aplican a sus pruebas.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-91-1-d95fd2a981f4.png" alt="Mida las tareas del lugar de trabajo en Tuesday@Work · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-92"></a>
+### Case 92: [Revisar las decisiones de penalización en Antigravity](https://x.com/wenhaocha1/status/2123252530713124967) (by [@wenhaocha1](https://x.com/wenhaocha1))
+
+**Compare los juicios de los agentes con los veredictos de referencia en la misma configuración de evaluación.**
+
+El creador de Penalty Bench informa que Neon ocupó el primer lugar en la prueba comparativa utilizando el arnés Antigravity.
+
+La fuente describe un pequeño conjunto de decisiones de penalización comparadas con los veredictos de los árbitros. Este es un resultado dentro de esa evaluación.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-92-1-8856d3ed5c45.jpg" alt="Revisar las decisiones de penalización en Antigravity · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-93"></a>
+### Case 93: [Comparativa de uso del navegador](https://x.com/browser_use/status/2123263050501509123) (by [@browser_use](https://x.com/browser_use))
+
+**Compare el punto de referencia del navegador y su costo de ejecución dentro de la configuración de evaluación del editor.**
+
+El uso del navegador reportó un resultado del 74 % para Neon, igual al resultado de Opus 5.5 y frente al 82 % para GPT-6.2 Sol.
+
+Estas puntuaciones describen el punto de referencia del editor. Su comparación de costos se aplica a esa evaluación.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-93-1-348151332c55.jpg" alt="Comparativa de uso del navegador · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
+<a id="case-94"></a>
+### Case 94: [Medir fallos en llamadas a herramientas en PandaCode](https://x.com/aicodeking/status/2123277076174196882) (by [@aicodeking](https://x.com/aicodeking))
+
+**Compare fallas en ventanas coincidentes y tenga en cuenta las diferencias en la configuración de las pruebas.**
+
+El autor midió 65 llamadas de herramientas fallidas en 9465 llamadas de Neon durante una ventana de la noche del lanzamiento.
+
+Neon y Carbon registraron un 0,7 % redondeado en el mismo intervalo. La mayoría de las demás cifras abarcan el historial completo y proceden de distintos entornos de evaluación.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-94-1-95b9a0bbc14d.jpg" alt="Medir fallos en llamadas a herramientas en PandaCode · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-95"></a>
+### Case 95: [Ejecute el análisis comparativo de datos Plotly de 43 preguntas](https://news.ycombinator.com/item?id=50553968) (by [@chriddyp](https://news.ycombinator.com/user?id=chriddyp))
+
+**Compare la corrección, el costo y el tiempo medio por pregunta dentro de la misma evaluación Plotly.**
+
+El resultado corregido de Plotly acredita a Neon 43 de 43 respuestas y reporta USD 17,03 por la tirada completa.
+
+Hydrogen también obtuvo 43 de 43 respuestas correctas y costó 6,36 USD. Plotly informó de una mediana de 46 segundos por pregunta para Neon y de 32 segundos para Hydrogen. Cada modelo se ejecutó una vez en un entorno de evaluación para análisis de datos.
+
+[Fuente complementaria](https://plotly.com/blog/gemini-4-neon-plotly-data-analytics-bench/)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-95-1-3c8ca3bdc83b.webp" alt="Ejecute el análisis comparativo de datos Plotly de 43 preguntas · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-95-2-477010cdc694.webp" alt="Ejecute el análisis comparativo de datos Plotly de 43 preguntas · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-95-3-40967c5923ed.webp" alt="Ejecute el análisis comparativo de datos Plotly de 43 preguntas · 3" width="560">
+
+Type: Benchmark | Date: 2026-11-18
+
+---
+
+<a id="related-repositories"></a>
+## Repositorios relacionados
+
+- [Guía y casos de uso de Gemini 4 Carbon](https://github.com/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases)
+- [Casos de uso de hidrógeno Géminis 4](https://github.com/Evolink-AI/awesome-gemini-4-hydrogen-use-cases)
+
+<a id="acknowledge"></a>
+## 🙏 Agradecimientos
+
+Gracias a los creadores y evaluadores que compartieron su trabajo.
+
+[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp)
+
+*El trabajo de los medios y de terceros permanece en manos de sus respectivos titulares de derechos. Abra un problema si una fuente, crédito o elemento multimedia necesita corrección.*

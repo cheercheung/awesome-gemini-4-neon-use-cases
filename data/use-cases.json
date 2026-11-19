@@ -1,0 +1,3516 @@
+{
+  "schema_version": 2,
+  "model": "Gemini 4 Neon",
+  "source_scope": {
+    "method": "specified-materials",
+    "x_posts": 300,
+    "hn_nodes": 787,
+    "x_original_author_replies": 9
+  },
+  "category_order": [
+    "engineering",
+    "graphics",
+    "games",
+    "knowledge",
+    "evaluations"
+  ],
+  "category_names": {
+    "engineering": "Engineering and Integrations",
+    "graphics": "Graphics and Interface Prototypes",
+    "games": "Games and Simulations",
+    "knowledge": "Knowledge Work",
+    "evaluations": "Evaluations and Limits"
+  },
+  "items": [
+    {
+      "id": "x-2123155946801070204",
+      "public_number": 1,
+      "source_url": "https://x.com/IndependentEco/status/2123155946801070204",
+      "source_platform": "x",
+      "source_posted_by": "IndependentEco",
+      "author_handle": "@IndependentEco",
+      "author_url": "https://x.com/IndependentEco",
+      "date": "2026-11-18",
+      "title": "Observe instability during unattended runs",
+      "takeaway": "Track retries and completion in unattended runs, and keep a separate record of the supervising model.",
+      "observation": "The tester reports launch-day instability when running Neon headlessly and says Opus 5.5 monitored the run.",
+      "body_notes": "The screenshots document that environment. The report does not attribute the root cause.",
+      "type": "Limit",
+      "category_key": "engineering",
+      "dedup_key": "x-2123155946801070204",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-1-1-cffe1f4d2f8c.png",
+          "source_url": "https://pbs.twimg.com/media/HXb2bgRXgAAt1l7.png",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-1-2-33b7cb88e773.png",
+          "source_url": "https://pbs.twimg.com/media/HXb259dW4AAc5cA.png",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXb2bgRXgAAt1l7.png",
+        "https://pbs.twimg.com/media/HXb259dW4AAc5cA.png"
+      ]
+    },
+    {
+      "id": "x-2123174394889687151",
+      "public_number": 2,
+      "source_url": "https://x.com/SamuelAlbanie/status/2123174394889687151",
+      "source_platform": "x",
+      "source_posted_by": "SamuelAlbanie",
+      "author_handle": "@SamuelAlbanie",
+      "author_url": "https://x.com/SamuelAlbanie",
+      "date": "2026-11-18",
+      "title": "Build a simulated logic-gate demo",
+      "takeaway": "Check what the simulation shows at the chip, circuit board and display levels.",
+      "observation": "The author shows an interactive electronics demo that goes from simulated logic gates and circuit boards to a retro terminal display.",
+      "body_notes": "The series reports one prompt per demo without refinement. The recording shows the interface and simulation behavior.",
+      "type": "Demo",
+      "category_key": "engineering",
+      "dedup_key": "x-2123174394889687151",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://x.com/SamuelAlbanie/status/2123174391617867925"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-2-1-b7233891bf19.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-2-1-7cb8c5a2b86d.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123171163576688640/vid/avc1/640x360/zkCZ9F48Zz9n64Y4.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123171163576688640/img/AVRG25t5H6QF-XgD.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123171163576688640/vid/avc1/640x360/zkCZ9F48Zz9n64Y4.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123229845274653112",
+      "public_number": 3,
+      "source_url": "https://x.com/seveibar/status/2123229845274653112",
+      "source_platform": "x",
+      "source_posted_by": "seveibar",
+      "author_handle": "@seveibar",
+      "author_url": "https://x.com/seveibar",
+      "date": "2026-11-19",
+      "title": "Design a Bluetooth toothbrush in tscircuit",
+      "takeaway": "Review routing and footprint selection independently of the rendered enclosure.",
+      "observation": "A tscircuit maintainer compared Neon High, Opus 5.5 High and Sol 6.2 High on a Bluetooth electric toothbrush.",
+      "body_notes": "The maintainer preferred Neon's visual result but reported incomplete routing and poor footprint choices.",
+      "type": "Evaluation",
+      "category_key": "engineering",
+      "dedup_key": "x-2123229845274653112",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "tool-developer",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-3-1-f5a7948ce417.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-3-1-c5c60f2fdcf3.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123229355795259392/vid/avc1/640x360/XYc7yoL6hqYdzHlp.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123229355795259392/img/KavTSpnay2VCZvI1.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123229355795259392/vid/avc1/640x360/XYc7yoL6hqYdzHlp.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123232182298976767",
+      "public_number": 4,
+      "source_url": "https://x.com/kajikent/status/2123232182298976767",
+      "source_platform": "x",
+      "source_posted_by": "kajikent",
+      "author_handle": "@kajikent",
+      "author_url": "https://x.com/kajikent",
+      "date": "2026-11-19",
+      "title": "Relay a Muse side conversation to Neon",
+      "takeaway": "Check which replies come from Neon before relying on the Muse relay.",
+      "observation": "The author built a Muse side chat that passes requests and replies through to Neon.",
+      "body_notes": "The posted Japanese instruction configures the Muse relay. It is an instruction to Muse and does not establish a direct prompt sent to Neon.",
+      "type": "Integration",
+      "category_key": "engineering",
+      "dedup_key": "x-2123232182298976767",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-4-1-7b5f3b451dc2.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXc8amHasAArP4E.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-4-2-636fe982bfee.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXc8amDacAAECiB.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXc8amHasAArP4E.jpg",
+        "https://pbs.twimg.com/media/HXc8amDacAAECiB.jpg"
+      ]
+    },
+    {
+      "id": "x-2123273253850628260",
+      "public_number": 5,
+      "source_url": "https://x.com/theo/status/2123273253850628260",
+      "source_platform": "x",
+      "source_posted_by": "theo",
+      "author_handle": "@theo",
+      "author_url": "https://x.com/theo",
+      "date": "2026-11-19",
+      "title": "Use Neon for copy in a three-model T3 Code workflow",
+      "takeaway": "Assign one model to copywriting and check its handoff to implementation and playtesting.",
+      "observation": "The developer gives Neon the copywriting role within a multi-model T3 Code workflow.",
+      "body_notes": "The developer assigns implementation to Fable and playtesting to GPT-6.2 Astra. The T3 Code screenshot shows a creature-raising game with copywriters in the active workflow.",
+      "type": "Integration",
+      "category_key": "engineering",
+      "dedup_key": "x-2123273253850628260",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "tool-developer",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-5-1-3899936a871e.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXdhdPkawAABdqb.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXdhdPkawAABdqb.jpg"
+      ]
+    },
+    {
+      "id": "x-2123285929649455409",
+      "public_number": 6,
+      "source_url": "https://x.com/Lentils80/status/2123285929649455409",
+      "source_platform": "x",
+      "source_posted_by": "Lentils80",
+      "author_handle": "@Lentils80",
+      "author_url": "https://x.com/Lentils80",
+      "date": "2026-11-19",
+      "title": "Rework a Spotify recommendation MCP",
+      "takeaway": "Review recommendation changes and test whether unrequested features improve the result.",
+      "observation": "The creator used Neon to revise a Spotify recommendation MCP originally built with Argon.",
+      "body_notes": "The creator reported bug fixes and an unrequested taste-based recommendation model. The post does not provide recommendation accuracy.",
+      "type": "Integration",
+      "category_key": "engineering",
+      "dedup_key": "x-2123285929649455409",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-6-1-a5dafa9b6b4e.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXdrJBfWkAAQZFN.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXdrJBfWkAAQZFN.jpg"
+      ]
+    },
+    {
+      "id": "x-2123158145380085991",
+      "public_number": 7,
+      "source_url": "https://x.com/HarshithLucky3/status/2123158145380085991",
+      "source_platform": "x",
+      "source_posted_by": "HarshithLucky3",
+      "author_handle": "@HarshithLucky3",
+      "author_url": "https://x.com/HarshithLucky3",
+      "date": "2026-11-18",
+      "title": "Draw an SVG side view of a car",
+      "takeaway": "Check proportion and silhouette when comparing code-rendered side views.",
+      "observation": "The creator used Neon high in AI Studio to create a BMW M4 CS side-view SVG.",
+      "body_notes": "The artifact is attached to the post. No complete prompt is quoted.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123158145380085991",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-7-1-ffea70bbfd83.png",
+          "source_url": "https://pbs.twimg.com/media/HXb5C9EbwAAowFP.png",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXb5C9EbwAAowFP.png"
+      ]
+    },
+    {
+      "id": "x-2123159230291054903",
+      "public_number": 8,
+      "source_url": "https://x.com/AdamHoltererer/status/2123159230291054903",
+      "source_platform": "x",
+      "source_posted_by": "AdamHoltererer",
+      "author_handle": "@AdamHoltererer",
+      "author_url": "https://x.com/AdamHoltererer",
+      "date": "2026-11-18",
+      "title": "Run an SVG test series",
+      "takeaway": "Review several outputs before judging consistency across SVG tasks.",
+      "observation": "The tester shared three outputs in a Neon SVG test series.",
+      "body_notes": "The results are presented together and counted as one test series.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123159230291054903",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-8-1-2eb686ec5f13.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb6EQ6W0AAOrZG.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-8-2-7f4fbb41bac4.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb6ERSWQAA7rOb.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-8-3-8ffa94a0957b.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb6ERlXcAAdsPg.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXb6EQ6W0AAOrZG.jpg",
+        "https://pbs.twimg.com/media/HXb6ERSWQAA7rOb.jpg",
+        "https://pbs.twimg.com/media/HXb6ERlXcAAdsPg.jpg"
+      ]
+    },
+    {
+      "id": "x-2123160089854898346",
+      "public_number": 9,
+      "source_url": "https://x.com/StatsWire/status/2123160089854898346",
+      "source_platform": "x",
+      "source_posted_by": "StatsWire",
+      "author_handle": "@StatsWire",
+      "author_url": "https://x.com/StatsWire",
+      "date": "2026-11-18",
+      "title": "Animate a pelican in Three.js",
+      "takeaway": "Check the cycling motion and scene rendering as separate parts of the animation.",
+      "observation": "The tester attributes a Three.js pelican-on-a-bicycle output to Neon.",
+      "body_notes": "The creator provides a recording but no timing or reasoning setting.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123160089854898346",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-9-1-80dcbc4fb2e8.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-9-1-e0a6df02d79f.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123160013761892353/vid/avc1/640x360/qE4MZCxdt44OFNhn.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123160013761892353/img/cKKtyCzsRUlwOIqz.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123160013761892353/vid/avc1/640x360/qE4MZCxdt44OFNhn.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123161268647539052",
+      "public_number": 10,
+      "source_url": "https://x.com/lyraxana/status/2123161268647539052",
+      "source_platform": "x",
+      "source_posted_by": "lyraxana",
+      "author_handle": "@lyraxana",
+      "author_url": "https://x.com/lyraxana",
+      "date": "2026-11-18",
+      "title": "Draw an SVG portrait at xhigh",
+      "takeaway": "Assess likeness and SVG editability separately in a portrait test.",
+      "observation": "The tester shares a portrait of Ana de Armas attributed to Neon xhigh.",
+      "body_notes": "The source gives the subject and effort setting without the exact prompt.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123161268647539052",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-10-1-014b0af2bac3.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb73r8WoAAxllB.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXb73r8WoAAxllB.jpg"
+      ]
+    },
+    {
+      "id": "x-2123161354496557071",
+      "public_number": 11,
+      "source_url": "https://x.com/xiangning0/status/2123161354496557071",
+      "source_platform": "x",
+      "source_posted_by": "xiangning0",
+      "author_handle": "@xiangning0",
+      "author_url": "https://x.com/xiangning0",
+      "date": "2026-11-18",
+      "title": "Animate a cycling pelican at medium effort",
+      "takeaway": "Use a fixed animation task to compare results at different reasoning settings.",
+      "observation": "The author used Neon at medium effort to produce a pelican cycling demo and posted the video.",
+      "body_notes": "The clip documents this creator's separate run of a common test task.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123161354496557071",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-11-1-0b2be9516bad.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-11-1-200a792de0b6.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123160217986932736/vid/avc1/540x360/f53FdUzRMahcT7Ia.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123160217986932736/img/JNwmqgN1_U-EuRga.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123160217986932736/vid/avc1/540x360/f53FdUzRMahcT7Ia.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123161449681805531",
+      "public_number": 12,
+      "source_url": "https://x.com/Angaisb_/status/2123161449681805531",
+      "source_platform": "x",
+      "source_posted_by": "Angaisb_",
+      "author_handle": "@Angaisb_",
+      "author_url": "https://x.com/Angaisb_",
+      "date": "2026-11-18",
+      "title": "Compare two voxel garden scenes",
+      "takeaway": "Check similar-looking outputs against total run cost and the settings each source discloses.",
+      "observation": "The author posted a voxel garden from Neon xhigh alongside a GPT-6.2 Sol xhigh result.",
+      "body_notes": "The source identifies the first image as Neon and reports USD 1.01 versus USD 0.19 for Sol. The post does not specify whether the prompts and tools matched.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123161449681805531",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-12-1-115849b38af5.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb59kaXwAAyyYV.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-12-2-59e2b840c413.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8BfUW8AAPLBu.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXb59kaXwAAyyYV.jpg",
+        "https://pbs.twimg.com/media/HXb8BfUW8AAPLBu.jpg"
+      ]
+    },
+    {
+      "id": "x-2123162154132242885",
+      "public_number": 13,
+      "source_url": "https://x.com/cfenghub/status/2123162154132242885",
+      "source_platform": "x",
+      "source_posted_by": "cfenghub",
+      "author_handle": "@cfenghub",
+      "author_url": "https://x.com/cfenghub",
+      "date": "2026-11-18",
+      "title": "Generate a Three.js and GLSL scene",
+      "takeaway": "Separate shader behavior, scene geometry, and generation time in a graphics test.",
+      "observation": "The creator shares a Three.js and GLSL output from Neon and reports a run of two minutes and 40 seconds.",
+      "body_notes": "The main post points to the replies for the instruction without quoting it.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123162154132242885",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-13-1-e62c3cb9bbab.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-13-1-f2c7b50bad23.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123161112254308352/vid/avc1/688x360/LI2BB89yrhPLF1LJ.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123161112254308352/img/ixGrQsRXxcZAoOdd.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123161112254308352/vid/avc1/688x360/LI2BB89yrhPLF1LJ.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123162238643044705",
+      "public_number": 14,
+      "source_url": "https://x.com/kickingkeys/status/2123162238643044705",
+      "source_platform": "x",
+      "source_posted_by": "kickingkeys",
+      "author_handle": "@kickingkeys",
+      "author_url": "https://x.com/kickingkeys",
+      "date": "2026-11-18",
+      "title": "Create paintings entirely in code",
+      "takeaway": "Open the rendered examples to see how code can produce a coherent visual series.",
+      "observation": "The creator reports using early-access Neon to write code that renders paintings.",
+      "body_notes": "The source provides a set of results from the same series. It does not supply each exact prompt.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123162238643044705",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-1-9f61a388e0c1.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8IsuXQAE3Z9G.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-2-3362674fdd00.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8IsjW8AA5IXO.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-3-51899966784e.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8IsnWwAEy0ep.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-4-74693c0f8c18.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8dezXMAAvoPk.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-5-977a643ac612.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8deeXkAAktGx.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-6-74e97910a739.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8de4W4AAShoj.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-7-516b3420d145.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8dfCW0AAGagq.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-8-7766df7b1a79.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8deoXAAAZ0oW.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-9-1a353988571a.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8dfFWIAAhVpq.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-10-57e623c52098.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8we7WMAE9nRR.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-11-e9fe2e7b6c2c.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8wjmWUAAYqxA.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-14-12-2213841fb938.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb8wj8XoAAxc2W.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXb8IsuXQAE3Z9G.jpg",
+        "https://pbs.twimg.com/media/HXb8IsjW8AA5IXO.jpg",
+        "https://pbs.twimg.com/media/HXb8IsnWwAEy0ep.jpg",
+        "https://pbs.twimg.com/media/HXb8dezXMAAvoPk.jpg",
+        "https://pbs.twimg.com/media/HXb8deeXkAAktGx.jpg",
+        "https://pbs.twimg.com/media/HXb8de4W4AAShoj.jpg",
+        "https://pbs.twimg.com/media/HXb8dfCW0AAGagq.jpg",
+        "https://pbs.twimg.com/media/HXb8deoXAAAZ0oW.jpg",
+        "https://pbs.twimg.com/media/HXb8dfFWIAAhVpq.jpg",
+        "https://pbs.twimg.com/media/HXb8we7WMAE9nRR.jpg",
+        "https://pbs.twimg.com/media/HXb8wjmWUAAYqxA.jpg",
+        "https://pbs.twimg.com/media/HXb8wj8XoAAxc2W.jpg"
+      ]
+    },
+    {
+      "id": "x-2123162610254442796",
+      "public_number": 15,
+      "source_url": "https://x.com/Super_Nius/status/2123162610254442796",
+      "source_platform": "x",
+      "source_posted_by": "Super_Nius",
+      "author_handle": "@Super_Nius",
+      "author_url": "https://x.com/Super_Nius",
+      "date": "2026-11-18",
+      "title": "Compare pelican cycling animations",
+      "takeaway": "Compare the reported runtime with the movement and scene details in the same video.",
+      "observation": "The tester compared a pelican animation across Neon, Hydrogen, GPT-6.2 Astra and GPT-6.2 Sol.",
+      "body_notes": "The author reports a three-minute Neon run and preferred its appearance. The recorded Sol-only follow-up belongs to the same test.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123162610254442796",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-15-1-e9c127cb6e40.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-15-1-444e97e2290b.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123162564549054464/vid/avc1/634x360/p6v8WDHvq6Fap1YB.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123162564549054464/img/y0guvO6cjQQJx4k2.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123162564549054464/vid/avc1/634x360/p6v8WDHvq6Fap1YB.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123164032882659819",
+      "public_number": 16,
+      "source_url": "https://x.com/AI_Screening/status/2123164032882659819",
+      "source_platform": "x",
+      "source_posted_by": "AI_Screening",
+      "author_handle": "@AI_Screening",
+      "author_url": "https://x.com/AI_Screening",
+      "date": "2026-11-18",
+      "title": "Compare Three.js cycling animations across three models",
+      "takeaway": "Use the labeled clips to compare motion, lighting, and scene composition.",
+      "observation": "The tester published a Three.js cycling comparison of Neon, Opus 5.5 and Carbon.",
+      "body_notes": "The author preferred Neon over Opus and judged it close to Carbon. This is the author's visual assessment.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123164032882659819",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-16-1-2fcea711afca.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-16-1-491c82d3f1f5.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123163888606949376/vid/avc1/480x734/C_yjJ7Is052qUgWH.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123163888606949376/img/RiY9cEZ3eFHE9CSV.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123163888606949376/vid/avc1/480x734/C_yjJ7Is052qUgWH.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123164576275370440",
+      "public_number": 17,
+      "source_url": "https://x.com/Mr_Salio/status/2123164576275370440",
+      "source_platform": "x",
+      "source_posted_by": "Mr_Salio",
+      "author_handle": "@Mr_Salio",
+      "author_url": "https://x.com/Mr_Salio",
+      "date": "2026-11-18",
+      "title": "Render a tall ship on the ocean",
+      "takeaway": "Inspect whether wave animation and ship rendering remain coherent throughout the clip.",
+      "observation": "The tester shared an ocean sailing scene attributed to Neon xhigh.",
+      "body_notes": "The video shows an animated sailing ship. The source does not supply a specific workflow or timing.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123164576275370440",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-17-1-39aa1af81d28.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-17-1-c2e29bd290ea.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123164379151478784/vid/avc1/748x360/G3-80tCh5yt17N9f.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123164379151478784/img/ZZ6o0nCUHt45wPwq.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123164379151478784/vid/avc1/748x360/G3-80tCh5yt17N9f.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123164858996908367",
+      "public_number": 18,
+      "source_url": "https://x.com/LuminaBench/status/2123164858996908367",
+      "source_platform": "x",
+      "source_posted_by": "LuminaBench",
+      "author_handle": "@LuminaBench",
+      "author_url": "https://x.com/LuminaBench",
+      "date": "2026-11-18",
+      "title": "Generate a voxel pagoda",
+      "takeaway": "Use the voxel scene to assess layering, silhouette, and composition.",
+      "observation": "The tester posts a voxel pagoda generated at Neon xhigh.",
+      "body_notes": "The post includes the rendered result and the author's design reaction.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123164858996908367",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-18-1-66d691af4081.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-18-1-8da133675a5d.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123164537431965696/vid/avc1/526x360/AL5726MJCucQabua.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123164537431965696/img/o32oBtgYCnulYQiz.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123164537431965696/vid/avc1/526x360/AL5726MJCucQabua.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123165824576114932",
+      "public_number": 19,
+      "source_url": "https://x.com/HarshithLucky3/status/2123165824576114932",
+      "source_platform": "x",
+      "source_posted_by": "HarshithLucky3",
+      "author_handle": "@HarshithLucky3",
+      "author_url": "https://x.com/HarshithLucky3",
+      "date": "2026-11-18",
+      "title": "Draw a frustrated pelican on a bicycle",
+      "takeaway": "Check whether the character expression and bicycle motion both read clearly.",
+      "observation": "The creator used Neon high in AI Studio to draw an SVG of a frustrated pelican riding a bicycle.",
+      "body_notes": "The post shows the result and identifies the effort setting.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123165824576114932",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-19-1-44580d20f3b7.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-19-1-b8df2a6ac156.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123165465526870016/vid/avc1/540x360/4Xo_NgU3uP6MaAQT.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123165465526870016/img/5IHaSfuiscMBIWKg.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123165465526870016/vid/avc1/540x360/4Xo_NgU3uP6MaAQT.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123166093422272839",
+      "public_number": 20,
+      "source_url": "https://x.com/notjazii/status/2123166093422272839",
+      "source_platform": "x",
+      "source_posted_by": "notjazii",
+      "author_handle": "@notjazii",
+      "author_url": "https://x.com/notjazii",
+      "date": "2026-11-18",
+      "title": "Compare gamepad drawings with GPT-6.2 Sol",
+      "takeaway": "Compare render quality and time and cost separately for the two gamepad outputs.",
+      "observation": "The tester used the same prompt at each model's highest available reasoning and judged the outputs similar.",
+      "body_notes": "The author reported 20 minutes and about USD 1.60 for Neon versus nine minutes and about USD 0.53 for Sol.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123166093422272839",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-20-1-617938f21f28.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb_jHKaIAAOUBS.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXb_jHKaIAAOUBS.jpg"
+      ]
+    },
+    {
+      "id": "x-2123166304664191391",
+      "public_number": 21,
+      "source_url": "https://x.com/LuminaBench/status/2123166304664191391",
+      "source_platform": "x",
+      "source_posted_by": "LuminaBench",
+      "author_handle": "@LuminaBench",
+      "author_url": "https://x.com/LuminaBench",
+      "date": "2026-11-18",
+      "title": "Generate a 3D seaplane",
+      "takeaway": "Review the seaplane and water interaction before judging the prototype as a whole.",
+      "observation": "The tester used Neon xhigh to build a 3D seaplane and shared a video.",
+      "body_notes": "The creator describes the build as fast and the interface as cleaner, without giving a wall-clock measurement.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123166304664191391",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-21-1-738f7ccd5e11.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-21-1-b2943474925e.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123165560884043776/vid/avc1/526x360/vbbrjFod2r8A6k8Q.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123165560884043776/img/21zimPKMR3RHSzf3.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123165560884043776/vid/avc1/526x360/vbbrjFod2r8A6k8Q.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123168463640269001",
+      "public_number": 22,
+      "source_url": "https://x.com/jony_palino/status/2123168463640269001",
+      "source_platform": "x",
+      "source_posted_by": "jony_palino",
+      "author_handle": "@jony_palino",
+      "author_url": "https://x.com/jony_palino",
+      "date": "2026-11-18",
+      "title": "Draw a 2D horse",
+      "takeaway": "Treat the horse clip as a visual example and keep cross-model settings in mind.",
+      "observation": "The creator used Neon to produce a two-dimensional horse and posted the output.",
+      "body_notes": "The creator preferred it to their prior Gemini results. The post does not provide matching settings.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123168463640269001",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-22-1-0806852b6c63.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-22-1-e4f265e40f74.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123167516209934337/vid/avc1/640x360/yPANuVDyxf_m2V9V.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123167516209934337/img/-eiIJbONWI3HXmVj.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123167516209934337/vid/avc1/640x360/yPANuVDyxf_m2V9V.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123169627815698522",
+      "public_number": 23,
+      "source_url": "https://x.com/Super_Nius/status/2123169627815698522",
+      "source_platform": "x",
+      "source_posted_by": "Super_Nius",
+      "author_handle": "@Super_Nius",
+      "author_url": "https://x.com/Super_Nius",
+      "date": "2026-11-18",
+      "title": "Test a rainy convenience-store scene",
+      "takeaway": "Use the matched scene to assess how presentation changes with shorter generation time.",
+      "observation": "The tester used the same prompt for Neon and GPT-6.2 Sol and posted the comparison.",
+      "body_notes": "The author preferred the Sol visual output while reporting faster, cheaper completion for Neon in this run.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123169627815698522",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-23-1-9e27412d4ad5.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-23-1-d8e64f437d92.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123169492578738176/vid/avc1/480x518/fiWwVHUe463tLdg-.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123169492578738176/img/tAT60JuWoowjA5Rq.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123169492578738176/vid/avc1/480x518/fiWwVHUe463tLdg-.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123170821250400282",
+      "public_number": 24,
+      "source_url": "https://x.com/thebuggeddev/status/2123170821250400282",
+      "source_platform": "x",
+      "source_posted_by": "thebuggeddev",
+      "author_handle": "@thebuggeddev",
+      "author_url": "https://x.com/thebuggeddev",
+      "date": "2026-11-18",
+      "title": "Animate a robotic quadruped from one image",
+      "takeaway": "Check gait and movement separately from how closely the scene follows the reference.",
+      "observation": "The developer gave Neon a single reference image and asked for a 3D model.",
+      "body_notes": "The developer reports a Three.js WebGPU demonstration with four-leg inverse kinematics and walk, trot and gallop animations.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123170821250400282",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-24-1-acb1deb37714.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-24-1-22e170b487dd.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123158151495393280/vid/avc1/552x360/E7eUU7Sk3N_7890q.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123158151495393280/img/H508mhXzQmfMdHw-.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123158151495393280/vid/avc1/552x360/E7eUU7Sk3N_7890q.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123170948568535488",
+      "public_number": 25,
+      "source_url": "https://x.com/vamsibatchuk/status/2123170948568535488",
+      "source_platform": "x",
+      "source_posted_by": "vamsibatchuk",
+      "author_handle": "@GeokenAI",
+      "author_url": "https://x.com/GeokenAI",
+      "date": "2026-11-18",
+      "title": "Animate Keats in vanilla JavaScript",
+      "takeaway": "Compare animation and brushwork when using code to interpret a literary source.",
+      "observation": "A Google team member credits GeokenAI and Neon for a vanilla JavaScript animation of Keats's To Autumn.",
+      "body_notes": "The post describes a 12 fps painterly 3D animation with no libraries. The sharing account is distinct from the credited creator.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123170948568535488",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-25-1-251f0dd0d495.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-25-1-3927f6ba8991.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123157138260299777/vid/avc1/640x360/nFqfkGweTthf4gZF.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123157138260299777/img/KLg4Z4nq0_52CWim.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123157138260299777/vid/avc1/640x360/nFqfkGweTthf4gZF.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123171009167765651",
+      "public_number": 26,
+      "source_url": "https://x.com/LeslieNooteboom/status/2123171009167765651",
+      "source_platform": "x",
+      "source_posted_by": "LeslieNooteboom",
+      "author_handle": "@LeslieNooteboom",
+      "author_url": "https://x.com/LeslieNooteboom",
+      "date": "2026-11-18",
+      "title": "Create a Triceratops demo",
+      "takeaway": "Inspect the reconstruction sequence as well as the final visual.",
+      "observation": "The creator attributes the Triceratops demonstration to Neon.",
+      "body_notes": "The video shows the artifact. The post does not specify the input format or generation steps.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123171009167765651",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-26-1-8c4ac6bb4433.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-26-1-e0d7589c04bb.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123170724521148416/vid/avc1/540x540/Wl4GlpR3VTeVcMKD.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123170724521148416/img/hQTjeYZVKXQXGK6P.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123170724521148416/vid/avc1/540x540/Wl4GlpR3VTeVcMKD.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123171830739632189",
+      "public_number": 27,
+      "source_url": "https://x.com/SPAC89/status/2123171830739632189",
+      "source_platform": "x",
+      "source_posted_by": "SPAC89",
+      "author_handle": "@SPAC89",
+      "author_url": "https://x.com/SPAC89",
+      "date": "2026-11-18",
+      "title": "Compare 3D gear train renderings",
+      "takeaway": "Use the labeled settings and output geometry to compare all four gear-train renders.",
+      "observation": "The tester shows gear mechanism renders for Neon, Carbon, Astra and Sol across the labeled reasoning levels.",
+      "body_notes": "The author favored Neon. The clip documents one visual comparison and does not establish the general cost claim.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123171830739632189",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-27-1-94516eb237d5.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-27-1-c7804af5b07a.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123170788958171137/vid/avc1/640x360/CnrpWINBtgBVDT8n.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123170788958171137/img/07gyFATmB9JAAR0r.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123170788958171137/vid/avc1/640x360/CnrpWINBtgBVDT8n.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123172043533508664",
+      "public_number": 28,
+      "source_url": "https://x.com/agenticjay/status/2123172043533508664",
+      "source_platform": "x",
+      "source_posted_by": "agenticjay",
+      "author_handle": "@agenticjay",
+      "author_url": "https://x.com/agenticjay",
+      "date": "2026-11-18",
+      "title": "Build ten interactive effects in a single HTML file",
+      "takeaway": "Check whether the effects stay responsive and readable within a small HTML payload.",
+      "observation": "A Google team member reports using Neon to create ten interactive 3D effects in one 27 KB HTML file.",
+      "body_notes": "The demo includes shaders, water and lighting. The variations are grouped as one published project.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123172043533508664",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-28-1-7af28a595410.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-28-1-91d62f30b2e1.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123171227753922561/vid/avc1/640x360/Qz0kfaPLOkCDLmxd.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123171227753922561/img/X7EseK0ayZgS0Ii-.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123171227753922561/vid/avc1/640x360/Qz0kfaPLOkCDLmxd.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123172290250621166",
+      "public_number": 29,
+      "source_url": "https://x.com/Google/status/2123172290250621166",
+      "source_platform": "x",
+      "source_posted_by": "Google",
+      "author_handle": "@Google",
+      "author_url": "https://x.com/Google",
+      "date": "2026-11-18",
+      "title": "Build a Blender lab bench with Antigravity Swarm",
+      "takeaway": "Trace which work Swarm coordinates and which operations Blender performs.",
+      "observation": "Google demonstrated Neon using Antigravity Swarm and Blender to produce a lab-bench scene themed around the Gemini 4 family.",
+      "body_notes": "The clip is a provider demo of the integrated workflow.",
+      "type": "Integration",
+      "category_key": "graphics",
+      "dedup_key": "x-2123172290250621166",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-29-1-24f7c4b89ee2.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-29-1-5515f85f88ea.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123171375397339136/vid/avc1/640x360/V-MevE_GkPkbb3bM.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123171375397339136/img/YyvaPqRkKtM7Udwi.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123171375397339136/vid/avc1/640x360/V-MevE_GkPkbb3bM.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123172429791129848",
+      "public_number": 30,
+      "source_url": "https://x.com/notjazii/status/2123172429791129848",
+      "source_platform": "x",
+      "source_posted_by": "notjazii",
+      "author_handle": "@notjazii",
+      "author_url": "https://x.com/notjazii",
+      "date": "2026-11-18",
+      "title": "Compare architectural illustrations with Opus 5.5",
+      "takeaway": "Set the same visual task and compare the output quality, run time, and cost independently.",
+      "observation": "The tester compared the models using the same prompt at their highest available reasoning.",
+      "body_notes": "The author reported about 20 minutes and USD 3.50 for Neon and 18 minutes and USD 7.20 for Opus, preferring the Opus output.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123172429791129848",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-30-1-b5e87dfb79f7.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-30-1-b13b60aca1f2.jpg",
+          "source_url": "https://video.twimg.com/tweet_video/HXcEoLAbwAA7XCT.mp4",
+          "poster_source_url": "https://pbs.twimg.com/tweet_video_thumb/HXcEoLAbwAA7XCT.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/tweet_video/HXcEoLAbwAA7XCT.mp4"
+      ]
+    },
+    {
+      "id": "x-2123174398064570622",
+      "public_number": 31,
+      "source_url": "https://x.com/SamuelAlbanie/status/2123174398064570622",
+      "source_platform": "x",
+      "source_posted_by": "SamuelAlbanie",
+      "author_handle": "@SamuelAlbanie",
+      "author_url": "https://x.com/SamuelAlbanie",
+      "date": "2026-11-18",
+      "title": "Visualize Voyager 1's flight",
+      "takeaway": "Review the transitions between the launch, flyby and close-up when judging the sequence.",
+      "observation": "The author shows a 3D Voyager 1 sequence that moves from launch to a Jupiter encounter and a close-up of the spacecraft.",
+      "body_notes": "The author describes this as one unrefined prompt in the series. No trajectory validation is reported.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123174398064570622",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://x.com/SamuelAlbanie/status/2123174391617867925"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-31-1-2819a8649adb.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-31-1-49c120f1aa13.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123171502841303040/vid/avc1/640x360/8HR_c2UveEO2jaj_.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123171502841303040/img/nu1ccBZX-zZnaT4t.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123171502841303040/vid/avc1/640x360/8HR_c2UveEO2jaj_.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123174400572719261",
+      "public_number": 32,
+      "source_url": "https://x.com/SamuelAlbanie/status/2123174400572719261",
+      "source_platform": "x",
+      "source_posted_by": "SamuelAlbanie",
+      "author_handle": "@SamuelAlbanie",
+      "author_url": "https://x.com/SamuelAlbanie",
+      "date": "2026-11-18",
+      "title": "Build a 3D planetarium",
+      "takeaway": "Check whether the planet and constellation views work together as a simple educational demo.",
+      "observation": "The author shows a 3D planetarium moving between planets and a constellation view.",
+      "body_notes": "The recording shows examples including Earth and Saturn. The one-prompt series does not establish astronomical precision.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123174400572719261",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://x.com/SamuelAlbanie/status/2123174391617867925"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-32-1-3744b688f28d.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-32-1-f238cb6328df.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123171626762096640/vid/avc1/640x360/50vh_o9GWmhiQVIv.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123171626762096640/img/QJ_cPTzewSqEnXbl.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123171626762096640/vid/avc1/640x360/50vh_o9GWmhiQVIv.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123174403038982379",
+      "public_number": 33,
+      "source_url": "https://x.com/SamuelAlbanie/status/2123174403038982379",
+      "source_platform": "x",
+      "source_posted_by": "SamuelAlbanie",
+      "author_handle": "@SamuelAlbanie",
+      "author_url": "https://x.com/SamuelAlbanie",
+      "date": "2026-11-18",
+      "title": "Visualize Babbage's Difference Engine No. 2",
+      "takeaway": "Look at the gear motion, numerical display and full-machine view when reviewing the visualization.",
+      "observation": "The author shows a 3D visualization of Babbage's Difference Engine No. 2 with its gear assemblies and a numerical display.",
+      "body_notes": "The recording moves between close-ups of the moving mechanism and a view of the complete machine.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123174403038982379",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://x.com/SamuelAlbanie/status/2123174391617867925"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-33-1-8f8b964cd1a7.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-33-1-e80ac8cce5ad.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123171735268630528/vid/avc1/640x360/B6ukVyP50unni_vp.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123171735268630528/img/mNr4Ly_cF9Y8bnaq.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123171735268630528/vid/avc1/640x360/B6ukVyP50unni_vp.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123174406419828813",
+      "public_number": 34,
+      "source_url": "https://x.com/SamuelAlbanie/status/2123174406419828813",
+      "source_platform": "x",
+      "source_posted_by": "SamuelAlbanie",
+      "author_handle": "@SamuelAlbanie",
+      "author_url": "https://x.com/SamuelAlbanie",
+      "date": "2026-11-18",
+      "title": "Visualize the Antikythera mechanism",
+      "takeaway": "Compare the recovered fragment view, gear reconstruction and dial readout in the same demo.",
+      "observation": "The author shows a 3D Antikythera mechanism demo that switches between the recovered object, reconstructed gears and a dial.",
+      "body_notes": "The recording shows a display of the assembly and details of the moving mechanism.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123174406419828813",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://x.com/SamuelAlbanie/status/2123174391617867925"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-34-1-de291a3cf77f.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-34-1-8f404bea04c4.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123171839039995905/vid/avc1/640x360/3EKrQVWTzGCo-zM6.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123171839039995905/img/If5mivRQt4yedAEr.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123171839039995905/vid/avc1/640x360/3EKrQVWTzGCo-zM6.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123174409284260270",
+      "public_number": 35,
+      "source_url": "https://x.com/SamuelAlbanie/status/2123174409284260270",
+      "source_platform": "x",
+      "source_posted_by": "SamuelAlbanie",
+      "author_handle": "@SamuelAlbanie",
+      "author_url": "https://x.com/SamuelAlbanie",
+      "date": "2026-11-18",
+      "title": "Prototype a visual wind tunnel",
+      "takeaway": "Compare how the streamlines change between test shapes before using the visualization as a teaching example.",
+      "observation": "The author shows a 3D wind-tunnel demo with visible airflow streamlines around different shapes.",
+      "body_notes": "The video includes an aircraft and other test shapes. It gives no independent accuracy check for the simulation.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123174409284260270",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://x.com/SamuelAlbanie/status/2123174391617867925"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-35-1-9424d7eab5ec.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-35-1-acc3f3a6f94a.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123172068397096960/vid/avc1/640x360/BT8CVARwgY1rROIV.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123172068397096960/img/bbwyWaH_33DRp7zZ.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123172068397096960/vid/avc1/640x360/BT8CVARwgY1rROIV.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123174412488716605",
+      "public_number": 36,
+      "source_url": "https://x.com/SamuelAlbanie/status/2123174412488716605",
+      "source_platform": "x",
+      "source_posted_by": "SamuelAlbanie",
+      "author_handle": "@SamuelAlbanie",
+      "author_url": "https://x.com/SamuelAlbanie",
+      "date": "2026-11-18",
+      "title": "Create a King's College Chapel cutaway",
+      "takeaway": "Compare the exterior, nave and cutaway to see how each view explains the building.",
+      "observation": "The author shows a 3D cutaway of King's College Chapel that switches between the exterior and interior.",
+      "body_notes": "The scene uses different views to show the nave, windows and the building's cross-section.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123174412488716605",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://x.com/SamuelAlbanie/status/2123174391617867925"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-36-1-8c718b6a7b3c.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-36-1-72acb7ce83d2.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123172228439121921/vid/avc1/640x360/jvyNAe6OmNokWgE-.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123172228439121921/img/BESOQ3ypt1FMEJ6Q.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123172228439121921/vid/avc1/640x360/jvyNAe6OmNokWgE-.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123174416154759418",
+      "public_number": 37,
+      "source_url": "https://x.com/SamuelAlbanie/status/2123174416154759418",
+      "source_platform": "x",
+      "source_posted_by": "SamuelAlbanie",
+      "author_handle": "@SamuelAlbanie",
+      "author_url": "https://x.com/SamuelAlbanie",
+      "date": "2026-11-18",
+      "title": "Render a river viaduct and its surroundings",
+      "takeaway": "Use the near, far and wireframe views to assess both the bridge and its surrounding scene.",
+      "observation": "The author shows a 3D river valley with a multi-arch viaduct, a train and several render views.",
+      "body_notes": "The recording switches between near and distant camera angles and includes a wireframe-like view.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123174416154759418",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://x.com/SamuelAlbanie/status/2123174391617867925"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-37-1-d12ab14ffcb0.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-37-1-56962c64e01c.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123172382294585344/vid/avc1/640x360/_veJSF3Ce7C--fZQ.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123172382294585344/img/inr5cTQBpa-6EwtX.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123172382294585344/vid/avc1/640x360/_veJSF3Ce7C--fZQ.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123174419379962139",
+      "public_number": 38,
+      "source_url": "https://x.com/SamuelAlbanie/status/2123174419379962139",
+      "source_platform": "x",
+      "source_posted_by": "SamuelAlbanie",
+      "author_handle": "@SamuelAlbanie",
+      "author_url": "https://x.com/SamuelAlbanie",
+      "date": "2026-11-18",
+      "title": "Build a Cambridge-inspired 3D city view",
+      "takeaway": "Check how landmarks and the river remain recognizable as the camera moves through the scene.",
+      "observation": "The author shows a city visualization inspired by Cambridge, with aerial and closer views of the modeled blocks.",
+      "body_notes": "The clip shows the river, buildings and scene overlays. The author describes the setting as Cambridge-like.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123174419379962139",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://x.com/SamuelAlbanie/status/2123174391617867925"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-38-1-731938345922.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-38-1-fdabb0976ddb.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123172549861228544/vid/avc1/640x360/OmMY31dbpsg8quTv.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123172549861228544/img/sqKH_auq3IgLt9pY.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123172549861228544/vid/avc1/640x360/OmMY31dbpsg8quTv.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123175900007309696",
+      "public_number": 39,
+      "source_url": "https://x.com/HarshithLucky3/status/2123175900007309696",
+      "source_platform": "x",
+      "source_posted_by": "HarshithLucky3",
+      "author_handle": "@HarshithLucky3",
+      "author_url": "https://x.com/HarshithLucky3",
+      "date": "2026-11-18",
+      "title": "Render a neon-themed Earth",
+      "takeaway": "Check whether the visual theme is consistent as the globe rotates.",
+      "observation": "The creator used Neon high in Antigravity to render a neon-themed planet.",
+      "body_notes": "The source provides the result and effort setting.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123175900007309696",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-39-1-b5f3ce29cb24.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-39-1-113aeb084222.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123175555243884544/vid/avc1/640x360/tNxLr5woL7YjvPFK.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123175555243884544/img/mnyJ2ZGh74qZl6xy.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123175555243884544/vid/avc1/640x360/tNxLr5woL7YjvPFK.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123176455123165366",
+      "public_number": 40,
+      "source_url": "https://x.com/LyalinDotCom/status/2123176455123165366",
+      "source_platform": "x",
+      "source_posted_by": "LyalinDotCom",
+      "author_handle": "@LyalinDotCom",
+      "author_url": "https://x.com/LyalinDotCom",
+      "date": "2026-11-18",
+      "title": "Iterate a yacht scene",
+      "takeaway": "Review before-and-after artifacts when asking the model to refine a 3D scene.",
+      "observation": "The creator reports that Neon improved a yacht scene and shows the output.",
+      "body_notes": "Firebase deployment was a stated intention at the time of the post.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123176455123165366",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-40-1-367b9069fe9e.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcJpE5WkAA6_jz.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcJpE5WkAA6_jz.jpg"
+      ]
+    },
+    {
+      "id": "x-2123176812360745019",
+      "public_number": 41,
+      "source_url": "https://x.com/fofrAI/status/2123176812360745019",
+      "source_platform": "x",
+      "source_posted_by": "fofrAI",
+      "author_handle": "@fofrAI",
+      "author_url": "https://x.com/fofrAI",
+      "date": "2026-11-18",
+      "title": "Make costume materials in a custom VFX tool",
+      "takeaway": "Compare treatments of the same costume form when choosing a material.",
+      "observation": "The creator used Neon to make costume materials and posted six images of results.",
+      "body_notes": "The creator describes the VFX tooling as their own. The source does not establish an independent performance comparison.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123176812360745019",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-1-ec60d5cf5112.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcJj-lXgAApP90.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-2-88c3a0c15c9e.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcJl3IWkAAfbxP.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-3-a6a770888735.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcJoSTX0AA3Flz.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-4-66dd457d66be.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcJuEUWEAAT3Av.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-5-adda34356599.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcJx1pW8AAcpDo.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-41-6-4dbc04fb999c.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcJ9__W0AA8Ezf.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcJj-lXgAApP90.jpg",
+        "https://pbs.twimg.com/media/HXcJl3IWkAAfbxP.jpg",
+        "https://pbs.twimg.com/media/HXcJoSTX0AA3Flz.jpg",
+        "https://pbs.twimg.com/media/HXcJuEUWEAAT3Av.jpg",
+        "https://pbs.twimg.com/media/HXcJx1pW8AAcpDo.jpg",
+        "https://pbs.twimg.com/media/HXcJ9__W0AA8Ezf.jpg"
+      ]
+    },
+    {
+      "id": "x-2123182627674796462",
+      "public_number": 42,
+      "source_url": "https://x.com/thehypedotnews/status/2123182627674796462",
+      "source_platform": "x",
+      "source_posted_by": "thehypedotnews",
+      "author_handle": "@thehypedotnews",
+      "author_url": "https://x.com/thehypedotnews",
+      "date": "2026-11-18",
+      "title": "Compare voxel Ninjago scenes",
+      "takeaway": "Judge visual framing and cost separately in a same-subject voxel comparison.",
+      "observation": "The source compares Neon and Fable 5.2 on a voxel recreation.",
+      "body_notes": "The author reports USD 12.93 for Neon and USD 11.19 for Fable and preferred the latter's framing.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123182627674796462",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-42-1-e2257b7ed90f.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-42-1-1c3b543e0111.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123182399500529664/vid/avc1/480x500/UxO3AWMPG8Ihtoqg.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123182399500529664/img/AHDZ9gPXd9Tlowrp.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123182399500529664/vid/avc1/480x500/UxO3AWMPG8Ihtoqg.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123184113561817370",
+      "public_number": 43,
+      "source_url": "https://x.com/chetaslua/status/2123184113561817370",
+      "source_platform": "x",
+      "source_posted_by": "chetaslua",
+      "author_handle": "@chetaslua",
+      "author_url": "https://x.com/chetaslua",
+      "date": "2026-11-18",
+      "title": "Create a pelican product motion graphic",
+      "takeaway": "Look at timing and typography together in a short product animation.",
+      "observation": "The creator credits Neon with a pelican-themed product motion graphic.",
+      "body_notes": "The linked clip shows the output. The post does not describe implementation or an exact prompt.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123184113561817370",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-43-1-41540f06843a.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-43-1-d81b2060fc29.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123183949128339456/vid/avc1/668x360/PXTU4qceh6oRh3kK.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123183949128339456/img/bUZh5FqvnpPQZqAQ.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123183949128339456/vid/avc1/668x360/PXTU4qceh6oRh3kK.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123188460639117489",
+      "public_number": 44,
+      "source_url": "https://x.com/aipulseda1ly/status/2123188460639117489",
+      "source_platform": "x",
+      "source_posted_by": "aipulseda1ly",
+      "author_handle": "@aipulseda1ly",
+      "author_url": "https://x.com/aipulseda1ly",
+      "date": "2026-11-18",
+      "title": "Compare New York City scene prototypes",
+      "takeaway": "Evaluate landmark fidelity and runtime performance separately in a city-scene build.",
+      "observation": "The tester reports that Neon included the Brooklyn Bridge, Statue of Liberty and a street with taxis.",
+      "body_notes": "The tester preferred some details in the Opus output and reported that running the Neon scene lagged their PC.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123188460639117489",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-44-1-85f5c28fc00c.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-44-1-7a276a2045df.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123188221945274368/vid/avc1/364x360/3vzNxUGRzEB1wRq-.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123188221945274368/img/weI-fRjSrDtDMmjz.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123188221945274368/vid/avc1/364x360/3vzNxUGRzEB1wRq-.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123189288107999706",
+      "public_number": 45,
+      "source_url": "https://x.com/AdamHoltererer/status/2123189288107999706",
+      "source_platform": "x",
+      "source_posted_by": "AdamHoltererer",
+      "author_handle": "@AdamHoltererer",
+      "author_url": "https://x.com/AdamHoltererer",
+      "date": "2026-11-18",
+      "title": "Run a banana visual test",
+      "takeaway": "Inspect how a simple visual task holds up across details and proportions.",
+      "observation": "The tester posts a Neon output for a test titled Banana Test.",
+      "body_notes": "The output is attached to the source. The source does not provide an exact prompt.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123189288107999706",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-45-1-9efc4470be00.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-45-1-c82bae60d92d.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123189273012649984/vid/avc1/560x360/Hv7AkgRdcP2aewWb.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123189273012649984/img/D_F5d8G78lAvxggr.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123189273012649984/vid/avc1/560x360/Hv7AkgRdcP2aewWb.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123205954649100424",
+      "public_number": 46,
+      "source_url": "https://x.com/jan_volad/status/2123205954649100424",
+      "source_platform": "x",
+      "source_posted_by": "jan_volad",
+      "author_handle": "@jan_volad",
+      "author_url": "https://x.com/jan_volad",
+      "date": "2026-11-19",
+      "title": "Compare a haunted cathedral on one prompt",
+      "takeaway": "Use the published prompt to compare the two cathedral renders under the conditions described.",
+      "observation": "The tester gave Neon and GPT-6.2 Sol the same haunted cathedral task.",
+      "body_notes": "The creator reports USD 2.67 for Neon and USD 1.69 for Sol, with no clear visual winner in their assessment.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123205954649100424",
+      "kind": "comparison",
+      "prompt_public": true,
+      "prompt_text": "Build a huge haunted vampire cathedral",
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-46-1-c1293f480928.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-46-1-8adbefb0cdfe.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123205744254136320/vid/avc1/640x360/xj-laht8ZrNK3Yh6.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123205744254136320/img/8s4mvbLkLqwFAUG1.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123205744254136320/vid/avc1/640x360/xj-laht8ZrNK3Yh6.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123207149870547423",
+      "public_number": 47,
+      "source_url": "https://x.com/ai_for_success/status/2123207149870547423",
+      "source_platform": "x",
+      "source_posted_by": "ai_for_success",
+      "author_handle": "@ai_for_success",
+      "author_url": "https://x.com/ai_for_success",
+      "date": "2026-11-19",
+      "title": "Prototype a phone assembly in Antigravity",
+      "takeaway": "Check component fidelity and final assembly separately when reviewing a design prototype.",
+      "observation": "The developer used Neon in Antigravity and showed a board of design components and a rendered phone assembly.",
+      "body_notes": "The developer reports early impressions of coding and speed, without timings or a controlled Carbon comparison.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123207149870547423",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-47-1-188cdb56dd8e.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-47-1-e54b9bc965db.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123205981773725696/vid/avc1/640x360/fgJSMkH5tdEkWawh.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123205981773725696/img/HryrGRkwxKk_Jcdw.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123205981773725696/vid/avc1/640x360/fgJSMkH5tdEkWawh.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123212198663323848",
+      "public_number": 48,
+      "source_url": "https://x.com/abhinavflac/status/2123212198663323848",
+      "source_platform": "x",
+      "source_posted_by": "abhinavflac",
+      "author_handle": "@abhinavflac",
+      "author_url": "https://x.com/abhinavflac",
+      "date": "2026-11-19",
+      "title": "Generate an interactive historical sailing ship",
+      "takeaway": "Inspect the boundaries between the ship and water in the interactive output.",
+      "observation": "The author posted a zero-shot 3D sailing ship demonstration.",
+      "body_notes": "The author reports that the ship and water rendered in distinct layers and describes the output as more realistic than their Sol result.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123212198663323848",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-48-1-8398538c7634.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-48-1-19d730412b53.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123211056709513216/vid/avc1/640x360/iwtulG_asScjKdo6.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123211056709513216/img/Mx_hurrmdNIXY8ZO.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123211056709513216/vid/avc1/640x360/iwtulG_asScjKdo6.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123219124260315301",
+      "public_number": 49,
+      "source_url": "https://x.com/chetaslua/status/2123219124260315301",
+      "source_platform": "x",
+      "source_posted_by": "chetaslua",
+      "author_handle": "@chetaslua",
+      "author_url": "https://x.com/chetaslua",
+      "date": "2026-11-19",
+      "title": "Design a model introduction in JavaScript",
+      "takeaway": "Review typography and pacing in the JavaScript motion graphic.",
+      "observation": "The author used Neon to make a motion graphic introducing the model.",
+      "body_notes": "The author says it uses JavaScript without external assets.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123219124260315301",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-49-1-640c76599969.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-49-1-213f5084a7a0.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123218297374347264/vid/avc1/640x360/7YWOow_CRNOkM9Uy.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123218297374347264/img/9pyZqbLgRyhI0Rwi.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123218297374347264/vid/avc1/640x360/7YWOow_CRNOkM9Uy.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123220446074253768",
+      "public_number": 50,
+      "source_url": "https://x.com/DesignArena/status/2123220446074253768",
+      "source_platform": "x",
+      "source_posted_by": "DesignArena",
+      "author_handle": "@DesignArena",
+      "author_url": "https://x.com/DesignArena",
+      "date": "2026-11-19",
+      "title": "Generate a ski hut scene in one pass",
+      "takeaway": "Check the hut, snow, and trees separately when assessing this one-pass scene comparison.",
+      "observation": "DesignArena asked Neon and Argon to generate the same Alpine hut setting and published the side-by-side outputs.",
+      "body_notes": "DesignArena preferred elements of both renderings. It reports that Neon added snowfall without being asked.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123220446074253768",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "tool-developer",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-50-1-a966b54bde0e.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-50-1-d867d8d5e6d7.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123220211709157376/vid/avc1/640x360/aTiJbWgiYKzSOqJM.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123220211709157376/img/C5Od5JYgFkYq2U0d.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123220211709157376/vid/avc1/640x360/aTiJbWgiYKzSOqJM.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123226306351661099",
+      "public_number": 51,
+      "source_url": "https://x.com/Lentils80/status/2123226306351661099",
+      "source_platform": "x",
+      "source_posted_by": "Lentils80",
+      "author_handle": "@Lentils80",
+      "author_url": "https://x.com/Lentils80",
+      "date": "2026-11-19",
+      "title": "Render a voxel fantasy castle",
+      "takeaway": "Review the final scene and the reported run time when evaluating a one-prompt build.",
+      "observation": "The creator shares a voxel castle produced at Neon xhigh.",
+      "body_notes": "The creator reports one prompt and a 27-minute completion time.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123226306351661099",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-51-1-27fe32067ec9.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-51-1-e38a5f2c5e9e.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123224495750082560/vid/avc1/640x360/mG-hfwlRebx7ePVb.mp4?tag=14",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123224495750082560/img/SKY8B1i7RlPDUKCY.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123224495750082560/vid/avc1/640x360/mG-hfwlRebx7ePVb.mp4?tag=14"
+      ]
+    },
+    {
+      "id": "x-2123228351984980040",
+      "public_number": 52,
+      "source_url": "https://x.com/ZryMiller/status/2123228351984980040",
+      "source_platform": "x",
+      "source_posted_by": "ZryMiller",
+      "author_handle": "@ZryMiller",
+      "author_url": "https://x.com/ZryMiller",
+      "date": "2026-11-19",
+      "title": "Compare an octopus cycling animation with Astra",
+      "takeaway": "Compare the animation and cost while keeping the two reasoning settings explicit.",
+      "observation": "The tester recorded Astra xhigh at 21 minutes 53 seconds and USD 2.52, and Neon high at 41 minutes and USD 4.02.",
+      "body_notes": "The author calls the animation quality close. This is one run at different reasoning settings.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123228351984980040",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-52-1-0039f05541ac.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-52-1-546dd90156c6.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123228066126368768/vid/avc1/480x600/LW75BEzctRKg9sAP.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123228066126368768/img/e3XJwg0EYgH688yw.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123228066126368768/vid/avc1/480x600/LW75BEzctRKg9sAP.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123259795172212871",
+      "public_number": 53,
+      "source_url": "https://x.com/thtbee_/status/2123259795172212871",
+      "source_platform": "x",
+      "source_posted_by": "thtbee_",
+      "author_handle": "@thtbee_",
+      "author_url": "https://x.com/thtbee_",
+      "date": "2026-11-19",
+      "title": "Three.js butterfly animation",
+      "takeaway": "Use the clip and its reported resource use to size a similar Three.js experiment.",
+      "observation": "A creator used Neon xhigh in Antigravity to build a Three.js butterfly animation.",
+      "body_notes": "The creator reported 57 minutes, about 23% of their five-hour quota, and 7% of their weekly quota.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123259795172212871",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-53-1-efb25e8f446f.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-53-1-7a50c0010ea3.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123229086801862656/vid/avc1/640x360/eI-ZaO433FkqN0rn.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123229086801862656/img/ShwgTurijaxLPMM3.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123229086801862656/vid/avc1/640x360/eI-ZaO433FkqN0rn.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123269503736070603",
+      "public_number": 54,
+      "source_url": "https://x.com/op7418/status/2123269503736070603",
+      "source_platform": "x",
+      "source_posted_by": "op7418",
+      "author_handle": "@op7418",
+      "author_url": "https://x.com/op7418",
+      "date": "2026-11-19",
+      "title": "Build components and motion from reference images",
+      "takeaway": "Supply visual references and evaluate layout fidelity and motion as separate criteria.",
+      "observation": "The creator used visual references to generate several components and accompanying motion.",
+      "body_notes": "The demo shows the result. The claim about how it feels compared with Opus is the creator's judgment.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123269503736070603",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-54-1-aab23e8d82f9.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-54-1-c4200a430fb5.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123265671043928064/vid/avc1/640x360/0GjxI8XeKVw1aieO.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123265671043928064/img/MoN4dsXxPuuehILe.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123265671043928064/vid/avc1/640x360/0GjxI8XeKVw1aieO.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123279727935033355",
+      "public_number": 55,
+      "source_url": "https://x.com/thtbee_/status/2123279727935033355",
+      "source_platform": "x",
+      "source_posted_by": "thtbee_",
+      "author_handle": "@thtbee_",
+      "author_url": "https://x.com/thtbee_",
+      "date": "2026-11-19",
+      "title": "Pixel wizard world in Three.js",
+      "takeaway": "Use the three passes to judge how visual polish changes with iteration.",
+      "observation": "A creator gave Neon reference images and refined the Three.js scene over three passes.",
+      "body_notes": "The creator reported using 39% of their five-hour quota and 11% of their weekly quota in Antigravity.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123279727935033355",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-55-1-ea88133798aa.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-55-1-bdca3bf63f42.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123257848532766720/vid/avc1/640x360/pZpe_SQHEwdhEmc1.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123257848532766720/img/CUld4giIHy3msH7E.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123257848532766720/vid/avc1/640x360/pZpe_SQHEwdhEmc1.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123287660525719823",
+      "public_number": 56,
+      "source_url": "https://x.com/nemumusitocha/status/2123287660525719823",
+      "source_platform": "x",
+      "source_posted_by": "nemumusitocha",
+      "author_handle": "@nemumusitocha",
+      "author_url": "https://x.com/nemumusitocha",
+      "date": "2026-11-19",
+      "title": "Castle rendering benchmark",
+      "takeaway": "Treat the castle as one creator's visual benchmark and retain account-specific quota context.",
+      "observation": "The creator used Neon for a castle benchmark and posted video and stills.",
+      "body_notes": "The creator reported using about 4% of a weekly quota on their plan. The post does not establish whether that usage generalizes to other accounts.",
+      "type": "Evaluation",
+      "category_key": "graphics",
+      "dedup_key": "x-2123287660525719823",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-56-1-74e98240a81a.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-56-1-17acc3f87741.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123287286486065153/vid/avc1/640x360/crzyXPeXQ6yK_35A.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123287286486065153/img/fSWQyTgNH3XKUFAf.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-56-2-b4f97941d7b2.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXduiZLacAA7vlF.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-56-3-05bccf69bb0c.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXduiZIaMAAAFa-.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-56-4-a8081504106d.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXduiZLboAAXHJ0.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123287286486065153/vid/avc1/640x360/crzyXPeXQ6yK_35A.mp4?tag=29",
+        "https://pbs.twimg.com/media/HXduiZLacAA7vlF.jpg",
+        "https://pbs.twimg.com/media/HXduiZIaMAAAFa-.jpg",
+        "https://pbs.twimg.com/media/HXduiZLboAAXHJ0.jpg"
+      ]
+    },
+    {
+      "id": "x-2123168242797809944",
+      "public_number": 57,
+      "source_url": "https://x.com/GoogleAI/status/2123168242797809944",
+      "source_platform": "x",
+      "source_posted_by": "GoogleAI",
+      "author_handle": "@GoogleAI",
+      "author_url": "https://x.com/GoogleAI",
+      "date": "2026-11-18",
+      "title": "Recreate Alan Turing's 1936 study",
+      "takeaway": "Check archival fidelity and interactive functionality as separate parts of the reconstruction.",
+      "observation": "Google used Neon with Antigravity Swarm to build an interactive reconstruction from archival photos.",
+      "body_notes": "The scene includes King's Chapel, Turing's study and a working simulation of a universal Turing machine on the desk.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2123168242797809944",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "https://www.youtube.com/watch?v=KgLLa4WhMSo"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-57-1-22665c6264ea.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-57-1-b7fab25c354f.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123167780753063936/vid/avc1/640x360/w0wsLkopHfeYB8oI.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123167780753063936/img/WdikY4BWeSoi2qXi.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123167780753063936/vid/avc1/640x360/w0wsLkopHfeYB8oI.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123162053292458218",
+      "public_number": 58,
+      "source_url": "https://x.com/notjazii/status/2123162053292458218",
+      "source_platform": "x",
+      "source_posted_by": "notjazii",
+      "author_handle": "@notjazii",
+      "author_url": "https://x.com/notjazii",
+      "date": "2026-11-18",
+      "title": "Build a side-scrolling obstacle game",
+      "takeaway": "Test the obstacle loop and collision behavior when you review a small game prototype.",
+      "observation": "The tester asked Neon for a Flappy Bird-style prototype and posted a recording.",
+      "body_notes": "The author reports about five minutes and discusses their own impressions of cost and usage.",
+      "type": "Demo",
+      "category_key": "games",
+      "dedup_key": "x-2123162053292458218",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-58-1-9c665bbec561.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-58-1-316557add829.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123161374926974976/vid/avc1/640x360/k17HnLKhPU3csdaL.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123161374926974976/img/NKnUhHfRWVv7MFsd.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123161374926974976/vid/avc1/640x360/k17HnLKhPU3csdaL.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123169526619758996",
+      "public_number": 59,
+      "source_url": "https://x.com/IndependentEco/status/2123169526619758996",
+      "source_platform": "x",
+      "source_posted_by": "IndependentEco",
+      "author_handle": "@IndependentEco",
+      "author_url": "https://x.com/IndependentEco",
+      "date": "2026-11-18",
+      "title": "Compare sword and shield combat scenes",
+      "takeaway": "Use the two labeled clips to assess the visual and interaction differences yourself.",
+      "observation": "The tester posted a video with labeled Fable 5.2 and Neon outputs for a combat game scene.",
+      "body_notes": "The video records two results and does not establish a general model ranking.",
+      "type": "Evaluation",
+      "category_key": "games",
+      "dedup_key": "x-2123169526619758996",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-59-1-ba79ec8e02b6.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-59-1-8644c701cdea.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123168532678455296/vid/avc1/640x360/qtD3YI0r67H1k_P3.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123168532678455296/img/3yLaV6phUZSuTCxh.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123168532678455296/vid/avc1/640x360/qtD3YI0r67H1k_P3.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123176067380711725",
+      "public_number": 60,
+      "source_url": "https://x.com/antigravity/status/2123176067380711725",
+      "source_platform": "x",
+      "source_posted_by": "antigravity",
+      "author_handle": "@antigravity",
+      "author_url": "https://x.com/antigravity",
+      "date": "2026-11-18",
+      "title": "Build a synthwave mini-golf game",
+      "takeaway": "Watch how the worker agents divide the work and how the browser verifies the eight courses.",
+      "observation": "Google Antigravity shows Gemini 4 Neon using Swarm to build a 3D mini-golf game from one prompt.",
+      "body_notes": "The footage shows eight worker agents, a browser playthrough and the built-in verifier checking all eight courses.",
+      "type": "Demo",
+      "category_key": "games",
+      "dedup_key": "x-2123176067380711725",
+      "kind": "usecase",
+      "prompt_public": true,
+      "prompt_text": "Build NEONPUTT '84: a 2-player synthwave 3D mini golf game with custom GLSL shaders, 240Hz fixed-timestep physics, procedural Web Audio SFX, and 8 animated courses.",
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-60-1-bb8fa045c256.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-60-1-aabeaf2b1557.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123176009205686272/vid/avc1/640x360/uMVrvDhna-Yq8w4B.mp4?tag=16",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123176009205686272/img/FNQUqWUxTGhkw3WY.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123176009205686272/vid/avc1/640x360/uMVrvDhna-Yq8w4B.mp4?tag=16"
+      ],
+      "prompt_source_offset_seconds": 11
+    },
+    {
+      "id": "x-2123177347046355324",
+      "public_number": 61,
+      "source_url": "https://x.com/IndependentEco/status/2123177347046355324",
+      "source_platform": "x",
+      "source_posted_by": "IndependentEco",
+      "author_handle": "@IndependentEco",
+      "author_url": "https://x.com/IndependentEco",
+      "date": "2026-11-18",
+      "title": "Compare animated knight duels",
+      "takeaway": "Compare motion readability and character staging in the two duel clips.",
+      "observation": "The tester posted separate labeled Opus 5.5 and Neon outputs for a duel between armored characters.",
+      "body_notes": "The post asks readers to judge the rendered results and does not disclose a controlled protocol.",
+      "type": "Evaluation",
+      "category_key": "games",
+      "dedup_key": "x-2123177347046355324",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-61-1-e225fa617e25.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-61-1-9759ab506b69.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123176976735195139/vid/avc1/640x360/0pmRNuF81ScNBMQI.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123176976735195139/img/qlFQDzBuvQ1cwX8p.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123176976735195139/vid/avc1/640x360/0pmRNuF81ScNBMQI.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123178088439959750",
+      "public_number": 62,
+      "source_url": "https://x.com/GeokenAI/status/2123178088439959750",
+      "source_platform": "x",
+      "source_posted_by": "GeokenAI",
+      "author_handle": "@GeokenAI",
+      "author_url": "https://x.com/GeokenAI",
+      "date": "2026-11-18",
+      "title": "Make an expressionist art game in one HTML file",
+      "takeaway": "Inspect the visual style and controls of a game delivered as one HTML file.",
+      "observation": "The developer used Neon to create an endless JavaScript art game contained in one HTML file.",
+      "body_notes": "The developer published the result and describes its expressionist visual treatment.",
+      "type": "Demo",
+      "category_key": "games",
+      "dedup_key": "x-2123178088439959750",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-62-1-2f66690ce4f1.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-62-1-c9b9995f7891.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123178076800434177/vid/avc1/720x450/Wi9ory36YVMVt_u-.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123178076800434177/img/NHMRw8X2_l7HQKMY.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123178076800434177/vid/avc1/720x450/Wi9ory36YVMVt_u-.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123187721040503097",
+      "public_number": 63,
+      "source_url": "https://x.com/IndependentEco/status/2123187721040503097",
+      "source_platform": "x",
+      "source_posted_by": "IndependentEco",
+      "author_handle": "@IndependentEco",
+      "author_url": "https://x.com/IndependentEco",
+      "date": "2026-11-18",
+      "title": "Compare ice-boss game prototypes",
+      "takeaway": "Use the labeled encounter footage to judge scene readability without assuming a shared prompt.",
+      "observation": "The tester posted labeled Neon and Opus 5.5 outputs for a first-person ice-boss encounter.",
+      "body_notes": "The video provides a visual comparison. The post leaves the prompt, settings, timing, and winner open.",
+      "type": "Evaluation",
+      "category_key": "games",
+      "dedup_key": "x-2123187721040503097",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-63-1-698acd0d6e0b.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-63-1-ebb40849a72b.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123187167451090945/vid/avc1/640x360/nVWLrE8eQd6204uZ.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123187167451090945/img/q5jBKp9QeeTUtUFm.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123187167451090945/vid/avc1/640x360/nVWLrE8eQd6204uZ.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123189375831859349",
+      "public_number": 64,
+      "source_url": "https://x.com/AdamHoltererer/status/2123189375831859349",
+      "source_platform": "x",
+      "source_posted_by": "AdamHoltererer",
+      "author_handle": "@AdamHoltererer",
+      "author_url": "https://x.com/AdamHoltererer",
+      "date": "2026-11-18",
+      "title": "Watermelon basketball demo",
+      "takeaway": "Review the arena, movement, and ball interaction in this prototype.",
+      "observation": "The tester shares a Neon watermelon basketball video.",
+      "body_notes": "The author names the tested model and links the result but provides no timings or build settings.",
+      "type": "Demo",
+      "category_key": "games",
+      "dedup_key": "x-2123189375831859349",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-64-1-12fdea478ad2.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-64-1-832287da058f.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123189368693067776/vid/avc1/768x432/EXyvC-gvtaqRwT-q.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123189368693067776/img/sd_wNYv1xdcSTmbj.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123189368693067776/vid/avc1/768x432/EXyvC-gvtaqRwT-q.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123235794747891968",
+      "public_number": 65,
+      "source_url": "https://x.com/GlitterPixely/status/2123235794747891968",
+      "source_platform": "x",
+      "source_posted_by": "GlitterPixely",
+      "author_handle": "@GlitterPixely",
+      "author_url": "https://x.com/GlitterPixely",
+      "date": "2026-11-19",
+      "title": "Build a gaussian splatting bakery platformer",
+      "takeaway": "Use the recorded playthrough to distinguish rendering work from gameplay tuning.",
+      "observation": "The creator used Neon to turn a C++20 and WebGPU gaussian splatting engine into a four-tower platformer.",
+      "body_notes": "The creator reported three prompts and about 60 minutes of active swarm time, then asked the model to record the demo.",
+      "type": "Demo",
+      "category_key": "games",
+      "dedup_key": "x-2123235794747891968",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-65-1-02f40215c097.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-65-1-df9397699125.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123233514732634112/vid/avc1/640x360/xautAzRBKT9N8Xiw.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123233514732634112/img/BhS7gc31u94J2Ahe.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123233514732634112/vid/avc1/640x360/xautAzRBKT9N8Xiw.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123239282626478306",
+      "public_number": 66,
+      "source_url": "https://x.com/ai_for_success/status/2123239282626478306",
+      "source_platform": "x",
+      "source_posted_by": "ai_for_success",
+      "author_handle": "@ai_for_success",
+      "author_url": "https://x.com/ai_for_success",
+      "date": "2026-11-19",
+      "title": "Build a 3D game with Antigravity Swarm",
+      "takeaway": "Review the resulting mobile and desktop paths separately in a Swarm-assisted build.",
+      "observation": "The developer used Neon and Antigravity Swarm to build a small 3D game.",
+      "body_notes": "The developer describes support for both mobile and desktop and shares a walkthrough thread.",
+      "type": "Demo",
+      "category_key": "games",
+      "dedup_key": "x-2123239282626478306",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-66-1-ec1085204901.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-66-1-63e6c5c75657.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123236965755826177/vid/avc1/640x360/At2qnmwfy_06PhML.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123236965755826177/img/6ZlAd_q8vQIU7O27.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123236965755826177/vid/avc1/640x360/At2qnmwfy_06PhML.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123251809183785076",
+      "public_number": 67,
+      "source_url": "https://x.com/badboyfoxy/status/2123251809183785076",
+      "source_platform": "x",
+      "source_posted_by": "badboyfoxy",
+      "author_handle": "@badboyfoxy",
+      "author_url": "https://x.com/badboyfoxy",
+      "date": "2026-11-19",
+      "title": "Space racing prototype",
+      "takeaway": "Compare the playable result with the reported time and cost of the first build.",
+      "observation": "A creator reported building a space racer with Neon at high reasoning.",
+      "body_notes": "The creator reported a run of about 15 minutes costing USD 1.50 and posted the output.",
+      "type": "Demo",
+      "category_key": "games",
+      "dedup_key": "x-2123251809183785076",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-67-1-538f36726201.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-67-1-22fc51387262.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123251412469448704/vid/avc1/680x360/wIi4MAZEgcKqb7Ai.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/media/HXdN6QCWYAAJywv.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123251412469448704/vid/avc1/680x360/wIi4MAZEgcKqb7Ai.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123276863481254210",
+      "public_number": 68,
+      "source_url": "https://x.com/DeryaTR_/status/2123276863481254210",
+      "source_platform": "x",
+      "source_posted_by": "DeryaTR_",
+      "author_handle": "@DeryaTR_",
+      "author_url": "https://x.com/DeryaTR_",
+      "date": "2026-11-19",
+      "title": "Tower defense prototype",
+      "takeaway": "Test the tower defense loop yourself before generalizing from the author's smoothness report.",
+      "observation": "A developer posted gameplay from a Neon-built tower defense prototype.",
+      "body_notes": "The developer reported about 20 minutes and 2% of their five-hour quota. The smooth-play claim is the developer's assessment.",
+      "type": "Demo",
+      "category_key": "games",
+      "dedup_key": "x-2123276863481254210",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-68-1-4fadc1a0a053.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-68-1-9adcd74642bd.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123276141884817408/vid/avc1/640x360/oSVMGhXLx9Y0Joe7.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123276141884817408/img/Ue9_5121hi2Q0QHj.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123276141884817408/vid/avc1/640x360/oSVMGhXLx9Y0Joe7.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "google-xhG-jNObuz4",
+      "public_number": 69,
+      "source_url": "https://www.youtube.com/watch?v=xhG-jNObuz4",
+      "source_platform": "google",
+      "source_posted_by": "Google",
+      "author_handle": "@Google",
+      "author_url": "https://blog.google/",
+      "date": "2026-11-18",
+      "title": "Build a first-person ski simulator",
+      "takeaway": "Look at terrain, movement, and audio separately when evaluating the ski simulator.",
+      "observation": "Google reports using Neon to create a WebGL2 freeride simulator on Mont Blanc and Chamonix terrain.",
+      "body_notes": "The demonstration includes six ski lines, a 120 Hz physics loop, track carving and spatial audio.",
+      "type": "Demo",
+      "category_key": "games",
+      "dedup_key": "google-xhG-jNObuz4",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=xhG-jNObuz4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-69-1-42268a3924ba.jpg",
+          "source_url": "https://www.youtube.com/watch?v=xhG-jNObuz4",
+          "poster_source_url": "https://i.ytimg.com/vi/xhG-jNObuz4/hqdefault.jpg",
+          "publication": "publisher-playback"
+        }
+      ],
+      "media_source_urls": [
+        "https://www.youtube.com/watch?v=xhG-jNObuz4"
+      ]
+    },
+    {
+      "id": "x-2123171058002088343",
+      "public_number": 70,
+      "source_url": "https://x.com/Arcadia_Bao/status/2123171058002088343",
+      "source_platform": "x",
+      "source_posted_by": "Arcadia_Bao",
+      "author_handle": "@Arcadia_Bao",
+      "author_url": "https://x.com/Arcadia_Bao",
+      "date": "2026-11-18",
+      "title": "Summarize model choices in a research table",
+      "takeaway": "Verify the claims in a model-selection table against the sources before using it to decide.",
+      "observation": "The author attributes a Gemini 4 model selection table to research performed by Neon.",
+      "body_notes": "The screenshot is the resulting recommendation. Its entries are the output of the research task, not independently verified product guidance.",
+      "type": "Demo",
+      "category_key": "knowledge",
+      "dedup_key": "x-2123171058002088343",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-70-1-220032ad276d.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcE0E3bkAAW4_R.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcE0E3bkAAW4_R.jpg"
+      ]
+    },
+    {
+      "id": "x-2123190512853176421",
+      "public_number": 71,
+      "source_url": "https://x.com/gracepursuits/status/2123190512853176421",
+      "source_platform": "x",
+      "source_posted_by": "gracepursuits",
+      "author_handle": "@gracepursuits",
+      "author_url": "https://x.com/gracepursuits",
+      "date": "2026-11-18",
+      "title": "Co-create a launch film with Neon",
+      "takeaway": "Use the film as a provider example and identify the other tools before attributing production steps.",
+      "observation": "A Google team member reports co-creating a film with Neon and shares the result.",
+      "body_notes": "The film is a provider-side demonstration. The post does not identify which tools rendered individual frames or audio.",
+      "type": "Demo",
+      "category_key": "knowledge",
+      "dedup_key": "x-2123190512853176421",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-71-1-b0eb81c105f2.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-71-1-aef8fd5224ef.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123185353574039552/vid/avc1/540x540/AfiEh4QhcJyW895f.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123185353574039552/img/2T8xWU86KxOp5hqr.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123185353574039552/vid/avc1/540x540/AfiEh4QhcJyW895f.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123201737217773826",
+      "public_number": 72,
+      "source_url": "https://x.com/Msfs2000J/status/2123201737217773826",
+      "source_platform": "x",
+      "source_posted_by": "Msfs2000J",
+      "author_handle": "@Msfs2000J",
+      "author_url": "https://x.com/Msfs2000J",
+      "date": "2026-11-18",
+      "title": "Explain equipment mechanics in a VR game",
+      "takeaway": "Check the explanatory artifact against the game mechanics before treating it as a guide.",
+      "observation": "The author used Neon to summarize equipment in the Meta Quest game H3VR2 and attached an illustrated explainer.",
+      "body_notes": "The artifact documents the game scenario. The source does not identify the exact prompt or assign the video production to Neon.",
+      "type": "Demo",
+      "category_key": "knowledge",
+      "dedup_key": "x-2123201737217773826",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-72-1-edea62f20bb5.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-72-1-b669c1f763a7.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123201637200396288/vid/avc1/640x360/xAKtKWipIOea-SJQ.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123201637200396288/img/ylkO6aT24RpRwFLu.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123201637200396288/vid/avc1/640x360/xAKtKWipIOea-SJQ.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2123208444681372133",
+      "public_number": 73,
+      "source_url": "https://x.com/viticci/status/2123208444681372133",
+      "source_platform": "x",
+      "source_posted_by": "viticci",
+      "author_handle": "@viticci",
+      "author_url": "https://x.com/viticci",
+      "date": "2026-11-19",
+      "title": "Inspect a self-assessment during image cropping",
+      "takeaway": "Judge the crop itself before relying on the model's description of its quality.",
+      "observation": "The tester reports that Neon complimented its own crop during an image editing test.",
+      "body_notes": "The screenshot documents a single interaction. It does not establish crop quality or the behavior of other tools.",
+      "type": "Limit",
+      "category_key": "knowledge",
+      "dedup_key": "x-2123208444681372133",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-73-1-be1d8691e528.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcm05GXQAAXqYa.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcm05GXQAAXqYa.jpg"
+      ]
+    },
+    {
+      "id": "x-2123210419137601764",
+      "public_number": 74,
+      "source_url": "https://x.com/tetumemo/status/2123210419137601764",
+      "source_platform": "x",
+      "source_posted_by": "tetumemo",
+      "author_handle": "@tetumemo",
+      "author_url": "https://x.com/tetumemo",
+      "date": "2026-11-19",
+      "title": "Turn an article into editable slides",
+      "takeaway": "Check that the slides are editable and that their images support the original article.",
+      "observation": "The creator sent Neon an article and used a public slide-making skill.",
+      "body_notes": "The creator reports that the workflow generated and inserted images and delivered editable Google Slides. The post describes the overall workflow without identifying the image generator.",
+      "type": "Demo",
+      "category_key": "knowledge",
+      "dedup_key": "x-2123210419137601764",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-74-1-b1cfed0393a4.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXckiiBaUAA47qu.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXckiiBaUAA47qu.jpg"
+      ]
+    },
+    {
+      "id": "x-2123222272697913481",
+      "public_number": 75,
+      "source_url": "https://x.com/Arcadia_Bao/status/2123222272697913481",
+      "source_platform": "x",
+      "source_posted_by": "Arcadia_Bao",
+      "author_handle": "@Arcadia_Bao",
+      "author_url": "https://x.com/Arcadia_Bao",
+      "date": "2026-11-19",
+      "title": "Generate a fantasy novel opening",
+      "takeaway": "Review the opening for style and voice before drawing conclusions about a longer draft.",
+      "observation": "The author used Neon for a writing test and published the opening of a Chinese fantasy story.",
+      "body_notes": "The post shows a completed opening excerpt. Its length and quality do not establish the model's long-form performance.",
+      "type": "Demo",
+      "category_key": "knowledge",
+      "dedup_key": "x-2123222272697913481",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-75-1-142f892ae717.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXczMlTacAAw-GH.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXczMlTacAAw-GH.jpg"
+      ]
+    },
+    {
+      "id": "x-2123236918456733855",
+      "public_number": 76,
+      "source_url": "https://x.com/MichaelLee009/status/2123236918456733855",
+      "source_platform": "x",
+      "source_posted_by": "MichaelLee009",
+      "author_handle": "@MichaelLee009",
+      "author_url": "https://x.com/MichaelLee009",
+      "date": "2026-11-19",
+      "title": "Interpret an original Dario joke",
+      "takeaway": "Use matched examples to separate understanding a specific joke from broad writing ability.",
+      "observation": "The author reports that Neon understood a joke they wrote while Opus 5.5 did not.",
+      "body_notes": "This is one attempt with screenshots. It does not establish broad writing or reasoning performance.",
+      "type": "Evaluation",
+      "category_key": "knowledge",
+      "dedup_key": "x-2123236918456733855",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-76-1-0e02d7ae6f39.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXdAfazWcAA9KEj.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-76-2-d1e4fd891049.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXdAiCfWEAEeKbH.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXdAfazWcAA9KEj.jpg",
+        "https://pbs.twimg.com/media/HXdAiCfWEAEeKbH.jpg"
+      ]
+    },
+    {
+      "id": "google-vPsBbuz9IbE",
+      "public_number": 77,
+      "source_url": "https://www.youtube.com/watch?v=vPsBbuz9IbE",
+      "source_platform": "google",
+      "source_posted_by": "Google",
+      "author_handle": "@Google",
+      "author_url": "https://blog.google/",
+      "date": "2026-11-18",
+      "title": "Build a computer-vision lab in Sheets",
+      "takeaway": "Inspect which effects come from formulas when evaluating a spreadsheet-only visualization.",
+      "observation": "Google reports that a Neon swarm turned one reference image into a 100,000-cell spreadsheet.",
+      "body_notes": "The demo uses more than 500,000 formulas across six modes for tasks including edge detection, depth mapping and relighting.",
+      "type": "Demo",
+      "category_key": "knowledge",
+      "dedup_key": "google-vPsBbuz9IbE",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "provider-demo",
+      "supporting_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      ],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=vPsBbuz9IbE",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-77-1-8d819090ab15.jpg",
+          "source_url": "https://www.youtube.com/watch?v=vPsBbuz9IbE",
+          "poster_source_url": "https://i.ytimg.com/vi/vPsBbuz9IbE/hqdefault.jpg",
+          "publication": "publisher-playback"
+        }
+      ],
+      "media_source_urls": [
+        "https://www.youtube.com/watch?v=vPsBbuz9IbE"
+      ]
+    },
+    {
+      "id": "x-2123168167879147542",
+      "public_number": 78,
+      "source_url": "https://x.com/ValsAI/status/2123168167879147542",
+      "source_platform": "x",
+      "source_posted_by": "ValsAI",
+      "author_handle": "@ValsAI",
+      "author_url": "https://x.com/ValsAI",
+      "date": "2026-11-18",
+      "title": "Measure domain performance on the Vals Index",
+      "takeaway": "Use task-level results to see whether the aggregate rank matches your domain.",
+      "observation": "Vals AI reports 70.9% for Neon and a second-place aggregate rank, 0.4 points behind Fable 5.2.",
+      "body_notes": "The evaluator also reports first place on its Finance and Legal indexes and Tax Agent and Legal Research tasks.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123168167879147542",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-78-1-a072bf0d10fb.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb6_U6bIAAclgo.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXb6_U6bIAAclgo.jpg"
+      ]
+    },
+    {
+      "id": "x-2123168299890704735",
+      "public_number": 79,
+      "source_url": "https://x.com/kimmonismus/status/2123168299890704735",
+      "source_platform": "x",
+      "source_posted_by": "kimmonismus",
+      "author_handle": "@kimmonismus",
+      "author_url": "https://x.com/kimmonismus",
+      "date": "2026-11-18",
+      "title": "Test interactive demos during early access",
+      "takeaway": "Compare the successful prototypes with the failures reported in the same early-access thread.",
+      "observation": "The author reports using Neon in Antigravity to build 17 interactive demos and documented additional coding and tool tests.",
+      "body_notes": "The published thread reports both successes and issues. Its demos are grouped as one early-access test series.",
+      "type": "Evaluation",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123168299890704735",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/videos/case-79-1-2c55ce07666c.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/posters/case-79-1-d15a99ad1fc4.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2123168275190439936/vid/avc1/640x360/LZZxlO6CGVlTEAOZ.mp4?tag=16",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2123168275190439936/img/s6ySTfFYUhckQEE8.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2123168275190439936/vid/avc1/640x360/LZZxlO6CGVlTEAOZ.mp4?tag=16"
+      ]
+    },
+    {
+      "id": "x-2123169189397709174",
+      "public_number": 80,
+      "source_url": "https://x.com/arena/status/2123169189397709174",
+      "source_platform": "x",
+      "source_posted_by": "arena",
+      "author_handle": "@arena",
+      "author_url": "https://x.com/arena",
+      "date": "2026-11-18",
+      "title": "Compare agent sessions in Agent Arena",
+      "takeaway": "Use median per-task cost alongside the reported score when comparing Agent Arena results.",
+      "observation": "Arena reports Neon High at 1336 points, ranked second, with a USD 2.82 median cost per task.",
+      "body_notes": "Arena's post describes an evaluation based on 4.2 thousand community agent sessions.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123169189397709174",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-80-1-98fe72255edb.png",
+          "source_url": "https://pbs.twimg.com/media/HXcCe8KagAAiAC3.png",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcCe8KagAAiAC3.png"
+      ]
+    },
+    {
+      "id": "x-2123169199396946279",
+      "public_number": 81,
+      "source_url": "https://x.com/arena/status/2123169199396946279",
+      "source_platform": "x",
+      "source_posted_by": "arena",
+      "author_handle": "@arena",
+      "author_url": "https://x.com/arena",
+      "date": "2026-11-18",
+      "title": "Place Neon in Text Arena",
+      "takeaway": "Compare the same Arena snapshot and reasoning settings when reading the scores.",
+      "observation": "Arena reports Neon High at 1518, behind Carbon High at 1526 and Argon High at 1521.",
+      "body_notes": "This is a Text Arena snapshot from the benchmark publisher.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123169199396946279",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-81-1-c75a9fa2d99d.png",
+          "source_url": "https://pbs.twimg.com/media/HXcComlawAAypXH.png",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcComlawAAypXH.png"
+      ]
+    },
+    {
+      "id": "x-2123169317076574513",
+      "public_number": 82,
+      "source_url": "https://x.com/lukaspet/status/2123169317076574513",
+      "source_platform": "x",
+      "source_posted_by": "lukaspet",
+      "author_handle": "@lukaspet",
+      "author_url": "https://x.com/lukaspet",
+      "date": "2026-11-18",
+      "title": "Rank printable 3D figures in Wojak-Bench",
+      "takeaway": "Read the posted placement as a snapshot of the pairwise comparison, and check the current board before citing a rating.",
+      "observation": "The benchmark coauthor reported that Neon debuted in fourth place. The posted leaderboard snapshot gives Neon a rating of 1056.",
+      "body_notes": "Models turn the same reference drawing into printable figures. Visitors compare pairs of outputs, so the live rating can change as votes accumulate.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123169317076574513",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [
+        "https://wojak-bench.dev.pion.dev/"
+      ],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-82-1-fb8d9cb391a5.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcC8OXawAA87bn.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcC8OXawAA87bn.jpg"
+      ]
+    },
+    {
+      "id": "x-2123170648772288540",
+      "public_number": 83,
+      "source_url": "https://x.com/ArtificialAnlys/status/2123170648772288540",
+      "source_platform": "x",
+      "source_posted_by": "ArtificialAnlys",
+      "author_handle": "@ArtificialAnlys",
+      "author_url": "https://x.com/ArtificialAnlys",
+      "date": "2026-11-18",
+      "title": "Compare coding agents with their harnesses",
+      "takeaway": "Keep each model's evaluation setup and settings visible when comparing coding results.",
+      "observation": "Artificial Analysis reports 59 for Neon xhigh with Antigravity CLI and 55 for Carbon high.",
+      "body_notes": "It reports USD 6.86 average cost per task for Neon. Claude comparisons in the source used Claude Code and separate reasoning settings.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123170648772288540",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-83-1-ca536c909af6.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb9lOybIAAVQCl.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXb9lOybIAAVQCl.jpg"
+      ]
+    },
+    {
+      "id": "x-2123170651980931421",
+      "public_number": 84,
+      "source_url": "https://x.com/ArtificialAnlys/status/2123170651980931421",
+      "source_platform": "x",
+      "source_posted_by": "ArtificialAnlys",
+      "author_handle": "@ArtificialAnlys",
+      "author_url": "https://x.com/ArtificialAnlys",
+      "date": "2026-11-18",
+      "title": "Evaluate knowledge work on AA-Briefcase",
+      "takeaway": "Separate presentation quality from the overall score when interpreting the benchmark.",
+      "observation": "Artificial Analysis reports 1700 Elo for Neon xhigh and 1611 for Carbon high.",
+      "body_notes": "The publisher reports 1771 for Neon's Presentation score. The linked comparison uses the public Briefcase-Lite tasks.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123170651980931421",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-84-1-b09c2428be07.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb9uDdbMAANsWg.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXb9uDdbMAANsWg.jpg"
+      ]
+    },
+    {
+      "id": "x-2123170655424450840",
+      "public_number": 85,
+      "source_url": "https://x.com/ArtificialAnlys/status/2123170655424450840",
+      "source_platform": "x",
+      "source_posted_by": "ArtificialAnlys",
+      "author_handle": "@ArtificialAnlys",
+      "author_url": "https://x.com/ArtificialAnlys",
+      "date": "2026-11-18",
+      "title": "Time Artificial Analysis Intelligence Index tasks",
+      "takeaway": "Measure end-to-end time separately from token output rate when selecting a reasoning setting.",
+      "observation": "Artificial Analysis reported around 21 minutes per task for Neon xhigh and 36 minutes for Carbon high.",
+      "body_notes": "The publisher reports that Neon used about 15% more output tokens at a higher output rate. At those different settings it ranked Neon at 61 and Carbon at 60.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123170655424450840",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-85-1-69e9aff683fe.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXb9xsxbAAEgIYx.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXb9xsxbAAEgIYx.jpg"
+      ]
+    },
+    {
+      "id": "x-2123174738789011875",
+      "public_number": 86,
+      "source_url": "https://x.com/andonlabs/status/2123174738789011875",
+      "source_platform": "x",
+      "source_posted_by": "andonlabs",
+      "author_handle": "@andonlabs",
+      "author_url": "https://x.com/andonlabs",
+      "date": "2026-11-18",
+      "title": "Run a vending business simulation",
+      "takeaway": "Review the transaction logs as well as the final balance when judging an agent simulation.",
+      "observation": "Andon Labs reported Neon first on Vending-Bench 2 at the time of its post.",
+      "body_notes": "Its simulation logs included false bargaining claims but no fabricated lost order or missed payment in the reported run.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123174738789011875",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-86-1-7dc3cded4337.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcIEbRaMAAlabl.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcIEbRaMAAlabl.jpg"
+      ]
+    },
+    {
+      "id": "x-2123183525515886696",
+      "public_number": 87,
+      "source_url": "https://x.com/maxbittker/status/2123183525515886696",
+      "source_platform": "x",
+      "source_posted_by": "maxbittker",
+      "author_handle": "@maxbittker",
+      "author_url": "https://x.com/maxbittker",
+      "date": "2026-11-18",
+      "title": "Inspect the RuneScape benchmark time limit",
+      "takeaway": "Treat a run that exceeds the task deadline as incomplete even if its plan looks plausible.",
+      "observation": "The benchmark author reported that Neon's ambitious strategies did not finish before the deadline.",
+      "body_notes": "The observation concerns this timed environment and illustrates why plan quality and on-time completion need separate checks.",
+      "type": "Limit",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123183525515886696",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-87-1-e374930df0e2.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcNheLXcAEsn5g.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcNheLXcAEsn5g.jpg"
+      ]
+    },
+    {
+      "id": "x-2123184025808650641",
+      "public_number": 88,
+      "source_url": "https://x.com/mercor/status/2123184025808650641",
+      "source_platform": "x",
+      "source_posted_by": "mercor",
+      "author_handle": "@mercor",
+      "author_url": "https://x.com/mercor",
+      "date": "2026-11-18",
+      "title": "Run professional tasks on APEX-Agents",
+      "takeaway": "Distinguish first-attempt pass rate from mean score when comparing professional tasks.",
+      "observation": "Mercor reports 82.9% Pass@1 and an 88.9% mean score for Neon on APEX-Agents.",
+      "body_notes": "These are separate metrics. The publisher also reports a 23.5% Pass@1 result on its separate APEX-Accounting test.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123184025808650641",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-88-1-8c2587fa0e1d.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcO9fbbwAAPfQ3.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcO9fbbwAAPfQ3.jpg"
+      ]
+    },
+    {
+      "id": "x-2123198346802450926",
+      "public_number": 89,
+      "source_url": "https://x.com/cursor_ai/status/2123198346802450926",
+      "source_platform": "x",
+      "source_posted_by": "cursor_ai",
+      "author_handle": "@cursor_ai",
+      "author_url": "https://x.com/cursor_ai",
+      "date": "2026-11-18",
+      "title": "Compare Neon and Hydrogen on CursorBench 4.1",
+      "takeaway": "Use the same CursorBench version and compare scores at the stated reasoning settings.",
+      "observation": "Cursor reports 63.7% for Neon at default effort and 57.3% for Hydrogen.",
+      "body_notes": "The comparison was run in Cursor's evaluation and does not establish performance for other harnesses.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123198346802450926",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-89-1-5735136cf3d0.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcdpRHagAArFvw.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcdpRHagAArFvw.jpg"
+      ]
+    },
+    {
+      "id": "x-2123200759819124893",
+      "public_number": 90,
+      "source_url": "https://x.com/elliotarledge/status/2123200759819124893",
+      "source_platform": "x",
+      "source_posted_by": "elliotarledge",
+      "author_handle": "@elliotarledge",
+      "author_url": "https://x.com/elliotarledge",
+      "date": "2026-11-18",
+      "title": "Measure wall-clock time on a CUDA debugging task",
+      "takeaway": "Measure wall-clock time on the same debugging task before drawing conclusions from throughput.",
+      "observation": "The author ran the models on a CUDA debugging prompt and separately measured token rate and end-to-end latency.",
+      "body_notes": "The author reported about 76 seconds for Neon and about 20 seconds for Astra and Opus 5.5 in that result.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123200759819124893",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-90-1-1ba56f57fa03.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcf1rsa4AAeKAC.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-90-2-a4be57aa7260.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcf1rua0AA2RhD.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-90-3-93ad692aa067.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXcf1r3bAAAzY2h.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcf1rsa4AAeKAC.jpg",
+        "https://pbs.twimg.com/media/HXcf1rua0AA2RhD.jpg",
+        "https://pbs.twimg.com/media/HXcf1r3bAAAzY2h.jpg"
+      ]
+    },
+    {
+      "id": "x-2123213638819348485",
+      "public_number": 91,
+      "source_url": "https://x.com/HelloSurgeAI/status/2123213638819348485",
+      "source_platform": "x",
+      "source_posted_by": "HelloSurgeAI",
+      "author_handle": "@HelloSurgeAI",
+      "author_url": "https://x.com/HelloSurgeAI",
+      "date": "2026-11-19",
+      "title": "Measure workplace tasks on Tuesday@Work",
+      "takeaway": "Use domain-specific results alongside the Tuesday@Work aggregate.",
+      "observation": "Surge AI ran Neon on its evaluation suite and reported 71.6 on Tuesday@Work, versus 71.2 for Fable 5.2.",
+      "body_notes": "The publisher also reports top positions on DAYJOB Finance, GDP.xlsx and Riemann-bench. The scores apply to its tests.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123213638819348485",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-91-1-d95fd2a981f4.png",
+          "source_url": "https://pbs.twimg.com/media/HXcqdcLWsAE6VY4.png",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXcqdcLWsAE6VY4.png"
+      ]
+    },
+    {
+      "id": "x-2123252530713124967",
+      "public_number": 92,
+      "source_url": "https://x.com/wenhaocha1/status/2123252530713124967",
+      "source_platform": "x",
+      "source_posted_by": "wenhaocha1",
+      "author_handle": "@wenhaocha1",
+      "author_url": "https://x.com/wenhaocha1",
+      "date": "2026-11-19",
+      "title": "Review penalty decisions in Antigravity",
+      "takeaway": "Compare agent judgments with the reference verdicts in the same evaluation setup.",
+      "observation": "The Penalty Bench creator reports that Neon ranked first in the benchmark using the Antigravity harness.",
+      "body_notes": "The source describes a small set of penalty decisions compared against referee verdicts. This is a result within that evaluation.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123252530713124967",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-92-1-8856d3ed5c45.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXdOvKnWQAAfHX9.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXdOvKnWQAAfHX9.jpg"
+      ]
+    },
+    {
+      "id": "x-2123263050501509123",
+      "public_number": 93,
+      "source_url": "https://x.com/browser_use/status/2123263050501509123",
+      "source_platform": "x",
+      "source_posted_by": "browser_use",
+      "author_handle": "@browser_use",
+      "author_url": "https://x.com/browser_use",
+      "date": "2026-11-19",
+      "title": "Browser Use benchmark",
+      "takeaway": "Compare the browser benchmark and its execution cost within the publisher's evaluation setup.",
+      "observation": "Browser Use reported a 74% result for Neon, equal to its Opus 5.5 result and against 82% for GPT-6.2 Sol.",
+      "body_notes": "These scores describe the publisher's benchmark. Its cost comparison applies to that evaluation.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123263050501509123",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-93-1-348151332c55.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXdYfdtbsAAR6x-.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXdYfdtbsAAR6x-.jpg"
+      ]
+    },
+    {
+      "id": "x-2123277076174196882",
+      "public_number": 94,
+      "source_url": "https://x.com/aicodeking/status/2123277076174196882",
+      "source_platform": "x",
+      "source_posted_by": "aicodeking",
+      "author_handle": "@aicodeking",
+      "author_url": "https://x.com/aicodeking",
+      "date": "2026-11-19",
+      "title": "Measure tool-call failures in PandaCode",
+      "takeaway": "Compare failures over matching windows and account for differences in the testing setup.",
+      "observation": "The author measured 65 failed tool calls in 9,465 Neon calls during one launch-night window.",
+      "body_notes": "Both Neon and Carbon rounded to 0.7% in that same window. Most other model rows cover all-time records from different harnesses.",
+      "type": "Evaluation",
+      "category_key": "evaluations",
+      "dedup_key": "x-2123277076174196882",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-94-1-95b9a0bbc14d.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXdlCXSXsAAeC-9.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXdlCXSXsAAeC-9.jpg"
+      ]
+    },
+    {
+      "id": "hn-50553968",
+      "public_number": 95,
+      "source_url": "https://news.ycombinator.com/item?id=50553968",
+      "source_platform": "hn",
+      "source_posted_by": "chriddyp",
+      "author_handle": "@chriddyp",
+      "author_url": "https://news.ycombinator.com/user?id=chriddyp",
+      "date": "2026-11-18",
+      "title": "Run the 43-question Plotly data analysis benchmark",
+      "takeaway": "Compare correctness, cost, and median time per question within the same Plotly evaluation.",
+      "observation": "Plotly's corrected result credits Neon with 43 of 43 answers and reports USD 17.03 for the full run.",
+      "body_notes": "Hydrogen also scored 43 of 43 and cost USD 6.36. Plotly reports 46 seconds median per question for Neon and 32 for Hydrogen. This was one run per model with a data-analysis harness.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "hn-50553968",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "benchmark-owner",
+      "supporting_urls": [
+        "https://plotly.com/blog/gemini-4-neon-plotly-data-analytics-bench/"
+      ],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-95-1-3c8ca3bdc83b.webp",
+          "source_url": "https://plotly.com/cms/img/h3QEUvywsVVR39DI_gemini-4-neon-frontier-v3.png?auto=compress&fm=webp",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-95-2-477010cdc694.webp",
+          "source_url": "https://plotly.com/cms/img/S8qlk2PgLMvNxQw2_gemini-4-neon-google-models-cost-v2.png?auto=compress&fm=webp",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-95-3-40967c5923ed.webp",
+          "source_url": "https://plotly.com/cms/img/YPKDXepRbDncVzGm_gemini-4-neon-google-models-time-v2.png?auto=compress&fm=webp",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://plotly.com/cms/img/h3QEUvywsVVR39DI_gemini-4-neon-frontier-v3.png?auto=compress&fm=webp",
+        "https://plotly.com/cms/img/S8qlk2PgLMvNxQw2_gemini-4-neon-google-models-cost-v2.png?auto=compress&fm=webp",
+        "https://plotly.com/cms/img/YPKDXepRbDncVzGm_gemini-4-neon-google-models-time-v2.png?auto=compress&fm=webp"
+      ]
+    }
+  ]
+}

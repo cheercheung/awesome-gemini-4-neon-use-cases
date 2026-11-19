@@ -1,0 +1,615 @@
+{
+  "status": "translation-draft-reconciled",
+  "locale": "de",
+  "translation_source_sha256": "6383d5cf562c450e507ab50a3a8f750af04425ec646280785427a26753a9fa25",
+  "cases": {
+    "case-1": {
+      "title": "Beobachten Sie die Instabilität bei unbeaufsichtigten Läufen",
+      "takeaway": "Der Tester berichtet, dass Neon am Veröffentlichungstag ohne grafische Oberfläche instabil lief. Opus 5.5 überwachte laut Tester den Lauf.",
+      "notes": "Die Screenshots dokumentieren diese Umgebung. Der Bericht nennt die Grundursache nicht.",
+      "action": "Verfolgen Sie Wiederholungsversuche und den Abschluss unbeaufsichtigter Läufe und führen Sie eine separate Aufzeichnung des überwachenden Modells."
+    },
+    "case-2": {
+      "title": "Eine Logikgattersimulation bauen",
+      "takeaway": "Der Autor zeigt eine interaktive Elektronikdemo, die von simulierten Logikgattern und Leiterplatten bis hin zu einem Retro-Terminaldisplay reicht.",
+      "notes": "Die Serie enthält eine Eingabeaufforderung pro Demo ohne Verfeinerung. Die Aufzeichnung zeigt das Schnittstellen- und Simulationsverhalten.",
+      "action": "Prüfen Sie, was die Simulation auf Chip-, Platinen- und Displayebene anzeigt."
+    },
+    "case-3": {
+      "title": "Entwerfen Sie eine Bluetooth Zahnbürste in tscircuit",
+      "takeaway": "Ein tscircuit-Betreuer verglich Neon High, Opus 5.5 High und Sol 6.2 High auf einer elektrischen Zahnbürste von Bluetooth.",
+      "notes": "Der Betreuer bevorzugte das visuelle Ergebnis von Neon, berichtete jedoch über unvollständiges Routing und schlechte Footprint-Auswahl.",
+      "action": "Überprüfen Sie die Routing- und Footprint-Auswahl unabhängig vom gerenderten Gehäuse."
+    },
+    "case-4": {
+      "title": "Leiten Sie ein Muse-Nebengespräch an Neon weiter",
+      "takeaway": "Der Autor hat einen Muse-Side-Chat erstellt, der Anfragen und Antworten an Neon weiterleitet.",
+      "notes": "Die veröffentlichte japanische Anleitung konfiguriert das Muse-Relais. Es handelt sich um eine Anweisung an Muse und stellt keine direkte Aufforderung dar, die an Neon gesendet wird.",
+      "action": "Überprüfen Sie, welche Antworten von Neon kommen, bevor Sie sich auf das Muse-Relay verlassen."
+    },
+    "case-5": {
+      "title": "Verwenden Sie Neon zum Verfassen von Texten in einem T3 Code-Workflow mit drei Modellen",
+      "takeaway": "Der Entwickler gibt Neon die Copywriting-Rolle innerhalb eines T3 Code-Workflows mit mehreren Modellen.",
+      "notes": "Der Entwickler weist Fable die Implementierung und GPT-6.2 Astra das Testen zu. Der T3 Code-Screenshot zeigt ein Kreaturenaufzuchtspiel mit Textern im aktiven Workflow.",
+      "action": "Weisen Sie ein Modell dem Verfassen von Texten zu und überprüfen Sie dessen Übergabe an die Implementierung und den Spieltest."
+    },
+    "case-6": {
+      "title": "Überarbeiten Sie ein Spotify-Empfehlungs-MCP",
+      "takeaway": "Der Ersteller verwendete Neon, um ein Spotify-Empfehlungs-MCP zu überarbeiten, das ursprünglich mit Argon erstellt wurde.",
+      "notes": "Der Ersteller meldete Fehlerbehebungen und ein unaufgefordertes geschmacksbasiertes Empfehlungsmodell. Der Beitrag bietet keine Empfehlungsgenauigkeit.",
+      "action": "Überprüfen Sie Empfehlungsänderungen und testen Sie, ob nicht angeforderte Funktionen das Ergebnis verbessern."
+    },
+    "case-7": {
+      "title": "Zeichnen Sie eine SVG-Seitenansicht eines Autos",
+      "takeaway": "Der Ersteller nutzte Neon High in AI Studio, um eine BMW M4 CS-Seitenansicht-SVG zu erstellen.",
+      "notes": "Das Artefakt ist dem Beitrag beigefügt. Es wird keine vollständige Eingabeaufforderung zitiert.",
+      "action": "Überprüfen Sie Proportionen und Silhouette, wenn Sie per Code gerenderte Seitenansichten vergleichen."
+    },
+    "case-8": {
+      "title": "Führen Sie eine SVG-Testreihe durch",
+      "takeaway": "Der Tester teilte drei Ausgänge in einer Neon-SVG-Testreihe.",
+      "notes": "Die Ergebnisse werden zusammen dargestellt und als eine Testreihe gezählt.",
+      "action": "Überprüfen Sie mehrere Ausgaben, bevor Sie die Konsistenz zwischen SVG-Aufgaben beurteilen."
+    },
+    "case-9": {
+      "title": "Animieren Sie einen Pelikan in Three.js",
+      "takeaway": "Der Tester schreibt Neon eine Three.js-Pelikan-auf-einem-Fahrrad-Ausgabe zu.",
+      "notes": "Der Ersteller stellt eine Aufzeichnung bereit, jedoch keine Zeit- oder Begründungsvorgabe.",
+      "action": "Überprüfen Sie die Radbewegung und die Szenenwiedergabe als separate Teile der Animation."
+    },
+    "case-10": {
+      "title": "Zeichnen Sie ein SVG-Porträt bei xhigh",
+      "takeaway": "Der Tester teilt ein Porträt von Ana de Armas, das Neon xhigh zugeschrieben wird.",
+      "notes": "Die Quelle gibt das Thema und die Aufwandseinstellung ohne genaue Angabe an.",
+      "action": "Bewerten Sie Ähnlichkeit und SVG Bearbeitbarkeit separat in einem Porträttest."
+    },
+    "case-11": {
+      "title": "Animieren Sie einen radfahrenden Pelikan mit mittlerem Aufwand",
+      "takeaway": "Der Autor hat mit Neon mit mittlerem Aufwand eine Pelikan-Fahrraddemo produziert und das Video gepostet.",
+      "notes": "Der Clip dokumentiert die separate Ausführung einer gemeinsamen Testaufgabe dieses Erstellers.",
+      "action": "Verwenden Sie eine feste Animationsaufgabe, um Ergebnisse bei unterschiedlichen Argumentationseinstellungen zu vergleichen."
+    },
+    "case-12": {
+      "title": "Vergleichen Sie zwei Voxel-Gartenszenen",
+      "takeaway": "Der Autor veröffentlichte einen Voxelgarten von Neon xhigh zusammen mit einem GPT-6.2 Sol xhigh-Ergebnis.",
+      "notes": "Die Quelle identifiziert das erste Bild als Neon und berichtet von 1,01 USD gegenüber 0,19 USD für Sol. Der Beitrag gibt nicht an, ob die Eingabeaufforderungen und Tools übereinstimmen.",
+      "action": "Vergleichen Sie ähnlich aussehende Ausgaben mit den Gesamtlaufkosten und den Einstellungen, die jede Quelle offenlegt."
+    },
+    "case-13": {
+      "title": "Generieren Sie eine Three.js- und GLSL-Szene",
+      "takeaway": "Der Ersteller teilt eine Three.js- und GLSL-Ausgabe von Neon und meldet eine Laufzeit von zwei Minuten und 40 Sekunden.",
+      "notes": "Der Hauptbeitrag verweist auf die Antworten auf die Anweisung, ohne sie zu zitieren.",
+      "action": "Separates Shader-Verhalten, Szenengeometrie und Generierungszeit in einem Grafiktest."
+    },
+    "case-14": {
+      "title": "Erstellen Sie Gemälde vollständig im Code",
+      "takeaway": "Der Ersteller berichtet, dass er Early-Access-Neon verwendet, um Code zu schreiben, der Gemälde rendert.",
+      "notes": "Die Quelle liefert eine Reihe von Ergebnissen aus derselben Serie. Es wird nicht jede genaue Eingabeaufforderung bereitgestellt.",
+      "action": "Öffnen Sie die gerenderten Beispiele, um zu sehen, wie Code eine zusammenhängende visuelle Reihe erzeugen kann."
+    },
+    "case-15": {
+      "title": "Vergleichen Sie Pelikan-Fahrradanimationen",
+      "takeaway": "Der Tester verglich eine Pelikan-Animation zwischen Neon, Hydrogen, GPT-6.2 Astra und GPT-6.2 Sol.",
+      "notes": "Der Autor berichtet von einem dreiminütigen Neon-Lauf und bevorzugte dessen Aussehen. Das aufgezeichnete Nur-Sol-Follow-up gehört zum selben Test.",
+      "action": "Vergleichen Sie die gemeldete Laufzeit mit den Bewegungs- und Szenendetails im selben Video."
+    },
+    "case-16": {
+      "title": "Vergleichen Sie die Fahrradanimationen von Three.js in drei Modellen",
+      "takeaway": "Der Tester veröffentlichte einen Three.js-Fahrradvergleich von Neon, Opus 5.5 und Carbon.",
+      "notes": "Der Autor bevorzugte Neon gegenüber Opus und schätzte es als ähnlich zu Carbon ein. Dies ist die visuelle Einschätzung des Autors.",
+      "action": "Verwenden Sie die beschrifteten Clips, um Bewegung, Beleuchtung und Szenenkomposition zu vergleichen."
+    },
+    "case-17": {
+      "title": "Stellen Sie ein Großsegler auf dem Ozean dar",
+      "takeaway": "Der Tester teilte eine Ozeansegelszene, die Neon xhigh zugeschrieben wird.",
+      "notes": "Das Video zeigt ein animiertes Segelschiff. Die Quelle liefert keinen spezifischen Arbeitsablauf oder Zeitplan.",
+      "action": "Überprüfen Sie, ob die Wellenanimation und die Schiffsdarstellung im gesamten Clip kohärent bleiben."
+    },
+    "case-18": {
+      "title": "Erzeugen Sie eine Voxel-Pagode",
+      "takeaway": "Der Tester postet eine bei Neon xhigh generierte Voxel-Pagode.",
+      "notes": "Der Beitrag enthält das gerenderte Ergebnis und die Designreaktion des Autors.",
+      "action": "Verwenden Sie die Voxelszene, um Schichtung, Silhouette und Komposition zu beurteilen."
+    },
+    "case-19": {
+      "title": "Zeichne einen frustrierten Pelikan auf einem Fahrrad",
+      "takeaway": "Der Ersteller verwendete Neon High in AI Studio, um eine SVG-Datei eines frustrierten Pelikans auf einem Fahrrad zu zeichnen.",
+      "notes": "Der Beitrag zeigt das Ergebnis und identifiziert die Aufwandseinstellung.",
+      "action": "Überprüfen Sie, ob sowohl der Charakterausdruck als auch die Fahrradbewegung klar lesbar sind."
+    },
+    "case-20": {
+      "title": "Vergleichen Sie Gamepad-Zeichnungen mit GPT-6.2 Sol",
+      "takeaway": "Der Tester verwendete die gleiche Eingabeaufforderung bei der höchsten verfügbaren Argumentation jedes Modells und beurteilte die Ergebnisse als ähnlich.",
+      "notes": "Der Autor berichtete von 20 Minuten und etwa 1,60 USD für Neon gegenüber neun Minuten und etwa 0,53 USD für Sol.",
+      "action": "Vergleichen Sie Renderqualität sowie Zeit und Kosten separat für die beiden Gamepad-Ausgänge."
+    },
+    "case-21": {
+      "title": "Erzeugen Sie ein 3D-Wasserflugzeug",
+      "takeaway": "Der Tester baute mit Neon xhigh ein 3D-Wasserflugzeug und teilte ein Video.",
+      "notes": "Der Ersteller beschreibt den Build als schnell und die Benutzeroberfläche als sauberer, ohne eine Maßangabe anzugeben.",
+      "action": "Überprüfen Sie die Interaktion zwischen Wasserflugzeug und Wasser, bevor Sie den Prototyp als Ganzes beurteilen."
+    },
+    "case-22": {
+      "title": "Zeichne ein 2D-Pferd",
+      "takeaway": "Der Ersteller hat mit Neon ein zweidimensionales Pferd erstellt und die Ausgabe veröffentlicht.",
+      "notes": "Der Ersteller hat es seinen früheren Gemini-Ergebnissen vorgezogen. Der Beitrag bietet keine passenden Einstellungen.",
+      "action": "Betrachten Sie den Pferdeclip als visuelles Beispiel und berücksichtigen Sie modellübergreifende Einstellungen."
+    },
+    "case-23": {
+      "title": "Testen Sie eine verregnete Supermarktszene",
+      "takeaway": "Der Tester verwendete die gleiche Eingabeaufforderung für Neon und GPT-6.2 Sol und veröffentlichte den Vergleich.",
+      "notes": "Der Autor bevorzugte die visuelle Ausgabe von Sol und berichtete von einer schnelleren und günstigeren Fertigstellung für Neon in diesem Durchlauf.",
+      "action": "Verwenden Sie die angepasste Szene, um zu beurteilen, wie sich die Präsentation mit kürzerer Generierungszeit ändert."
+    },
+    "case-24": {
+      "title": "Animieren Sie einen Roboter-Vierbeiner aus einem Bild",
+      "takeaway": "Der Entwickler gab Neon ein einzelnes Referenzbild und bat um ein 3D-Modell.",
+      "notes": "Der Entwickler berichtet von einer Three.js-WebGPU-Demonstration mit vierbeiniger inverser Kinematik und Schritt-, Trab- und Galoppanimationen.",
+      "action": "Überprüfen Sie Gang und Bewegung getrennt davon, wie genau die Szene der Referenz folgt."
+    },
+    "case-25": {
+      "title": "Animieren Sie Keats in Vanilla-JavaScript",
+      "takeaway": "Ein Google-Teammitglied schreibt GeokenAI und Neon eine Vanilla-JavaScript-Animation von Keats' To Autumn zu.",
+      "notes": "Der Beitrag beschreibt eine malerische 3D-Animation mit 12 fps ohne Bibliotheken. Das Freigabekonto unterscheidet sich vom gutgeschriebenen Ersteller.",
+      "action": "Vergleichen Sie Animationen und Pinselführung, wenn Sie Code zur Interpretation einer literarischen Quelle verwenden."
+    },
+    "case-26": {
+      "title": "Erstellen Sie eine Triceratops-Demo",
+      "takeaway": "Der Schöpfer schreibt die Demonstration des Triceratops Neon zu.",
+      "notes": "Das Video zeigt das Artefakt. Der Beitrag gibt weder das Eingabeformat noch die Generierungsschritte an.",
+      "action": "Überprüfen Sie die Rekonstruktionssequenz sowie das endgültige Bild."
+    },
+    "case-27": {
+      "title": "Vergleichen Sie 3D-Zahnradgetriebe-Renderings",
+      "takeaway": "Der Tester zeigt Getriebe-Renderings für Neon, Carbon, Astra und Sol über die gekennzeichneten Argumentationsebenen hinweg.",
+      "notes": "Der Autor bevorzugte Neon. Der Clip dokumentiert einen visuellen Vergleich und begründet keine allgemeine Kostenabrechnung.",
+      "action": "Verwenden Sie die beschrifteten Einstellungen und Ausgabegeometrie, um alle vier Getriebe-Renderings zu vergleichen."
+    },
+    "case-28": {
+      "title": "Erstellen Sie zehn interaktive Effekte in einer einzigen HTML-Datei",
+      "takeaway": "Ein Google-Teammitglied berichtet, dass Neon verwendet wurde, um zehn interaktive 3D-Effekte in einer 27-KB-HTML-Datei zu erstellen.",
+      "notes": "Die Demo umfasst Shader, Wasser und Beleuchtung. Die Variationen werden als ein veröffentlichtes Projekt gruppiert.",
+      "action": "Überprüfen Sie, ob die Effekte innerhalb einer kleinen HTML-Nutzlast reaktionsfähig und lesbar bleiben."
+    },
+    "case-29": {
+      "title": "Bauen Sie mit Antigravity Swarm einen Blender-Labortisch",
+      "takeaway": "Google demonstrierte Neon mithilfe von Antigravity Swarm und Blender, um eine Laborszene rund um die Gemini 4-Familie zu erstellen.",
+      "notes": "Der Clip ist eine Anbieterdemo des integrierten Workflows.",
+      "action": "Verfolgen Sie, welche Arbeits-Swarm-Koordinaten und welche Operationen Blender ausführt."
+    },
+    "case-30": {
+      "title": "Vergleichen Sie Architekturillustrationen mit Opus 5.5",
+      "takeaway": "Der Tester verglich die Modelle mit derselben Eingabeaufforderung und der höchsten verfügbaren Argumentation.",
+      "notes": "Der Autor berichtete von etwa 20 Minuten und 3,50 USD für Neon und 18 Minuten und 7,20 USD für Opus, wobei er die Opus-Ausgabe bevorzugte.",
+      "action": "Stellen Sie dieselbe visuelle Aufgabe und vergleichen Sie die Ausgabequalität, Laufzeit und Kosten unabhängig voneinander."
+    },
+    "case-31": {
+      "title": "Den Flug von Voyager 1 visualisieren",
+      "takeaway": "Der Autor zeigt eine 3D-Sequenz der Voyager 1, die vom Start bis zur Begegnung mit Jupiter und einer Nahaufnahme der Raumsonde reicht.",
+      "notes": "Der Autor beschreibt dies als eine unausgeklügelte Aufforderung in der Serie. Es wird keine Flugbahnvalidierung gemeldet.",
+      "action": "Berücksichtigen Sie bei der Beurteilung der Sequenz die Übergänge zwischen Start, Vorbeiflug und Nahaufnahme."
+    },
+    "case-32": {
+      "title": "Ein 3D-Planetarium bauen",
+      "takeaway": "Der Autor zeigt ein 3D-Planetarium, das sich zwischen Planeten bewegt, und eine Konstellationsansicht.",
+      "notes": "Die Aufnahme zeigt Beispiele wie Erde und Saturn. Die One-Prompt-Serie stellt keine astronomische Präzision dar.",
+      "action": "Überprüfen Sie, ob die Planeten- und Sternbildansichten als einfache Lehrdemo zusammenarbeiten."
+    },
+    "case-33": {
+      "title": "Babbages Differenzmaschine Nr. 2 visualisieren",
+      "takeaway": "Der Autor zeigt eine 3D-Visualisierung von Babbages Difference Engine No. 2 mit seinen Getriebebaugruppen und einer numerischen Anzeige.",
+      "notes": "Die Aufnahme wechselt zwischen Nahaufnahmen des Bewegungsmechanismus und einem Blick auf die komplette Maschine.",
+      "action": "Achten Sie bei der Betrachtung der Visualisierung auf die Getriebebewegung, die numerische Anzeige und die Gesamtansicht der Maschine."
+    },
+    "case-34": {
+      "title": "Den Mechanismus von Antikythera visualisieren",
+      "takeaway": "Der Autor zeigt eine 3D-Demo eines Antikythera-Mechanismus, der zwischen dem geborgenen Objekt, rekonstruierten Zahnrädern und einem Zifferblatt wechselt.",
+      "notes": "Die Aufnahme zeigt eine Darstellung des Zusammenbaus und Details des Bewegungsmechanismus.",
+      "action": "Vergleichen Sie die Ansicht des wiederhergestellten Fragments, die Zahnradrekonstruktion und die Anzeige des Zifferblatts in derselben Demo."
+    },
+    "case-35": {
+      "title": "Einen visuellen Windkanal als Prototyp bauen",
+      "takeaway": "Der Autor zeigt eine 3D-Windkanal-Demo mit sichtbaren Luftstromlinien um verschiedene Formen.",
+      "notes": "Das Video enthält ein Flugzeug und andere Testformen. Es gibt keine unabhängige Genauigkeitsprüfung für die Simulation.",
+      "action": "Vergleichen Sie, wie sich die Stromlinien zwischen den Testformen ändern, bevor Sie die Visualisierung als Lehrbeispiel verwenden."
+    },
+    "case-36": {
+      "title": "Die Kapelle des King's College im Schnitt zeigen",
+      "takeaway": "Der Autor zeigt einen 3D-Ausschnitt der King's College Chapel, der zwischen Außen- und Innenbereich wechselt.",
+      "notes": "Die Szene verwendet verschiedene Ansichten, um das Kirchenschiff, die Fenster und den Gebäudequerschnitt zu zeigen.",
+      "action": "Vergleichen Sie das Äußere, das Kirchenschiff und den Ausschnitt, um zu sehen, wie jede Ansicht das Gebäude erklärt."
+    },
+    "case-37": {
+      "title": "Ein Flussviadukt und seine Umgebung rendern",
+      "takeaway": "Der Autor zeigt ein 3D-Flusstal mit einem Mehrbogenviadukt, einem Zug und mehreren Renderansichten.",
+      "notes": "Die Aufnahme wechselt zwischen nahen und fernen Kamerawinkeln und beinhaltet eine drahtgitterartige Ansicht.",
+      "action": "Nutzen Sie die Nah-, Fern- und Drahtmodellansichten, um sowohl die Brücke als auch die sie umgebende Szene zu beurteilen."
+    },
+    "case-38": {
+      "title": "Eine 3D-Stadtansicht nach dem Vorbild von Cambridge bauen",
+      "takeaway": "Der Autor zeigt eine von Cambridge inspirierte Stadtvisualisierung mit Luft- und Nahansichten der modellierten Blöcke.",
+      "notes": "Der Clip zeigt den Fluss, Gebäude und Szenenüberlagerungen. Der Autor beschreibt die Umgebung als Cambridge-ähnlich.",
+      "action": "Überprüfen Sie, wie Orientierungspunkte und der Fluss erkennbar bleiben, während sich die Kamera durch die Szene bewegt."
+    },
+    "case-39": {
+      "title": "Rendern Sie eine Erde im Neon-Stil",
+      "takeaway": "Der Ersteller verwendete Neon mit hohem Anteil an Antigravity, um einen Planeten mit Neon-Thema zu rendern.",
+      "notes": "Die Quelle liefert das Ergebnis und die Aufwandseinstellung.",
+      "action": "Überprüfen Sie, ob das visuelle Thema konsistent ist, während sich der Globus dreht."
+    },
+    "case-40": {
+      "title": "Iterieren Sie eine Yachtszene",
+      "takeaway": "Der Ersteller berichtet, dass Neon eine Yachtszene verbessert hat und zeigt die Ergebnisse.",
+      "notes": "Die Bereitstellung von Firebase war zum Zeitpunkt des Beitrags eine erklärte Absicht.",
+      "action": "Überprüfen Sie Vorher-Nachher-Artefakte, wenn Sie das Modell bitten, eine 3D-Szene zu verfeinern."
+    },
+    "case-41": {
+      "title": "Erstellen Sie Kostümmaterialien in einem benutzerdefinierten VFX-Tool",
+      "takeaway": "Der Schöpfer verwendete Neon zur Herstellung von Kostümmaterialien und veröffentlichte sechs Bilder der Ergebnisse.",
+      "notes": "Der Ersteller beschreibt die VFX-Tools als seine eigenen. Die Quelle erstellt keinen unabhängigen Leistungsvergleich.",
+      "action": "Vergleichen Sie bei der Materialauswahl Behandlungen derselben Kostümform."
+    },
+    "case-42": {
+      "title": "Vergleichen Sie Voxel-Ninjago-Szenen",
+      "takeaway": "Die Quelle vergleicht Neon und Fable 5.2 in einem Voxel-Spiel.",
+      "notes": "Der Autor gibt 12,93 US-Dollar für Neon und 11,19 US-Dollar für Fable an und bevorzugte den Rahmen des letzteren.",
+      "action": "Beurteilen Sie den visuellen Rahmen und die Kosten separat in einem Voxelvergleich desselben Motivs."
+    },
+    "case-43": {
+      "title": "Erstellen Sie eine Pelikan-Produktbewegungsgrafik",
+      "takeaway": "Der Schöpfer schreibt Neon eine Produktanimationsgrafik mit Pelikan-Thema zu.",
+      "notes": "Der verknüpfte Clip zeigt die Ausgabe. Der Beitrag beschreibt weder die Implementierung noch eine genaue Eingabeaufforderung.",
+      "action": "Betrachten Sie Timing und Typografie gemeinsam in einer kurzen Produktanimation."
+    },
+    "case-44": {
+      "title": "Vergleichen Sie Prototypen der New Yorker Szene",
+      "takeaway": "Der Tester berichtet, dass Neon die Brooklyn Bridge, die Freiheitsstatue und eine Straße mit Taxis umfasste.",
+      "notes": "Der Tester bevorzugte einige Details in der Opus-Ausgabe und berichtete, dass die Ausführung der Neon-Szene zu Verzögerungen auf dem PC führte.",
+      "action": "Bewerten Sie die Treue zu Wahrzeichen und die Laufzeitleistung separat in einem Stadtszenen-Build."
+    },
+    "case-45": {
+      "title": "Führen Sie einen Bananen-Sehtest durch",
+      "takeaway": "Der Tester veröffentlicht eine Neon-Ausgabe für einen Test mit dem Titel Banana Test.",
+      "notes": "Die Ausgabe wird an die Quelle angehängt. Die Quelle liefert keine genaue Angabe.",
+      "action": "Prüfen Sie, wie sich eine einfache visuelle Aufgabe über Details und Proportionen hinweg bewährt."
+    },
+    "case-46": {
+      "title": "Vergleichen Sie eine verwunschene Kathedrale in einer Eingabeaufforderung",
+      "takeaway": "Der Tester stellte Neon und GPT-6.2 Sol vor die gleiche gespenstische Kathedralenaufgabe.",
+      "notes": "Der Ersteller meldet 2,67 US-Dollar für Neon und 1,69 US-Dollar für Sol, wobei es in seiner Bewertung keinen klaren visuellen Gewinner gibt.",
+      "action": "Nutzen Sie die veröffentlichte Aufforderung, um die beiden Kathedralenputze unter den beschriebenen Bedingungen zu vergleichen."
+    },
+    "case-47": {
+      "title": "Prototyp einer Telefonbaugruppe in Antigravity",
+      "takeaway": "Der Entwickler verwendete Neon in Antigravity und zeigte eine Platine mit Designkomponenten und eine gerenderte Telefonbaugruppe.",
+      "notes": "Der Entwickler berichtet über erste Eindrücke von Codierung und Geschwindigkeit, ohne Zeitangaben oder einen kontrollierten Carbon-Vergleich.",
+      "action": "Überprüfen Sie die Komponententreue und die Endmontage separat, wenn Sie einen Design-Prototyp überprüfen."
+    },
+    "case-48": {
+      "title": "Erstellen Sie ein interaktives historisches Segelschiff",
+      "takeaway": "Der Autor hat eine Zero-Shot-3D-Segelschiffdemonstration gepostet.",
+      "notes": "Der Autor berichtet, dass das Schiff und das Wasser in unterschiedlichen Schichten gerendert wurden und beschreibt die Ausgabe als realistischer als ihr Sol-Ergebnis.",
+      "action": "Untersuchen Sie die Grenzen zwischen Schiff und Wasser in der interaktiven Ausgabe."
+    },
+    "case-49": {
+      "title": "Entwerfen Sie eine Modelleinführung in JavaScript",
+      "takeaway": "Der Autor verwendete Neon, um eine Bewegungsgrafik zu erstellen, die das Modell vorstellt.",
+      "notes": "Der Autor sagt, dass es JavaScript ohne externe Assets verwendet.",
+      "action": "Überprüfen Sie Typografie und Tempo in der JavaScript-Bewegungsgrafik."
+    },
+    "case-50": {
+      "title": "Erstellen Sie in einem Durchgang eine Skihüttenszene",
+      "takeaway": "DesignArena hat Neon und Argon gebeten, das gleiche Alpenhütten-Setting zu erstellen und die Ergebnisse nebeneinander veröffentlicht.",
+      "notes": "DesignArena bevorzugte Elemente beider Renderings. Es wird berichtet, dass Neon ungefragt Schneefall hinzufügte.",
+      "action": "Überprüfen Sie die Hütte, den Schnee und die Bäume separat, wenn Sie diesen One-Pass-Szenenvergleich bewerten."
+    },
+    "case-51": {
+      "title": "Rendern Sie ein Voxel-Fantasieschloss",
+      "takeaway": "Der Schöpfer teilt ein Voxel-Schloss, das bei Neon xhigh produziert wurde.",
+      "notes": "Der Ersteller meldet eine Eingabeaufforderung und eine Fertigstellungszeit von 27 Minuten.",
+      "action": "Überprüfen Sie die endgültige Szene und die gemeldete Laufzeit, wenn Sie einen One-Prompt-Build bewerten."
+    },
+    "case-52": {
+      "title": "Vergleichen Sie eine Oktopus-Fahrradanimation mit Astra",
+      "takeaway": "Der Tester meldete für Astra (xhigh) 21 Minuten und 53 Sekunden bei 2,52 USD und für Neon (high) 41 Minuten bei 4,02 USD.",
+      "notes": "Der Autor bezeichnet die Animationsqualität als naheliegend. Dies ist ein Durchlauf mit unterschiedlichen Argumentationseinstellungen.",
+      "action": "Vergleichen Sie die Animation und die Kosten, während Sie die beiden Argumentationseinstellungen explizit beibehalten."
+    },
+    "case-53": {
+      "title": "Three.js Schmetterlingsanimation",
+      "takeaway": "Ein Entwickler nutzte Neon xhigh in Antigravity, um eine Three.js-Schmetterlingsanimation zu erstellen.",
+      "notes": "Der Ersteller meldete 57 Minuten, etwa 23 % seines Fünf-Stunden-Kontingents und 7 % seines Wochenkontingents.",
+      "action": "Verwenden Sie den Clip und die gemeldete Ressourcennutzung, um die Größe eines ähnlichen Three.js-Experiments zu bestimmen."
+    },
+    "case-54": {
+      "title": "Erstellen Sie Komponenten und Bewegungen aus Referenzbildern",
+      "takeaway": "Der Ersteller nutzte visuelle Referenzen, um mehrere Komponenten und begleitende Bewegungen zu generieren.",
+      "notes": "Die Demo zeigt das Ergebnis. Die Aussage darüber, wie es sich im Vergleich zu Opus anfühlt, ist das Urteil des Erstellers.",
+      "action": "Stellen Sie visuelle Referenzen bereit und bewerten Sie Layouttreue und Bewegung als separate Kriterien."
+    },
+    "case-55": {
+      "title": "Pixel-Assistentenwelt in Three.js",
+      "takeaway": "Ein Ersteller stellte Neon-Referenzbilder zur Verfügung und verfeinerte die Three.js-Szene in drei Durchgängen.",
+      "notes": "Der Ersteller gab an, 39 % seines Fünf-Stunden-Kontingents und 11 % seines wöchentlichen Kontingents in Antigravity genutzt zu haben.",
+      "action": "Verwenden Sie die drei Durchgänge, um zu beurteilen, wie sich der visuelle Glanz mit der Iteration ändert."
+    },
+    "case-56": {
+      "title": "Castle-Rendering-Benchmark",
+      "takeaway": "Der Ersteller nutzte Neon für einen Burg-Benchmark und veröffentlichte Videos und Standbilder.",
+      "notes": "Der Ersteller gab an, etwa 4 % eines wöchentlichen Kontingents in seinem Plan zu nutzen. Der Beitrag stellt nicht fest, ob sich diese Verwendung auf andere Konten verallgemeinert.",
+      "action": "Behandeln Sie das Schloss als visuellen Maßstab für einen Ersteller und behalten Sie den kontospezifischen Quotenkontext bei."
+    },
+    "case-57": {
+      "title": "Alan Turings Arbeitszimmer aus dem Jahr 1936 nachbauen",
+      "takeaway": "Google hat Neon mit Antigravity Swarm verwendet, um eine interaktive Rekonstruktion aus Archivfotos zu erstellen.",
+      "notes": "Die Szene umfasst die Königskapelle, Turings Arbeitszimmer und eine funktionierende Simulation einer universellen Turing-Maschine auf dem Schreibtisch.",
+      "action": "Überprüfen Sie die Archivtreue und die interaktive Funktionalität als separate Teile der Rekonstruktion."
+    },
+    "case-58": {
+      "title": "Erstellen Sie ein Side-Scrolling-Hindernisspiel",
+      "takeaway": "Der Tester fragte Neon nach einem Prototyp im Flappy Bird-Stil und veröffentlichte eine Aufnahme.",
+      "notes": "Der Autor berichtet etwa fünf Minuten lang und bespricht seine eigenen Eindrücke zu Kosten und Nutzung.",
+      "action": "Testen Sie die Hindernisschleife und das Kollisionsverhalten, wenn Sie einen kleinen Spielprototyp überprüfen."
+    },
+    "case-59": {
+      "title": "Vergleichen Sie Schwert- und Schildkampfszenen",
+      "takeaway": "Der Tester hat ein Video mit den Bezeichnungen Fable 5.2 und Neon für eine Kampfspielszene gepostet.",
+      "notes": "Das Video zeichnet zwei Ergebnisse auf und stellt kein allgemeines Modellranking her.",
+      "action": "Nutzen Sie die beiden beschrifteten Clips, um die visuellen und interaktionellen Unterschiede selbst einzuschätzen."
+    },
+    "case-60": {
+      "title": "Ein Synthwave-Minigolfspiel bauen",
+      "takeaway": "Google Antigravity zeigt, wie Gemini 4 Neon mit Swarm aus einem einzigen Prompt ein 3D-Minigolfspiel baut.",
+      "notes": "Das Video zeigt acht Worker-Agenten, einen Spieldurchlauf im Browser und die integrierte Prüfung aller acht Kurse.",
+      "action": "Achte darauf, wie sich die Agenten die Arbeit teilen und wie der Browser alle acht Kurse prüft."
+    },
+    "case-61": {
+      "title": "Vergleichen Sie animierte Ritterduelle",
+      "takeaway": "Für ein Duell zwischen gepanzerten Charakteren postete der Tester separate beschriftete Opus 5.5- und Neon-Ausgänge.",
+      "notes": "Der Beitrag fordert die Leser auf, die gerenderten Ergebnisse zu beurteilen und legt kein kontrolliertes Protokoll offen.",
+      "action": "Vergleichen Sie Bewegungslesbarkeit und Charakterinszenierung in den beiden Duell-Clips."
+    },
+    "case-62": {
+      "title": "Erstellen Sie ein expressionistisches Kunstspiel in einer HTML-Datei",
+      "takeaway": "Der Entwickler verwendete Neon, um ein endloses JavaScript-Kunstspiel zu erstellen, das in einer HTML-Datei enthalten ist.",
+      "notes": "Der Entwickler veröffentlichte das Ergebnis und beschreibt seine expressionistische visuelle Behandlung.",
+      "action": "Überprüfen Sie den visuellen Stil und die Steuerung eines Spiels, das als eine HTML-Datei bereitgestellt wird."
+    },
+    "case-63": {
+      "title": "Vergleichen Sie Prototypen von Ice-Boss-Spielen",
+      "takeaway": "Der Tester hat die Ausgänge „Neon“ und „Opus 5.5“ für eine Ego-Ego-Ego-Boss-Begegnung gepostet.",
+      "notes": "Das Video bietet einen visuellen Vergleich. Der Beitrag lässt die Eingabeaufforderung, die Einstellungen, den Zeitpunkt und den Gewinner offen.",
+      "action": "Verwenden Sie das beschriftete Begegnungsmaterial, um die Lesbarkeit der Szene zu beurteilen, ohne von einer gemeinsamen Aufforderung auszugehen."
+    },
+    "case-64": {
+      "title": "Wassermelonen-Basketball-Demo",
+      "takeaway": "Der Tester teilt ein Neon-Wassermelonen-Basketballvideo.",
+      "notes": "Der Autor benennt das getestete Modell und verlinkt das Ergebnis, gibt jedoch keine Zeitangaben oder Build-Einstellungen an.",
+      "action": "Überprüfen Sie die Arena, Bewegung und Ballinteraktion in diesem Prototyp."
+    },
+    "case-65": {
+      "title": "Baue einen Gaußschen Splatting-Bäckerei-Plattformer",
+      "takeaway": "Der Entwickler nutzte Neon, um eine C++20- und WebGPU-Gaussian-Splatting-Engine in einen Plattformer mit vier Türmen zu verwandeln.",
+      "notes": "Der Ersteller meldete drei Eingabeaufforderungen und etwa 60 Minuten aktive Schwarmzeit und bat dann das Modell, die Demo aufzuzeichnen.",
+      "action": "Verwenden Sie den aufgezeichneten Spieldurchgang, um die Renderarbeit von der Gameplay-Optimierung zu unterscheiden."
+    },
+    "case-66": {
+      "title": "Erstellen Sie ein 3D-Spiel mit Antigravity Swarm",
+      "takeaway": "Der Entwickler nutzte Neon und Antigravity Swarm, um ein kleines 3D-Spiel zu erstellen.",
+      "notes": "Der Entwickler beschreibt die Unterstützung sowohl für Mobilgeräte als auch für Desktops und teilt einen Walkthrough-Thread.",
+      "action": "Überprüfen Sie die resultierenden Mobil- und Desktop-Pfade separat in einem von Swarm unterstützten Build."
+    },
+    "case-67": {
+      "title": "Prototyp eines Weltraumrennens",
+      "takeaway": "Ein Entwickler berichtete, er habe mit Neon einen Weltraumrennfahrer mit hoher Argumentation gebaut.",
+      "notes": "Der Ersteller meldete eine Laufzeit von etwa 15 Minuten, die 1,50 USD kostete, und veröffentlichte die Ausgabe.",
+      "action": "Vergleichen Sie das spielbare Ergebnis mit der gemeldeten Zeit und den Kosten des ersten Builds."
+    },
+    "case-68": {
+      "title": "Prototyp einer Turmverteidigung",
+      "takeaway": "Ein Entwickler hat das Gameplay eines von Neon gebauten Tower-Defense-Prototyps gepostet.",
+      "notes": "Der Entwickler meldete etwa 20 Minuten und 2 % seines Fünf-Stunden-Kontingents. Bei der Smooth-Play-Angabe handelt es sich um die Einschätzung des Entwicklers.",
+      "action": "Testen Sie die Tower-Defense-Schleife selbst, bevor Sie aus dem Glättebericht des Autors verallgemeinern."
+    },
+    "case-69": {
+      "title": "Bauen Sie einen First-Person-Skisimulator",
+      "takeaway": "Google berichtet, dass Neon zur Erstellung eines WebGL2-Freeride-Simulators auf dem Gelände des Mont Blanc und Chamonix verwendet wurde.",
+      "notes": "Die Demonstration umfasst sechs Skilinien, einen 120-Hz-Physik-Loop, Track-Carving und räumliches Audio.",
+      "action": "Betrachten Sie Gelände, Bewegung und Audio getrennt, wenn Sie den Skisimulator bewerten."
+    },
+    "case-70": {
+      "title": "Fassen Sie die Modellauswahl in einer Forschungstabelle zusammen",
+      "takeaway": "Der Autor führt eine Gemini-4-Modellauswahltabelle auf die von Neon durchgeführte Forschung zurück.",
+      "notes": "Der Screenshot ist die resultierende Empfehlung. Seine Einträge sind das Ergebnis der Forschungsaufgabe und keine unabhängig überprüfte Produktanleitung.",
+      "action": "Überprüfen Sie die Behauptungen in einer Modellauswahltabelle anhand der Quellen, bevor Sie diese zur Entscheidungsfindung verwenden."
+    },
+    "case-71": {
+      "title": "Erstellen Sie gemeinsam mit Neon einen Launch-Film",
+      "takeaway": "Ein Google-Teammitglied berichtet von der gemeinsamen Erstellung eines Films mit Neon und teilt das Ergebnis.",
+      "notes": "Der Film ist eine anbieterseitige Demonstration. Der Beitrag gibt nicht an, welche Tools einzelne Frames oder Audio gerendert haben.",
+      "action": "Nutzen Sie den Film als Anbieterbeispiel und identifizieren Sie die anderen Werkzeuge, bevor Sie Produktionsschritte zuordnen."
+    },
+    "case-72": {
+      "title": "Erklären Sie die Mechanik der Ausrüstung in einem VR-Spiel",
+      "takeaway": "Der Autor nutzte Neon, um die Ausrüstung im Meta Quest-Spiel H3VR2 zusammenzufassen und fügte eine illustrierte Erklärung bei.",
+      "notes": "Das Artefakt dokumentiert das Spielszenario. Die Quelle nennt weder die genaue Aufforderung noch ordnet sie Neon die Videoproduktion zu.",
+      "action": "Vergleichen Sie das erklärende Artefakt mit der Spielmechanik, bevor Sie es als Leitfaden verwenden."
+    },
+    "case-73": {
+      "title": "Überprüfen Sie beim Bildzuschnitt eine Selbsteinschätzung",
+      "takeaway": "Der Tester berichtet, dass Neon bei einem Bildbearbeitungstest seinen eigenen Ausschnitt ergänzt hat.",
+      "notes": "Der Screenshot dokumentiert eine einzelne Interaktion. Es bestimmt weder die Erntequalität noch das Verhalten anderer Werkzeuge.",
+      "action": "Beurteilen Sie die Ernte selbst, bevor Sie sich auf die Beschreibung der Qualität durch das Modell verlassen."
+    },
+    "case-74": {
+      "title": "Verwandeln Sie einen Artikel in bearbeitbare Folien",
+      "takeaway": "Der Ersteller schickte Neon einen Artikel und nutzte eine öffentliche Fähigkeit zum Erstellen von Folien.",
+      "notes": "Der Ersteller berichtet, dass der Workflow Bilder generiert und eingefügt und bearbeitbare Google Slides bereitgestellt hat. Der Beitrag beschreibt den gesamten Arbeitsablauf, ohne den Bildgenerator zu nennen.",
+      "action": "Überprüfen Sie, ob die Folien bearbeitet werden können und ob ihre Bilder den Originalartikel unterstützen."
+    },
+    "case-75": {
+      "title": "Generieren Sie eine Fantasy-Romaneröffnung",
+      "takeaway": "Der Autor nutzte Neon für einen Schreibtest und veröffentlichte den Anfang einer chinesischen Fantasy-Geschichte.",
+      "notes": "Der Beitrag zeigt einen fertigen Eröffnungsauszug. Seine Länge und Qualität begründen nicht die Langstreckenleistung des Modells.",
+      "action": "Überprüfen Sie den Anfang auf Stil und Stimme, bevor Sie Schlussfolgerungen zu einem längeren Entwurf ziehen."
+    },
+    "case-76": {
+      "title": "Interpretieren Sie einen Original-Dario-Witz",
+      "takeaway": "Der Autor berichtet, dass Neon einen von ihnen geschriebenen Witz verstanden hat, Opus 5.5 jedoch nicht.",
+      "notes": "Dies ist ein Versuch mit Screenshots. Es stellt keine umfassende Schreib- oder Argumentationsleistung dar.",
+      "action": "Verwenden Sie passende Beispiele, um das Verständnis eines bestimmten Witzes von der allgemeinen Schreibfähigkeit zu trennen."
+    },
+    "case-77": {
+      "title": "Erstellen Sie in Sheets ein Computer-Vision-Labor",
+      "takeaway": "Google berichtet, dass ein Neonschwarm ein Referenzbild in eine Tabelle mit 100.000 Zellen verwandelt hat.",
+      "notes": "Die Demo nutzt mehr als 500.000 Formeln in sechs Modi für Aufgaben wie Kantenerkennung, Tiefenkartierung und Neubeleuchtung.",
+      "action": "Überprüfen Sie, welche Effekte aus Formeln resultieren, wenn Sie eine reine Tabellenkalkulationsvisualisierung auswerten."
+    },
+    "case-78": {
+      "title": "Messen Sie die Domänenleistung auf dem Vals Index",
+      "takeaway": "Vals AI meldet 70,9 % für Neon und einen zweiten Gesamtrang, 0,4 Punkte hinter Fable 5.2.",
+      "notes": "Der Gutachter belegt außerdem den ersten Platz bei seinen Finanz- und Rechtsindizes sowie bei Steueragenten- und Rechtsforschungsaufgaben.",
+      "action": "Verwenden Sie Ergebnisse auf Aufgabenebene, um zu sehen, ob der Gesamtrang mit Ihrer Domain übereinstimmt."
+    },
+    "case-79": {
+      "title": "Testen Sie interaktive Demos während des frühen Zugriffs",
+      "takeaway": "Der Autor berichtet, dass er Neon in Antigravity verwendet hat, um 17 interaktive Demos zu erstellen und zusätzliche Codierungs- und Tooltests zu dokumentieren.",
+      "notes": "Der veröffentlichte Thread berichtet sowohl über Erfolge als auch über Probleme. Die Demos sind als eine Early-Access-Testreihe zusammengefasst.",
+      "action": "Vergleichen Sie die erfolgreichen Prototypen mit den Fehlern, die im selben Early-Access-Thread gemeldet wurden."
+    },
+    "case-80": {
+      "title": "Vergleichen Sie Agentensitzungen in Agent Arena",
+      "takeaway": "Arena meldet für Neon High 1336 Punkte und Platz zwei bei Mediankosten von 2,82 USD pro Aufgabe.",
+      "notes": "Der Beitrag von Arena beschreibt eine Auswertung, die auf 4,2 Tausend Community-Agent-Sitzungen basiert.",
+      "action": "Verwenden Sie beim Vergleich der Agent Arena-Ergebnisse die mittleren Kosten pro Aufgabe neben der gemeldeten Punktzahl."
+    },
+    "case-81": {
+      "title": "Platzieren Sie Neon in Text Arena",
+      "takeaway": "Arena meldet Neon High bei 1518, hinter Carbon High bei 1526 und Argon High bei 1521.",
+      "notes": "Dies ist ein Text Arena-Schnappschuss des Benchmark-Herausgebers.",
+      "action": "Vergleichen Sie beim Lesen der Ergebnisse den gleichen Arena-Schnappschuss und die gleichen Argumentationseinstellungen."
+    },
+    "case-82": {
+      "title": "3D-Druckfiguren im Wojak-Bench bewerten",
+      "takeaway": "Der Benchmark-Mitautor berichtete, dass Neon auf dem vierten Platz debütierte. Der veröffentlichte Snapshot der Bestenliste gibt Neon eine Bewertung von 1056.",
+      "notes": "Modelle verwandeln dieselbe Referenzzeichnung in druckbare Figuren. Besucher vergleichen Ausgabepaare, sodass sich die Live-Bewertung ändern kann, wenn sich die Stimmen ansammeln.",
+      "action": "Lies den veröffentlichten Rang als Momentaufnahme des Paarvergleichs. Prüfe vor dem Zitieren einer Wertung die aktuelle Rangliste."
+    },
+    "case-83": {
+      "title": "Vergleichen Sie Codieragenten mit ihren Kabelbäumen",
+      "takeaway": "Artificial Analysis meldet 59 für Neon xhigh mit Antigravity CLI und 55 für Carbon high.",
+      "notes": "Für Neon werden durchschnittliche Kosten pro Aufgabe von 6,86 USD angegeben. Claude-Vergleiche in der Quelle verwendeten Claude-Code und separate Argumentationseinstellungen.",
+      "action": "Halten Sie die Evaluierungseinstellungen und -einstellungen jedes Modells sichtbar, wenn Sie Codierungsergebnisse vergleichen."
+    },
+    "case-84": {
+      "title": "Bewerten Sie die Wissensarbeit zu AA-Briefcase",
+      "takeaway": "Artificial Analysis meldet 1700 Elo für Neon xhigh und 1611 für Carbon high.",
+      "notes": "Der Verlag meldet 1771 für Neons Präsentationspartitur. Der verknüpfte Vergleich verwendet die öffentlichen Briefcase-Lite-Aufgaben.",
+      "action": "Trennen Sie bei der Interpretation des Benchmarks die Präsentationsqualität vom Gesamtscore."
+    },
+    "case-85": {
+      "title": "Zeit Artificial Analysis Intelligence Index Aufgaben",
+      "takeaway": "Artificial Analysis meldete etwa 21 Minuten pro Aufgabe für Neon xhigh und 36 Minuten für Carbon high.",
+      "notes": "Der Herausgeber berichtet, dass Neon bei einer höheren Ausgaberate etwa 15 % mehr Ausgabetoken verbrauchte. Bei diesen unterschiedlichen Einstellungen wurde Neon mit 61 und Carbon mit 60 bewertet.",
+      "action": "Messen Sie die End-to-End-Zeit getrennt von der Token-Ausgaberate, wenn Sie eine Begründungseinstellung auswählen."
+    },
+    "case-86": {
+      "title": "Führen Sie eine Verkaufssimulation durch",
+      "takeaway": "Andon Labs berichtete zum Zeitpunkt seines Beitrags zuerst über Neon auf Vending-Bench 2.",
+      "notes": "Die Simulationsprotokolle enthielten falsche Verhandlungsbehauptungen, jedoch keine erfundenen verlorenen Bestellungen oder versäumten Zahlungen im gemeldeten Lauf.",
+      "action": "Überprüfen Sie die Transaktionsprotokolle sowie den Endsaldo, wenn Sie eine Agentensimulation beurteilen."
+    },
+    "case-87": {
+      "title": "Überprüfen Sie das Zeitlimit für den RuneScape-Benchmark",
+      "takeaway": "Der Benchmark-Autor berichtete, dass Neons ehrgeizige Strategien nicht fristgerecht abgeschlossen seien.",
+      "notes": "Die Beobachtung betrifft dieses zeitgesteuerte Umfeld und verdeutlicht, warum Planqualität und termingerechte Fertigstellung getrennte Prüfungen erfordern.",
+      "action": "Behandeln Sie einen Lauf, der die Aufgabenfrist überschreitet, als unvollständig, auch wenn sein Plan plausibel erscheint."
+    },
+    "case-88": {
+      "title": "Führen Sie professionelle Aufgaben auf APEX-Agents aus",
+      "takeaway": "Mercor meldet 82,9 % Pass@1 und eine durchschnittliche Punktzahl von 88,9 % für Neon bei APEX-Agents.",
+      "notes": "Dies sind separate Messwerte. Der Herausgeber meldet außerdem ein Pass@1-Ergebnis von 23,5 % bei seinem separaten APEX-Accounting-Test.",
+      "action": "Unterscheiden Sie beim Vergleich professioneller Aufgaben die Erfolgsquote beim ersten Versuch von der Durchschnittspunktzahl."
+    },
+    "case-89": {
+      "title": "Vergleichen Sie Neon und Hydrogen auf CursorBench 4.1",
+      "takeaway": "Cursor meldet 63,7 % für Neon bei Standardaufwand und 57,3 % für Hydrogen.",
+      "notes": "Der Vergleich wurde im Rahmen der Cursor-Bewertung durchgeführt und stellt keine Leistungsnachweise für andere Gurte dar.",
+      "action": "Verwenden Sie dieselbe CursorBench-Version und vergleichen Sie die Ergebnisse mit den angegebenen Argumentationseinstellungen."
+    },
+    "case-90": {
+      "title": "Messen Sie die Arbeitszeit einer CUDA-Debugging-Aufgabe",
+      "takeaway": "Der Autor führte die Modelle auf einer CUDA-Debugging-Eingabeaufforderung aus und maß separat die Token-Rate und die End-to-End-Latenz.",
+      "notes": "Der Autor gab in diesem Ergebnis etwa 76 Sekunden für Neon und etwa 20 Sekunden für Astra und Opus 5.5 an.",
+      "action": "Messen Sie die Arbeitszeit für dieselbe Debugging-Aufgabe, bevor Sie Schlussfolgerungen aus dem Durchsatz ziehen."
+    },
+    "case-91": {
+      "title": "Messen Sie Arbeitsplatzaufgaben auf Tuesday@Work",
+      "takeaway": "Surge AI führte Neon in seiner Evaluierungssuite aus und meldete 71,6 bei Tuesday@Work, gegenüber 71,2 für Fable 5.2.",
+      "notes": "Der Verlag meldet auch Spitzenpositionen bei DAYJOB Finance, GDP.xlsx und Riemann-bench. Die Ergebnisse gelten für die Tests.",
+      "action": "Verwenden Sie domänenspezifische Ergebnisse neben dem Tuesday@Work-Aggregat."
+    },
+    "case-92": {
+      "title": "Überprüfen Sie Strafentscheidungen in Antigravity",
+      "takeaway": "Der Ersteller von Penalty Bench berichtet, dass Neon mit dem Antigravity-Gurt im Benchmark den ersten Platz belegte.",
+      "notes": "Die Quelle beschreibt eine kleine Reihe von Strafentscheidungen im Vergleich zu Schiedsrichterurteilen. Dies ist ein Ergebnis dieser Bewertung.",
+      "action": "Vergleichen Sie die Urteile der Agenten mit den Urteilen der Referenzen im gleichen Bewertungsaufbau."
+    },
+    "case-93": {
+      "title": "Benchmark zur Browsernutzung",
+      "takeaway": "Browser Use meldete ein Ergebnis von 74 % für Neon, was dem Ergebnis von Opus 5.5 entspricht, und 82 % für GPT-6.2 Sol.",
+      "notes": "Diese Ergebnisse beschreiben den Benchmark des Verlags. Für diese Bewertung gilt der Kostenvergleich.",
+      "action": "Vergleichen Sie den Browser-Benchmark und seine Ausführungskosten im Evaluierungssetup des Herausgebers."
+    },
+    "case-94": {
+      "title": "Messen Sie Werkzeugaufruffehler in PandaCode",
+      "takeaway": "Der Autor hat während eines Start-Nacht-Fensters 65 fehlgeschlagene Tool-Aufrufe in 9.465 Neon-Aufrufen gemessen.",
+      "notes": "Für Neon und Carbon ergaben sich im selben Zeitraum gerundet jeweils 0,7 %. Die meisten anderen Werte decken den gesamten verfügbaren Zeitraum ab und stammen aus unterschiedlichen Testumgebungen.",
+      "action": "Vergleichen Sie Fehler über übereinstimmende Fenster und berücksichtigen Sie Unterschiede im Testaufbau."
+    },
+    "case-95": {
+      "title": "Führen Sie den Plotly-Datenanalyse-Benchmark mit 43 Fragen durch",
+      "takeaway": "Das korrigierte Ergebnis von Plotly schreibt Neon 43 von 43 Antworten zu und meldet 17,03 USD für den gesamten Durchgang.",
+      "notes": "Hydrogen löste ebenfalls alle 43 von 43 Fragen, bei Kosten von 6,36 USD. Laut Plotly lag der Median der Zeit pro Frage bei 46 Sekunden für Neon und 32 Sekunden für Hydrogen. Jedes Modell wurde einmal in einer Testumgebung für die Datenanalyse ausgeführt.",
+      "action": "Vergleichen Sie Korrektheit, Kosten und mittlere Zeit pro Frage innerhalb derselben Plotly-Bewertung."
+    }
+  },
+  "strings": {
+    "title": "Gemini 4 Neon-Anwendungsfälle",
+    "introduction": "Einführung",
+    "scope": "Entdecken Sie Gemini 4 Neon anhand öffentlicher Workflows, visueller Prototypen, Integrationen und Evaluierungen. Jeder Fall verweist auf seine Quelle und beschreibt die Rolle des Modells und das gemeldete Ergebnis.",
+    "overview": "Übersicht",
+    "quick_start": "Schnellstart",
+    "step_1": "Wählen Sie einen Fall aus dem Menü und öffnen Sie die Originalquelle.",
+    "step_2": "Überprüfen Sie die Modellrolle, das Tool, die Einstellungen und das Ergebnis, das die Quelle meldet.",
+    "step_3": "Vergleichen Sie Fälle mit passenden Aufgaben und Einstellungen. Behandeln Sie die vom Ersteller gemeldeten Zeiten und Kosten als Beobachtungen aus diesen Läufen.",
+    "menu": "Menü",
+    "section": "Abschnitt",
+    "contents": "Zweck",
+    "collection_scope": "Sammlungsumfang",
+    "case_counts": "Fall- und visuelle Zählungen",
+    "reading_cases": "So lesen Sie die Fälle",
+    "related": "Verwandte Repositories",
+    "other_collections": "Weitere Kollektionen von Gemini-Hüllen",
+    "acknowledge": "Danksagung",
+    "credits": "Credits und Korrekturen",
+    "case": "Fall",
+    "category": "Kategorie",
+    "what_it_shows": "Was es zeigt",
+    "type": "Typ",
+    "engineering": "Technik und Integrationen",
+    "graphics": "Grafik- und Interface-Prototypen",
+    "games": "Spiele und Simulationen",
+    "knowledge": "Wissensarbeit",
+    "evaluations": "Bewertungen und Grenzen",
+    "supporting_source": "Ergänzende Quelle",
+    "carbon": "Gemini 4 Carbon Leitfaden und Anwendungsfälle",
+    "hydrogen": "Gemini 4 Wasserstoff-Anwendungsfälle",
+    "thanks": "Vielen Dank an die Ersteller und Bewerter, die ihre Arbeit geteilt haben.",
+    "corrections": "Medien- und Drittwerke verbleiben bei ihren jeweiligen Rechteinhabern. Bitte öffnen Sie ein Problem, wenn eine Quelle, ein Quellennachweis oder ein Medienelement korrigiert werden muss.",
+    "overview_sentence": "**{cases} Fälle zu Gemini 4 Neon** mit {visuals} visuellen Quellenbelegen.",
+    "evidence_note": "Jeder Fall verlinkt auf seine Quelle. Zeit-, Kosten- und Benchmarkangaben beziehen sich auf die beschriebenen Testbedingungen."
+  },
+  "term_retranslations": 13,
+  "term_errors": []
+}
