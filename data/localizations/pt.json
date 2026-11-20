@@ -572,6 +572,66 @@
       "takeaway": "O resultado corrigido do Plotly credita ao Neon 43 de 43 respostas e relata US$ 17,03 para a execução completa.",
       "notes": "Hydrogen também acertou 43 de 43 perguntas, com custo de USD 6,36. A Plotly registrou um tempo mediano por pergunta de 46 segundos para Neon e de 32 segundos para Hydrogen. Cada modelo foi executado uma vez em um ambiente de avaliação para análise de dados.",
       "action": "Compare a correção, o custo e o tempo médio por pergunta na mesma avaliação Plotly."
+    },
+    "case-96": {
+      "title": "Animar uma luta de bonecos-palito em Three.js",
+      "action": "Confira se a luta feita em código continua fácil de acompanhar com mudanças de câmera e de cenário.",
+      "takeaway": "O criador usou Neon no Antigravity com Swarm para produzir esta animação em Three.js.",
+      "notes": "Os bonecos lutam em vários cenários. O autor descreve o fluxo de trabalho completo sem detalhar a participação do Swarm."
+    },
+    "case-97": {
+      "title": "Comparar cenas de veleiros de três modelos",
+      "action": "Compare as embarcações, as ondas e a iluminação nos três resultados identificados.",
+      "takeaway": "O criador empilhou as versões de Claude Fable 5.2, GPT-6.2 Astra e Gemini 4 Neon em um único vídeo.",
+      "notes": "O vídeo mostra variações de um veleiro ao pôr do sol. A publicação não informa os prompts, as configurações ou os critérios de avaliação."
+    },
+    "case-98": {
+      "title": "Transformar avatares em cartas colecionáveis animadas",
+      "action": "Confira se o avatar continua reconhecível ao mudar a moldura, o acabamento e a indicação de raridade.",
+      "takeaway": "O criador usou código obtido na interface web do Gemini 4 Neon e transformou os resultados em GIFs animados.",
+      "notes": "As quatro animações em loop mostram cartas de exemplo. Os rótulos de raridade e os valores em dólares são elementos fictícios do design."
+    },
+    "case-99": {
+      "title": "Animar um desenho abstrato em tinta",
+      "action": "Avance e recue no vídeo para avaliar quadros individuais e as transições entre os motivos.",
+      "takeaway": "O criador atribui a animação do desenho abstrato ao Gemini 4 Neon.",
+      "notes": "A sequência passa de um olho desenhado em tinta para flores, borboletas e outros motivos. O criador destaca os instantes 0:14 e 0:42."
+    },
+    "case-100": {
+      "title": "Comparar passeios por Quioto feitos com Three.js",
+      "action": "Avalie o movimento da câmera e a continuidade da cena junto com o tempo e o custo de geração.",
+      "takeaway": "O criador compara GPT-6.2 Astra no alto e Gemini 4 Neon embaixo, em um percurso de 20 segundos em Three.js ao amanhecer pelos torii e bambuzal de Quioto.",
+      "notes": "Segundo o criador, o Astra levou 41 min 9 s e custou US$ 6,67. O Neon levou 1 h 8 min 19 s e custou US$ 9,14."
+    },
+    "case-101": {
+      "title": "Apresentar um arranjo instrumental",
+      "action": "Acompanhe as faixas na tela enquanto ouve como as partes se sobrepõem e se repetem.",
+      "takeaway": "O criador atribui o trecho instrumental ao Gemini 4 Neon.",
+      "notes": "O clipe reúne o áudio, várias faixas e um editor de notas. Ele não identifica quais etapas da produção ficaram a cargo do Neon."
+    },
+    "case-102": {
+      "title": "Comparar duas cenas noturnas de Shibuya",
+      "action": "Use as imagens sincronizadas para comparar letreiros, multidão e iluminação nas duas versões do cenário.",
+      "takeaway": "O vídeo mostra versões noturnas do cruzamento de Shibuya identificadas como Opus 5.5 e Gemini 4 Neon.",
+      "notes": "Os rótulos identificam cada resultado. O autor pergunta qual o público prefere e não apresenta uma pontuação."
+    },
+    "case-103": {
+      "title": "Animar a montagem e a decolagem de um robô",
+      "action": "Para avaliar uma sequência longa em Three.js, observe a montagem, os closes e a decolagem em conjunto.",
+      "takeaway": "O criador reaproveitou sua proposta de montagem e lançamento de um robô em Three.js. O vídeo mostra a montagem seguida da decolagem.",
+      "notes": "O autor relata mais de 10 minutos de geração, 83.000 tokens em duas execuções e custo total de US$ 1,20."
+    },
+    "case-104": {
+      "title": "Explicar o treinamento de modelos em um videoclipe",
+      "action": "Apresente as etapas do treinamento em um videoclipe e verifique os detalhes técnicos separadamente.",
+      "takeaway": "O criador pediu ao Gemini 4 Neon um clipe sobre o treinamento de modelos de ponta.",
+      "notes": "A produção usa letra e diagramas animados para representar treinamento e pós-treinamento. O resultado documenta essa abordagem para explicar o tema."
+    },
+    "case-105": {
+      "title": "Comparar modelos de programação com um índice composto",
+      "action": "Consulte quais testes cobrem cada modelo antes de escolher com base na pontuação geral.",
+      "takeaway": "No recorte do Models Engineering Index publicado pelo autor, o Gemini 4 Neon lidera a lista de 20 entradas com 68,1 pontos.",
+      "notes": "O índice reúne testes públicos com cobertura variável por modelo. Os cinco gráficos do autor exibem a pontuação, o custo ou o uso de tokens. A classificação vale para esse recorte."
     }
   },
   "strings": {

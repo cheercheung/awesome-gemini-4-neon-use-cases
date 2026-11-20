@@ -26,13 +26,13 @@
 <a id="overview"></a>
 ## 📊 개요
 
-**Gemini 4 Neon 사례 95개**와 출처의 시각 자료 124개를 수록했습니다.
+**Gemini 4 Neon 사례 105개**와 출처의 시각 자료 141개를 수록했습니다.
 
 - 엔지니어링 및 통합 · 6
-- 그래픽 및 인터페이스 프로토타입 · 51
+- 그래픽 및 인터페이스 프로토타입 · 59
 - 게임 및 시뮬레이션 · 12
-- 지식 작업 · 8
-- 평가 및 한계 · 18
+- 지식 작업 · 9
+- 평가 및 한계 · 19
 
 > [!NOTE]
 > 각 사례에는 출처 링크가 있습니다. 소요 시간, 비용, 벤치마크 결과는 명시된 시험 조건에서 측정한 관찰값입니다.
@@ -144,6 +144,16 @@
 | [브라우저 사용 벤치마크](#case-93) | 평가 및 한계 | Browser Use는 Neon에 대해 Opus 5.5 결과와 동일한 74%의 결과를 보고했으며 GPT-6.2 Sol의 경우 82%에 대해 보고했습니다. | Benchmark |
 | [PandaCode에서 도구 호출 실패 측정](#case-94) | 평가 및 한계 | 저자는 한 번의 출시 밤 기간 동안 9,465개의 Neon 호출에서 65개의 실패한 도구 호출을 측정했습니다. | Evaluation |
 | [43개 질문으로 구성된 Plotly 데이터 분석 벤치마크 실행](#case-95) | 평가 및 한계 | Plotly의 수정된 결과는 Neon에게 43개 답변 중 43개를 부여했으며 전체 실행에 대해 USD 17.03를 보고합니다. | Benchmark |
+| [Three.js로 막대인형 전투 애니메이션 만들기](#case-96) | 그래픽 및 인터페이스 프로토타입 | 제작자는 Antigravity에서 Swarm과 함께 Neon을 사용해 이 Three.js 애니메이션을 만들었다. | Demo |
+| [세 모델이 만든 범선 장면 비교하기](#case-97) | 그래픽 및 인터페이스 프로토타입 | 제작자는 Claude Fable 5.2, GPT-6.2 Astra, Gemini 4 Neon의 결과를 한 영상에 위아래로 배치했다. | Evaluation |
+| [아바타를 움직이는 수집 카드로 만들기](#case-98) | 그래픽 및 인터페이스 프로토타입 | 제작자는 Gemini 4 Neon 웹 화면에서 얻은 코드를 이용한 뒤 결과물을 GIF 애니메이션으로 변환했다. | Demo |
+| [추상적인 먹 그림에 움직임 넣기](#case-99) | 그래픽 및 인터페이스 프로토타입 | 제작자는 추상 회화 애니메이션을 Gemini 4 Neon으로 만들었다고 밝혔다. | Demo |
+| [Three.js로 만든 교토 산책 장면 비교하기](#case-100) | 그래픽 및 인터페이스 프로토타입 | 제작자는 새벽의 교토 도리이와 대나무 숲을 지나는 20초짜리 Three.js 영상에서 GPT-6.2 Astra(위)와 Gemini 4 Neon(아래)을 비교했다. | Evaluation |
+| [기악곡 편곡 예시 살펴보기](#case-101) | 그래픽 및 인터페이스 프로토타입 | 제작자는 공개한 기악곡 일부를 Gemini 4 Neon으로 만들었다고 밝혔다. | Demo |
+| [시부야 야경을 두 모델로 비교하기](#case-102) | 그래픽 및 인터페이스 프로토타입 | 영상은 Opus 5.5와 Gemini 4 Neon이 각각 표현한 밤의 시부야 교차로에 모델 이름을 붙여 보여 준다. | Evaluation |
+| [메카의 조립과 발진을 애니메이션으로 만들기](#case-103) | 그래픽 및 인터페이스 프로토타입 | 제작자는 기존의 Three.js 메카 조립·발진 과제를 다시 사용했다. 영상에 기체가 조립된 뒤 떠오르는 장면이 나온다. | Demo |
+| [뮤직비디오로 모델 학습 설명하기](#case-104) | 지식 작업 | 제작자는 Gemini 4 Neon에 최전선 모델의 학습 과정을 설명하는 뮤직비디오를 요청했다. | Demo |
+| [종합 지표로 코딩 모델 비교하기](#case-105) | 평가 및 한계 | 제작자가 공개한 Models Engineering Index 스냅숏에서 Gemini 4 Neon은 68.1점으로 순위표의 20개 항목 중 1위였다. | Benchmark |
 
 | 섹션 | 목적 |
 |---|---|
@@ -1068,6 +1078,131 @@ Type: Demo | Date: 2026-11-18
 
 ---
 
+<a id="case-96"></a>
+### Case 96: [Three.js로 막대인형 전투 애니메이션 만들기](https://x.com/chetaslua/status/2123720700670398680) (by [@chetaslua](https://x.com/chetaslua))
+
+**카메라와 장면이 바뀔 때도 코드로 만든 전투 동작을 알아보기 쉬운지 살핀다.**
+
+제작자는 Antigravity에서 Swarm과 함께 Neon을 사용해 이 Three.js 애니메이션을 만들었다.
+
+영상에서는 막대인형들이 여러 공간에서 싸운다. 제작자는 전체 제작 환경을 공개했으며 Swarm의 기여는 따로 구분하지 않았다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-96-1-fa6b22c69e07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-96-1-32e162b0152f.jpg" alt="Three.js로 막대인형 전투 애니메이션 만들기 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-97"></a>
+### Case 97: [세 모델이 만든 범선 장면 비교하기](https://x.com/Da7_Tech/status/2123712489443713478) (by [@Da7_Tech](https://x.com/Da7_Tech))
+
+**모델 이름이 붙은 화면을 보며 배, 파도, 빛 표현을 비교한다.**
+
+제작자는 Claude Fable 5.2, GPT-6.2 Astra, Gemini 4 Neon의 결과를 한 영상에 위아래로 배치했다.
+
+영상은 해 질 무렵의 범선을 서로 다르게 그린 결과를 보여 준다. 프롬프트나 설정, 채점 기준은 공개되지 않았다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-97-1-ab9ad6fc022d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-97-1-f7556a59ef3e.jpg" alt="세 모델이 만든 범선 장면 비교하기 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-98"></a>
+### Case 98: [아바타를 움직이는 수집 카드로 만들기](https://x.com/aiiii498/status/2123657122575450535) (by [@aiiii498](https://x.com/aiiii498))
+
+**테두리, 질감, 희귀도 표시가 바뀌어도 아바타를 알아볼 수 있는지 확인한다.**
+
+제작자는 Gemini 4 Neon 웹 화면에서 얻은 코드를 이용한 뒤 결과물을 GIF 애니메이션으로 변환했다.
+
+반복 재생되는 네 개의 이미지가 아바타 카드 예시다. 희귀도와 달러 금액은 가상으로 붙인 표시다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-1-185f6b4b974f.gif" alt="아바타를 움직이는 수집 카드로 만들기 · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-2-880ecaab9212.gif" alt="아바타를 움직이는 수집 카드로 만들기 · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-3-4476e0e8019e.gif" alt="아바타를 움직이는 수집 카드로 만들기 · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-4-ca5307d9f6fd.gif" alt="아바타를 움직이는 수집 카드로 만들기 · 4" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-99"></a>
+### Case 99: [추상적인 먹 그림에 움직임 넣기](https://x.com/thtbee_/status/2123636478932881627) (by [@thtbee_](https://x.com/thtbee_))
+
+**재생 위치를 옮기며 각 장면과 소재 사이의 전환을 함께 살핀다.**
+
+제작자는 추상 회화 애니메이션을 Gemini 4 Neon으로 만들었다고 밝혔다.
+
+먹으로 그린 눈이 꽃과 나비 등 여러 소재로 이어진다. 제작자가 짚은 구간은 0:14와 0:42다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-99-1-a1a192bbdb28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-99-1-f4a4516de977.jpg" alt="추상적인 먹 그림에 움직임 넣기 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-100"></a>
+### Case 100: [Three.js로 만든 교토 산책 장면 비교하기](https://x.com/teddyaisi/status/2123627618146959641) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**코드로 만든 산책 장면은 카메라 움직임, 장면 연결, 생성 시간, 비용을 함께 비교한다.**
+
+제작자는 새벽의 교토 도리이와 대나무 숲을 지나는 20초짜리 Three.js 영상에서 GPT-6.2 Astra(위)와 Gemini 4 Neon(아래)을 비교했다.
+
+제작자 기록에 따르면 Astra는 41분 9초에 6.67달러, Neon은 1시간 8분 19초에 9.14달러가 들었다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-100-1-0c11ca888805.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-100-1-201a20be9461.jpg" alt="Three.js로 만든 교토 산책 장면 비교하기 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-101"></a>
+### Case 101: [기악곡 편곡 예시 살펴보기](https://x.com/aisearchio/status/2123621132024848408) (by [@aisearchio](https://x.com/aisearchio))
+
+**화면에 보이는 트랙을 따라가며 각 파트가 어떻게 겹치고 반복되는지 들어 본다.**
+
+제작자는 공개한 기악곡 일부를 Gemini 4 Neon으로 만들었다고 밝혔다.
+
+영상은 음악을 들려주며 여러 트랙과 피아노 롤을 보여 준다. 제작 과정에서 Neon이 맡은 단계는 확인할 수 없다.
+
+[추가 출처](https://youtu.be/3FE-hBh1rsY)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-101-1-5c63abb4a8a3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-101-1-6683cee3534d.jpg" alt="기악곡 편곡 예시 살펴보기 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-102"></a>
+### Case 102: [시부야 야경을 두 모델로 비교하기](https://x.com/petergyang/status/2123620968568676457) (by [@petergyang](https://x.com/petergyang))
+
+**같은 시점에 재생되는 영상으로 간판, 인파, 조명을 비교한다.**
+
+영상은 Opus 5.5와 Gemini 4 Neon이 각각 표현한 밤의 시부야 교차로에 모델 이름을 붙여 보여 준다.
+
+모델 이름으로 각 결과를 구분할 수 있다. 제작자는 어느 쪽이 좋은지 물었으며 수치 점수는 제시하지 않았다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-102-1-fd1902096bb4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-102-1-50188e47a613.jpg" alt="시부야 야경을 두 모델로 비교하기 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-103"></a>
+### Case 103: [메카의 조립과 발진을 애니메이션으로 만들기](https://x.com/alohaproxy/status/2123619339995668726) (by [@alohaproxy](https://x.com/alohaproxy))
+
+**긴 Three.js 시퀀스는 조립, 클로즈업, 이륙을 이어서 살핀다.**
+
+제작자는 기존의 Three.js 메카 조립·발진 과제를 다시 사용했다. 영상에 기체가 조립된 뒤 떠오르는 장면이 나온다.
+
+제작자에 따르면 생성에 10분 넘게 걸렸고, 두 번 실행해 83,000토큰을 사용했으며, 총비용은 1.20달러였다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-103-1-2b1ac80156f4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-103-1-572151b639e1.jpg" alt="메카의 조립과 발진을 애니메이션으로 만들기 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
 ## 🎮 게임 및 시뮬레이션
 <a id="games"></a>
 
@@ -1389,6 +1524,21 @@ Type: Demo | Date: 2026-11-18
 
 ---
 
+<a id="case-104"></a>
+### Case 104: [뮤직비디오로 모델 학습 설명하기](https://x.com/elliotarledge/status/2123608819943211022) (by [@elliotarledge](https://x.com/elliotarledge))
+
+**학습 단계를 뮤직비디오로 소개하고 기술적 세부 사항을 별도로 검증한다.**
+
+제작자는 Gemini 4 Neon에 최전선 모델의 학습 과정을 설명하는 뮤직비디오를 요청했다.
+
+공개 영상은 가사와 애니메이션 도식으로 학습과 사후 학습을 묘사한다. 기술을 전달하는 방법을 살펴볼 수 있다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-104-1-704072667b23.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-104-1-fd4f10acc8b5.jpg" alt="뮤직비디오로 모델 학습 설명하기 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
 ## 📈 평가 및 한계
 <a id="evaluations"></a>
 
@@ -1670,6 +1820,27 @@ Type: Benchmark | Date: 2026-11-18
 
 ---
 
+<a id="case-105"></a>
+### Case 105: [종합 지표로 코딩 모델 비교하기](https://news.ycombinator.com/item?id=50568130) (by [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin))
+
+**종합 점수로 코딩 모델을 고르기 전에 모델별로 어떤 벤치마크가 포함되어 있는지 확인한다.**
+
+제작자가 공개한 Models Engineering Index 스냅숏에서 Gemini 4 Neon은 68.1점으로 순위표의 20개 항목 중 1위였다.
+
+공개 벤치마크를 종합한 지표이며, 포함된 시험의 범위는 모델별로 다르다. 제작자가 공개한 그래프 5개는 점수, 비용, 토큰 사용량을 보여 준다. 순위는 해당 시점의 집계 결과다.
+
+[추가 출처](https://git-aarvin.github.io/mei/)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-1-5dfd5718e697.png" alt="종합 지표로 코딩 모델 비교하기 · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-2-2ef233529798.png" alt="종합 지표로 코딩 모델 비교하기 · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-3-fc8054c9f70c.png" alt="종합 지표로 코딩 모델 비교하기 · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-4-5bb9486abc97.png" alt="종합 지표로 코딩 모델 비교하기 · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-5-69e0f22dd548.png" alt="종합 지표로 코딩 모델 비교하기 · 5" width="560">
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
 <a id="related-repositories"></a>
 ## 관련 저장소
 
@@ -1681,6 +1852,6 @@ Type: Benchmark | Date: 2026-11-18
 
 작업을 공유해 주신 제작자와 평가자에게 감사드립니다.
 
-[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp)
+[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin)
 
 *미디어 및 제3자 저작물은 해당 권리 보유자에게 있습니다. 출처, 출처, 미디어 항목에 수정이 필요한 경우 이슈를 열어주세요.*
