@@ -26,13 +26,13 @@
 <a id="overview"></a>
 ## 📊 Aperçu
 
-**95 cas de Gemini 4 Neon** et 124 éléments visuels issus des sources.
+**105 cas de Gemini 4 Neon** et 141 éléments visuels issus des sources.
 
 - Ingénierie et intégrations · 6
-- Prototypes graphiques et interfaces · 51
+- Prototypes graphiques et interfaces · 59
 - Jeux et simulations · 12
-- Travail de connaissances · 8
-- Évaluations et limites · 18
+- Travail de connaissances · 9
+- Évaluations et limites · 19
 
 > [!NOTE]
 > Chaque cas renvoie à sa source. Les durées, coûts et résultats des évaluations s’appliquent aux conditions décrites.
@@ -144,6 +144,16 @@
 | [Test d'utilisation du navigateur](#case-93) | Évaluations et limites | L'utilisation du navigateur a rapporté un résultat de 74% pour Neon, égal à son résultat Opus 5.5 et contre 82% pour GPT-6.2 Sol. | Benchmark |
 | [Mesurer les échecs d'appel d'outil dans PandaCode](#case-94) | Évaluations et limites | L'auteur a mesuré 65 appels d'outils ayant échoué sur 9 465 appels Neon au cours d'une fenêtre de nuit de lancement. | Evaluation |
 | [Exécutez le benchmark d'analyse de données Plotly en 43 questions](#case-95) | Évaluations et limites | Le résultat corrigé de Plotly attribue à Neon 43 réponses sur 43 et rapporte 17,03 USD pour l'exécution complète. | Benchmark |
+| [Animer un combat de bonshommes allumettes avec Three.js](#case-96) | Prototypes graphiques et interfaces | Le créateur a utilisé Neon dans Antigravity avec Swarm pour produire cette animation Three.js. | Demo |
+| [Comparer des scènes de voilier produites par trois modèles](#case-97) | Prototypes graphiques et interfaces | Le créateur a superposé les rendus de Claude Fable 5.2, de GPT-6.2 Astra et de Gemini 4 Neon dans une même vidéo. | Evaluation |
+| [Transformer des avatars en cartes de collection animées](#case-98) | Prototypes graphiques et interfaces | Le créateur a utilisé du code obtenu dans l’interface web de Gemini 4 Neon, puis a converti les résultats en GIF animés. | Demo |
+| [Animer un dessin abstrait à l’encre](#case-99) | Prototypes graphiques et interfaces | Le créateur attribue cette animation de dessin abstrait à Gemini 4 Neon. | Demo |
+| [Comparer deux promenades à Kyoto créées avec Three.js](#case-100) | Prototypes graphiques et interfaces | Le créateur compare GPT-6.2 Astra en haut et Gemini 4 Neon en bas sur une promenade de 20 secondes créée en Three.js à l’aube, parmi des torii et des bambous à Kyoto. | Evaluation |
+| [Présenter un arrangement instrumental](#case-101) | Prototypes graphiques et interfaces | Le créateur attribue l’extrait instrumental à Gemini 4 Neon. | Demo |
+| [Comparer deux scènes nocturnes de Shibuya](#case-102) | Prototypes graphiques et interfaces | La vidéo présente deux versions nocturnes du carrefour de Shibuya, attribuées à Opus 5.5 et à Gemini 4 Neon. | Evaluation |
+| [Animer l’assemblage et le décollage d’un mécha](#case-103) | Prototypes graphiques et interfaces | Le créateur a repris son scénario Three.js sur l’assemblage et le lancement d’un mécha. La vidéo montre le montage puis le décollage. | Demo |
+| [Expliquer l’entraînement des modèles dans un clip musical](#case-104) | Travail de connaissances | Le créateur a demandé à Gemini 4 Neon un clip sur l’entraînement des modèles les plus avancés. | Demo |
+| [Comparer les modèles de programmation avec un indice composite](#case-105) | Évaluations et limites | Dans l’instantané publié par l’auteur du Models Engineering Index, Gemini 4 Neon arrive en tête des 20 entrées avec 68,1 points. | Benchmark |
 
 | Section | Objectif |
 |---|---|
@@ -1068,6 +1078,131 @@ Type: Demo | Date: 2026-11-18
 
 ---
 
+<a id="case-96"></a>
+### Case 96: [Animer un combat de bonshommes allumettes avec Three.js](https://x.com/chetaslua/status/2123720700670398680) (by [@chetaslua](https://x.com/chetaslua))
+
+**Vérifier si l’action reste lisible quand la caméra bouge et que le décor change.**
+
+Le créateur a utilisé Neon dans Antigravity avec Swarm pour produire cette animation Three.js.
+
+Les personnages enchaînent les combats dans plusieurs décors. Le créateur décrit l’ensemble du procédé sans isoler l’apport de Swarm.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-96-1-fa6b22c69e07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-96-1-32e162b0152f.jpg" alt="Animer un combat de bonshommes allumettes avec Three.js · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-97"></a>
+### Case 97: [Comparer des scènes de voilier produites par trois modèles](https://x.com/Da7_Tech/status/2123712489443713478) (by [@Da7_Tech](https://x.com/Da7_Tech))
+
+**Comparer la coque, les vagues et la lumière dans les trois rendus identifiés.**
+
+Le créateur a superposé les rendus de Claude Fable 5.2, de GPT-6.2 Astra et de Gemini 4 Neon dans une même vidéo.
+
+Les trois versions montrent un voilier au coucher du soleil. La publication ne précise ni les consignes, ni les réglages, ni les critères de notation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-97-1-ab9ad6fc022d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-97-1-f7556a59ef3e.jpg" alt="Comparer des scènes de voilier produites par trois modèles · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-98"></a>
+### Case 98: [Transformer des avatars en cartes de collection animées](https://x.com/aiiii498/status/2123657122575450535) (by [@aiiii498](https://x.com/aiiii498))
+
+**Vérifier que l’avatar reste reconnaissable quand le cadre, la finition et l’indication de rareté changent.**
+
+Le créateur a utilisé du code obtenu dans l’interface web de Gemini 4 Neon, puis a converti les résultats en GIF animés.
+
+Les quatre boucles présentent des exemples de cartes. Les mentions de rareté et les montants en dollars relèvent de la mise en scène.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-1-185f6b4b974f.gif" alt="Transformer des avatars en cartes de collection animées · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-2-880ecaab9212.gif" alt="Transformer des avatars en cartes de collection animées · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-3-4476e0e8019e.gif" alt="Transformer des avatars en cartes de collection animées · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-4-ca5307d9f6fd.gif" alt="Transformer des avatars en cartes de collection animées · 4" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-99"></a>
+### Case 99: [Animer un dessin abstrait à l’encre](https://x.com/thtbee_/status/2123636478932881627) (by [@thtbee_](https://x.com/thtbee_))
+
+**Déplacer la tête de lecture pour examiner les transitions entre les motifs et les images une à une.**
+
+Le créateur attribue cette animation de dessin abstrait à Gemini 4 Neon.
+
+La vidéo passe d’un œil tracé à l’encre à des fleurs, des papillons et d’autres motifs. Le créateur signale les passages à 0:14 et à 0:42.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-99-1-a1a192bbdb28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-99-1-f4a4516de977.jpg" alt="Animer un dessin abstrait à l’encre · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-100"></a>
+### Case 100: [Comparer deux promenades à Kyoto créées avec Three.js](https://x.com/teddyaisi/status/2123627618146959641) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**Comparer les mouvements de caméra et la continuité des décors, ainsi que le temps et le coût de génération.**
+
+Le créateur compare GPT-6.2 Astra en haut et Gemini 4 Neon en bas sur une promenade de 20 secondes créée en Three.js à l’aube, parmi des torii et des bambous à Kyoto.
+
+Selon le créateur, Astra a pris 41 min 9 s et coûté 6,67 USD. Neon a pris 1 h 8 min 19 s et coûté 9,14 USD.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-100-1-0c11ca888805.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-100-1-201a20be9461.jpg" alt="Comparer deux promenades à Kyoto créées avec Three.js · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-101"></a>
+### Case 101: [Présenter un arrangement instrumental](https://x.com/aisearchio/status/2123621132024848408) (by [@aisearchio](https://x.com/aisearchio))
+
+**Suivre les pistes à l’écran pendant l’écoute pour repérer comment les parties se superposent et se répètent.**
+
+Le créateur attribue l’extrait instrumental à Gemini 4 Neon.
+
+La vidéo accompagne l’audio de plusieurs pistes et d’un éditeur de notes. Elle ne précise pas la part de Neon dans la production.
+
+[Source complémentaire](https://youtu.be/3FE-hBh1rsY)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-101-1-5c63abb4a8a3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-101-1-6683cee3534d.jpg" alt="Présenter un arrangement instrumental · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-102"></a>
+### Case 102: [Comparer deux scènes nocturnes de Shibuya](https://x.com/petergyang/status/2123620968568676457) (by [@petergyang](https://x.com/petergyang))
+
+**Comparer les enseignes, la foule et l’éclairage dans des vues synchronisées.**
+
+La vidéo présente deux versions nocturnes du carrefour de Shibuya, attribuées à Opus 5.5 et à Gemini 4 Neon.
+
+Les noms à l’écran permettent d’identifier les rendus. L’auteur demande au public lequel il préfère et ne donne aucune note chiffrée.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-102-1-fd1902096bb4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-102-1-50188e47a613.jpg" alt="Comparer deux scènes nocturnes de Shibuya · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-103"></a>
+### Case 103: [Animer l’assemblage et le décollage d’un mécha](https://x.com/alohaproxy/status/2123619339995668726) (by [@alohaproxy](https://x.com/alohaproxy))
+
+**Pour évaluer une longue séquence Three.js, regarder ensemble l’assemblage, les gros plans et le décollage.**
+
+Le créateur a repris son scénario Three.js sur l’assemblage et le lancement d’un mécha. La vidéo montre le montage puis le décollage.
+
+Le créateur indique plus de 10 minutes de génération, 83 000 jetons sur deux exécutions et un coût total de 1,20 USD.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-103-1-2b1ac80156f4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-103-1-572151b639e1.jpg" alt="Animer l’assemblage et le décollage d’un mécha · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
 ## 🎮 Jeux et simulations
 <a id="games"></a>
 
@@ -1389,6 +1524,21 @@ Type: Demo | Date: 2026-11-18
 
 ---
 
+<a id="case-104"></a>
+### Case 104: [Expliquer l’entraînement des modèles dans un clip musical](https://x.com/elliotarledge/status/2123608819943211022) (by [@elliotarledge](https://x.com/elliotarledge))
+
+**Présenter les étapes d’entraînement dans un clip et vérifier séparément les détails techniques.**
+
+Le créateur a demandé à Gemini 4 Neon un clip sur l’entraînement des modèles les plus avancés.
+
+Le clip associe paroles et schémas animés pour illustrer l’entraînement et le post-entraînement. Il documente cette façon de présenter le sujet.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-104-1-704072667b23.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-104-1-fd4f10acc8b5.jpg" alt="Expliquer l’entraînement des modèles dans un clip musical · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
 ## 📈 Évaluations et limites
 <a id="evaluations"></a>
 
@@ -1670,6 +1820,27 @@ Type: Benchmark | Date: 2026-11-18
 
 ---
 
+<a id="case-105"></a>
+### Case 105: [Comparer les modèles de programmation avec un indice composite](https://news.ycombinator.com/item?id=50568130) (by [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin))
+
+**Vérifier quels tests couvrent chaque modèle avant de choisir sur la base du score global.**
+
+Dans l’instantané publié par l’auteur du Models Engineering Index, Gemini 4 Neon arrive en tête des 20 entrées avec 68,1 points.
+
+L’indice agrège des résultats publics de couverture inégale selon les modèles. Les cinq graphiques de l’auteur présentent le score, le coût ou le nombre de jetons. Le classement correspond à cet instantané.
+
+[Source complémentaire](https://git-aarvin.github.io/mei/)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-1-5dfd5718e697.png" alt="Comparer les modèles de programmation avec un indice composite · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-2-2ef233529798.png" alt="Comparer les modèles de programmation avec un indice composite · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-3-fc8054c9f70c.png" alt="Comparer les modèles de programmation avec un indice composite · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-4-5bb9486abc97.png" alt="Comparer les modèles de programmation avec un indice composite · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-5-69e0f22dd548.png" alt="Comparer les modèles de programmation avec un indice composite · 5" width="560">
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
 <a id="related-repositories"></a>
 ## Dépôts associés
 
@@ -1681,6 +1852,6 @@ Type: Benchmark | Date: 2026-11-18
 
 Merci aux créateurs et évaluateurs qui ont partagé leur travail.
 
-[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp)
+[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin)
 
 *Les médias et les œuvres de tiers restent la propriété de leurs titulaires de droits respectifs. Veuillez ouvrir un problème si une source, un crédit ou un élément multimédia doit être corrigé.*

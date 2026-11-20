@@ -26,13 +26,13 @@
 <a id="overview"></a>
 ## 📊 概述
 
-**95 个 Gemini 4 Neon 案例**，附有 124 项来源媒体。
+**105 个 Gemini 4 Neon 案例**，附有 141 项来源媒体。
 
 - 工程与集成 · 6
-- 图形和界面原型 · 51
+- 图形和界面原型 · 59
 - 游戏和模拟 · 12
-- 知识工作 · 8
-- 评估和限制 · 18
+- 知识工作 · 9
+- 评估和限制 · 19
 
 > [!NOTE]
 > 每个案例均附原始来源。所列耗时、成本和评测结果只适用于来源所述的测试条件。
@@ -144,6 +144,16 @@
 | [浏览器使用基准测试](#case-93) | 评估和限制 | 浏览器使用报告 Neon 的结果为 74%，与 Opus 5.5 的结果相同，而 GPT-6.2 Sol 的结果为 82%。 | Benchmark |
 | [测量 PandaCode 中的工具调用失败](#case-94) | 评估和限制 | 作者在一个发布之夜窗口期间测量了 9,465 个 Neon 调用中的 65 个失败的工具调用。 | Evaluation |
 | [运行 43 个问题的 Plotly 数据分析基准测试](#case-95) | 评估和限制 | Plotly 的更正结果将 43 个答案中的 43 个归功于 Neon，并报告整个运行的费用为 17.03 美元。 | Benchmark |
+| [用 Three.js 制作火柴人战斗动画](#case-96) | 图形和界面原型 | 创作者在 Antigravity 中搭配 Swarm 使用 Neon，完成了这段 Three.js 动画。 | Demo |
+| [对比三个模型的帆船画面](#case-97) | 图形和界面原型 | 创作者把 Claude Fable 5.2、GPT-6.2 Astra 和 Gemini 4 Neon 的结果叠排在同一段视频中。 | Evaluation |
+| [把头像做成动态收藏卡](#case-98) | 图形和界面原型 | 创作者使用 Gemini 4 Neon 网页版生成的代码，再将结果转成 GIF 动图。 | Demo |
+| [让抽象墨线画动起来](#case-99) | 图形和界面原型 | 创作者表示，这段抽象绘画动画由 Gemini 4 Neon 制作。 | Demo |
+| [对比用 Three.js 制作的京都漫游](#case-100) | 图形和界面原型 | 创作者对照了 GPT-6.2 Astra（上）和 Gemini 4 Neon（下）。这段 20 秒的 Three.js 动画带观众在清晨走过京都的鸟居与竹林。 | Evaluation |
+| [展示一段器乐编排](#case-101) | 图形和界面原型 | 创作者将这段器乐作品归功于 Gemini 4 Neon。 | Demo |
+| [对比两版涩谷夜景](#case-102) | 图形和界面原型 | 视频标明了 Opus 5.5 和 Gemini 4 Neon 各自生成的涩谷十字路口夜景。 | Evaluation |
+| [制作机甲组装与升空动画](#case-103) | 图形和界面原型 | 创作者沿用了自己的 Three.js 机甲组装及升空任务。视频显示机甲逐步组合并升空。 | Demo |
+| [用音乐视频介绍模型训练](#case-104) | 知识工作 | 创作者请 Gemini 4 Neon 制作一段解释前沿模型如何训练的音乐视频。 | Demo |
+| [用综合指数比较代码模型](#case-105) | 评估和限制 | 在作者发布的 Models Engineering Index 快照中，Gemini 4 Neon 以 68.1 分在 20 个上榜条目中排名第一。 | Benchmark |
 
 | 部分 | 用途 |
 |---|---|
@@ -1068,6 +1078,131 @@ Type: Demo | Date: 2026-11-18
 
 ---
 
+<a id="case-96"></a>
+### Case 96: [用 Three.js 制作火柴人战斗动画](https://x.com/chetaslua/status/2123720700670398680) (by [@chetaslua](https://x.com/chetaslua))
+
+**利用连续镜头和场景切换，检查代码生成的打斗动作是否清楚。**
+
+创作者在 Antigravity 中搭配 Swarm 使用 Neon，完成了这段 Three.js 动画。
+
+视频里的火柴人经历多场打斗和场景转换。创作者说明了整体流程，未单独衡量 Swarm 的贡献。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-96-1-fa6b22c69e07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-96-1-32e162b0152f.jpg" alt="用 Three.js 制作火柴人战斗动画 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-97"></a>
+### Case 97: [对比三个模型的帆船画面](https://x.com/Da7_Tech/status/2123712489443713478) (by [@Da7_Tech](https://x.com/Da7_Tech))
+
+**对照视频中标注的三组输出，比较船体、海浪和光线。**
+
+创作者把 Claude Fable 5.2、GPT-6.2 Astra 和 Gemini 4 Neon 的结果叠排在同一段视频中。
+
+三个画面都呈现了日落时的帆船。原帖未公开提示词、设置或评分标准。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-97-1-ab9ad6fc022d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-97-1-f7556a59ef3e.jpg" alt="对比三个模型的帆船画面 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-98"></a>
+### Case 98: [把头像做成动态收藏卡](https://x.com/aiiii498/status/2123657122575450535) (by [@aiiii498](https://x.com/aiiii498))
+
+**更换边框、材质和稀有度标签，检查头像是否依然容易辨认。**
+
+创作者使用 Gemini 4 Neon 网页版生成的代码，再将结果转成 GIF 动图。
+
+四段循环动画各展示一张示例头像卡。画面中的稀有度和美元金额是虚构的卡面元素。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-1-185f6b4b974f.gif" alt="把头像做成动态收藏卡 · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-2-880ecaab9212.gif" alt="把头像做成动态收藏卡 · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-3-4476e0e8019e.gif" alt="把头像做成动态收藏卡 · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-4-ca5307d9f6fd.gif" alt="把头像做成动态收藏卡 · 4" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-99"></a>
+### Case 99: [让抽象墨线画动起来](https://x.com/thtbee_/status/2123636478932881627) (by [@thtbee_](https://x.com/thtbee_))
+
+**拖动播放进度，观察画面主题之间的过渡，也可逐帧检查。**
+
+创作者表示，这段抽象绘画动画由 Gemini 4 Neon 制作。
+
+视频从墨线画的眼睛转到花、蝴蝶等元素。创作者特别标出了 0:14 和 0:42。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-99-1-a1a192bbdb28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-99-1-f4a4516de977.jpg" alt="让抽象墨线画动起来 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-100"></a>
+### Case 100: [对比用 Three.js 制作的京都漫游](https://x.com/teddyaisi/status/2123627618146959641) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**对比代码生成的漫游画面时，同时看镜头运动、场景连贯性、生成用时和费用。**
+
+创作者对照了 GPT-6.2 Astra（上）和 Gemini 4 Neon（下）。这段 20 秒的 Three.js 动画带观众在清晨走过京都的鸟居与竹林。
+
+据创作者报告，Astra 耗时 41 分 9 秒、花费 6.67 美元，Neon 耗时 1 小时 8 分 19 秒、花费 9.14 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-100-1-0c11ca888805.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-100-1-201a20be9461.jpg" alt="对比用 Three.js 制作的京都漫游 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-101"></a>
+### Case 101: [展示一段器乐编排](https://x.com/aisearchio/status/2123621132024848408) (by [@aisearchio](https://x.com/aisearchio))
+
+**听音频的同时观察可见音轨，检查不同声部如何叠加与重复。**
+
+创作者将这段器乐作品归功于 Gemini 4 Neon。
+
+视频配有多条音轨和钢琴卷帘界面。视频没有交代 Neon 参与了哪些制作环节。
+
+[补充来源](https://youtu.be/3FE-hBh1rsY)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-101-1-5c63abb4a8a3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-101-1-6683cee3534d.jpg" alt="展示一段器乐编排 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-102"></a>
+### Case 102: [对比两版涩谷夜景](https://x.com/petergyang/status/2123620968568676457) (by [@petergyang](https://x.com/petergyang))
+
+**利用同步播放的镜头，对比两版城市画面里的标牌、人群与灯光。**
+
+视频标明了 Opus 5.5 和 Gemini 4 Neon 各自生成的涩谷十字路口夜景。
+
+标签标出了两组结果。作者请观众分享偏好，没有给出量化评分。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-102-1-fd1902096bb4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-102-1-50188e47a613.jpg" alt="对比两版涩谷夜景 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-103"></a>
+### Case 103: [制作机甲组装与升空动画](https://x.com/alohaproxy/status/2123619339995668726) (by [@alohaproxy](https://x.com/alohaproxy))
+
+**评估较长的 Three.js 动画时，连贯地检查组装、特写和升空三个阶段。**
+
+创作者沿用了自己的 Three.js 机甲组装及升空任务。视频显示机甲逐步组合并升空。
+
+创作者报告称，生成耗时超过 10 分钟，两次运行共用 83,000 个 token，合计花费 1.20 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-103-1-2b1ac80156f4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-103-1-572151b639e1.jpg" alt="制作机甲组装与升空动画 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
 ## 🎮 游戏和模拟
 <a id="games"></a>
 
@@ -1389,6 +1524,21 @@ Type: Demo | Date: 2026-11-18
 
 ---
 
+<a id="case-104"></a>
+### Case 104: [用音乐视频介绍模型训练](https://x.com/elliotarledge/status/2123608819943211022) (by [@elliotarledge](https://x.com/elliotarledge))
+
+**用音乐视频带读者认识训练阶段，再单独核查技术细节。**
+
+创作者请 Gemini 4 Neon 制作一段解释前沿模型如何训练的音乐视频。
+
+视频用歌词和动态图解呈现训练与后训练两个阶段，可作为技术表达流程的实例。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-104-1-704072667b23.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-104-1-fd4f10acc8b5.jpg" alt="用音乐视频介绍模型训练 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
 ## 📈 评估和限制
 <a id="evaluations"></a>
 
@@ -1670,6 +1820,27 @@ Type: Benchmark | Date: 2026-11-18
 
 ---
 
+<a id="case-105"></a>
+### Case 105: [用综合指数比较代码模型](https://news.ycombinator.com/item?id=50568130) (by [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin))
+
+**使用综合分数选择代码模型前，先检查每个模型覆盖了哪些底层基准。**
+
+在作者发布的 Models Engineering Index 快照中，Gemini 4 Neon 以 68.1 分在 20 个上榜条目中排名第一。
+
+该指数汇总公开基准，各模型的覆盖情况不同。作者公布的五张图分别展示综合得分、成本或 token 使用量。排名对应这次快照。
+
+[补充来源](https://git-aarvin.github.io/mei/)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-1-5dfd5718e697.png" alt="用综合指数比较代码模型 · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-2-2ef233529798.png" alt="用综合指数比较代码模型 · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-3-fc8054c9f70c.png" alt="用综合指数比较代码模型 · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-4-5bb9486abc97.png" alt="用综合指数比较代码模型 · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-5-69e0f22dd548.png" alt="用综合指数比较代码模型 · 5" width="560">
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
 <a id="related-repositories"></a>
 ## 相关仓库
 
@@ -1681,6 +1852,6 @@ Type: Benchmark | Date: 2026-11-18
 
 感谢分享作品的创作者和评估者。
 
-[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp)
+[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin)
 
 *媒体和第三方作品仍属于其各自的权利所有者。如果来源、来源或媒体项目需要更正，请提出问题。*

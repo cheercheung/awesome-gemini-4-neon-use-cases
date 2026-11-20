@@ -605,6 +605,66 @@
       "takeaway": "Plotly's corrected result credits Neon with 43 of 43 answers and reports USD 17.03 for the full run.",
       "notes": "Hydrogen also scored 43 of 43 and cost USD 6.36. Plotly reports 46 seconds median per question for Neon and 32 for Hydrogen. This was one run per model with a data-analysis harness.",
       "action": "Compare correctness, cost, and median time per question within the same Plotly evaluation."
+    },
+    "case-96": {
+      "title": "Animate a stick-figure battle in Three.js",
+      "takeaway": "The creator used Neon in Antigravity with Swarm for this Three.js animation.",
+      "notes": "The footage follows stick figures through a series of fights and scene changes. The creator credits the whole workflow without separating Swarm's contribution.",
+      "action": "Test whether a coded fight sequence stays readable across camera moves and scene changes."
+    },
+    "case-97": {
+      "title": "Compare sailing scenes from three models",
+      "takeaway": "The creator published a stacked comparison of Claude Fable 5.2, GPT-6.2 Astra, and Gemini 4 Neon.",
+      "notes": "The video shows variations of a sailing ship at sunset. The post does not disclose the prompts, settings, or scoring criteria.",
+      "action": "Compare the ships, waves, and lighting in the three labeled outputs."
+    },
+    "case-98": {
+      "title": "Turn avatars into animated collectible cards",
+      "takeaway": "The creator used code from the Gemini 4 Neon web interface and converted the outputs into animated GIFs.",
+      "notes": "The four loops show sample avatar cards. The rarity labels and dollar amounts are fictional display elements.",
+      "action": "Check whether an avatar stays identifiable as card borders, finishes, and rarity labels change."
+    },
+    "case-99": {
+      "title": "Animate an abstract ink drawing",
+      "takeaway": "The creator attributes the abstract drawing animation to Gemini 4 Neon.",
+      "notes": "The clip moves from an ink-drawn eye to flowers, butterflies, and other motifs. The creator highlights 0:14 and 0:42.",
+      "action": "Scrub a generated drawing to review the transition between motifs as well as individual frames."
+    },
+    "case-100": {
+      "title": "Compare Three.js walkthroughs of Kyoto",
+      "takeaway": "The creator compares GPT-6.2 Astra (top) and Gemini 4 Neon (bottom) on a 20-second Three.js dawn walkthrough of Kyoto torii gates and a bamboo grove.",
+      "notes": "The creator reports USD 6.67 and 41m 9s for Astra and USD 9.14 and 1h 8m 19s for Neon for this comparison.",
+      "action": "Evaluate camera motion and scene continuity alongside generation time and cost when comparing coded walkthroughs."
+    },
+    "case-101": {
+      "title": "Demonstrate an instrumental arrangement",
+      "takeaway": "The creator attributes the instrumental excerpt to Gemini 4 Neon.",
+      "notes": "The clip pairs the audio with a view of several tracks and a piano roll. It does not show which parts of the production workflow Neon handled.",
+      "action": "Review how parts layer and repeat by listening while following the visible tracks."
+    },
+    "case-102": {
+      "title": "Compare two night scenes of Shibuya",
+      "takeaway": "The video labels the outputs for Opus 5.5 and Gemini 4 Neon, both depicting Shibuya Crossing at night.",
+      "notes": "The labels identify each output. The author asks for preferences and reports no quantitative score.",
+      "action": "Use synchronized camera views to compare signage, crowds, and lighting in two generated versions of a city scene."
+    },
+    "case-103": {
+      "title": "Animate a mech assembly and launch",
+      "takeaway": "The creator reused their Three.js mech assembly and launch brief. The demo shows the mech coming together and lifting off.",
+      "notes": "The creator reports more than 10 minutes of generation, 83,000 tokens across two runs, and USD 1.20 in total.",
+      "action": "Review assembly, close-ups, and liftoff together when evaluating a long Three.js sequence."
+    },
+    "case-104": {
+      "title": "Explain model training with a music video",
+      "takeaway": "The creator asked Gemini 4 Neon for a music video about how frontier models are trained.",
+      "notes": "The published video uses lyrics and animated diagrams to depict training and post-training. The source is evidence of the presentation workflow.",
+      "action": "Use a music video to introduce training stages and fact-check the technical details separately."
+    },
+    "case-105": {
+      "title": "Compare coding models with a composite index",
+      "takeaway": "In the author's Models Engineering Index snapshot, Gemini 4 Neon leads the 20 ranked entries with a score of 68.1.",
+      "notes": "The index aggregates public benchmark results with uneven coverage across models. The five author charts show the index, cost, or token use. The score reflects this dated snapshot.",
+      "action": "Read the underlying benchmark coverage before using an aggregate score to pick a coding model."
     }
   }
 }

@@ -26,13 +26,13 @@
 <a id="overview"></a>
 ## 📊 概要
 
-**Gemini 4 Neon の事例 95 件**と、出典に基づく 124 点のビジュアルを掲載しています。
+**Gemini 4 Neon の事例 105 件**と、出典に基づく 141 点のビジュアルを掲載しています。
 
 - エンジニアリングと統合 · 6
-- グラフィックスとインターフェイスのプロトタイプ · 51
+- グラフィックスとインターフェイスのプロトタイプ · 59
 - ゲームとシミュレーション · 12
-- 知識労働 · 8
-- 評価と限界 · 18
+- 知識労働 · 9
+- 評価と限界 · 19
 
 > [!NOTE]
 > 各事例には出典へのリンクがあります。所要時間、費用、ベンチマークの結果は、記載された条件での観測値です。
@@ -144,6 +144,16 @@
 | [ブラウザ使用ベンチマーク](#case-93) | 評価と限界 | Browser Use では、Neon の結果が 74% で、Opus 5.5 の結果と同等、GPT-6.2 Sol の 82% と報告されました。 | Benchmark |
 | [PandaCode でのツール呼び出しの失敗を測定する](#case-94) | 評価と限界 | 著者は、1 回の起動夜のウィンドウで、9,465 回の Neon 呼び出しのうち、65 回の失敗したツール呼び出しを測定しました。 | Evaluation |
 | [43 の質問からなる Plotly データ分析ベンチマークを実行する](#case-95) | 評価と限界 | Plotly の修正結果では、Neon が 43 件中 43 件の回答を獲得し、フル実行で 17.03 米ドルと報告されています。 | Benchmark |
+| [Three.jsで棒人間の戦闘をアニメーション化する](#case-96) | グラフィックスとインターフェイスのプロトタイプ | 作者はAntigravity上でSwarmとNeonを使い、Three.jsのアニメーションを制作した。 | Demo |
+| [3つのモデルが描く帆船を比較する](#case-97) | グラフィックスとインターフェイスのプロトタイプ | 作者はClaude Fable 5.2、GPT-6.2 Astra、Gemini 4 Neonの出力を上下に並べた。 | Evaluation |
+| [アバターを動くコレクションカードにする](#case-98) | グラフィックスとインターフェイスのプロトタイプ | 作者はGemini 4 Neonのウェブ版で得たコードを使い、出力をアニメーションGIFに変換した。 | Demo |
+| [抽象的なインク画に動きを付ける](#case-99) | グラフィックスとインターフェイスのプロトタイプ | 作者は抽象画のアニメーションをGemini 4 Neonで作ったと説明している。 | Demo |
+| [Three.jsで作った京都の散策シーンを比較する](#case-100) | グラフィックスとインターフェイスのプロトタイプ | 作者はGPT-6.2 Astra（上）とGemini 4 Neon（下）を、京都の鳥居と竹林を朝に歩く20秒間のThree.js映像で比較した。 | Evaluation |
+| [インストゥルメンタルの編曲例を確認する](#case-101) | グラフィックスとインターフェイスのプロトタイプ | 作者は公開したインストゥルメンタル曲の一部をGemini 4 Neonによるものとしている。 | Demo |
+| [渋谷の夜景を2つのモデルで比較する](#case-102) | グラフィックスとインターフェイスのプロトタイプ | 夜の渋谷スクランブル交差点を描いたOpus 5.5とGemini 4 Neonの出力が、モデル名付きで並ぶ。 | Evaluation |
+| [メカの組み立てと発進をアニメーション化する](#case-103) | グラフィックスとインターフェイスのプロトタイプ | 作者はThree.js向けのメカ組み立て・発進の課題を再利用した。映像では機体が組み上がり、地上を離れる。 | Demo |
+| [音楽動画でモデルの学習工程を説明する](#case-104) | 知識労働 | 作者は最先端モデルの学習方法を説明する音楽動画をGemini 4 Neonに依頼した。 | Demo |
+| [複合指標でコーディングモデルを比較する](#case-105) | 評価と限界 | 作者が公表したModels Engineering Indexでは、この時点でGemini 4 Neonは68.1点で、上位表の20件中1位だった。 | Benchmark |
 
 | セクション | 目的 |
 |---|---|
@@ -1068,6 +1078,131 @@ Type: Demo | Date: 2026-11-18
 
 ---
 
+<a id="case-96"></a>
+### Case 96: [Three.jsで棒人間の戦闘をアニメーション化する](https://x.com/chetaslua/status/2123720700670398680) (by [@chetaslua](https://x.com/chetaslua))
+
+**カメラの移動や場面転換を通して、コードで作った戦闘の動きを追えるか確認する。**
+
+作者はAntigravity上でSwarmとNeonを使い、Three.jsのアニメーションを制作した。
+
+映像では棒人間が戦い、舞台が次々に変わる。作者は制作全体の構成を明かしているが、Swarm単独の寄与は示していない。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-96-1-fa6b22c69e07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-96-1-32e162b0152f.jpg" alt="Three.jsで棒人間の戦闘をアニメーション化する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-97"></a>
+### Case 97: [3つのモデルが描く帆船を比較する](https://x.com/Da7_Tech/status/2123712489443713478) (by [@Da7_Tech](https://x.com/Da7_Tech))
+
+**モデル名が付いた映像を見比べ、船体、波、光の描写を確認する。**
+
+作者はClaude Fable 5.2、GPT-6.2 Astra、Gemini 4 Neonの出力を上下に並べた。
+
+動画には夕暮れの帆船の異なる描写が並ぶ。プロンプト、設定、採点基準は明かされていない。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-97-1-ab9ad6fc022d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-97-1-f7556a59ef3e.jpg" alt="3つのモデルが描く帆船を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-98"></a>
+### Case 98: [アバターを動くコレクションカードにする](https://x.com/aiiii498/status/2123657122575450535) (by [@aiiii498](https://x.com/aiiii498))
+
+**枠、質感、レア度表示を変えてもアバターが判別できるか確認する。**
+
+作者はGemini 4 Neonのウェブ版で得たコードを使い、出力をアニメーションGIFに変換した。
+
+4本のループはアバターカードの作例。レア度やドル表示は架空の演出だ。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-1-185f6b4b974f.gif" alt="アバターを動くコレクションカードにする · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-2-880ecaab9212.gif" alt="アバターを動くコレクションカードにする · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-3-4476e0e8019e.gif" alt="アバターを動くコレクションカードにする · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-98-4-ca5307d9f6fd.gif" alt="アバターを動くコレクションカードにする · 4" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-99"></a>
+### Case 99: [抽象的なインク画に動きを付ける](https://x.com/thtbee_/status/2123636478932881627) (by [@thtbee_](https://x.com/thtbee_))
+
+**再生位置を動かして個々のコマを確かめ、モチーフがどう切り替わるかも見る。**
+
+作者は抽象画のアニメーションをGemini 4 Neonで作ったと説明している。
+
+映像はインクで描かれた目から花、蝶などのモチーフへ移る。作者は0:14と0:42に注目している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-99-1-a1a192bbdb28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-99-1-f4a4516de977.jpg" alt="抽象的なインク画に動きを付ける · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-100"></a>
+### Case 100: [Three.jsで作った京都の散策シーンを比較する](https://x.com/teddyaisi/status/2123627618146959641) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**コードで作られた散策シーンを、カメラの動きや場面の連続性、生成時間、費用で比較する。**
+
+作者はGPT-6.2 Astra（上）とGemini 4 Neon（下）を、京都の鳥居と竹林を朝に歩く20秒間のThree.js映像で比較した。
+
+作者によると、Astraは6.67米ドルで41分9秒、Neonは9.14米ドルで1時間8分19秒かかった。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-100-1-0c11ca888805.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-100-1-201a20be9461.jpg" alt="Three.jsで作った京都の散策シーンを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-101"></a>
+### Case 101: [インストゥルメンタルの編曲例を確認する](https://x.com/aisearchio/status/2123621132024848408) (by [@aisearchio](https://x.com/aisearchio))
+
+**画面のトラックを追いながら、音がどう重なり、繰り返されるか聴く。**
+
+作者は公開したインストゥルメンタル曲の一部をGemini 4 Neonによるものとしている。
+
+映像には音源とともに複数のトラックとピアノロールが映る。制作のどの工程をNeonが担ったかは明かされていない。
+
+[補足資料](https://youtu.be/3FE-hBh1rsY)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-101-1-5c63abb4a8a3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-101-1-6683cee3534d.jpg" alt="インストゥルメンタルの編曲例を確認する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-102"></a>
+### Case 102: [渋谷の夜景を2つのモデルで比較する](https://x.com/petergyang/status/2123620968568676457) (by [@petergyang](https://x.com/petergyang))
+
+**同期したカメラ映像で、同じ街の看板、人の流れ、照明を見比べる。**
+
+夜の渋谷スクランブル交差点を描いたOpus 5.5とGemini 4 Neonの出力が、モデル名付きで並ぶ。
+
+ラベルで各出力を見分けられる。作者は視聴者に好みを尋ねており、数値による採点は示していない。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-102-1-fd1902096bb4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-102-1-50188e47a613.jpg" alt="渋谷の夜景を2つのモデルで比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-103"></a>
+### Case 103: [メカの組み立てと発進をアニメーション化する](https://x.com/alohaproxy/status/2123619339995668726) (by [@alohaproxy](https://x.com/alohaproxy))
+
+**長いThree.jsアニメーションでは、組み立て、接写、離陸までを通して確認する。**
+
+作者はThree.js向けのメカ組み立て・発進の課題を再利用した。映像では機体が組み上がり、地上を離れる。
+
+作者の報告では生成に10分以上かかり、2回の実行で83,000トークンを使い、合計費用は1.20米ドルだった。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-103-1-2b1ac80156f4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-103-1-572151b639e1.jpg" alt="メカの組み立てと発進をアニメーション化する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
 ## 🎮 ゲームとシミュレーション
 <a id="games"></a>
 
@@ -1389,6 +1524,21 @@ Type: Demo | Date: 2026-11-18
 
 ---
 
+<a id="case-104"></a>
+### Case 104: [音楽動画でモデルの学習工程を説明する](https://x.com/elliotarledge/status/2123608819943211022) (by [@elliotarledge](https://x.com/elliotarledge))
+
+**歌と映像で学習工程を紹介し、技術的な説明は別途検証する。**
+
+作者は最先端モデルの学習方法を説明する音楽動画をGemini 4 Neonに依頼した。
+
+公開映像では歌詞と動く図解を使い、学習と事後学習の工程を描く。技術を伝える制作例として参考にできる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-104-1-704072667b23.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-104-1-fd4f10acc8b5.jpg" alt="音楽動画でモデルの学習工程を説明する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
 ## 📈 評価と限界
 <a id="evaluations"></a>
 
@@ -1670,6 +1820,27 @@ Type: Benchmark | Date: 2026-11-18
 
 ---
 
+<a id="case-105"></a>
+### Case 105: [複合指標でコーディングモデルを比較する](https://news.ycombinator.com/item?id=50568130) (by [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin))
+
+**総合スコアでモデルを選ぶ前に、対象モデルごとにどのベンチマークが含まれるか確認する。**
+
+作者が公表したModels Engineering Indexでは、この時点でGemini 4 Neonは68.1点で、上位表の20件中1位だった。
+
+公開ベンチマークを集計しており、モデルごとに対象範囲が異なる。作者による5つのグラフは、指標スコア、費用、またはトークン使用量を示す。順位はこの時点の集計結果だ。
+
+[補足資料](https://git-aarvin.github.io/mei/)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-1-5dfd5718e697.png" alt="複合指標でコーディングモデルを比較する · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-2-2ef233529798.png" alt="複合指標でコーディングモデルを比較する · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-3-fc8054c9f70c.png" alt="複合指標でコーディングモデルを比較する · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-4-5bb9486abc97.png" alt="複合指標でコーディングモデルを比較する · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/images/case-105-5-69e0f22dd548.png" alt="複合指標でコーディングモデルを比較する · 5" width="560">
+
+Type: Benchmark | Date: 2026-11-19
+
+---
+
 <a id="related-repositories"></a>
 ## 関連リポジトリ
 
@@ -1681,6 +1852,6 @@ Type: Benchmark | Date: 2026-11-18
 
 作品を共有してくれたクリエイターと評価者に感謝します。
 
-[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp)
+[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin)
 
 *メディアおよびサードパーティの著作物は、それぞれの権利所有者に帰属します。ソース、クレジット、またはメディア アイテムに修正が必要な場合は、問題を開いてください。*

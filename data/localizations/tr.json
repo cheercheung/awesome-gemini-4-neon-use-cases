@@ -572,6 +572,66 @@
       "takeaway": "Plotly'nin düzeltilmiş sonucu, Neon'un 43 yanıttan 43'ünü aldığını ve tüm çalışma için 17,03 USD rapor ettiğini gösteriyor.",
       "notes": "Hydrogen da 43 sorunun 43’ünü doğru yanıtladı ve 6,36 USD’ye mal oldu. Plotly, soru başına medyan süreyi Neon için 46 saniye, Hydrogen için 32 saniye olarak bildirdi. Veri analizi test ortamında her model bir kez çalıştırıldı.",
       "action": "Aynı Plotly değerlendirmesinde soru başına doğruluğu, maliyeti ve ortalama süreyi karşılaştırın."
+    },
+    "case-96": {
+      "title": "Three.js ile çöp adam dövüşünü canlandırmak",
+      "action": "Kamera hareket ederken ve sahne değişirken kodla oluşturulan dövüşün takip edilebilirliğini kontrol edin.",
+      "takeaway": "Yapımcı bu Three.js animasyonu için Antigravity ortamında Swarm ile birlikte Neon kullandı.",
+      "notes": "Çöp adamlar farklı sahnelerde dövüşüyor. Yapımcı tüm iş akışını aktarıyor ancak Swarm’ın katkısını ayrı ayrı göstermiyor."
+    },
+    "case-97": {
+      "title": "Üç modelin yelkenli sahnelerini karşılaştırmak",
+      "action": "Etiketlenmiş üç çıktıda gemileri, dalgaları ve ışığı karşılaştırın.",
+      "takeaway": "Yapımcı Claude Fable 5.2, GPT-6.2 Astra ve Gemini 4 Neon çıktılarını aynı videoda üst üste yerleştirdi.",
+      "notes": "Görüntüler gün batımındaki bir yelkenlinin üç farklı yorumunu gösteriyor. Gönderide istemler, ayarlar veya puanlama ölçütleri açıklanmıyor."
+    },
+    "case-98": {
+      "title": "Avatarları hareketli koleksiyon kartlarına dönüştürmek",
+      "action": "Çerçeve, kaplama ve nadirlik etiketi değiştiğinde avatarın hâlâ tanınabilir olup olmadığını kontrol edin.",
+      "takeaway": "Yapımcı Gemini 4 Neon web arayüzünden aldığı kodu kullandı ve sonuçları hareketli GIF biçimine çevirdi.",
+      "notes": "Dört döngü örnek avatar kartları gösteriyor. Nadirlik etiketleri ve dolar tutarları kurgusal tasarım öğeleri."
+    },
+    "case-99": {
+      "title": "Soyut mürekkep çizimini canlandırmak",
+      "action": "Tek tek kareleri ve motifler arasındaki geçişleri görmek için videonun farklı noktalarına gidin.",
+      "takeaway": "Yapımcı, soyut çizim animasyonunu Gemini 4 Neon ile yaptığını belirtiyor.",
+      "notes": "Video mürekkeple çizilen bir gözden çiçeklere, kelebeklere ve başka motiflere geçiyor. Yapımcı 0:14 ve 0:42 anlarını öne çıkarıyor."
+    },
+    "case-100": {
+      "title": "Three.js ile yapılan Kyoto yürüyüşlerini karşılaştırmak",
+      "action": "Kodla oluşturulan yürüyüşlerde kamera hareketi ve sahne sürekliliğini, üretim süresi ve maliyetle birlikte karşılaştırın.",
+      "takeaway": "Üstte GPT-6.2 Astra, altta Gemini 4 Neon yer alıyor. 20 saniyelik Three.js yürüyüşü Kyoto’da şafak vakti torii kapılarından ve bambu korusundan geçiyor.",
+      "notes": "Yapımcıya göre Astra 41 dk 9 sn sürdü ve 6,67 USD tuttu. Neon 1 sa 8 dk 19 sn sürdü ve 9,14 USD tuttu."
+    },
+    "case-101": {
+      "title": "Enstrümantal bir düzenlemeyi göstermek",
+      "action": "Müziği dinlerken ekrandaki kanalları takip edip bölümlerin nasıl üst üste geldiğini ve tekrarlandığını inceleyin.",
+      "takeaway": "Yapımcı enstrümantal parçayı Gemini 4 Neon’a atfediyor.",
+      "notes": "Klipte sesle birlikte çeşitli kanallar ve nota düzenleme ekranı görünüyor. Neon’un üretimin hangi aşamalarını üstlendiği açıklanmıyor."
+    },
+    "case-102": {
+      "title": "İki Shibuya gece sahnesini karşılaştırmak",
+      "action": "Aynı anda ilerleyen görüntülerle tabelaları, kalabalığı ve aydınlatmayı karşılaştırın.",
+      "takeaway": "Video Opus 5.5 ve Gemini 4 Neon’un Shibuya Kavşağı gece sahnelerini model adlarıyla gösteriyor.",
+      "notes": "Etiketlerden hangi çıktının hangi modele ait olduğu anlaşılabiliyor. Yapımcı izleyicilerin tercihini soruyor ve sayısal bir puan vermiyor."
+    },
+    "case-103": {
+      "title": "Bir robotun montajını ve kalkışını canlandırmak",
+      "action": "Uzun bir Three.js sekansını değerlendirirken montajı, yakın planları ve kalkışı birlikte inceleyin.",
+      "takeaway": "Yapımcı robot montajı ve kalkışıyla ilgili önceki Three.js görevini yeniden kullandı. Videoda robotun parçaları birleşiyor ve robot havalanıyor.",
+      "notes": "Yapımcı üretimin 10 dakikadan uzun sürdüğünü, iki çalıştırmada 83.000 token kullanıldığını ve toplam maliyetin 1,20 USD olduğunu bildiriyor."
+    },
+    "case-104": {
+      "title": "Model eğitimini bir müzik videosuyla anlatmak",
+      "action": "Eğitim aşamalarını müzik videosuyla tanıtın ve teknik ayrıntıları ayrıca doğrulayın.",
+      "takeaway": "Yapımcı Gemini 4 Neon’dan en gelişmiş modellerin nasıl eğitildiğini anlatan bir müzik videosu istedi.",
+      "notes": "Yayımlanan video eğitim ve eğitim sonrasını şarkı sözleriyle ve hareketli şemalarla anlatıyor. Bu, teknik bir konunun nasıl sunulabileceğine dair bir örnek."
+    },
+    "case-105": {
+      "title": "Kodlama modellerini bileşik bir endeksle karşılaştırmak",
+      "action": "Toplam puana göre model seçmeden önce her model için hangi testlerin hesaba katıldığını kontrol edin.",
+      "takeaway": "Yazarın yayımladığı Models Engineering Index tablosunda Gemini 4 Neon, 68,1 puanla 20 kayıt arasında birinci.",
+      "notes": "Endeks, modelleri farklı kapsamda ölçen açık testleri birleştiriyor. Yazarın beş grafiği puanı, maliyeti veya token kullanımını gösteriyor. Sıra bu tabloya ait."
     }
   },
   "strings": {
