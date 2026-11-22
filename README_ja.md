@@ -26,13 +26,13 @@
 <a id="overview"></a>
 ## 📊 概要
 
-**Gemini 4 Neon の事例 105 件**と、出典に基づく 141 点のビジュアルを掲載しています。
+**Gemini 4 Neon の事例 242 件**と、出典に基づく 309 点のビジュアルを掲載しています。
 
-- エンジニアリングと統合 · 6
-- グラフィックスとインターフェイスのプロトタイプ · 59
-- ゲームとシミュレーション · 12
-- 知識労働 · 9
-- 評価と限界 · 19
+- エンジニアリングと統合 · 22
+- グラフィックスとインターフェイスのプロトタイプ · 141
+- ゲームとシミュレーション · 19
+- 知識労働 · 20
+- 評価と限界 · 40
 
 > [!NOTE]
 > 各事例には出典へのリンクがあります。所要時間、費用、ベンチマークの結果は、記載された条件での観測値です。
@@ -154,6 +154,143 @@
 | [メカの組み立てと発進をアニメーション化する](#case-103) | グラフィックスとインターフェイスのプロトタイプ | 作者はThree.js向けのメカ組み立て・発進の課題を再利用した。映像では機体が組み上がり、地上を離れる。 | Demo |
 | [音楽動画でモデルの学習工程を説明する](#case-104) | 知識労働 | 作者は最先端モデルの学習方法を説明する音楽動画をGemini 4 Neonに依頼した。 | Demo |
 | [複合指標でコーディングモデルを比較する](#case-105) | 評価と限界 | 作者が公表したModels Engineering Indexでは、この時点でGemini 4 Neonは68.1点で、上位表の20件中1位だった。 | Benchmark |
+| [OpenClawでNeonのモデル項目を確認する](#case-106) | エンジニアリングと統合 | OpenClawはコミット済みの設定でGemini 4 Neonを推奨モデルとして記載している。 | Integration |
+| [2つの推論レベルでベンチマークの成績を比較する](#case-107) | 評価と限界 | バグ修正ベンチマークの運営者が、Neonのxhighとhighの両方の結果を公開している。 | Benchmark |
+| [自転車の動きにグリッサンドを同期させる](#case-108) | グラフィックスとインターフェイスのプロトタイプ | 作者は自転車を題材にした映像と音の実験にNeonを使ったと述べ、音声付きの動画を投稿している。 | Demo |
+| [Three.jsで怪獣をプロシージャルに生成する](#case-109) | グラフィックスとインターフェイスのプロトタイプ | 作者はThree.jsのTSLでプロシージャルに生成した怪獣にNeonを使ったと述べ、その外観を動画で公開している。 | Demo |
+| [Paperでランディングページをデザインする](#case-110) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonとPaperを使ってランディングページをデザインしたと述べ、レイアウトのスクリーンショットを添えている。 | Demo |
+| [公開地理空間データのダッシュボードを作る](#case-111) | エンジニアリングと統合 | 作者はGrok BotからNeonを使ってGROUNDの画面を作り、公開地理空間フィードとニュースを統合したと説明している。元の動画はダッシュボードを映している。 | Integration |
+| [JavaScriptでIPOの解説動画を作る](#case-112) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonに動きのある解説動画を依頼し、JavaScriptで実装されたと述べている。元の動画にはその一部が映っている。 | Demo |
+| [Neonのスウォームでドラム演奏をアニメーション化する](#case-113) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonのマルチエージェント構成を使ったと述べている。約4秒のところにドラムを演奏する足元のアップがある。 | Demo |
+| [Blenderで空想の都市とドラゴンを描画する](#case-114) | グラフィックスとインターフェイスのプロトタイプ | 作者はAntigravityでNeonを使い、Blenderのシーンをコードで構築して描画したと述べている。シーンには都市とドラゴンが登場し、この実行には11時間かかったという。 | Demo |
+| [サンダー・ピチャイの肖像をSVGで描く](#case-115) | グラフィックスとインターフェイスのプロトタイプ | 作者は、投稿した肖像がNeonで生成したSVGだと説明している。元の画像で成果を確認できる。 | Demo |
+| [赤いカエデの盆栽をアニメーションにする](#case-116) | グラフィックスとインターフェイスのプロトタイプ | 作者は盆栽の可視化にNeonを使ったと述べ、作成したアニメーションを投稿している。 | Demo |
+| [プロンプトから個人制作のモーション動画を作る](#case-117) | グラフィックスとインターフェイスのプロトタイプ | 作者は別の制作者のプロンプトを改変し、Neonで個人制作の動画を作ったと述べている。投稿にはその動画が添付されている。 | Demo |
+| [Blenderで雨のダムのシーンをアニメーション化する](#case-118) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonのxhighとBlenderを使い、雨が降る夜にダムのゲートを開けて水が流れ出すシーンを描画したと述べている。 | Demo |
+| [富士山の風景を描く](#case-119) | グラフィックスとインターフェイスのプロトタイプ | 作者は富士山を描く投稿スレッドで、この作品がNeon版だと明記している。 | Demo |
+| [3つの異なるグラフィックをコードだけで生成する](#case-120) | グラフィックスとインターフェイスのプロトタイプ | 作者は3つの作品をNeonによるコード生成だと説明している。元の添付画像で成果を確認できる。 | Demo |
+| [3週間分のSNS指標を分析する](#case-121) | 知識労働 | 作者はNeon Highに自身のXの指標を3週間分調べさせ、指標間の相関を順位付けした分析を得たと報告している。添付資料には分析の一部がある。 | Demo |
+| [モーショングラフィックスでプロジェクトを短く解説する](#case-122) | グラフィックスとインターフェイスのプロトタイプ | 作者はオープンソースプロジェクトを紹介する20秒の動画をNeonに依頼し、最初の出力を採用したと報告している。投稿には依頼文と動画がある。 | Demo |
+| [Blender MCPで漫画の背景をモデリングする](#case-123) | グラフィックスとインターフェイスのプロトタイプ | 作者はAntigravityとBlender MCPからNeonを使い、漫画の背景をモデリングしたと述べている。添付画像にはBlenderの作業画面とモデルが写っている。 | Demo |
+| [アニメーション付きWebサイトの制作工程を記録する](#case-124) | グラフィックスとインターフェイスのプロトタイプ | 作者はアニメーション付きのサイト制作にNeonを用いたと述べ、12分の工程動画を公開している。 | Tutorial |
+| [音声要約から政策の解説動画を作る](#case-125) | 知識労働 | 作者は日本で公開された作業部会の資料を出典に、Gemini Notebookの音声要約を入力として使い、Neonで付随する動画を作成した。 | Demo |
+| [スウォームのボードで役割ごとにモデルを割り当てる](#case-126) | エンジニアリングと統合 | 作者はAntigravityでNeonをOrchestratorに据え、フロントエンドを担当するエージェントを割り当てたスウォームを紹介している。 | Integration |
+| [Blenderで雨の京都の路地を比較する](#case-127) | グラフィックスとインターフェイスのプロトタイプ | 作者は3モデルに同じプロンプトを渡し、結果を上から順に示している。Blenderでの修正は順に37回、29回、25回で、一番下がNeonだと報告している。 | Evaluation |
+| [陶器の焼成を描いた4本のアニメーションを比較する](#case-128) | グラフィックスとインターフェイスのプロトタイプ | 作者は窯の焼成で起こる変化を題材に、同じプロンプトから作った4種類のアニメーションを公開した。 | Evaluation |
+| [Astraとのチェスの対局記録を分析する](#case-129) | 評価と限界 | 作者は、Astraが白、Neonが黒を担当した1局を記録している。 | Evaluation |
+| [四足歩行ロボットのプロシージャルなシミュレーションを試作する](#case-130) | ゲームとシミュレーション | 作者は参照画像から作った四足歩行モデルにNeonを使用し、プロシージャルなシェーダー、物理挙動、ケーブルのシミュレーションを組み込んだと報告している。 | Demo |
+| [2つの腕時計コンフィギュレーターを比較する](#case-131) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonとOpus 5.5に同じ腕時計コンフィギュレーターの制作を依頼した。 | Evaluation |
+| [操作できるボクセルのドラゴンのジオラマを比較する](#case-132) | グラフィックスとインターフェイスのプロトタイプ | 作者は外部素材なしでドラゴンと塔を描く同じ依頼をNeonとOpusに与え、2つのシーンでそれぞれに気に入った点があったと述べている。 | Evaluation |
+| [平面の絵画で照明をインタラクティブに変える](#case-133) | グラフィックスとインターフェイスのプロトタイプ | 作者はフェルメールの絵を使い、平面画像上で光源を動かして方向に応じた影を付けられるか試した。元の動画で結果を確認できる。 | Demo |
+| [ErdosBenchで研究レベルの数学の成績を比較する](#case-134) | 評価と限界 | 運営者は、ErdosBenchに収録された研究レベルの数学問題226問でNeonを評価したと報告している。 | Benchmark |
+| [コードで作った3つの車両シーンを比較する](#case-135) | グラフィックスとインターフェイスのプロトタイプ | 作者は既製の3D素材を使わずに作った3つの車両シーンにラベルを付け、制作費の推計を示している。 | Evaluation |
+| [FutureSimの予測結果を比較する](#case-136) | 評価と限界 | 投稿者はFutureSimでNeonが最高スコアを得たと述べ、ベンチマークのグラフを掲載している。投稿はツール呼び出しや複数分野のシミュレーション問題も説明している。 | Benchmark |
+| [油絵風の2つの3D世界を比較する](#case-137) | グラフィックスとインターフェイスのプロトタイプ | 作者は油絵風の3D世界を比較した動画を公開し、上にAstra、下にNeonを配置している。実行ごとの所要時間と筆致の数が異なったと述べている。 | Evaluation |
+| [Three.js のネオンシーンに車を追加する](#case-138) | グラフィックスとインターフェイスのプロトタイプ | 作者はThree.jsのネオン演出にNeonを使い、最後にBMW M4 CSの追加を依頼したと述べている。 | Demo |
+| [Blenderでキャラクターの参照モデルを作る](#case-139) | グラフィックスとインターフェイスのプロトタイプ | 作者はBlenderに表示されたキャラクターをNeonで作ったと述べている。元の画像には複数の角度から見たモデルがある。 | Demo |
+| [イチゴのアニメーション4本を比較する](#case-140) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeon、Carbon、Fable 5.2、Opus 5.5に、イチゴのアニメーションを作る同じ依頼を渡した。 | Evaluation |
+| [大量のクリップを整理して動画にまとめる](#case-141) | 知識労働 | Android Developersの公式アカウントは、Neonで約1,000本のクリップにインデックスを付けて動画にまとめるワークフローを紹介している。 | Demo |
+| [BrushArenaの投票で画像の出力を比較する](#case-142) | 評価と限界 | 作者はNeonがBrushArenaに初登場で1位となったと報告し、訪問者の投票による集計を掲載している。 | Benchmark |
+| [アルプスの風景をすべてコードで描画する](#case-143) | グラフィックスとインターフェイスのプロトタイプ | 作者は、シーンの描画とアニメーションをコードで行うためにNeonを使ったと説明している。元の動画にはアルプスの風景と高架橋が映っている。 | Demo |
+| [エージェントの講評でASCIIの自転車アニメーションを作る](#case-144) | グラフィックスとインターフェイスのプロトタイプ | 作者は自転車に乗るペリカンのASCIIアニメーションにNeonを使い、見た目を確認するために別の講評エージェントを用いたと説明している。 | Demo |
+| [Neonのスウォームと単一エージェントを比較する](#case-145) | グラフィックスとインターフェイスのプロトタイプ | 作者はリスの視点から描く同じアニメーションでスウォームと単一エージェントを比べ、この試行では単一エージェントを好んだと報告している。 | Evaluation |
+| [チャット画面にNeonを組み込む](#case-146) | エンジニアリングと統合 | 開発チームは、新たに導入するモデルに自社チャット画面へのプロバイダー連携を手伝わせる試験を説明し、表示された結果にNeonを用いたと述べている。 | Integration |
+| [Three.jsでプロシージャルな映像を作る](#case-147) | グラフィックスとインターフェイスのプロトタイプ | 作者は外部アセットを使わずNeonでWebGL映像を作ったと説明し、完成動画を共有している。 | Demo |
+| [マーケティング課題でモデルを評価する](#case-148) | 評価と限界 | 評価の作者はマーケティング課題でNeon、Opus、Solを比べ、グラフを共有している。結果を説明するときは、評価者自身の試験条件を示す。 | Benchmark |
+| [Hydrogenのスウォームでエンジンの可視化を進める](#case-149) | エンジニアリングと統合 | 作者はNeonを調整役に据え、Hydrogenのエージェントを使って複数回の改善を重ねながらThree.jsのV12エンジンを可視化したと報告している。 | Integration |
+| [Blenderで12種類のキャラクターアニメーションを生成する](#case-150) | グラフィックスとインターフェイスのプロトタイプ | 作者はBlenderの12種類のアニメーションにNeonを使ったとし、動作を一覧にして公開している。 | Demo |
+| [学習データの編集役としてモデルを評価する](#case-151) | 評価と限界 | ベンチマークの作者はHyper-InterventionでNeonと他の6モデルを、学習ロールアウトの編集役として試した。 | Benchmark |
+| [水上飛行機の着水シーン4種を比較する](#case-152) | グラフィックスとインターフェイスのプロトタイプ | 検証者はボラボラ島付近に着水する水上飛行機について、1文の依頼を使った。作者はインタラクティブなThree.jsシーンの制作にNeonを使ったと述べ、実行をOutputBenchに記録している。 | Evaluation |
+| [エージェントで南極のデータを探索する](#case-153) | 知識労働 | 作者はNeonのエージェント群を使い、衛星で観測された公開の速度データと南極の氷床下の地形を調べたと報告している。 | Demo |
+| [Three.jsでモナコのトンネル出口を比較する](#case-154) | グラフィックスとインターフェイスのプロトタイプ | 作者は日暮れのトンネルを描く同じ依頼を両モデルに与え、各結果をラベル付きで公開した。Neonの所要時間は55分44秒だったと報告している。 | Evaluation |
+| [夕暮れの自転車アニメーションを4つ比較する](#case-155) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeon、Fable 5.2、Sol、DeepSeek V4.1 Flashによる自転車のシーンを紹介している。 | Evaluation |
+| [リスの視点を描いたプロシージャルな動画を3つ比較する](#case-156) | グラフィックスとインターフェイスのプロトタイプ | 作者は30秒の動画を作る共通の依頼を使い、コードだけで出力するよう指定した。動画にはNeon、Astra、Fableによる結果が映っている。 | Evaluation |
+| [マルチエージェントのコーディング環境で評価する](#case-157) | 評価と限界 | 評価者は、Neonと複数の競合モデルを100のマルチエージェント・コーディング環境で試したと報告している。 | Benchmark |
+| [コードで絵のタイムラプスを作る](#case-158) | グラフィックスとインターフェイスのプロトタイプ | 作者はコードで描くタイムラプスにNeonを使ったと述べている。元の映像で描画の過程を確認できる。 | Demo |
+| [夜間離陸の3つのシーンで照明を比較する](#case-159) | グラフィックスとインターフェイスのプロトタイプ | 作者は夜間の離陸を描く共通の依頼を使い、Neon版は暗くて機体が見えにくかったと報告している。元の動画はいくつかの結果をラベル付きで示す。 | Evaluation |
+| [3Dプリントした機械仕掛けのおもちゃを比べる](#case-160) | エンジニアリングと統合 | 作者は、詳細を指定せずNeonとFableに3Dプリントできる物体の提案を依頼した。写真には両方の造形物があり、作者はNeon版の歯車がより安定して動いたと述べている。 | Evaluation |
+| [FrontierMemoryでの成績を比較する](#case-161) | 評価と限界 | ベンチマークの運営者が、Gemini 4 NeonのFrontierMemoryでの結果を投稿している。 | Benchmark |
+| [同じ依頼によるBlender MCPの出力を比較する](#case-162) | グラフィックスとインターフェイスのプロトタイプ | 作者は参照画像、Web検索、既存素材を使わず、シンプルなハンマーを作る課題を3モデルに与えた。Neonは19分かかったと報告し、出力を共有している。 | Evaluation |
+| [Blenderで試行錯誤しながらランボルギーニを作る](#case-163) | グラフィックスとインターフェイスのプロトタイプ | 作者は何度も試行を重ねて作ったBlenderの車モデルにNeonを使ったと述べている。 | Demo |
+| [細部まで作り込んだバイクのレンダリングを比較する](#case-164) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeon xhighとFable 5.2 xhighのラベルを付けて、バイクのレンダリングを並べて公開した。 | Evaluation |
+| [3Dプリントできる充電器のケースを設計する](#case-165) | エンジニアリングと統合 | 作者は充電器を簡潔に説明し、Neonにケースを設計してプリントするよう依頼した。元の写真には造形物が写っている。 | Demo |
+| [AFK Pilot拡張機能にNeonを追加する](#case-166) | エンジニアリングと統合 | 拡張機能のメンテナーは、AFK Pilot 4.16.0および4.17.0でAntigravity CLIからNeonを使えるようにしたと報告し、拡張機能の画面を示している。 | Integration |
+| [ページ解析と表のレイアウトを評価する](#case-167) | 評価と限界 | ParseBench-2の公開元は、Neonをlow推論モードで使い、他の公開モデルと比較したと報告している。 | Benchmark |
+| [The Last Takeの2つのゲームシーンを比較する](#case-168) | ゲームとシミュレーション | 作者は、NeonとFable 5.2で作ったThe Last Takeの2つの版を比較している。 | Evaluation |
+| [AI Studioでモデルの公開記念動画を作る](#case-169) | グラフィックスとインターフェイスのプロトタイプ | 作者はAI StudioでNeonにデビュー動画を依頼し、最初に生成されたシーンを共有している。 | Demo |
+| [Blenderのシーンを一晩かけてレンダリングする](#case-170) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonでBlender 5.3のシーンを構築し、描画した結果を投稿している。作業は一晩実行したままにしていたという。 | Demo |
+| [CodePilotの8件の修正結果を比較する](#case-171) | 評価と限界 | 開発者はCodePilotで見つかった8件の問題を2つのモデルに修正させ、別のモデルで採点した。報告された得点はNeonが8.5、Opusが9だった。 | Evaluation |
+| [1つのプロンプトで作った2つのシーンを比較する](#case-172) | グラフィックスとインターフェイスのプロトタイプ | 作者は色の指定を変え、同じプロンプトでシーンを作ったと述べている。NeonとOpusの結果をラベル付きで公開している。 | Evaluation |
+| [コード生成でコンセプト映像を制作する](#case-173) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeon、Antigravity、OpenMotionで60秒のコンセプト映像を制作した。シーンはコードで組み立て、オープンソースの音楽は別途ミックスしたと説明している。 | Demo |
+| [Three.jsでゴシック大聖堂のウォークスルーを比較する](#case-174) | グラフィックスとインターフェイスのプロトタイプ | 作者はステンドグラスの窓へ向かう20秒のウォークスルーを同じ条件で依頼した。動画では上がAstra、下がNeonと示されている。 | Evaluation |
+| [無人実行中のセッション切れを確認する](#case-175) | 評価と限界 | 作者によると、Neonを使ったAntigravityのセッションは2時間以上動いた後、認証期限切れのエラーを返した。スクリーンショットには、そのセッションのメッセージが写っている。 | Limit |
+| [インタラクティブなステンドグラスのシーンを作る](#case-176) | グラフィックスとインターフェイスのプロトタイプ | 作者は写真1枚を参照し、Webでの音声をプロシージャルに生成し、素材を取り込まずに猫とステンドグラスをコードで描いたと述べている。 | Demo |
+| [1回ずつ生成した4つのHTMLアニメーションを比較する](#case-177) | グラフィックスとインターフェイスのプロトタイプ | 作者は、雨の日に窓辺にいる猫を描く同じプロンプトを4モデルに渡した。各モデルは修正や再試行なしで、1つずつ出力した。 | Evaluation |
+| [エージェントループのターン状態を可視化する](#case-178) | 知識労働 | 作者はNeonを使い、エージェントループを操作できるHTMLの解説にした。 | Tutorial |
+| [エージェントで火星の地震波形を探索する](#case-179) | 知識労働 | 作者はAntigravityのNeonでエージェント群を使い、NASA InSightが公開した4年分の波形を処理したと報告している。グラフは作者が公開した探索的な結果だ。 | Demo |
+| [インタラクティブな桜のシーンをプロシージャルに作る](#case-180) | グラフィックスとインターフェイスのプロトタイプ | 作者は、枝をプロシージャルに生成し、花びらが離れて舞うインタラクティブな桜のサイトにNeonを用いたと述べている。 | Demo |
+| [製品紹介の縦型モーショングラフィックスを作る](#case-181) | グラフィックスとインターフェイスのプロトタイプ | 作者は最初のモーションデザインの試作にNeonを用いたと述べている。 | Demo |
+| [Antigravityで卓上ペット用の基板を設計する](#case-182) | エンジニアリングと統合 | 作者は、NeonがEasyEDA MCPを操作して卓上ペットの制御基板と充電ドックを設計するワークフローを説明している。 | Demo |
+| [推定した深度から法線マップを生成する](#case-183) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonの支援でApple Depth Pro 2の重みを変え、法線マップなどのPBRマップをプロシージャルに生成するツールを作ったと報告している。 | Demo |
+| [モーションの切り替えと効果音を比較する](#case-184) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonのモーションデザインを示し、効果音はClaudeの方を好んだと報告している。映像と音に対する評価は作者の所見だ。 | Evaluation |
+| [3モデルと人間が書いた短編を比較する](#case-185) | 知識労働 | 作者は500字の共通課題を設定し、人間が支援ツールを使わず書いた短編と、Sol、Neon、Opusの初稿を比較している。 | Evaluation |
+| [Three.jsでネオンが灯る電気街を作る](#case-186) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonを使い、1枚の画像から架空の雨の電気街をコードで組み上げ、カメラの動きも設定した。 | Demo |
+| [架空キャラクターのお絵描き画面を比較する](#case-187) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonとFableに、架空のゲームキャラクターを題材にしたお絵描き画面を依頼した。報告では、Neonが21分、Fableが27分だった。 | Evaluation |
+| [ページのブロックと画面コンポーネントを改善する](#case-188) | グラフィックスとインターフェイスのプロトタイプ | 開発者はNeonで生成したブロック要素のシリーズを投稿し、部品ごとの違いを示している。関連動画には同じ制作物をさらに改善した結果がある。 | Demo |
+| [フィルム描画とスキャンのエミュレーターを試作する](#case-189) | グラフィックスとインターフェイスのプロトタイプ | 作者は、物理モデルに基づくフィルム描画とスキャンのプロジェクトにNeonを用いたと述べている。プレビューとともに開発スレッドも公開した。独立した費用の計測値は示されていない。 | Demo |
+| [OpenCode構成での推論速度を比較する](#case-190) | 評価と限界 | ベンチマークの協力者は、InferenceBenchに記録されたNeonの構成を紹介している。 | Benchmark |
+| [コードホスティングの画面を試作する](#case-191) | エンジニアリングと統合 | 作者はコードホスティングの試作にNeonを使ったと述べ、アプリを操作する動画を投稿している。 | Demo |
+| [インタラクティブな海のジオラマを2つ比較する](#case-192) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonとOpus 5.5に同じ課題を実行させたと述べている。 | Evaluation |
+| [6モデルによるWebサイトのリデザインを比較する](#case-193) | グラフィックスとインターフェイスのプロトタイプ | 作者は追加のスキルを使わず、高い推論レベルで同じリデザインを依頼した。投稿には各実行の時間と費用があり、Neonの費用は下限として示されている。 | Evaluation |
+| [Antigravityのキャッシュヒット率の変化を追う](#case-194) | 評価と限界 | 投稿者は後の投稿でキャッシュヒット率を 98.9%、以前の投稿では約 50% と報告している。 | Limit |
+| [共通のThree.jsプロンプトで作ったJeepモデルを比較する](#case-195) | グラフィックスとインターフェイスのプロトタイプ | 作者は以前のJeep用プロンプトを再利用し、結果を並べて公開した。Neon Highの実行は45分だったと記録している。 | Evaluation |
+| [3モデルのインターフェース表現を比較する](#case-196) | グラフィックスとインターフェイスのプロトタイプ | 作者はOpus 5.5、Sol、Gemini 4 Neonで作ったユーザーインターフェースのデザインを検討したと報告している。 | Evaluation |
+| [プロシージャルなコードで歌うシーンを作る](#case-197) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonに、外部ライブラリ、アセット、TTSを使わず、映像、音楽、歌声をコードで作るよう依頼したと述べている。結果は1つの実験として紹介されている。 | Demo |
+| [最初と最後のフレームを編集して生成クリップをつなぐ](#case-198) | グラフィックスとインターフェイスのプロトタイプ | 作者は長尺の動画を作る工程で、Neonに最初と最後のフレームの処理や編集を任せたと説明している。 | Integration |
+| [Antigravityで短い解説動画を制作する](#case-199) | 知識労働 | 作者はNeonとAntigravityで90秒の解説動画を作ったと述べ、工程にGoogleのメディアツールとTTS、HyperFramesを挙げている。 | Demo |
+| [ブラウザのシーンでボクセルモデルを見せる](#case-200) | グラフィックスとインターフェイスのプロトタイプ | 作者はボクセルモデルのデモにNeonを使ったと述べている。動画ではバナナ形のボクセルと、表示を操作する機能を確認できる。 | Demo |
+| [発表時の画像をネオンサインとして動かす](#case-201) | グラフィックスとインターフェイスのプロトタイプ | 作者は、モデルの発表ブログにあった画像を動かすようNeonに頼んだと述べている。 | Demo |
+| [LilyPondで生成した2曲のマズルカを比較する](#case-202) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonとFable 5.2に、LilyPondでピアノのマズルカを作る同じ依頼を与えた。 | Evaluation |
+| [ホログラム風の視差アニメーション4本を比較する](#case-203) | グラフィックスとインターフェイスのプロトタイプ | 作者は4枚の画像からホログラム風の視差アニメーションを生成し、名前を明示した4種類の結果を比べている。 | Evaluation |
+| [ASCIIで描いた人物をコードで動かす](#case-204) | グラフィックスとインターフェイスのプロトタイプ | 作者はコードだけを使ったASCIIの実験だと説明している。元の動画には文字で描いた人物が動く様子が映っている。 | Demo |
+| [既存のコードベースでCIの型チェックを短縮する](#case-205) | エンジニアリングと統合 | 開発者は、以前の最適化を経たCIをNeonで見直したと述べている。自身のコードベースで型チェックが6.5分から1.5分になったと報告している。 | Evaluation |
+| [シーンの構築とアニメーションを別モデルに任せる](#case-206) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonがシーン全体の構築を担い、Claude Mythos 5.2が細部と動きを調整したと説明している。動画には完成したシーンが映っている。 | Integration |
+| [MicroduckのシミュレーションでJEPAサイドカーを試作する](#case-207) | エンジニアリングと統合 | 作者は、Microduckの自己受容感覚を扱うJEPAサイドカーを開発する際に、Gemini 4 NeonとCarbonを使ったと報告している。 | Demo |
+| [8の字結びを物理シミュレーションで採点する](#case-208) | 評価と限界 | 作者によるKnotBench v0のリプレイでは、4モデルが同じ8の字結びの課題に取り組んでいる。表示された実行では、Neonの結果から結び目の記述を取り出せなかった。 | Limit |
+| [『オジマンディアス』のMinecraftでの解釈を比較する](#case-209) | ゲームとシミュレーション | 作者はシェリーの詩を題材にした共通のプロンプトを使った。投稿によると、Neonは19分で2.88ドル、Solは12分で1.06ドルだった。 | Evaluation |
+| [スキルを使って短い解説動画をレンダリングする](#case-210) | 知識労働 | 作者はNeonを既存の解説動画スキルや別途行った描画の最適化と組み合わせ、2分を超える動画を完成させた。所要時間と利用枠の数値は、この実行での結果だ。 | Demo |
+| [Three.jsでゴンドラからの風景を比較する](#case-211) | グラフィックスとインターフェイスのプロトタイプ | 作者はAstraとNeonに、日没時にベネチアの橋の下をゴンドラでくぐる20秒の映像を同じ条件で依頼した。 | Evaluation |
+| [MotionBricksのキャラクターデモをローカルで動かす](#case-212) | エンジニアリングと統合 | 作者はNeonにMotionBricksのリポジトリを調べさせ、付属のONNXモデルを使うインタラクティブなデモを整えたと述べている。NVIDIA GPUなしでローカル実行したと報告している。 | Integration |
+| [Three.jsで作ったエッフェル塔を4つ比較する](#case-213) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeon、Astra、Sol、OpusにThree.jsでエッフェル塔を作るよう依頼した。 | Evaluation |
+| [2世代のGeminiで作ったエンジンアニメーションを比較する](#case-214) | グラフィックスとインターフェイスのプロトタイプ | 作者はAntigravityで、Gemini 4 Neon HighとGemini 3.7 Flash Highによるエンジンの可視化を比べている。 | Evaluation |
+| [ブラウザ向けの疑似3Dボクセルスプライトを作る](#case-215) | グラフィックスとインターフェイスのプロトタイプ | 作者は平面のスプライトを重ね、カメラの回転に合わせてシーンに立体感を出す方法を説明している。デモはブラウザの画面で手法を示している。 | Demo |
+| [Alpine Goldのシーンを4モデルで比較する](#case-216) | グラフィックスとインターフェイスのプロトタイプ | 比較には共通のAlpine Goldのプロンプトが使われ、4つの出力にラベルが付いている。作者によると、この試験でNeonは1時間31分11秒かかり、費用は11.84ドルだった。 | Evaluation |
+| [シマウマのアニメーションを4つ比較する](#case-217) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeon、Carbon、Fable 5.2、DeepSeek V4.1 Flashによるシマウマのアニメーションを示し、それぞれにラベルを付けている。 | Evaluation |
+| [FrontierMathでNeonとCarbonを比較する](#case-218) | 評価と限界 | 作者は特定の難易度区分のFrontierMathのグラフを参照し、その結果ではNeonがCarbonを上回ったと伝えている。 | Benchmark |
+| [油圧ショベルが動く2つのシーンを比較する](#case-219) | グラフィックスとインターフェイスのプロトタイプ | 元の動画は、NeonとOpus 5.5が作ったそれぞれの工事現場のシーンにラベルを付けている。 | Evaluation |
+| [JPEN DictのmacOS画面を開発する](#case-220) | エンジニアリングと統合 | 開発者はJPEN Dict 1.8.0の開発中に、Antigravityで使用するモデルをNeonに切り替えたと報告している。 | Integration |
+| [テレビ作品の8つの舞台をMinecraftで再現して比較する](#case-221) | ゲームとシミュレーション | 作者はNeonとSolに、8か所をMinecraftで再現する同じ課題を与えた。 | Evaluation |
+| [AI Studioでサイコロを振るツールを作る](#case-222) | ゲームとシミュレーション | 作者は、自作のボードゲームで使うサイコロのツールを、Google AI StudioでNeonを使って制作したと述べている。 | Demo |
+| [AntigravityでW16エンジンをアニメーション化する](#case-223) | グラフィックスとインターフェイスのプロトタイプ | 作者は、ブガッティ・シロンのW16を可視化するのにAntigravityのNeon Highを使ったと説明している。 | Demo |
+| [3D断面で堤防の破壊メカニズムを可視化する](#case-224) | 知識労働 | 作者は学習用に、簡易な2次元浸透流計算と3次元断面を組み合わせた可視化をNeonで作った。 | Demo |
+| [Neonが演出したミュージックビデオを改良する](#case-225) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonにミュージックビデオの演出を任せ、数日にわたって見直したと報告している。 | Demo |
+| [遊んで手がかりを解ける脱出ゲームを試作する](#case-226) | ゲームとシミュレーション | 作者は1回の依頼で、Neonが遊べる脱出ゲーム「Astrolab」の最初の版を作ったと説明している。 | Demo |
+| [操作できる図でPiのエージェント実行環境を解説する](#case-227) | 知識労働 | 作者は、Piのエージェント実行環境と内蔵の4つのツールを図で説明するためにNeonを使った。 | Tutorial |
+| [Three.jsで2つの図書館のウォークスルーを比較する](#case-228) | グラフィックスとインターフェイスのプロトタイプ | 作者は、壮麗なバロック様式の図書館を描く同じ依頼をAstraとNeonに与えた。 | Evaluation |
+| [操作できる流動性ダッシュボードを作る](#case-229) | エンジニアリングと統合 | 作者は、公開したSI Liquidity Radarの構築にNeonを用いたと述べている。 | Demo |
+| [小数を比較する回答の文体を確認する](#case-230) | 評価と限界 | Neonと表示されたスクリーンショットでは、9.3と9.12を比較して、9.3の方が大きいと答えている。 | Evaluation |
+| [LiveBench 2.0の重み付き結果を比較する](#case-231) | 評価と限界 | 投稿にあるLiveBench 2.0のリリースでは、Neonの総合スコアは87.4と表示されている。 | Benchmark |
+| [参照動画からファンタジー風のトランジションを編集する](#case-232) | グラフィックスとインターフェイスのプロトタイプ | 作者は参照クリップを用意し、編集にNeonを使ったと述べている。クローン音声のナレーションはDoubao TTS2で生成した。 | Tutorial |
+| [小数の位の説明を2つ比較する](#case-233) | 評価と限界 | 作者は9.12と9.8の大小を尋ねる同じ質問に対する、2つの回答を示している。 | Evaluation |
+| [水彩画の見張り塔をWebGPUのシーンにする](#case-234) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonとCarbonに、同じ見張り塔の水彩画とWebGPUでの制作依頼を渡した。 | Evaluation |
+| [HydrogenエージェントとのThree.js車両制作を調整する](#case-235) | エンジニアリングと統合 | 作者はThree.jsでランボルギーニ・ヴェネーノを作る5つのHydrogenエージェントの調整役に、Neonを割り当てた。 | Integration |
+| [tvOS向けのターン制砲撃ゲームを試作する](#case-236) | ゲームとシミュレーション | 開発者は、tvOS向けの砲撃ゲームの試作にNeonとAmpのMacサイドカーを使用したと述べている。 | Demo |
+| [Neonのベンチマークの近似曲線を読む](#case-237) | 評価と限界 | Priorsの作者は、45項目のベンチマークについてNeonの観測結果を個別に示すスコアの近似曲線を公開している。 | Benchmark |
+| [曲とASCIIのビジュアライザーをコードで作る](#case-238) | グラフィックスとインターフェイスのプロトタイプ | 作者はNeonに自分で歌詞を決め、その思考過程を表すASCIIアニメーションを作るよう依頼した。 | Demo |
+| [記憶から描いた3つのSVGロゴを評価する](#case-239) | 評価と限界 | 作者はAntigravityでNeonのMedium Effortを使って作ったロゴを3つ示している。Webアクセスは無効で、ターミナルでの実行は有効だった。 | Evaluation |
+| [エンジンの断面アニメーション4本を比較する](#case-240) | グラフィックスとインターフェイスのプロトタイプ | 作者は、動作中のエンジンを断面で描く同じ依頼を4モデルに与えた。 | Evaluation |
+| [ローポリのキャラクターのベースメッシュを作る](#case-241) | グラフィックスとインターフェイスのプロトタイプ | 作者は、Gemini 4 NeonとBlenderを使って1回の依頼でキャラクターの素体メッシュを作り、約4,800三角形になったと報告している。 | Tutorial |
+| [凍ったスイカのアニメーション4本を比較する](#case-242) | グラフィックスとインターフェイスのプロトタイプ | 作者は、スイカが凍り、解け、破裂する同じ依頼を4モデルに与えたと報告している。1本の比較動画で、ラベル付きの4画面に各出力を並べている。 | Evaluation |
 
 | セクション | 目的 |
 |---|---|
@@ -255,6 +392,261 @@ Type: Integration | Date: 2026-11-19
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-6-1-a5dafa9b6b4e.jpg" alt="Spotify のおすすめ MCP を作り直す · 1" width="560">
 
 Type: Integration | Date: 2026-11-19
+
+---
+
+<a id="case-106"></a>
+### Case 106: [OpenClawでNeonのモデル項目を確認する](https://x.com/openclaw/status/2123640619931484511) (by [@openclaw](https://x.com/openclaw))
+
+**連携先の公開設定にあるモデル項目を見て、対応の根拠を確認する。**
+
+OpenClawはコミット済みの設定でGemini 4 Neonを推奨モデルとして記載している。
+
+OpenClawの公式アカウントが項目の追加を発表し、公開されている推奨モデル設定にもgemini-4-neonが掲載されている。これらの資料で項目の存在を確認できる。
+
+[補足資料](https://github.com/openclaw/openclaw/blob/adb2f7c4d4bc3b7479b180c24db943b9cc64923c/scripts/lib/recommended-models.json)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-106-1-7d8612587051.jpg" alt="OpenClawでNeonのモデル項目を確認する · 1" width="560">
+
+Type: Integration | Date: 2026-11-20
+
+---
+
+<a id="case-111"></a>
+### Case 111: [公開地理空間データのダッシュボードを作る](https://x.com/GOD2FREEX/status/2123659651703292096) (by [@GOD2FREEX](https://x.com/GOD2FREEX))
+
+**生成された画面を評価するときは、どの情報が外部フィードに由来するか確認する。**
+
+作者はGrok BotからNeonを使ってGROUNDの画面を作り、公開地理空間フィードとニュースを統合したと説明している。元の動画はダッシュボードを映している。
+
+動画ではGROUNDのダッシュボードを確認できる。作者はGrok Botを介してNeonで構築し、複数の公開情報源を1つの画面にまとめたと述べている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-111-1-18a94faed52a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-111-1-93e664897230.jpg" alt="公開地理空間データのダッシュボードを作る · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-20
+
+---
+
+<a id="case-126"></a>
+### Case 126: [スウォームのボードで役割ごとにモデルを割り当てる](https://x.com/SimonT242613/status/2123753724367826978) (by [@SimonT242613](https://x.com/SimonT242613))
+
+**役割ごとに使用するモデルを指定し、共有タスクボードで進捗を確認する。**
+
+作者はAntigravityでNeonをOrchestratorに据え、フロントエンドを担当するエージェントを割り当てたスウォームを紹介している。
+
+スクリーンショットには、このプロジェクトでのモデルの割り当てとタスクの状態が写っている。作者は自身の設定に関する所見も別途述べている。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-126-1-6c3fe29fa2c2.jpg" alt="スウォームのボードで役割ごとにモデルを割り当てる · 1" width="560">
+
+Type: Integration | Date: 2026-11-20
+
+---
+
+<a id="case-146"></a>
+### Case 146: [チャット画面にNeonを組み込む](https://x.com/superdoteng/status/2123834081515635115) (by [@superdoteng](https://x.com/superdoteng))
+
+**チャット画面とターミナル画面を切り替えても、文脈と操作が引き継がれるか確認する。**
+
+開発チームは、新たに導入するモデルに自社チャット画面へのプロバイダー連携を手伝わせる試験を説明し、表示された結果にNeonを用いたと述べている。
+
+元の資料にはチャットとターミナルをつなぐ画面が映っている。開発者はバックグラウンドエージェント、実行中の方向調整、使用量表示を挙げている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-146-1-486b313368a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-146-1-144e4deed3ec.jpg" alt="チャット画面にNeonを組み込む · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-20
+
+---
+
+<a id="case-149"></a>
+### Case 149: [Hydrogenのスウォームでエンジンの可視化を進める](https://x.com/thtbee_/status/2123843882937155607) (by [@thtbee_](https://x.com/thtbee_))
+
+**成果を記録するときに、進行の調整役と実装担当の役割を明記する。**
+
+作者はNeonを調整役に据え、Hydrogenのエージェントを使って複数回の改善を重ねながらThree.jsのV12エンジンを可視化したと報告している。
+
+作者はNeonが進行を調整し、Hydrogenのエージェントが制作を担ったと説明している。元の資料で、反復作業を経たV12の可視化を確認できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-149-1-5487f081868e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-149-1-6d1c71ce1847.jpg" alt="Hydrogenのスウォームでエンジンの可視化を進める · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-20
+
+---
+
+<a id="case-160"></a>
+### Case 160: [3Dプリントした機械仕掛けのおもちゃを比べる](https://x.com/davis7/status/2123906899074822159) (by [@davis7](https://x.com/davis7))
+
+**デザインの外観と、造形後の実際の動作を比較する。**
+
+作者は、詳細を指定せずNeonとFableに3Dプリントできる物体の提案を依頼した。写真には両方の造形物があり、作者はNeon版の歯車がより安定して動いたと述べている。
+
+写真には2つの造形物が写っている。歯車の安定性は、実際に造形した人物による定性的な所見だ。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-160-1-2ac12dc80c68.jpg" alt="3Dプリントした機械仕掛けのおもちゃを比べる · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-165"></a>
+### Case 165: [3Dプリントできる充電器のケースを設計する](https://x.com/davis7/status/2123934402510287059) (by [@davis7](https://x.com/davis7))
+
+**実際にプリントしたケースを、作者が提示した依頼内容と照らし合わせる。**
+
+作者は充電器を簡潔に説明し、Neonにケースを設計してプリントするよう依頼した。元の写真には造形物が写っている。
+
+元の写真には充電器用にプリントしたケースが写っている。依頼時に提示されたのは充電器の簡潔な説明だった。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-165-1-5ca9c7b79790.jpg" alt="3Dプリントできる充電器のケースを設計する · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-165-2-4ca465c878d2.jpg" alt="3Dプリントできる充電器のケースを設計する · 2" width="560">
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-166"></a>
+### Case 166: [AFK Pilot拡張機能にNeonを追加する](https://x.com/PawelHuryn/status/2123934736049488318) (by [@PawelHuryn](https://x.com/PawelHuryn))
+
+**拡張機能のバージョンを確認し、拡張機能が提供する機能とモデル自身の挙動を分けて評価する。**
+
+拡張機能のメンテナーは、AFK Pilot 4.16.0および4.17.0でAntigravity CLIからNeonを使えるようにしたと報告し、拡張機能の画面を示している。
+
+メンテナーは2つのリリースとAntigravity CLIとの連携について記載している。元の画像は対象バージョンの変更を示した投稿に添えられている。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-166-1-719205d06961.jpg" alt="AFK Pilot拡張機能にNeonを追加する · 1" width="560">
+
+Type: Integration | Date: 2026-11-21
+
+---
+
+<a id="case-182"></a>
+### Case 182: [Antigravityで卓上ペット用の基板を設計する](https://x.com/GoGoFly23/status/2124036617937760579) (by [@GoGoFly23](https://x.com/GoGoFly23))
+
+**試作品を製造する前に、各段階で回路図と基板レイアウトを確認する。**
+
+作者は、NeonがEasyEDA MCPを操作して卓上ペットの制御基板と充電ドックを設計するワークフローを説明している。
+
+元の添付資料には部品選定、回路図、配線が記録されている。投稿は設計の根拠を示しており、実機での検証結果は記載されていない。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-1-ea3cf789e3e3.jpg" alt="Antigravityで卓上ペット用の基板を設計する · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-2-c4998720a0a2.jpg" alt="Antigravityで卓上ペット用の基板を設計する · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-3-dba688ec02b8.jpg" alt="Antigravityで卓上ペット用の基板を設計する · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-4-6881f9f40dfd.jpg" alt="Antigravityで卓上ペット用の基板を設計する · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-5-8a9eff67f95b.jpg" alt="Antigravityで卓上ペット用の基板を設計する · 5" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-6-2cec402f5c8a.jpg" alt="Antigravityで卓上ペット用の基板を設計する · 6" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-7-a3a91362e1cf.jpg" alt="Antigravityで卓上ペット用の基板を設計する · 7" width="560">
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-191"></a>
+### Case 191: [コードホスティングの画面を試作する](https://x.com/TheDoraaaaaaaa/status/2124105099522068925) (by [@TheDoraaaaaaaa](https://x.com/TheDoraaaaaaaa))
+
+**元の動画から、どのリポジトリ操作が実演されているか確認する。**
+
+作者はコードホスティングの試作にNeonを使ったと述べ、アプリを操作する動画を投稿している。
+
+元の動画で試作画面を確認できる。開発者は構築にNeonを用いたと述べている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-191-1-5ced1b8bdd0c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-191-1-e229f7eea576.jpg" alt="コードホスティングの画面を試作する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-205"></a>
+### Case 205: [既存のコードベースでCIの型チェックを短縮する](https://x.com/PokeBenchTV/status/2124158885749485816) (by [@PokeBenchTV](https://x.com/PokeBenchTV))
+
+**2回目の最適化の効果は、同じコードベースで測った結果を使って評価する。**
+
+開発者は、以前の最適化を経たCIをNeonで見直したと述べている。自身のコードベースで型チェックが6.5分から1.5分になったと報告している。
+
+スクリーンショットは開発者が測定した変更前後の時間とともに示されている。改善幅は投稿にあるコードベースとCI環境に当てはまる。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-205-1-7b61661c2400.jpg" alt="既存のコードベースでCIの型チェックを短縮する · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-207"></a>
+### Case 207: [MicroduckのシミュレーションでJEPAサイドカーを試作する](https://x.com/rafaelcaricio/status/2124160567417897088) (by [@rafaelcaricio](https://x.com/rafaelcaricio))
+
+**シミュレーションでサイドカーを評価し、実機での検証が必要な部分を記録する。**
+
+作者は、Microduckの自己受容感覚を扱うJEPAサイドカーを開発する際に、Gemini 4 NeonとCarbonを使ったと報告している。
+
+投稿によると、試作品はシミュレーションのみに対応している。作者は両モデルを使ったと述べており、実装の各部分を個別に割り当ててはいない。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-207-1-ea19fe8ae519.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-207-1-53c032afc54f.jpg" alt="MicroduckのシミュレーションでJEPAサイドカーを試作する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-212"></a>
+### Case 212: [MotionBricksのキャラクターデモをローカルで動かす](https://x.com/ai_for_success/status/2124192968345338206) (by [@ai_for_success](https://x.com/ai_for_success))
+
+**モデルの実行環境に含まれる部分と、その上に実装した部分を確認する。**
+
+作者はNeonにMotionBricksのリポジトリを調べさせ、付属のONNXモデルを使うインタラクティブなデモを整えたと述べている。NVIDIA GPUなしでローカル実行したと報告している。
+
+元のデモには、作ったキャラクターと動作を操作する機能がある。ローカル実行は作者自身の環境での報告だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-212-1-5908a6b66d3f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-212-1-90af2b83d938.jpg" alt="MotionBricksのキャラクターデモをローカルで動かす · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-21
+
+---
+
+<a id="case-220"></a>
+### Case 220: [JPEN DictのmacOS画面を開発する](https://x.com/jake_j_jung/status/2124293069797495257) (by [@jake_j_jung](https://x.com/jake_j_jung))
+
+**公開された画面の変更について、モデルが担った役割を記録する。**
+
+開発者はJPEN Dict 1.8.0の開発中に、Antigravityで使用するモデルをNeonに切り替えたと報告している。
+
+元の添付資料7点は、オフラインの日英辞書の画面を部分ごとに記録している。開発者はNeonを使った作業でインターフェースを整理したと述べている。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-1-b51af065b24f.jpg" alt="JPEN DictのmacOS画面を開発する · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-2-89151a2fd48f.jpg" alt="JPEN DictのmacOS画面を開発する · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-3-1451faf9f0bc.jpg" alt="JPEN DictのmacOS画面を開発する · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-4-da3ced85253b.jpg" alt="JPEN DictのmacOS画面を開発する · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-5-3102c60b17cb.jpg" alt="JPEN DictのmacOS画面を開発する · 5" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-6-bc25ae9b22e4.jpg" alt="JPEN DictのmacOS画面を開発する · 6" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-7-3af8cc4f6099.jpg" alt="JPEN DictのmacOS画面を開発する · 7" width="560">
+
+Type: Integration | Date: 2026-11-22
+
+---
+
+<a id="case-229"></a>
+### Case 229: [操作できる流動性ダッシュボードを作る](https://x.com/G33K13765260/status/2124355729507365148) (by [@G33K13765260](https://x.com/G33K13765260))
+
+**1つの画面で資金の移動と流動性の変化を把握しやすくなるか試す。**
+
+作者は、公開したSI Liquidity Radarの構築にNeonを用いたと述べている。
+
+元の動画は可視化と操作の様子を示している。構築時間はこの公開事例について報告されている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-229-1-006c1092d04c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-229-1-7e81a5c9049e.jpg" alt="操作できる流動性ダッシュボードを作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-235"></a>
+### Case 235: [HydrogenエージェントとのThree.js車両制作を調整する](https://x.com/Leviwoyun/status/2124421508563149279) (by [@Leviwoyun](https://x.com/Leviwoyun))
+
+**1つのモデルに進行調整を任せ、形状の作業を別々のエージェントに分担させる。**
+
+作者はThree.jsでランボルギーニ・ヴェネーノを作る5つのHydrogenエージェントの調整役に、Neonを割り当てた。
+
+作者は3回の試行を報告している。元の動画では、レンダリングされた車体と内装を複数の角度から確認できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-235-1-de84a06d03f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-235-1-043c69234b09.jpg" alt="HydrogenエージェントとのThree.js車両制作を調整する · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-22
 
 ---
 
@@ -1203,6 +1595,1256 @@ Type: Demo | Date: 2026-11-20
 
 ---
 
+<a id="case-108"></a>
+### Case 108: [自転車の動きにグリッサンドを同期させる](https://x.com/alexanderchen/status/2123653501616320961) (by [@alexanderchen](https://x.com/alexanderchen))
+
+**元の動画を再生し、音高の変化が動きとどう合うか確認する。**
+
+作者は自転車を題材にした映像と音の実験にNeonを使ったと述べ、音声付きの動画を投稿している。
+
+元の動画では自転車の動きに音高が連続的に変化するグリッサンドが重なる。作者は映像と音の実験にNeonを用いたと説明している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-108-1-6771e5e897fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-108-1-09d488ebf67c.jpg" alt="自転車の動きにグリッサンドを同期させる · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-109"></a>
+### Case 109: [Three.jsで怪獣をプロシージャルに生成する](https://x.com/majidmanzarpour/status/2123654802626220217) (by [@majidmanzarpour](https://x.com/majidmanzarpour))
+
+**動画で確認できる、コードで描画された形状や外観を評価する。**
+
+作者はThree.jsのTSLでプロシージャルに生成した怪獣にNeonを使ったと述べ、その外観を動画で公開している。
+
+作者はThree.jsのシェーディング環境を示し、動く怪獣の動画を投稿した。動画で完成時の外観を確認できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-109-1-6c6d98ed0242.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-109-1-06e38f5f5820.jpg" alt="Three.jsで怪獣をプロシージャルに生成する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-110"></a>
+### Case 110: [Paperでランディングページをデザインする](https://x.com/robinebers/status/2123658087722856773) (by [@robinebers](https://x.com/robinebers))
+
+**公開されたページのプレビューで、情報の階層とグラフィックを確認する。**
+
+作者はNeonとPaperを使ってランディングページをデザインしたと述べ、レイアウトのスクリーンショットを添えている。
+
+スクリーンショットでページの構成を確認できる。作者はこのデザインをNeonとPaperを組み合わせた成果として紹介している。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-110-1-680ee1274833.jpg" alt="Paperでランディングページをデザインする · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-112"></a>
+### Case 112: [JavaScriptでIPOの解説動画を作る](https://x.com/ann_nnng/status/2123690116296372624) (by [@ann_nnng](https://x.com/ann_nnng))
+
+**コードで作られた文字表現やシーンの切り替えを確認する。**
+
+作者はNeonに動きのある解説動画を依頼し、JavaScriptで実装されたと述べている。元の動画にはその一部が映っている。
+
+元の動画で生成したモーショングラフィックスの一部を確認できる。投稿には依頼内容とJavaScriptによる実装が記載されている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-112-1-248cf18556a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-112-1-d7c6529c4f69.jpg" alt="JavaScriptでIPOの解説動画を作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-113"></a>
+### Case 113: [Neonのスウォームでドラム演奏をアニメーション化する](https://x.com/RainG999/status/2123702323692380671) (by [@RainG999](https://x.com/RainG999))
+
+**足元のアップで、動きのタイミングや細部を評価する。**
+
+作者はNeonのマルチエージェント構成を使ったと述べている。約4秒のところにドラムを演奏する足元のアップがある。
+
+動画の序盤ではドラマーの足元が拡大される。作者はこの作品をNeonのスウォームで制作したとしている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-113-1-5355fdb1bce1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-113-1-68e65a603aee.jpg" alt="Neonのスウォームでドラム演奏をアニメーション化する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-114"></a>
+### Case 114: [Blenderで空想の都市とドラゴンを描画する](https://x.com/mspd4100/status/2123720793888829509) (by [@mspd4100](https://x.com/mspd4100))
+
+**作者が報告した環境と所要時間を、このシーンにひも付けて読む。**
+
+作者はAntigravityでNeonを使い、Blenderのシーンをコードで構築して描画したと述べている。シーンには都市とドラゴンが登場し、この実行には11時間かかったという。
+
+投稿でBlenderによる都市とドラゴンの描画結果を確認できる。長時間の実行は作者自身の環境で記録された。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-114-1-c8affe5eeb9d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-114-1-13091fab9c1f.jpg" alt="Blenderで空想の都市とドラゴンを描画する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-115"></a>
+### Case 115: [サンダー・ピチャイの肖像をSVGで描く](https://x.com/Haleeeemahh/status/2123722575884763480) (by [@Haleeeemahh](https://x.com/Haleeeemahh))
+
+**元の画像でベクター肖像の描写を評価する。**
+
+作者は、投稿した肖像がNeonで生成したSVGだと説明している。元の画像で成果を確認できる。
+
+元の画像はモデルに1つの課題を与えて得たSVGの肖像を示している。投稿には被写体とモデル名が記されている。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-115-1-6b9d34896640.png" alt="サンダー・ピチャイの肖像をSVGで描く · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-116"></a>
+### Case 116: [赤いカエデの盆栽をアニメーションにする](https://x.com/anxuanng/status/2123725543421935630) (by [@anxuanng](https://x.com/anxuanng))
+
+**元の作品を見て、葉や枝の構造がどう表現されているか確認する。**
+
+作者は盆栽の可視化にNeonを使ったと述べ、作成したアニメーションを投稿している。
+
+動画には盆栽の完成アニメーションが収録されている。投稿者はシーンを Neon で作成したとしている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-116-1-68111ee5c6ce.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-116-1-bb4fc08e7454.jpg" alt="赤いカエデの盆栽をアニメーションにする · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-117"></a>
+### Case 117: [プロンプトから個人制作のモーション動画を作る](https://x.com/wenwen11703261/status/2123726068712706176) (by [@wenwen11703261](https://x.com/wenwen11703261))
+
+**プロンプトの出典と、新しい作品の制作者をそれぞれ記録する。**
+
+作者は別の制作者のプロンプトを改変し、Neonで個人制作の動画を作ったと述べている。投稿にはその動画が添付されている。
+
+作者は元のプロンプトを調整したことと、添付動画にNeonを使ったことを明記している。動画で調整後の成果を確認できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-117-1-d0d7f68574da.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-117-1-e18f2f687dc7.jpg" alt="プロンプトから個人制作のモーション動画を作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-118"></a>
+### Case 118: [Blenderで雨のダムのシーンをアニメーション化する](https://x.com/lucian__03/status/2123732898230755591) (by [@lucian__03](https://x.com/lucian__03))
+
+**視覚シミュレーションとして、照明や水の表現を検討する。**
+
+作者はNeonのxhighとBlenderを使い、雨が降る夜にダムのゲートを開けて水が流れ出すシーンを描画したと述べている。
+
+動画には放流と雨の様子が映っている。作者はNeon xhighとBlenderで作成したと明記している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-118-1-e949de8cc6d1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-118-1-faeed3c97e90.jpg" alt="Blenderで雨のダムのシーンをアニメーション化する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-119"></a>
+### Case 119: [富士山の風景を描く](https://x.com/thegenioo/status/2123733388461006999) (by [@thegenioo](https://x.com/thegenioo))
+
+**湖面に映る山の輪郭や、葉の重なりを見て風景の表現を確認する。**
+
+作者は富士山を描く投稿スレッドで、この作品がNeon版だと明記している。
+
+元の作品は山、木の葉、湖面の反射を描いたシーンだ。このケースではNeonの作品を取り上げている。
+
+[補足資料](https://x.com/thegenioo/status/2123733377626829049)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-119-1-3f6cf888062a.jpg" alt="富士山の風景を描く · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-120"></a>
+### Case 120: [3つの異なるグラフィックをコードだけで生成する](https://x.com/BubbleBrain/status/2123740760306827297) (by [@BubbleBrain](https://x.com/BubbleBrain))
+
+**色、形状、構図をコード生成したシーンがどう表現しているか比較する。**
+
+作者は3つの作品をNeonによるコード生成だと説明している。元の添付画像で成果を確認できる。
+
+3枚の元画像は、コードだけを使った描画実験の成果だ。作者は描画にNeonを用いたと述べている。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-120-1-0af17d5fdeb2.jpg" alt="3つの異なるグラフィックをコードだけで生成する · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-120-2-e50d5b747b95.jpg" alt="3つの異なるグラフィックをコードだけで生成する · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-120-3-e86f71feffdf.jpg" alt="3つの異なるグラフィックをコードだけで生成する · 3" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-122"></a>
+### Case 122: [モーショングラフィックスでプロジェクトを短く解説する](https://x.com/hqmank/status/2123745410405831123) (by [@hqmank](https://x.com/hqmank))
+
+**動画のテンポやシーンの切り替えを、作者の依頼内容と照らし合わせる。**
+
+作者はオープンソースプロジェクトを紹介する20秒の動画をNeonに依頼し、最初の出力を採用したと報告している。投稿には依頼文と動画がある。
+
+元の投稿は依頼内容と最初の結果を示している。長さを20秒に定めたうえで、オープンソースプロジェクトを解説した例だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-122-1-7cf664de112d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-122-1-7587fa343b00.jpg" alt="モーショングラフィックスでプロジェクトを短く解説する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-123"></a>
+### Case 123: [Blender MCPで漫画の背景をモデリングする](https://x.com/rootport/status/2123749016928460873) (by [@rootport](https://x.com/rootport))
+
+**作業途中の形状を確認し、作者が報告したワークフローの証拠として扱う。**
+
+作者はAntigravityとBlender MCPからNeonを使い、漫画の背景をモデリングしたと述べている。添付画像にはBlenderの作業画面とモデルが写っている。
+
+作者はAntigravityとBlender MCPを組み合わせたワークフローで漫画の背景を作成したと説明している。元の画像でBlender上の形状を確認できる。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-123-1-69fb56b09f2d.jpg" alt="Blender MCPで漫画の背景をモデリングする · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-124"></a>
+### Case 124: [アニメーション付きWebサイトの制作工程を記録する](https://x.com/viktoroddy/status/2123749364963426674) (by [@viktoroddy](https://x.com/viktoroddy))
+
+**工程動画で、どの作業が最終的なビジュアルにつながったか確認する。**
+
+作者はアニメーション付きのサイト制作にNeonを用いたと述べ、12分の工程動画を公開している。
+
+12分の動画にはWebサイトの制作工程が収録されている。作者はNeonを使ったと説明し、成果をワークフローの例として提供している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-124-1-fbaac8aa35d6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-124-1-31224659e289.jpg" alt="アニメーション付きWebサイトの制作工程を記録する · 1" width="560"></a>
+
+Type: Tutorial | Date: 2026-11-20
+
+---
+
+<a id="case-127"></a>
+### Case 127: [Blenderで雨の京都の路地を比較する](https://x.com/mizugame_22/status/2123756243827486822) (by [@mizugame_22](https://x.com/mizugame_22))
+
+**シーンを比較するときは、元の表示順と修正回数を対応させる。**
+
+作者は3モデルに同じプロンプトを渡し、結果を上から順に示している。Blenderでの修正は順に37回、29回、25回で、一番下がNeonだと報告している。
+
+動画は3つの結果に上から順にラベルを付けている。修正回数は、このBlender比較で作者が報告した値だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-127-1-297dd4a15d79.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-127-1-8d5572ca8197.jpg" alt="Blenderで雨の京都の路地を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-128"></a>
+### Case 128: [陶器の焼成を描いた4本のアニメーションを比較する](https://x.com/lemomo_ai/status/2123756402879631565) (by [@lemomo_ai](https://x.com/lemomo_ai))
+
+**同じ材料加工の過程を、それぞれの動画がどう描くか比較する。**
+
+作者は窯の焼成で起こる変化を題材に、同じプロンプトから作った4種類のアニメーションを公開した。
+
+作者は同じ焼成現象を4通りのアニメーションで描いている。ラベルで、表現の違いと各モデルの出力を対応させられる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-128-1-3bf6f9cb050f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-128-1-4ce0c0ac5a03.jpg" alt="陶器の焼成を描いた4本のアニメーションを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-131"></a>
+### Case 131: [2つの腕時計コンフィギュレーターを比較する](https://x.com/karanC_12/status/2123765421388234855) (by [@karanC_12](https://x.com/karanC_12))
+
+**外観、部品の細かさ、コンフィギュレーターの操作性をあわせて確認する。**
+
+作者はNeonとOpus 5.5に同じ腕時計コンフィギュレーターの制作を依頼した。
+
+動画には両方の結果にラベルがあり、作者はNeon版の操作の一部が欠けているか、正常に動かなかったと述べている。部品数と費用はこの実行での値だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-131-1-c9df0cda7792.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-131-1-690e6caf50aa.jpg" alt="2つの腕時計コンフィギュレーターを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-132"></a>
+### Case 132: [操作できるボクセルのドラゴンのジオラマを比較する](https://x.com/marcthecreatorr/status/2123772997328576587) (by [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**シーンの構図や照明を、作者の実行時の所見と照らし合わせる。**
+
+作者は外部素材なしでドラゴンと塔を描く同じ依頼をNeonとOpusに与え、2つのシーンでそれぞれに気に入った点があったと述べている。
+
+両モデルの条件は、外部アセットを使わずドラゴンと塔を描くことだった。投稿では2つのシーンの異なる長所を挙げている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-132-1-1cb05044d9d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-132-1-22f253d0078d.jpg" alt="操作できるボクセルのドラゴンのジオラマを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-133"></a>
+### Case 133: [平面の絵画で照明をインタラクティブに変える](https://x.com/ai_for_success/status/2123780898562986388) (by [@ai_for_success](https://x.com/ai_for_success))
+
+**光源に応じてハイライトや影がどう動くか確認する。**
+
+作者はフェルメールの絵を使い、平面画像上で光源を動かして方向に応じた影を付けられるか試した。元の動画で結果を確認できる。
+
+動画には光が絵の上を移動する様子が映っている。光の向きを変えると、表示される影も変化する。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-133-1-53f1359312b0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-133-1-ccffe7cefd7d.jpg" alt="平面の絵画で照明をインタラクティブに変える · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-135"></a>
+### Case 135: [コードで作った3つの車両シーンを比較する](https://x.com/ivanainai/status/2123787634787098976) (by [@ivanainai](https://x.com/ivanainai))
+
+**作者の費用推計を計画の参考にする前に、映像の仕上がりを比較する。**
+
+作者は既製の3D素材を使わずに作った3つの車両シーンにラベルを付け、制作費の推計を示している。
+
+元の資料には3つの結果のラベルと、既製アセットを使わないという条件がある。費用はいずれも作者による推計だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-135-1-520573442b93.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-135-1-e1c037befdfe.jpg" alt="コードで作った3つの車両シーンを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-137"></a>
+### Case 137: [油絵風の2つの3D世界を比較する](https://x.com/FiniYang/status/2123807667026264561) (by [@FiniYang](https://x.com/FiniYang))
+
+**作者が報告した計測値とあわせて、照明とシーンの見やすさを比較する。**
+
+作者は油絵風の3D世界を比較した動画を公開し、上にAstra、下にNeonを配置している。実行ごとの所要時間と筆致の数が異なったと述べている。
+
+投稿では上がAstra、下がNeonだと示されている。時間と筆致の数は、作者がこの比較で報告した値だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-137-1-bb92b945afc9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-137-1-2b1ca2f87b39.jpg" alt="油絵風の2つの3D世界を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-138"></a>
+### Case 138: [Three.js のネオンシーンに車を追加する](https://x.com/HarshithLucky3/status/2123809735401202001) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**追加した物体が元のシーンにどう溶け込むかを確認する。**
+
+作者はThree.jsのネオン演出にNeonを使い、最後にBMW M4 CSの追加を依頼したと述べている。
+
+動画には更新後のシーンと、その中に配置されたBMWが映っている。作者は車を後から指示して追加したことを記録している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-138-1-dd60068cfc4f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-138-1-47630aa4d643.jpg" alt="Three.js のネオンシーンに車を追加する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-139"></a>
+### Case 139: [Blenderでキャラクターの参照モデルを作る](https://x.com/HarshithLucky3/status/2123813583054414160) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**視点を変えてキャラクターの輪郭と一貫性を比べる。**
+
+作者はBlenderに表示されたキャラクターをNeonで作ったと述べている。元の画像には複数の角度から見たモデルがある。
+
+添付画像ではBlenderのキャラクターを複数の角度から確認できる。作者はモデルの制作にNeonを使用したと説明している。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-139-1-e3a8eb0d8ebc.jpg" alt="Blenderでキャラクターの参照モデルを作る · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-140"></a>
+### Case 140: [イチゴのアニメーション4本を比較する](https://x.com/AIMind_Ai/status/2123816445180088544) (by [@AIMind_Ai](https://x.com/AIMind_Ai))
+
+**映像で確認できる範囲を通して、指定した果物の特徴が保たれているか確かめる。**
+
+作者はNeon、Carbon、Fable 5.2、Opus 5.5に、イチゴのアニメーションを作る同じ依頼を渡した。
+
+ラベル付きの4つの結果は、果物と周囲の描写に違いがある。作者は実行時の推論設定と費用の推計も伝えている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-140-1-b4c69ccb7471.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-140-1-c560c3d3f255.jpg" alt="イチゴのアニメーション4本を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-143"></a>
+### Case 143: [アルプスの風景をすべてコードで描画する](https://x.com/Mr_Salio/status/2123828049598611929) (by [@Mr_Salio](https://x.com/Mr_Salio))
+
+**プロシージャルなシーンが奥行きやスケールをどう表現するか、動画で確認する。**
+
+作者は、シーンの描画とアニメーションをコードで行うためにNeonを使ったと説明している。元の動画にはアルプスの風景と高架橋が映っている。
+
+描画したシーンにはアルプスの風景と高架橋がある。作者は描画とアニメーションの両方のコードにNeonを使用したと記している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-143-1-01247a901cf2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-143-1-4ca5b794ae1d.jpg" alt="アルプスの風景をすべてコードで描画する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-144"></a>
+### Case 144: [エージェントの講評でASCIIの自転車アニメーションを作る](https://x.com/chetaslua/status/2123831991061840145) (by [@chetaslua](https://x.com/chetaslua))
+
+**作者のフィードバック手順とあわせて、完成した動きを確認する。**
+
+作者は自転車に乗るペリカンのASCIIアニメーションにNeonを使い、見た目を確認するために別の講評エージェントを用いたと説明している。
+
+作者はNeonと講評役を組み合わせたと述べている。元の動画には、文字で表した自転車の乗り手の動きが映っている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-144-1-8315e85c1e75.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-144-1-5cd6f4e87199.jpg" alt="エージェントの講評でASCIIの自転車アニメーションを作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-145"></a>
+### Case 145: [Neonのスウォームと単一エージェントを比較する](https://x.com/DanielZambrini/status/2123832990598045903) (by [@DanielZambrini](https://x.com/DanielZambrini))
+
+**共通の依頼をもとに、調整の手間と確認できる出力品質を比べる。**
+
+作者はリスの視点から描く同じアニメーションでスウォームと単一エージェントを比べ、この試行では単一エージェントを好んだと報告している。
+
+作者は1つのアニメーション課題で2つのエージェント構成を評価した。この好みは、提示された出力と実験条件に基づく。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-145-1-b4b90886d367.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-145-1-2f1bbc10a111.jpg" alt="Neonのスウォームと単一エージェントを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-147"></a>
+### Case 147: [Three.jsでプロシージャルな映像を作る](https://x.com/filicroval/status/2123842978925977909) (by [@filicroval](https://x.com/filicroval))
+
+**コードだけのシーンで形状、照明、動きをどう組み合わせているか観察する。**
+
+作者は外部アセットを使わずNeonでWebGL映像を作ったと説明し、完成動画を共有している。
+
+作者は外部アセットなしのプロシージャルなWebGLシーンだと明記している。添付動画で映画風の演出を確認できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-147-1-619523d42513.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-147-1-130e24ca2112.jpg" alt="Three.jsでプロシージャルな映像を作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-150"></a>
+### Case 150: [Blenderで12種類のキャラクターアニメーションを生成する](https://x.com/HarshithLucky3/status/2123862930152460362) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**同じワークフローで作ったセットで、ポーズや動きの種類を比較する。**
+
+作者はBlenderの12種類のアニメーションにNeonを使ったとし、動作を一覧にして公開している。
+
+動画には生成したキャラクターの動きがグリッド状に表示されている。投稿はBlenderを使い、12種類のアニメーションを作ったと伝えている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-150-1-9b37b516bd99.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-150-1-5bf5f0b4bb8c.jpg" alt="Blenderで12種類のキャラクターアニメーションを生成する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-152"></a>
+### Case 152: [水上飛行機の着水シーン4種を比較する](https://x.com/eliadele/status/2123878763624857693) (by [@eliadele](https://x.com/eliadele))
+
+**同じシーンについて操作性、描画の忠実度、報告された実行時間を比較する。**
+
+検証者はボラボラ島付近に着水する水上飛行機について、1文の依頼を使った。作者はインタラクティブなThree.jsシーンの制作にNeonを使ったと述べ、実行をOutputBenchに記録している。
+
+投稿には共通の着水シナリオと試験の背景へのリンクが記されている。添付の画面で完成シーンを確認できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-152-1-0699c6160306.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-152-1-cecb296db1d9.jpg" alt="水上飛行機の着水シーン4種を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-154"></a>
+### Case 154: [Three.jsでモナコのトンネル出口を比較する](https://x.com/teddyaisi/status/2123884091221348830) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**同じ依頼に対するアニメーションと照明の違いを、元の動画で確認する。**
+
+作者は日暮れのトンネルを描く同じ依頼を両モデルに与え、各結果をラベル付きで公開した。Neonの所要時間は55分44秒だったと報告している。
+
+作者はThree.jsの2つのウォークスルーにラベルと実行時間を付けている。共通の依頼で場所と日暮れの照明を指定している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-154-1-9160086c7475.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-154-1-8c08634c295f.jpg" alt="Three.jsでモナコのトンネル出口を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-155"></a>
+### Case 155: [夕暮れの自転車アニメーションを4つ比較する](https://x.com/jony_palino/status/2123889278501495127) (by [@jony_palino](https://x.com/jony_palino))
+
+**ラベルごとにペダルをこぐ動きと乗り手の姿勢を確認する。**
+
+作者はNeon、Fable 5.2、Sol、DeepSeek V4.1 Flashによる自転車のシーンを紹介している。
+
+元の動画は4つのアニメーションをラベル付きで示している。投稿はこの比較の結果を掲載しており、実行設定が同一だったかは示していない。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-155-1-3d8d70616e52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-155-1-c43c4d2e3c43.jpg" alt="夕暮れの自転車アニメーションを4つ比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-156"></a>
+### Case 156: [リスの視点を描いたプロシージャルな動画を3つ比較する](https://x.com/DanielZambrini/status/2123891957529510012) (by [@DanielZambrini](https://x.com/DanielZambrini))
+
+**表現手段をそろえたうえで、各作品が視点をどう解釈したか比較する。**
+
+作者は30秒の動画を作る共通の依頼を使い、コードだけで出力するよう指定した。動画にはNeon、Astra、Fableによる結果が映っている。
+
+投稿によると、3モデルにはコードだけで作る同じ依頼が渡された。動画でラベル付きの出力を見て、動きやショットの組み立てを比較できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-156-1-fae523eef096.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-156-1-5f3aca1ce926.jpg" alt="リスの視点を描いたプロシージャルな動画を3つ比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-158"></a>
+### Case 158: [コードで絵のタイムラプスを作る](https://x.com/chetaslua/status/2123895603973537832) (by [@chetaslua](https://x.com/chetaslua))
+
+**少しずつ描き足される線や形が、最終的な構図をどう作るか確認する。**
+
+作者はコードで描くタイムラプスにNeonを使ったと述べている。元の映像で描画の過程を確認できる。
+
+元の動画では絵が徐々に描かれていく。作者は描画プログラムの生成にNeonを用いたと説明している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-158-1-32e734b1fd02.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-158-1-3d83cb3153ed.jpg" alt="コードで絵のタイムラプスを作る · 1" width="560"></a>
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-158-2-cf80c3fa2e6b.jpg" alt="コードで絵のタイムラプスを作る · 2" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-159"></a>
+### Case 159: [夜間離陸の3つのシーンで照明を比較する](https://x.com/SamgreyAi/status/2123898746329071698) (by [@SamgreyAi](https://x.com/SamgreyAi))
+
+**同じ依頼で、雰囲気と被写体の見やすさのバランスを比較する。**
+
+作者は夜間の離陸を描く共通の依頼を使い、Neon版は暗くて機体が見えにくかったと報告している。元の動画はいくつかの結果をラベル付きで示す。
+
+添付動画から、照明がシーンごとの見やすさにどう影響するか確認できる。作者はこの依頼ではNeon版の機体が見えにくかったと述べている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-159-1-76cb2adcbe79.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-159-1-bc7acdd749ae.jpg" alt="夜間離陸の3つのシーンで照明を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-162"></a>
+### Case 162: [同じ依頼によるBlender MCPの出力を比較する](https://x.com/maxt3chno/status/2123911052832190818) (by [@maxt3chno](https://x.com/maxt3chno))
+
+**作者が設定した共通の条件で、形状と材質を比較する。**
+
+作者は参照画像、Web検索、既存素材を使わず、シンプルなハンマーを作る課題を3モデルに与えた。Neonは19分かかったと報告し、出力を共有している。
+
+作者は、参照なしの共通課題で所要時間と使用量を比べている。添付資料にはBlenderで作ったオブジェクトが示されている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-162-1-7693de561db9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-162-1-22bc25d26fbc.jpg" alt="同じ依頼によるBlender MCPの出力を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-163"></a>
+### Case 163: [Blenderで試行錯誤しながらランボルギーニを作る](https://x.com/scottstts/status/2123919916244128036) (by [@scottstts](https://x.com/scottstts))
+
+**作業途中の形状を確認し、複雑なモデルでは複数回の修正を見込む。**
+
+作者は何度も試行を重ねて作ったBlenderの車モデルにNeonを使ったと述べている。
+
+元の資料はBlender内のモデルを示している。作者は一連の作業に約2時間かかったと報告している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-163-1-7734196d1ca6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-163-1-e6bf72104971.jpg" alt="Blenderで試行錯誤しながらランボルギーニを作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-164"></a>
+### Case 164: [細部まで作り込んだバイクのレンダリングを比較する](https://x.com/ZryMiller/status/2123921248191479993) (by [@ZryMiller](https://x.com/ZryMiller))
+
+**同じ投稿が報告する費用と実行時間も見ながら、エンジンやフレームの細部を比較する。**
+
+作者はNeon xhighとFable 5.2 xhighのラベルを付けて、バイクのレンダリングを並べて公開した。
+
+作者は表示した結果ごとに所要時間と費用を示している。添付資料には、完成したモデルのレンダリングが載っている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-164-1-8d800cc8674a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-164-1-f4b1a2ced69c.jpg" alt="細部まで作り込んだバイクのレンダリングを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-169"></a>
+### Case 169: [AI Studioでモデルの公開記念動画を作る](https://x.com/liu8in/status/2123948163539329148) (by [@liu8in](https://x.com/liu8in))
+
+**1回の試行で得た映像の表現とタイミングを確認する。**
+
+作者はAI StudioでNeonにデビュー動画を依頼し、最初に生成されたシーンを共有している。
+
+作者はAI Studioで依頼して最初に得た結果として、この動画を公開している。初回に生成したシーンの記録だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-169-1-5a7a870bc691.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-169-1-63ff63cc9554.jpg" alt="AI Studioでモデルの公開記念動画を作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-170"></a>
+### Case 170: [Blenderのシーンを一晩かけてレンダリングする](https://x.com/KanaWorks_AI/status/2123950255389749729) (by [@KanaWorks_AI](https://x.com/KanaWorks_AI))
+
+**作者の作業説明とあわせて、最終的な照明、質感、構図を確認する。**
+
+作者はNeonでBlender 5.3のシーンを構築し、描画した結果を投稿している。作業は一晩実行したままにしていたという。
+
+元のレンダリングでBlenderの成果を確認できる。実行時間と作業をどの程度見守ったかは、このプロジェクトについて作者が説明している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-170-1-99360ff2dd50.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-170-1-f45a02be80a1.jpg" alt="Blenderのシーンを一晩かけてレンダリングする · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-172"></a>
+### Case 172: [1つのプロンプトで作った2つのシーンを比較する](https://x.com/JamesMalsawm/status/2123967133084516858) (by [@JamesMalsawm](https://x.com/JamesMalsawm))
+
+**1回の見た目の比較から一般化する前に、ラベル付きの結果を確認する。**
+
+作者は色の指定を変え、同じプロンプトでシーンを作ったと述べている。NeonとOpusの結果をラベル付きで公開している。
+
+作者によると、シーンの依頼は共通で、使う色は異なっていた。各モデルの解釈とあわせて、色の違いも確認する。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-172-1-3fd237b363b0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-172-1-3fd75fdb0851.jpg" alt="1つのプロンプトで作った2つのシーンを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-173"></a>
+### Case 173: [コード生成でコンセプト映像を制作する](https://x.com/likka_ailive/status/2123978932336881882) (by [@likka_ailive](https://x.com/likka_ailive))
+
+**コードで描画したシーンと、外部から用意した音源の経緯をそれぞれ確認する。**
+
+作者はNeon、Antigravity、OpenMotionで60秒のコンセプト映像を制作した。シーンはコードで組み立て、オープンソースの音楽は別途ミックスしたと説明している。
+
+作者は映像制作に使ったツールを明示し、別途オープンソースの音楽をミックスしたと報告している。独立したコンセプト作品として公開された動画だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-173-1-743b25bb0fcd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-173-1-8d3ee500229f.jpg" alt="コード生成でコンセプト映像を制作する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-174"></a>
+### Case 174: [Three.jsでゴシック大聖堂のウォークスルーを比較する](https://x.com/teddyaisi/status/2123993556419264532) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**照明、カメラの動き、投稿に記録された時間の所見を比較する。**
+
+作者はステンドグラスの窓へ向かう20秒のウォークスルーを同じ条件で依頼した。動画では上がAstra、下がNeonと示されている。
+
+作者は上下の結果にラベルを付けている。2つのウォークスルーでは、到達地点と再生時間が共通の条件だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-174-1-556584bdda3f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-174-1-299bed6ec042.jpg" alt="Three.jsでゴシック大聖堂のウォークスルーを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-176"></a>
+### Case 176: [インタラクティブなステンドグラスのシーンを作る](https://x.com/abhinavflac/status/2124001055939891411) (by [@abhinavflac](https://x.com/abhinavflac))
+
+**照明と生成された環境音がシーンの印象にどう関わるか確認する。**
+
+作者は写真1枚を参照し、Webでの音声をプロシージャルに生成し、素材を取り込まずに猫とステンドグラスをコードで描いたと述べている。
+
+作者は写真を参照として使い、シーンの形状と音声をプロシージャルに生成したと説明している。元の資料で仕上がりを確認できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-176-1-c6d6da01fdde.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-176-1-fac673484965.jpg" alt="インタラクティブなステンドグラスのシーンを作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-177"></a>
+### Case 177: [1回ずつ生成した4つのHTMLアニメーションを比較する](https://x.com/bangbuilds/status/2124005847655125400) (by [@bangbuilds](https://x.com/bangbuilds))
+
+**1回限りの生成という条件を踏まえて、見た目の解釈を比較する。**
+
+作者は、雨の日に窓辺にいる猫を描く同じプロンプトを4モデルに渡した。各モデルは修正や再試行なしで、1つずつ出力した。
+
+作者が定めた1回限りの条件で4つの結果を見る。動画では、雨の窓辺という同じ依頼の異なる解釈を確認できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-177-1-5a940614e1d4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-177-1-cb04b35cf781.jpg" alt="1回ずつ生成した4つのHTMLアニメーションを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-180"></a>
+### Case 180: [インタラクティブな桜のシーンをプロシージャルに作る](https://x.com/thebuggeddev/status/2124033700350525497) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**サイトにプロシージャルな要素を加える際は、動きと操作への反応を個別に評価する。**
+
+作者は、枝をプロシージャルに生成し、花びらが離れて舞うインタラクティブな桜のサイトにNeonを用いたと述べている。
+
+元の動画には桜の形状と風のシミュレーションが映っている。計測値は公開された作例についてのものだ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-180-1-34434d7bbd8e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-180-1-24dc153c8f53.jpg" alt="インタラクティブな桜のシーンをプロシージャルに作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-181"></a>
+### Case 181: [製品紹介の縦型モーショングラフィックスを作る](https://x.com/ogabezim/status/2124036193776263671) (by [@ogabezim](https://x.com/ogabezim))
+
+**想定している縦型フォーマットで、動きと文字の切り替えを確認する。**
+
+作者は最初のモーションデザインの試作にNeonを用いたと述べている。
+
+動画はスマートフォン画面のモックアップ、動くテキスト、強いコントラストの緑の背景を組み合わせている。試作時の設定は投稿で説明されている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-181-1-0fa3c92f6742.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-181-1-a2ecdbad56b2.jpg" alt="製品紹介の縦型モーショングラフィックスを作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-183"></a>
+### Case 183: [推定した深度から法線マップを生成する](https://x.com/WrongNebula/status/2124037902594387991) (by [@WrongNebula](https://x.com/WrongNebula))
+
+**リンク先の実装を確認し、深度推定モデルと生成ツールを区別して記録する。**
+
+作者はNeonの支援でApple Depth Pro 2の重みを変え、法線マップなどのPBRマップをプロシージャルに生成するツールを作ったと報告している。
+
+このワークフローは、推定したデプスマップを中間データとして使う。作者はマテリアルマップの例を示し、ツール開発にNeonを用いたと説明している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-183-1-bc725e19fcf1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-183-1-3cb208dca4ab.jpg" alt="推定した深度から法線マップを生成する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-184"></a>
+### Case 184: [モーションの切り替えと効果音を比較する](https://x.com/pankajkumar_dev/status/2124040952658682263) (by [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**投稿者による音の比較とは別に、シーンの切り替えを確認する。**
+
+作者はNeonのモーションデザインを示し、効果音はClaudeの方を好んだと報告している。映像と音に対する評価は作者の所見だ。
+
+作者はシーンの切り替えと音の演出を個別に比較している。元の動画ではNeonの出力を確認でき、好みは作者自身の評価として記されている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-184-1-92892fee2e04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-184-1-86891b989575.jpg" alt="モーションの切り替えと効果音を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-186"></a>
+### Case 186: [Three.jsでネオンが灯る電気街を作る](https://x.com/niramayo2096/status/2124042263512904187) (by [@niramayo2096](https://x.com/niramayo2096))
+
+**どのツールで参照画像、シーンのコード、音楽を用意したか記録する。**
+
+作者はNeonを使い、1枚の画像から架空の雨の電気街をコードで組み上げ、カメラの動きも設定した。
+
+作者によると、描画はThree.js、参照画像はChatGPT、音楽はSunoを使った。動画にはコードで構築したシーンが映っている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-186-1-49a8afa32037.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-186-1-ebf8f615af74.jpg" alt="Three.jsでネオンが灯る電気街を作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-187"></a>
+### Case 187: [架空キャラクターのお絵描き画面を比較する](https://x.com/noclipepe/status/2124074648266535253) (by [@noclipepe](https://x.com/noclipepe))
+
+**同じ架空キャラクターを題材にした2つの画面を比較する。**
+
+作者はNeonとFableに、架空のゲームキャラクターを題材にしたお絵描き画面を依頼した。報告では、Neonが21分、Fableが27分だった。
+
+作者は、このキャラクターを指定した依頼ではNeonに21分、Fableに27分かかったと報告している。動画はお絵描き画面への2つのアプローチを示している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-187-1-51123c7e0e4d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-187-1-65794f737a1b.jpg" alt="架空キャラクターのお絵描き画面を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-188"></a>
+### Case 188: [ページのブロックと画面コンポーネントを改善する](https://x.com/csaba_kissi/status/2124080629642154476) (by [@csaba_kissi](https://x.com/csaba_kissi))
+
+**再利用できるコンポーネントを、一連の設計として評価する。**
+
+開発者はNeonで生成したブロック要素のシリーズを投稿し、部品ごとの違いを示している。関連動画には同じ制作物をさらに改善した結果がある。
+
+投稿は一連のブロック要素とその操作時の挙動を示している。後の動画は同じ画面に対する改善の記録だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-188-1-e34e22429fe4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-188-1-934dceb92441.jpg" alt="ページのブロックと画面コンポーネントを改善する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-189"></a>
+### Case 189: [フィルム描画とスキャンのエミュレーターを試作する](https://x.com/WrongNebula/status/2124083607635718386) (by [@WrongNebula](https://x.com/WrongNebula))
+
+**フィルム効果がどう実装されたか、作者が公開した証拠をたどる。**
+
+作者は、物理モデルに基づくフィルム描画とスキャンのプロジェクトにNeonを用いたと述べている。プレビューとともに開発スレッドも公開した。独立した費用の計測値は示されていない。
+
+元のプレビューでフィルムの描画効果を確認できる。作者は進行中の開発にリンクしており、この事例はその段階での成果を示す。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-189-1-1c30899f38b7.jpg" alt="フィルム描画とスキャンのエミュレーターを試作する · 1" width="560">
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-192"></a>
+### Case 192: [インタラクティブな海のジオラマを2つ比較する](https://x.com/thebuggeddev/status/2124109788883853698) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**同じ制作依頼への成果を評価するときは、シーンと操作機能を比較する。**
+
+作者はNeonとOpus 5.5に同じ課題を実行させたと述べている。
+
+動画には作成された2つのジオラマが映っている。海を背景に、木や地面より高い位置にある建物が見える。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-192-1-f857f4c4c848.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-192-1-72361365787b.jpg" alt="インタラクティブな海のジオラマを2つ比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-193"></a>
+### Case 193: [6モデルによるWebサイトのリデザインを比較する](https://x.com/guilippert_v4/status/2124110586753482802) (by [@guilippert_v4](https://x.com/guilippert_v4))
+
+**費用の下限と明記された値はその条件で扱い、描画結果の違いも確認する。**
+
+作者は追加のスキルを使わず、高い推論レベルで同じリデザインを依頼した。投稿には各実行の時間と費用があり、Neonの費用は下限として示されている。
+
+費用と時間は、6モデルに同じリデザインを依頼した比較での値だ。グラフにあるNeonの費用は下限だ。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-193-1-99e1c89f24f0.jpg" alt="6モデルによるWebサイトのリデザインを比較する · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-195"></a>
+### Case 195: [共通のThree.jsプロンプトで作ったJeepモデルを比較する](https://x.com/maxt3chno/status/2124122272440951080) (by [@maxt3chno](https://x.com/maxt3chno))
+
+**ラベル付きのシーンを比較し、所要時間はその試行の値として扱う。**
+
+作者は以前のJeep用プロンプトを再利用し、結果を並べて公開した。Neon Highの実行は45分だったと記録している。
+
+比較には、ラベルを付けた完成モデルが並んでいる。以前の依頼内容と今回の所要時間を対応させて結果を読む。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-195-1-d8995fa4ad08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-195-1-b043ad346c1f.jpg" alt="共通のThree.jsプロンプトで作ったJeepモデルを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-196"></a>
+### Case 196: [3モデルのインターフェース表現を比較する](https://x.com/csaba_kissi/status/2124131369076887639) (by [@csaba_kissi](https://x.com/csaba_kissi))
+
+**元の比較例で、コンポーネントの状態とレイアウトの選択を見比べる。**
+
+作者はOpus 5.5、Sol、Gemini 4 Neonで作ったユーザーインターフェースのデザインを検討したと報告している。
+
+動画には作者の定性的な評価の根拠になったデザインの細部が映っている。各モデルの生成条件をそろえたかは投稿に記されていない。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-196-1-29b7d822288e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-196-1-1b9b7d84fabd.jpg" alt="3モデルのインターフェース表現を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-197"></a>
+### Case 197: [プロシージャルなコードで歌うシーンを作る](https://x.com/chetaslua/status/2124131378770182389) (by [@chetaslua](https://x.com/chetaslua))
+
+**プロシージャルな出力で伝えられる内容を、生成した音声や映像アセットを使う作品と比較する。**
+
+作者はNeonに、外部ライブラリ、アセット、TTSを使わず、映像、音楽、歌声をコードで作るよう依頼したと述べている。結果は1つの実験として紹介されている。
+
+動画では、レンダリングした映像に歌が重なる。ライブラリとアセットに関する制約は、作者が設定した条件だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-197-1-213fbfb6cae0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-197-1-1888ae3cd2cf.jpg" alt="プロシージャルなコードで歌うシーンを作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-198"></a>
+### Case 198: [最初と最後のフレームを編集して生成クリップをつなぐ](https://x.com/leaf_sanren/status/2124132471046606916) (by [@leaf_sanren](https://x.com/leaf_sanren))
+
+**動画の生成モデルと、クリップをつなぐ編集工程を別々に記録する。**
+
+作者は長尺の動画を作る工程で、Neonに最初と最後のフレームの処理や編集を任せたと説明している。
+
+動画はSeedance 2.5 FlashとOmni 1.2 Flashの出力を比較している。作者は制作工程のうちクリップの組み立てにNeonを用いたとしている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-198-1-8f18177543e8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-198-1-3fd9cb6977d0.jpg" alt="最初と最後のフレームを編集して生成クリップをつなぐ · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-21
+
+---
+
+<a id="case-200"></a>
+### Case 200: [ブラウザのシーンでボクセルモデルを見せる](https://x.com/DrstaOne/status/2124141602629439754) (by [@DrstaOne](https://x.com/DrstaOne))
+
+**ブラウザのプレビューを回転させ、ボクセルの輪郭と細部を確認する。**
+
+作者はボクセルモデルのデモにNeonを使ったと述べている。動画ではバナナ形のボクセルと、表示を操作する機能を確認できる。
+
+作者は制作した映像を共有している。正確なプロンプトや制作手順は示されていない。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-200-1-8229b8e32f2f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-200-1-f27b8f50fc90.jpg" alt="ブラウザのシーンでボクセルモデルを見せる · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-201"></a>
+### Case 201: [発表時の画像をネオンサインとして動かす](https://x.com/blueemi99/status/2124142635808084445) (by [@blueemi99](https://x.com/blueemi99))
+
+**短い点灯演出で、1枚の参照画像をループする映像案に仕立てる。**
+
+作者は、モデルの発表ブログにあった画像を動かすようNeonに頼んだと述べている。
+
+動画では、ロゴと文字がネオンサインのように点灯する。投稿は独自に作ったアニメーションと、作者が報告した入力画像の出典を示している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-201-1-de28701f4a50.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-201-1-8a321a8314f2.jpg" alt="発表時の画像をネオンサインとして動かす · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-202"></a>
+### Case 202: [LilyPondで生成した2曲のマズルカを比較する](https://x.com/aug5thmusic/status/2124143855474024663) (by [@aug5thmusic](https://x.com/aug5thmusic))
+
+**両方の楽譜を見て演奏を聴き、同じ曲形式を各モデルがどう解釈したか比べる。**
+
+作者はNeonとFable 5.2に、LilyPondでピアノのマズルカを作る同じ依頼を与えた。
+
+元の添付資料2点で、完成した楽譜を確認できる。元の投稿には実際の依頼文も載っている。
+
+<table>
+<tr>
+<td><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-202-1-72d2c08479e2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-202-1-e3bd42078e4b.jpg" alt="LilyPondで生成した2曲のマズルカを比較する · 1" width="560"></a></td>
+<td><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-202-2-7ef00c8de125.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-202-2-687e3078bdd4.jpg" alt="LilyPondで生成した2曲のマズルカを比較する · 2" width="560"></a></td>
+</tr>
+</table>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-203"></a>
+### Case 203: [ホログラム風の視差アニメーション4本を比較する](https://x.com/DeepBlueX0/status/2124148150525128836) (by [@DeepBlueX0](https://x.com/DeepBlueX0))
+
+**比較では、表示順とモデル名が分かるようにする。**
+
+作者は4枚の画像からホログラム風の視差アニメーションを生成し、名前を明示した4種類の結果を比べている。
+
+作者は出力を左から順に示し、元の依頼を返信に掲載している。入力にはキャラクター画像、深度マップ、背景、装飾フレームを使っている。
+
+[補足資料](https://x.com/DeepBlueX0/status/2124148165456896504)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-203-1-81f1ab3f9fc3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-203-1-a11f9dd1c373.jpg" alt="ホログラム風の視差アニメーション4本を比較する · 1" width="560"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-203-2-a2e7f9bd83df.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-203-2-5438f383c859.jpg" alt="ホログラム風の視差アニメーション4本を比較する · 2" width="560"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-203-3-5379a86e8c80.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-203-3-4532a2efa270.jpg" alt="ホログラム風の視差アニメーション4本を比較する · 3" width="560"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-203-4-c7ac0b28dcb2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-203-4-cef9725be0b4.jpg" alt="ホログラム風の視差アニメーション4本を比較する · 4" width="560"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-203-5-16e550968df5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-203-5-d7c9a8051252.jpg" alt="ホログラム風の視差アニメーション4本を比較する · 5" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-204"></a>
+### Case 204: [ASCIIで描いた人物をコードで動かす](https://x.com/chetaslua/status/2124157978425294867) (by [@chetaslua](https://x.com/chetaslua))
+
+**取り込んだ映像素材を描画する代わりに、コードで文字に動きを付ける。**
+
+作者はコードだけを使ったASCIIの実験だと説明している。元の動画には文字で描いた人物が動く様子が映っている。
+
+元の動画は人物を動く文字として表示している。投稿は映像とそのコードの両方を実験の成果としている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-204-1-58ddb14c108f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-204-1-ac09984e8d2e.jpg" alt="ASCIIで描いた人物をコードで動かす · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-206"></a>
+### Case 206: [シーンの構築とアニメーションを別モデルに任せる](https://x.com/nemumusitocha/status/2124160079398314141) (by [@nemumusitocha](https://x.com/nemumusitocha))
+
+**最初の構造作りと動きの細部調整を、別々の工程として割り振る。**
+
+作者はNeonがシーン全体の構築を担い、Claude Mythos 5.2が細部と動きを調整したと説明している。動画には完成したシーンが映っている。
+
+役割分担は作者が明記している。映像から、シーン構築とアニメーションを組み合わせた結果を確認できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-206-1-c5b50ac39e35.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-206-1-62c30412688a.jpg" alt="シーンの構築とアニメーションを別モデルに任せる · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-21
+
+---
+
+<a id="case-211"></a>
+### Case 211: [Three.jsでゴンドラからの風景を比較する](https://x.com/teddyaisi/status/2124190810900140286) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**シーン内の移動を比較するときは、カメラの経路と映像の長さをそろえる。**
+
+作者はAstraとNeonに、日没時にベネチアの橋の下をゴンドラでくぐる20秒の映像を同じ条件で依頼した。
+
+動画は大運河へ出る2つの経路にラベルを付け、同期して再生する。本文には各実行の生成時間と費用が記されている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-211-1-174a20462ed7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-211-1-422ac975b76b.jpg" alt="Three.jsでゴンドラからの風景を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-213"></a>
+### Case 213: [Three.jsで作ったエッフェル塔を4つ比較する](https://x.com/Bhavani_00007/status/2124203254011854973) (by [@Bhavani_00007](https://x.com/Bhavani_00007))
+
+**ラベル付きの結果をまとめて、同じ題材の構造と視覚的な細部を比較する。**
+
+作者はNeon、Astra、Sol、OpusにThree.jsでエッフェル塔を作るよう依頼した。
+
+元の動画は結果をまとめて表示している。投稿はこの制作試験の内容を示し、視聴者に出力を見比べるよう促している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-213-1-ee11cc01b612.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-213-1-174020bf0c57.jpg" alt="Three.jsで作ったエッフェル塔を4つ比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-214"></a>
+### Case 214: [2世代のGeminiで作ったエンジンアニメーションを比較する](https://x.com/HarshithLucky3/status/2124205275272097970) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**形状、アニメーション、音を別々の観点から比較する。**
+
+作者はAntigravityで、Gemini 4 Neon HighとGemini 3.7 Flash Highによるエンジンの可視化を比べている。
+
+元の動画は2つの結果にラベルを付けている。作者は比較動画のエンジン音にNeonを使ったと説明している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-214-1-ffd6e1923276.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-214-1-2c9a3ecfc799.jpg" alt="2世代のGeminiで作ったエンジンアニメーションを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-215"></a>
+### Case 215: [ブラウザ向けの疑似3Dボクセルスプライトを作る](https://x.com/studio_yebisu/status/2124212957332799933) (by [@studio_yebisu](https://x.com/studio_yebisu))
+
+**スプライトを重ねて、回転を表現しながらドット絵の輪郭を保つ。**
+
+作者は平面のスプライトを重ね、カメラの回転に合わせてシーンに立体感を出す方法を説明している。デモはブラウザの画面で手法を示している。
+
+動画ではスプライトで構成したシーンの周りをカメラが移動する。作者は平面の要素を重ねて立体に見せていると説明している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-215-1-d0a6a4368033.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-215-1-e6726fb3bbd6.jpg" alt="ブラウザ向けの疑似3Dボクセルスプライトを作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-216"></a>
+### Case 216: [Alpine Goldのシーンを4モデルで比較する](https://x.com/EnvolDev/status/2124238419140444661) (by [@EnvolDev](https://x.com/EnvolDev))
+
+**共通のプロンプトで作った場面を、作者が報告した時間や費用とあわせて比較する。**
+
+比較には共通のAlpine Goldのプロンプトが使われ、4つの出力にラベルが付いている。作者によると、この試験でNeonは1時間31分11秒かかり、費用は11.84ドルだった。
+
+動画のラベルと時間は、Alpine Goldを題材とした1件の比較についてのものだ。費用を参考にする前に、画面上の動きやシーンの構成を比べる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-216-1-089c1cb26acd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-216-1-b373fcaeaef5.jpg" alt="Alpine Goldのシーンを4モデルで比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-217"></a>
+### Case 217: [シマウマのアニメーションを4つ比較する](https://x.com/jony_palino/status/2124246473667961005) (by [@jony_palino](https://x.com/jony_palino))
+
+**ラベルごとにシマウマの輪郭、脚の動き、背景を確認する。**
+
+作者はNeon、Carbon、Fable 5.2、DeepSeek V4.1 Flashによるシマウマのアニメーションを示し、それぞれにラベルを付けている。
+
+動画から提示された出力を視覚的に比較できる。プロンプトや生成設定が同一だったかは作者の説明にない。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-217-1-b408ad8ddc0a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-217-1-50fbb1ab984d.jpg" alt="シマウマのアニメーションを4つ比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-219"></a>
+### Case 219: [油圧ショベルが動く2つのシーンを比較する](https://x.com/ivanainai/status/2124273127614017837) (by [@ivanainai](https://x.com/ivanainai))
+
+**車両の動きと地表との接触を、それぞれのシーンがどう表すか確認する。**
+
+元の動画は、NeonとOpus 5.5が作ったそれぞれの工事現場のシーンにラベルを付けている。
+
+両モデルが描画した油圧ショベルとトラックが並んでいる。共通の生成設定を判断できるだけの詳細は投稿にない。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-219-1-5dabf3de2232.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-219-1-340c55caaee6.jpg" alt="油圧ショベルが動く2つのシーンを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-223"></a>
+### Case 223: [AntigravityでW16エンジンをアニメーション化する](https://x.com/HarshithLucky3/status/2124313664790671814) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**動くアセンブリーを複数の角度から見て、識別しやすい部品を評価する。**
+
+作者は、ブガッティ・シロンのW16を可視化するのにAntigravityのNeon Highを使ったと説明している。
+
+元の動画はネオンの照明の下で動くエンジンのアセンブリーを映している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-223-1-0f69dc8a5571.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-223-1-7dc0da961dd8.jpg" alt="AntigravityでW16エンジンをアニメーション化する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-225"></a>
+### Case 225: [Neonが演出したミュージックビデオを改良する](https://x.com/anabology/status/2124322570652528876) (by [@anabology](https://x.com/anabology))
+
+**最初の出力を見て、何度かの改善を通して追加の指示を出す。**
+
+作者はNeonにミュージックビデオの演出を任せ、数日にわたって見直したと報告している。
+
+元の投稿は、後から編集した映像を反復作業の成果として公開している。映像や音声に使った個々のツールのすべては記されていない。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-225-1-128f7f022ace.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-225-1-7b92100ced8e.jpg" alt="Neonが演出したミュージックビデオを改良する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-228"></a>
+### Case 228: [Three.jsで2つの図書館のウォークスルーを比較する](https://x.com/teddyaisi/status/2124353151646200097) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**同じ20秒のウォークスルーで、カメラの移動速度と室内の細部を比較する。**
+
+作者は、壮麗なバロック様式の図書館を描く同じ依頼をAstraとNeonに与えた。
+
+同期した動画はAstraを上、Neonを下と表示している。所要時間と費用は、作者自身が実行した際の値だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-228-1-2aa76da8bbd0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-228-1-1f13fcf905f2.jpg" alt="Three.jsで2つの図書館のウォークスルーを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-232"></a>
+### Case 232: [参照動画からファンタジー風のトランジションを編集する](https://x.com/GeekCatX/status/2124365617243595014) (by [@GeekCatX](https://x.com/GeekCatX))
+
+**複数のツールで動画を作るときに、編集とナレーションの担当を分けて記録する。**
+
+作者は参照クリップを用意し、編集にNeonを使ったと述べている。クローン音声のナレーションはDoubao TTS2で生成した。
+
+元の動画は編集後の成果だ。作者は参照クリップを別の入力として扱い、ナレーションにDoubao TTS2を使ったと説明している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-232-1-36b1032c3599.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-232-1-6fcad8e8f8d9.jpg" alt="参照動画からファンタジー風のトランジションを編集する · 1" width="560"></a>
+
+Type: Tutorial | Date: 2026-11-22
+
+---
+
+<a id="case-234"></a>
+### Case 234: [水彩画の見張り塔をWebGPUのシーンにする](https://x.com/thebuggeddev/status/2124387668461236268) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**プロシージャルなシーン構築を比較するときは、参照画像と試行回数をそろえる。**
+
+作者はNeonとCarbonに、同じ見張り塔の水彩画とWebGPUでの制作依頼を渡した。
+
+動画は右側をNeonと表示し、操作できる2つの解説作品を並べている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-234-1-26a170aa0e64.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-234-1-49bef4fc01c7.jpg" alt="水彩画の見張り塔をWebGPUのシーンにする · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-238"></a>
+### Case 238: [曲とASCIIのビジュアライザーをコードで作る](https://x.com/chetaslua/status/2124460788501106722) (by [@chetaslua](https://x.com/chetaslua))
+
+**コードで生成した音声と文字アニメーションを使い、映像と音が対応するか試す。**
+
+作者はNeonに自分で歌詞を決め、その思考過程を表すASCIIアニメーションを作るよう依頼した。
+
+作者は、外部アセット、TTS、プラグインを使わず、コードだけで制作する条件を指定した。動画には動く文字による表示と字幕が入っている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-238-1-ae91d567a285.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-238-1-2ca901896111.jpg" alt="曲とASCIIのビジュアライザーをコードで作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-240"></a>
+### Case 240: [エンジンの断面アニメーション4本を比較する](https://x.com/kinderlayer/status/2124465319087308918) (by [@kinderlayer](https://x.com/kinderlayer))
+
+**同じエンジン部品の動きが、どの出力でも分かりやすく伝わるか確認する。**
+
+作者は、動作中のエンジンを断面で描く同じ依頼を4モデルに与えた。
+
+元の比較は4つの出力をラベル付きで示し、ピストン、歯車、燃料の表現の違いを見せている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-240-1-18c6e9ce30c8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-240-1-ceec44a1212a.jpg" alt="エンジンの断面アニメーション4本を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-241"></a>
+### Case 241: [ローポリのキャラクターのベースメッシュを作る](https://x.com/fe_yukichi/status/2124470064422527151) (by [@fe_yukichi](https://x.com/fe_yukichi))
+
+**正面と側面の参照資料を渡し、形状を仕上げる前にメッシュのトポロジーを確認する。**
+
+作者は、Gemini 4 NeonとBlenderを使って1回の依頼でキャラクターの素体メッシュを作り、約4,800三角形になったと報告している。
+
+元の投稿は正面と側面の形状とBlenderのメッシュを示している。作者は返信で日本語の入力全文を公開し、作業の出発点として紹介している。
+
+[補足資料](https://x.com/fe_yukichi/status/2124470794327843162)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-241-1-1487bbbb7c98.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-241-1-cb267d3ea061.jpg" alt="ローポリのキャラクターのベースメッシュを作る · 1" width="560"></a>
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-241-2-b2df80e6eb9b.png" alt="ローポリのキャラクターのベースメッシュを作る · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-241-3-81209abff7e9.png" alt="ローポリのキャラクターのベースメッシュを作る · 3" width="560">
+
+Type: Tutorial | Date: 2026-11-22
+
+---
+
+<a id="case-242"></a>
+### Case 242: [凍ったスイカのアニメーション4本を比較する](https://x.com/AIMind_Ai/status/2124474268079567329) (by [@AIMind_Ai](https://x.com/AIMind_Ai))
+
+**同じ出来事の流れを指定し、場面の変化を通して各アニメーションで同じ物体が保たれるか確認する。**
+
+作者は、スイカが凍り、解け、破裂する同じ依頼を4モデルに与えたと報告している。1本の比較動画で、ラベル付きの4画面に各出力を並べている。
+
+比較には作者が行った1回の試験が記録されている。表示された所要時間と費用の推計は、報告された設定に依存する。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-242-1-51a984366ca1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-242-1-8782fd0ff6d5.jpg" alt="凍ったスイカのアニメーション4本を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
 ## 🎮 ゲームとシミュレーション
 <a id="games"></a>
 
@@ -1394,6 +3036,111 @@ Type: Demo | Date: 2026-11-18
 
 ---
 
+<a id="case-130"></a>
+### Case 130: [四足歩行ロボットのプロシージャルなシミュレーションを試作する](https://x.com/thebuggeddev/status/2123760487183872482) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**画面上で確認できる物理デモと、実機に関する主張を区別する。**
+
+作者は参照画像から作った四足歩行モデルにNeonを使用し、プロシージャルなシェーダー、物理挙動、ケーブルのシミュレーションを組み込んだと報告している。
+
+デモにはシミュレーションのモデルと材質表現が映っている。投稿はプロシージャルなシェーダーと動きのシミュレーションを備えたブラウザ上の試作を紹介している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-130-1-0bf50c697b90.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-130-1-57d1a7297441.jpg" alt="四足歩行ロボットのプロシージャルなシミュレーションを試作する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-168"></a>
+### Case 168: [The Last Takeの2つのゲームシーンを比較する](https://x.com/atakoylanai/status/2123947041147740484) (by [@atakoylanai](https://x.com/atakoylanai))
+
+**ラベル付きの2つの版で、画面の読みやすさとシーンの構図を比較する。**
+
+作者は、NeonとFable 5.2で作ったThe Last Takeの2つの版を比較している。
+
+元の比較動画では、それぞれのゲーム画面とインターフェースが見られる。独立したプレイ検証の結果は投稿に含まれていない。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-168-1-33c5197747b2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-168-1-d3791fbcdfd2.jpg" alt="The Last Takeの2つのゲームシーンを比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-209"></a>
+### Case 209: [『オジマンディアス』のMinecraftでの解釈を比較する](https://x.com/jan_volad/status/2124174497914003925) (by [@jan_volad](https://x.com/jan_volad))
+
+**共通の制作依頼で、創作上の解釈と報告された実行時間を比べる。**
+
+作者はシェリーの詩を題材にした共通のプロンプトを使った。投稿によると、Neonは19分で2.88ドル、Solは12分で1.06ドルだった。
+
+並べられた出力は、各モデルが同じ詩を解釈した結果だ。時間と費用はいずれも作者が実行した際の値だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-209-1-2c405e9f4e01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-209-1-3bad09e19ba2.jpg" alt="『オジマンディアス』のMinecraftでの解釈を比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-221"></a>
+### Case 221: [テレビ作品の8つの舞台をMinecraftで再現して比較する](https://x.com/jan_volad/status/2124308264456233400) (by [@jan_volad](https://x.com/jan_volad))
+
+**8か所すべての再現度を、費用と生成時間とあわせて比べる。**
+
+作者はNeonとSolに、8か所をMinecraftで再現する同じ課題を与えた。
+
+ラベル付きの比較とあわせて、作者はNeonが合計22分、Solが合計24分だったと報告している。費用と見た目の好みについても別途記している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-221-1-538854ff5d01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-221-1-5f26eb812b14.jpg" alt="テレビ作品の8つの舞台をMinecraftで再現して比較する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-222"></a>
+### Case 222: [AI Studioでサイコロを振るツールを作る](https://x.com/LyalinDotCom/status/2124309371932832221) (by [@LyalinDotCom](https://x.com/LyalinDotCom))
+
+**小さなブラウザツールから着手し、遊んでいる最中に使えるか確認する。**
+
+作者は、自作のボードゲームで使うサイコロのツールを、Google AI StudioでNeonを使って制作したと述べている。
+
+添付画像にはサイコロと操作画面が写っている。このアプリは明確な1つの用途に絞っている。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-222-1-56174d1476fd.jpg" alt="AI Studioでサイコロを振るツールを作る · 1" width="560">
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-226"></a>
+### Case 226: [遊んで手がかりを解ける脱出ゲームを試作する](https://x.com/jacalulu/status/2124325874212446345) (by [@jacalulu](https://x.com/jacalulu))
+
+**最初の版を実際に遊び、見直すべき手がかりや操作を見つける。**
+
+作者は1回の依頼で、Neonが遊べる脱出ゲーム「Astrolab」の最初の版を作ったと説明している。
+
+作者は友人に遊んでもらった後に小さな変更を加えたと報告している。動画には謎解きの環境と作業台が映っている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-226-1-9c47f9e589ce.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-226-1-949fefc74792.jpg" alt="遊んで手がかりを解ける脱出ゲームを試作する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-236"></a>
+### Case 236: [tvOS向けのターン制砲撃ゲームを試作する](https://x.com/thorstenball/status/2124439072235991520) (by [@thorstenball](https://x.com/thorstenball))
+
+**リビングで遊ぶことを想定した試作品で、対戦画面と手番が分かりやすいか確かめる。**
+
+開発者は、tvOS向けの砲撃ゲームの試作にNeonとAmpのMacサイドカーを使用したと述べている。
+
+元の動画は対戦画面と開発環境を示している。投稿は制作途中の状態を記録している。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-236-1-383dae26ca13.jpg" alt="tvOS向けのターン制砲撃ゲームを試作する · 1" width="560">
+
+Type: Demo | Date: 2026-11-22
+
+---
+
 ## 📚 知識労働
 <a id="knowledge"></a>
 
@@ -1536,6 +3283,178 @@ Type: Demo | Date: 2026-11-18
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-104-1-704072667b23.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-104-1-fd4f10acc8b5.jpg" alt="音楽動画でモデルの学習工程を説明する · 1" width="560"></a>
 
 Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-121"></a>
+### Case 121: [3週間分のSNS指標を分析する](https://x.com/poolmoon6/status/2123744162285785300) (by [@poolmoon6](https://x.com/poolmoon6))
+
+**相関は、そのアカウントを対象とした探索的な所見として扱う。**
+
+作者はNeon Highに自身のXの指標を3週間分調べさせ、指標間の相関を順位付けした分析を得たと報告している。添付資料には分析の一部がある。
+
+添付資料には、作者の3週間分のデータを使った相関分析の一部が示されている。相関の結果は、報告されたアカウントのデータに固有のものだ。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-121-1-d3d49f1d7a7f.jpg" alt="3週間分のSNS指標を分析する · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-125"></a>
+### Case 125: [音声要約から政策の解説動画を作る](https://x.com/HiromitsuTakagi/status/2123751869319389642) (by [@HiromitsuTakagi](https://x.com/HiromitsuTakagi))
+
+**元の資料、音声要約、追加した映像を区別する。**
+
+作者は日本で公開された作業部会の資料を出典に、Gemini Notebookの音声要約を入力として使い、Neonで付随する動画を作成した。
+
+作者は公開会議資料を示し、別途生成した音声要約を使用している。動画制作にはNeonを用いたと説明している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-125-1-8144b9389ca3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-125-1-6d61156c32ae.jpg" alt="音声要約から政策の解説動画を作る · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-141"></a>
+### Case 141: [大量のクリップを整理して動画にまとめる](https://x.com/AndroidDev/status/2123824825198170569) (by [@AndroidDev](https://x.com/AndroidDev))
+
+**素材のインデックス作成から編集までの流れを、デモで確認する。**
+
+Android Developersの公式アカウントは、Neonで約1,000本のクリップにインデックスを付けて動画にまとめるワークフローを紹介している。
+
+Android Developersの資料では、編集の一環として多数のクリップから素材を探すところが示されている。クリップ数は投稿者による概数だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-141-1-a8c7174a1ef5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-141-1-2b58a5045533.png" alt="大量のクリップを整理して動画にまとめる · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-153"></a>
+### Case 153: [エージェントで南極のデータを探索する](https://x.com/DynamicWebPaige/status/2123880090203570480) (by [@DynamicWebPaige](https://x.com/DynamicWebPaige))
+
+**入力データセットを記録し、モデルによる物理的な解釈は仮説として扱う。**
+
+作者はNeonのエージェント群を使い、衛星で観測された公開の速度データと南極の氷床下の地形を調べたと報告している。
+
+投稿されたグラフはスウェイツ氷河とパインアイランド氷河の探索に付随する。元の投稿では実験的なワークフローとして紹介している。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-153-1-3751af053ea4.jpg" alt="エージェントで南極のデータを探索する · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-178"></a>
+### Case 178: [エージェントループのターン状態を可視化する](https://x.com/antiAIvo/status/2124028084022353961) (by [@antiAIvo](https://x.com/antiAIvo))
+
+**ソースコードと状態図を並べ、通常完了とキャンセルの流れを追えるようにする。**
+
+作者はNeonを使い、エージェントループを操作できるHTMLの解説にした。
+
+動画では、コードと状態図のハイライトが連動し、異なる終了パターンを分岐フィルターで切り替えられる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-178-1-4f6d09202c74.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-178-1-7c5ece5f7cef.jpg" alt="エージェントループのターン状態を可視化する · 1" width="560"></a>
+
+Type: Tutorial | Date: 2026-11-21
+
+---
+
+<a id="case-179"></a>
+### Case 179: [エージェントで火星の地震波形を探索する](https://x.com/DynamicWebPaige/status/2124030792385052735) (by [@DynamicWebPaige](https://x.com/DynamicWebPaige))
+
+**元データと掲載されたグラフを見て、分析の手順を確認する。**
+
+作者はAntigravityのNeonでエージェント群を使い、NASA InSightが公開した4年分の波形を処理したと報告している。グラフは作者が公開した探索的な結果だ。
+
+添付資料はNASA公開観測値を探索目的で加工した結果を示している。解釈は作者が報告した研究の補助資料として扱う。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-179-1-e8e966e654bb.jpg" alt="エージェントで火星の地震波形を探索する · 1" width="560">
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-185"></a>
+### Case 185: [3モデルと人間が書いた短編を比較する](https://x.com/risui1012/status/2124041518109614235) (by [@risui1012](https://x.com/risui1012))
+
+**共通の物語設定をもとに、文体と構成の違いを読む。**
+
+作者は500字の共通課題を設定し、人間が支援ツールを使わず書いた短編と、Sol、Neon、Opusの初稿を比較している。
+
+作者は人間の原稿と3モデルの出力を明示している。日本語の創作課題1件を記録し、作者自身の比較を説明した作例だ。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-1-49210b78c3ea.jpg" alt="3モデルと人間が書いた短編を比較する · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-2-00ffccb0856e.jpg" alt="3モデルと人間が書いた短編を比較する · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-3-57fcab7847e7.jpg" alt="3モデルと人間が書いた短編を比較する · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-4-3d39c206cff1.jpg" alt="3モデルと人間が書いた短編を比較する · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-5-dedf7868e54d.jpg" alt="3モデルと人間が書いた短編を比較する · 5" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-6-3a8317a8d885.jpg" alt="3モデルと人間が書いた短編を比較する · 6" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-7-7397ce5c273e.jpg" alt="3モデルと人間が書いた短編を比較する · 7" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-8-d29e292ef86b.jpg" alt="3モデルと人間が書いた短編を比較する · 8" width="560">
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-199"></a>
+### Case 199: [Antigravityで短い解説動画を制作する](https://x.com/DynamicWebPaige/status/2124132842179350814) (by [@DynamicWebPaige](https://x.com/DynamicWebPaige))
+
+**複数のメディアツールを組み合わせて進める制作工程としてデモを見る。**
+
+作者はNeonとAntigravityで90秒の解説動画を作ったと述べ、工程にGoogleのメディアツールとTTS、HyperFramesを挙げている。
+
+作者は複数のツールを使った制作を説明し、Neonが支援した部分を示している。添付動画は制作した解説の記録だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-199-1-96168cce27f0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-199-1-fe669c11d8c2.jpg" alt="Antigravityで短い解説動画を制作する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-210"></a>
+### Case 210: [スキルを使って短い解説動画をレンダリングする](https://x.com/GeekCatX/status/2124175490516918376) (by [@GeekCatX](https://x.com/GeekCatX))
+
+**モデルによる作業と、既存の描画の最適化を区別して記録する。**
+
+作者はNeonを既存の解説動画スキルや別途行った描画の最適化と組み合わせ、2分を超える動画を完成させた。所要時間と利用枠の数値は、この実行での結果だ。
+
+投稿は再利用できる動画スキルと描画の最適化を分けて説明している。添付の動画はその組み合わせで制作した成果だ。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-210-1-41bd33ccd376.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-210-1-537494d8c9fe.jpg" alt="スキルを使って短い解説動画をレンダリングする · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-224"></a>
+### Case 224: [3D断面で堤防の破壊メカニズムを可視化する](https://x.com/doboku_works/status/2124318343780090323) (by [@doboku_works](https://x.com/doboku_works))
+
+**回転する断面表示で、それぞれの破壊メカニズムがモデル上のどこに現れるか確認する。**
+
+作者は学習用に、簡易な2次元浸透流計算と3次元断面を組み合わせた可視化をNeonで作った。
+
+表示は越水、浸透、パイピング、洗掘を対象にしている。作者は個人の学習用資料として公開している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-224-1-90625643834c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-224-1-660c143ab28d.jpg" alt="3D断面で堤防の破壊メカニズムを可視化する · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-227"></a>
+### Case 227: [操作できる図でPiのエージェント実行環境を解説する](https://x.com/chasen_liao/status/2124352577852821919) (by [@chasen_liao](https://x.com/chasen_liao))
+
+**操作できる図を使って、ツールと拡張機能がエージェントの状態にどう影響するか追う。**
+
+作者は、Piのエージェント実行環境と内蔵の4つのツールを図で説明するためにNeonを使った。
+
+解説はツール呼び出し、MCPのコンテキスト、コアと拡張機能の境界を扱っている。動画で、読者が状態を順に切り替えていく様子を確認できる。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-227-1-0d9f175cbc3f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-227-1-15fc189a1e88.jpg" alt="操作できる図でPiのエージェント実行環境を解説する · 1" width="560"></a>
+
+Type: Tutorial | Date: 2026-11-22
 
 ---
 
@@ -1841,6 +3760,340 @@ Type: Benchmark | Date: 2026-11-19
 
 ---
 
+<a id="case-107"></a>
+### Case 107: [2つの推論レベルでベンチマークの成績を比較する](https://x.com/PawelHuryn/status/2123650600453693460) (by [@PawelHuryn](https://x.com/PawelHuryn))
+
+**各推論レベルの成績とサブスクリプションの推定費用を比較する。**
+
+バグ修正ベンチマークの運営者が、Neonのxhighとhighの両方の結果を公開している。
+
+元のグラフで推論レベル別の結果を比較できる。作者はxhighが105件中63件、highが57件と報告し、費用には独自の推計を用いた。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-107-1-6d411a52a86a.jpg" alt="2つの推論レベルでベンチマークの成績を比較する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-129"></a>
+### Case 129: [Astraとのチェスの対局記録を分析する](https://x.com/Leapofcode/status/2123757501531476294) (by [@Leapofcode](https://x.com/Leapofcode))
+
+**1局の先手・後手の条件を踏まえて、指し手とトークン使用量を比較する。**
+
+作者は、Astraが白、Neonが黒を担当した1局を記録している。
+
+動画には盤面が映っている。作者はAstraが勝ったと報告し、この対局でモデルごとに使ったトークン数を示している。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-129-1-a9b885b8c116.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-129-1-230174feb89a.jpg" alt="Astraとのチェスの対局記録を分析する · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-134"></a>
+### Case 134: [ErdosBenchで研究レベルの数学の成績を比較する](https://x.com/prz_chojecki/status/2123782382876602540) (by [@prz_chojecki](https://x.com/prz_chojecki))
+
+**ベンチマークでの順位と一緒に、評価の分布も確認する。**
+
+運営者は、ErdosBenchに収録された研究レベルの数学問題226問でNeonを評価したと報告している。
+
+添付の結果には、3.234という報告スコアと、A、B、Cの評価の分布が示されている。結果はこのベンチマークと採点手順に基づく。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-134-1-551f173bb536.jpg" alt="ErdosBenchで研究レベルの数学の成績を比較する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-136"></a>
+### Case 136: [FutureSimの予測結果を比較する](https://x.com/nikhilchandak29/status/2123804028312203664) (by [@nikhilchandak29](https://x.com/nikhilchandak29))
+
+**予測結果を読むときは、ベンチマークの方法と日付を確認する。**
+
+投稿者はFutureSimでNeonが最高スコアを得たと述べ、ベンチマークのグラフを掲載している。投稿はツール呼び出しや複数分野のシミュレーション問題も説明している。
+
+ベンチマークの共同責任者が順位と課題の範囲を紹介している。作者の結果は記録された時点のFutureSimの集計に限られる。
+
+[補足資料](https://openforecaster.github.io/futuresim/)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-136-1-52f1bff62ba9.jpg" alt="FutureSimの予測結果を比較する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-142"></a>
+### Case 142: [BrushArenaの投票で画像の出力を比較する](https://x.com/kickingkeys/status/2123826506287939624) (by [@kickingkeys](https://x.com/kickingkeys))
+
+**順位は、そのベンチマークの特定時点での好みを示す集計として解釈する。**
+
+作者はNeonがBrushArenaに初登場で1位となったと報告し、訪問者の投票による集計を掲載している。
+
+投稿はある時点での訪問者投票の順位を報告している。その時点のBrushArenaに掲載されたモデルと結果をあわせて読む。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-142-1-a134e1ddeeac.jpg" alt="BrushArenaの投票で画像の出力を比較する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-148"></a>
+### Case 148: [マーケティング課題でモデルを評価する](https://x.com/boringmarketer/status/2123843589063008291) (by [@boringmarketer](https://x.com/boringmarketer))
+
+**順位から一般化する前に、課題ごとの結果と評価方法を確認する。**
+
+評価の作者はマーケティング課題でNeon、Opus、Solを比べ、グラフを共有している。結果を説明するときは、評価者自身の試験条件を示す。
+
+作者は5つの研究機関の審査員を含む対戦形式の採点手順を説明している。グラフは対象のマーケティング課題での比較を示す。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-148-1-9c51ceb178cc.jpg" alt="マーケティング課題でモデルを評価する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-151"></a>
+### Case 151: [学習データの編集役としてモデルを評価する](https://x.com/hyperstition_cc/status/2123877109907288098) (by [@hyperstition_cc](https://x.com/hyperstition_cc))
+
+**編集役の成績を評価するときは、学習に使っていないデータでの正答率と実行時間を比較する。**
+
+ベンチマークの作者はHyper-InterventionでNeonと他の6モデルを、学習ロールアウトの編集役として試した。
+
+公開グラフには、数学の設定でセッションの経過時間に伴いテストの正答率がどう変わったかが示されている。作者はベンチマークの設定と観察された制約を別途説明している。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-151-1-1842a7df516d.jpg" alt="学習データの編集役としてモデルを評価する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-157"></a>
+### Case 157: [マルチエージェントのコーディング環境で評価する](https://x.com/leo_linsky/status/2123894236789739768) (by [@leo_linsky](https://x.com/leo_linsky))
+
+**各モデルのスコアを、共通の環境セットと評価条件とあわせて比較する。**
+
+評価者は、Neonと複数の競合モデルを100のマルチエージェント・コーディング環境で試したと報告している。
+
+元の投稿は、評価対象モデルの集計結果を表で示している。比較はこの環境セットを対象としている。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-157-1-9f4d245131ab.jpg" alt="マルチエージェントのコーディング環境で評価する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-161"></a>
+### Case 161: [FrontierMemoryでの成績を比較する](https://x.com/Letta_AI/status/2123910446021530047) (by [@Letta_AI](https://x.com/Letta_AI))
+
+**順位表は、ベンチマークに含まれる記憶課題の特定時点での結果として読む。**
+
+ベンチマークの運営者が、Gemini 4 NeonのFrontierMemoryでの結果を投稿している。
+
+元の画像は、対象モデルの順位と結果を記録している。順位は、運営者が公開した時点での集計を反映している。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-161-1-0b52f1bd3f05.jpg" alt="FrontierMemoryでの成績を比較する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-167"></a>
+### Case 167: [ページ解析と表のレイアウトを評価する](https://x.com/jerryjliu0/status/2123945742872293505) (by [@jerryjliu0](https://x.com/jerryjliu0))
+
+**文書パーサーを選ぶときは、レイアウトと表の指標を個別に確認する。**
+
+ParseBench-2の公開元は、Neonをlow推論モードで使い、他の公開モデルと比較したと報告している。
+
+元の表には文書解析、表、レイアウトの指標が個別に示されている。明記されたベンチマーク設定とデータ分割を確認する。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-167-1-2fc287ffe70d.jpg" alt="ページ解析と表のレイアウトを評価する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-171"></a>
+### Case 171: [CodePilotの8件の修正結果を比較する](https://x.com/op7418/status/2123959051126177841) (by [@op7418](https://x.com/op7418))
+
+**得点とあわせて、採点に使ったモデルが1つだったことと元の条件を明記する。**
+
+開発者はCodePilotで見つかった8件の問題を2つのモデルに修正させ、別のモデルで採点した。報告された得点はNeonが8.5、Opusが9だった。
+
+作者はFableを使って問題を見つけ、両方の修正を評価した。この得点は選定した8件と、その評価条件に基づく。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-171-1-371bdf9cfbd4.jpg" alt="CodePilotの8件の修正結果を比較する · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-175"></a>
+### Case 175: [無人実行中のセッション切れを確認する](https://x.com/vipinxtwt/status/2123995317410349467) (by [@vipinxtwt](https://x.com/vipinxtwt))
+
+**セッションの問題と、モデルのタスク処理を区別する。**
+
+作者によると、Neonを使ったAntigravityのセッションは2時間以上動いた後、認証期限切れのエラーを返した。スクリーンショットには、そのセッションのメッセージが写っている。
+
+画像には、報告されたセッションで認証が切れた状態が示されている。Antigravityで作業を任せたままにした1回の実行での所見だ。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-175-1-6108a9aa4efc.jpg" alt="無人実行中のセッション切れを確認する · 1" width="560">
+
+Type: Limit | Date: 2026-11-21
+
+---
+
+<a id="case-190"></a>
+### Case 190: [OpenCode構成での推論速度を比較する](https://x.com/maksym_andr/status/2124100080152035403) (by [@maksym_andr](https://x.com/maksym_andr))
+
+**集計順位を読むときは、実行環境と推論設定も確認する。**
+
+ベンチマークの協力者は、InferenceBenchに記録されたNeonの構成を紹介している。
+
+添付のグラフには、明記された構成の結果が載っている。ベンチマークの指標の定義とモデル設定に沿って読み取る。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-190-1-2e1161cc8668.jpg" alt="OpenCode構成での推論速度を比較する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-194"></a>
+### Case 194: [Antigravityのキャッシュヒット率の変化を追う](https://x.com/leo114119/status/2124119129863209157) (by [@leo114119](https://x.com/leo114119))
+
+**使用枠の変化をモデルの品質に結び付ける前に、キャッシュヒット率を時系列で比較する。**
+
+投稿者は後の投稿でキャッシュヒット率を 98.9%、以前の投稿では約 50% と報告している。
+
+後の投稿のスクリーンショットでは、現在のリクエストが 98.1%、累計が 78.7% と表示される。画像に写るセッションでの数値であり、投稿本文の数値とは異なる。
+
+[補足資料](https://x.com/leo114119/status/2123738543214506324)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-194-1-24575429840c.png" alt="Antigravityのキャッシュヒット率の変化を追う · 1" width="560">
+
+Type: Limit | Date: 2026-11-21
+
+---
+
+<a id="case-208"></a>
+### Case 208: [8の字結びを物理シミュレーションで採点する](https://x.com/li9292/status/2124165078014427440) (by [@li9292](https://x.com/li9292))
+
+**物理スコアを他の出力と比較する前に、モデルが使える結び目の記述を返しているか確認する。**
+
+作者によるKnotBench v0のリプレイでは、4モデルが同じ8の字結びの課題に取り組んでいる。表示された実行では、Neonの結果から結び目の記述を取り出せなかった。
+
+動画ではNeonはシミュレーションに進まずL0となった。AstraとSolは表示された実行でL5に達した。各モデル1回ずつの提出であることが動画に示されている。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-208-1-c8cb041cac46.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-208-1-d3f1f68bdb20.jpg" alt="8の字結びを物理シミュレーションで採点する · 1" width="560"></a>
+
+Type: Limit | Date: 2026-11-21
+
+---
+
+<a id="case-218"></a>
+### Case 218: [FrontierMathでNeonとCarbonを比較する](https://x.com/DominikPeters/status/2124251171061981439) (by [@DominikPeters](https://x.com/DominikPeters))
+
+**スコアを解釈するときは、報告されたFrontierMathの難易度区分と集計日を確認する。**
+
+作者は特定の難易度区分のFrontierMathのグラフを参照し、その結果ではNeonがCarbonを上回ったと伝えている。
+
+投稿から該当するFrontierMathの結果グラフを参照できる。別の数学問題セットと比較する前に、難易度区分と出題範囲を確かめる。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-218-1-83c8764a3819.jpg" alt="FrontierMathでNeonとCarbonを比較する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-230"></a>
+### Case 230: [小数を比較する回答の文体を確認する](https://x.com/JamesMalsawm/status/2124359719523332536) (by [@JamesMalsawm](https://x.com/JamesMalsawm))
+
+**数学的な正しさと、回答の口調を個別に評価する。**
+
+Neonと表示されたスクリーンショットでは、9.3と9.12を比較して、9.3の方が大きいと答えている。
+
+正しい結論に皮肉な言い回しが添えられている。この投稿は1回のやり取りを記録しており、短い質問の原文も画像で確認できる。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-230-1-4aba910e6c2b.jpg" alt="小数を比較する回答の文体を確認する · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-231"></a>
+### Case 231: [LiveBench 2.0の重み付き結果を比較する](https://x.com/alexmichael/status/2124364037270253826) (by [@alexmichael](https://x.com/alexmichael))
+
+**総合値でモデルを選ぶ前に、テスト群の重みと個別のスコアを確認する。**
+
+投稿にあるLiveBench 2.0のリリースでは、Neonの総合スコアは87.4と表示されている。
+
+ベンチマーク運営元の公開ファイルで、Long Agenticを2倍、CodingとDesignを各1.5倍に重み付けすると、87.4を再現できる。順位は、表示されたリリースと評価設定に基づく。
+
+[補足資料](https://livebench.ai/)
+
+[補足資料](https://livebench.ai/data/20261106/table.csv)
+
+[補足資料](https://livebench.ai/data/20261106/categories.json)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-231-1-cc4b47c2de35.jpg" alt="LiveBench 2.0の重み付き結果を比較する · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-22
+
+---
+
+<a id="case-233"></a>
+### Case 233: [小数の位の説明を2つ比較する](https://x.com/itsvishaltwt/status/2124366238013145441) (by [@itsvishaltwt](https://x.com/itsvishaltwt))
+
+**推論の手順と数値の結論を別々に確認する。**
+
+作者は9.12と9.8の大小を尋ねる同じ質問に対する、2つの回答を示している。
+
+Neonのスクリーンショットは、9.8の方が大きいと正しく示している。比較対象の画面では9.8を9.80と書き換えながら、逆の結論を出している。どちらも作者が共有した出力だ。
+
+<table>
+<tr>
+<td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-233-1-3e763f2c2978.jpg" alt="小数の位の説明を2つ比較する · 1" width="560"></td>
+<td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-233-2-a701c521d929.jpg" alt="小数の位の説明を2つ比較する · 2" width="560"></td>
+</tr>
+</table>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-237"></a>
+### Case 237: [Neonのベンチマークの近似曲線を読む](https://x.com/AdamHoltererer/status/2124457945983267216) (by [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**各近似曲線と、集計結果を構成するベンチマークの内訳を確認する。**
+
+Priorsの作者は、45項目のベンチマークについてNeonの観測結果を個別に示すスコアの近似曲線を公開している。
+
+図では11月20日時点の値が172.1、標準誤差が0.6と示されている。グラフは各モデルで試したうち成績が最も良い設定を用いている。
+
+[補足資料](https://www.mypriors.com/models/gemini-4-neon)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-237-1-6b7ce21da511.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-237-1-b22d95d7c3d9.jpg" alt="Neonのベンチマークの近似曲線を読む · 1" width="560"></a>
+
+Type: Benchmark | Date: 2026-11-22
+
+---
+
+<a id="case-239"></a>
+### Case 239: [記憶から描いた3つのSVGロゴを評価する](https://x.com/a__tomala/status/2124463500517113952) (by [@a__tomala](https://x.com/a__tomala))
+
+**オフラインで単一ファイルのSVGを依頼し、形状を元のロゴと照合する。**
+
+作者はAntigravityでNeonのMedium Effortを使って作ったロゴを3つ示している。Webアクセスは無効で、ターミナルでの実行は有効だった。
+
+作者は後の投稿で、GoogleのGに細かな違いがあり、OpenAIのロゴにはよりはっきりした違いがあると述べている。スクリーンショットで元の依頼文を確認できる。
+
+[補足資料](https://x.com/a__tomala/status/2124468291385299120)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-239-1-27b3bdb30704.jpg" alt="記憶から描いた3つのSVGロゴを評価する · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
 <a id="related-repositories"></a>
 ## 関連リポジトリ
 
@@ -1852,6 +4105,6 @@ Type: Benchmark | Date: 2026-11-19
 
 作品を共有してくれたクリエイターと評価者に感謝します。
 
-[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin)
+[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin), [@openclaw](https://x.com/openclaw), [@PawelHuryn](https://x.com/PawelHuryn), [@alexanderchen](https://x.com/alexanderchen), [@majidmanzarpour](https://x.com/majidmanzarpour), [@robinebers](https://x.com/robinebers), [@GOD2FREEX](https://x.com/GOD2FREEX), [@ann_nnng](https://x.com/ann_nnng), [@RainG999](https://x.com/RainG999), [@mspd4100](https://x.com/mspd4100), [@Haleeeemahh](https://x.com/Haleeeemahh), [@anxuanng](https://x.com/anxuanng), [@wenwen11703261](https://x.com/wenwen11703261), [@lucian__03](https://x.com/lucian__03), [@thegenioo](https://x.com/thegenioo), [@BubbleBrain](https://x.com/BubbleBrain), [@poolmoon6](https://x.com/poolmoon6), [@hqmank](https://x.com/hqmank), [@rootport](https://x.com/rootport), [@viktoroddy](https://x.com/viktoroddy), [@HiromitsuTakagi](https://x.com/HiromitsuTakagi), [@SimonT242613](https://x.com/SimonT242613), [@mizugame_22](https://x.com/mizugame_22), [@lemomo_ai](https://x.com/lemomo_ai), [@Leapofcode](https://x.com/Leapofcode), [@karanC_12](https://x.com/karanC_12), [@marcthecreatorr](https://x.com/marcthecreatorr), [@prz_chojecki](https://x.com/prz_chojecki), [@ivanainai](https://x.com/ivanainai), [@nikhilchandak29](https://x.com/nikhilchandak29), [@FiniYang](https://x.com/FiniYang), [@AIMind_Ai](https://x.com/AIMind_Ai), [@AndroidDev](https://x.com/AndroidDev), [@DanielZambrini](https://x.com/DanielZambrini), [@superdoteng](https://x.com/superdoteng), [@filicroval](https://x.com/filicroval), [@boringmarketer](https://x.com/boringmarketer), [@hyperstition_cc](https://x.com/hyperstition_cc), [@eliadele](https://x.com/eliadele), [@DynamicWebPaige](https://x.com/DynamicWebPaige), [@leo_linsky](https://x.com/leo_linsky), [@SamgreyAi](https://x.com/SamgreyAi), [@davis7](https://x.com/davis7), [@Letta_AI](https://x.com/Letta_AI), [@maxt3chno](https://x.com/maxt3chno), [@scottstts](https://x.com/scottstts), [@jerryjliu0](https://x.com/jerryjliu0), [@atakoylanai](https://x.com/atakoylanai), [@liu8in](https://x.com/liu8in), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@JamesMalsawm](https://x.com/JamesMalsawm), [@likka_ailive](https://x.com/likka_ailive), [@vipinxtwt](https://x.com/vipinxtwt), [@bangbuilds](https://x.com/bangbuilds), [@antiAIvo](https://x.com/antiAIvo), [@ogabezim](https://x.com/ogabezim), [@GoGoFly23](https://x.com/GoGoFly23), [@WrongNebula](https://x.com/WrongNebula), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@risui1012](https://x.com/risui1012), [@niramayo2096](https://x.com/niramayo2096), [@noclipepe](https://x.com/noclipepe), [@csaba_kissi](https://x.com/csaba_kissi), [@maksym_andr](https://x.com/maksym_andr), [@TheDoraaaaaaaa](https://x.com/TheDoraaaaaaaa), [@guilippert_v4](https://x.com/guilippert_v4), [@leo114119](https://x.com/leo114119), [@leaf_sanren](https://x.com/leaf_sanren), [@DrstaOne](https://x.com/DrstaOne), [@blueemi99](https://x.com/blueemi99), [@aug5thmusic](https://x.com/aug5thmusic), [@DeepBlueX0](https://x.com/DeepBlueX0), [@PokeBenchTV](https://x.com/PokeBenchTV), [@rafaelcaricio](https://x.com/rafaelcaricio), [@li9292](https://x.com/li9292), [@GeekCatX](https://x.com/GeekCatX), [@Bhavani_00007](https://x.com/Bhavani_00007), [@studio_yebisu](https://x.com/studio_yebisu), [@EnvolDev](https://x.com/EnvolDev), [@DominikPeters](https://x.com/DominikPeters), [@jake_j_jung](https://x.com/jake_j_jung), [@doboku_works](https://x.com/doboku_works), [@anabology](https://x.com/anabology), [@jacalulu](https://x.com/jacalulu), [@chasen_liao](https://x.com/chasen_liao), [@G33K13765260](https://x.com/G33K13765260), [@alexmichael](https://x.com/alexmichael), [@itsvishaltwt](https://x.com/itsvishaltwt), [@Leviwoyun](https://x.com/Leviwoyun), [@thorstenball](https://x.com/thorstenball), [@a__tomala](https://x.com/a__tomala), [@kinderlayer](https://x.com/kinderlayer), [@fe_yukichi](https://x.com/fe_yukichi)
 
 *メディアおよびサードパーティの著作物は、それぞれの権利所有者に帰属します。ソース、クレジット、またはメディア アイテムに修正が必要な場合は、問題を開いてください。*
