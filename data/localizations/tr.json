@@ -632,6 +632,828 @@
       "action": "Toplam puana göre model seçmeden önce her model için hangi testlerin hesaba katıldığını kontrol edin.",
       "takeaway": "Yazarın yayımladığı Models Engineering Index tablosunda Gemini 4 Neon, 68,1 puanla 20 kayıt arasında birinci.",
       "notes": "Endeks, modelleri farklı kapsamda ölçen açık testleri birleştiriyor. Yazarın beş grafiği puanı, maliyeti veya token kullanımını gösteriyor. Sıra bu tabloya ait."
+    },
+    "case-106": {
+      "title": "OpenClaw'da Neon model kaydını bulma",
+      "takeaway": "OpenClaw, sürüm denetimine alınmış yapılandırmasında Gemini 4 Neon'u önerilen model olarak gösterir.",
+      "notes": "OpenClaw ekibi modelin eklendiğini duyurdu ve yayımladığı önerilen model yapılandırmasında gemini-4-neon kimliğine yer verdi. Kaynaklar kaydın varlığını doğruluyor.",
+      "action": "Entegrasyonun model desteğini yayımlanan yapılandırma kaydından doğrulayın."
+    },
+    "case-107": {
+      "title": "İki akıl yürütme düzeyindeki kıyaslama puanlarını karşılaştırma",
+      "takeaway": "Kıyaslamayı yürüten kişi, hata düzeltme görevlerinde Neon'un xhigh ve high sonuçlarını yayımlıyor.",
+      "notes": "Özgün grafik iki düzeyi karşılaştırıyor. Yazar kendi maliyet tahminini kullanarak xhigh için 105 üzerinden 63, high için 57 puan bildiriyor.",
+      "action": "Test edilen her düzeyin puanını ve tahmini abonelik maliyetini karşılaştırın."
+    },
+    "case-108": {
+      "title": "Bisikletleri eşzamanlı glissandoyla canlandırma",
+      "takeaway": "Üretici, bisikletli görsel-işitsel deneyi Neon'a atfediyor ve sesli klibi paylaşıyor.",
+      "notes": "Özgün klip, bisiklet hareketlerini glissandoyla eşleştiriyor. Üretici, görsel-işitsel deneyin Neon ile yapıldığını belirtiyor.",
+      "action": "Özgün klibi oynatarak ses perdesindeki kaymanın hareketle nasıl örtüştüğünü inceleyin."
+    },
+    "case-109": {
+      "title": "Three.js ile prosedürel bir kaiju modelleme",
+      "takeaway": "Üretici, Three.js TSL ile oluşturulan prosedürel yaratığı Neon'a atfediyor ve görünümünü videoda gösteriyor.",
+      "notes": "Üretici Three.js gölgelendirme ortamını belirtiyor ve animasyonu paylaşıyor. Video bitmiş görünümü gösteriyor.",
+      "action": "Kodla görüntülenen biçimi ve görünümü doğrudan paylaşılan sonuç üzerinden inceleyin."
+    },
+    "case-110": {
+      "title": "Paper ile bir açılış sayfası tasarlama",
+      "takeaway": "Üretici, açılış sayfası tasarımını Neon ve Paper kullanılan iş akışına atfediyor ve yerleşimin ekran görüntüsünü paylaşıyor.",
+      "notes": "Ekran görüntüsü sayfanın kompozisyonunu gösteriyor. Üretici tasarımın Paper ile Neon kullanılarak yapıldığını belirtiyor.",
+      "action": "Paylaşılan önizlemeden görsel hiyerarşiyi ve grafikleri inceleyin."
+    },
+    "case-111": {
+      "title": "Açık coğrafi veri akışları için pano oluşturma",
+      "takeaway": "Üretici, açık coğrafi veri akışlarını ve haberleri birleştiren GROUND arayüzünü Neon kullanan bir Grok Bot iş akışına atfediyor. Kaynak video panoyu gösteriyor.",
+      "notes": "Özgün videoda GROUND panosu görülüyor. Yazar, panoyu Grok Bot üzerinden Neon ile oluşturduğunu ve herkese açık kaynakları tek arayüzde topladığını anlatıyor.",
+      "action": "Üretilen arayüzü değerlendirirken hangi girdilerin dış veri akışlarından geldiğini izleyin."
+    },
+    "case-112": {
+      "title": "JavaScript ile halka arzı anlatan animasyon yapma",
+      "takeaway": "Üretici Neon'dan hareketli bir anlatım istediğini ve sonucun JavaScript ile yazıldığını belirtiyor. Özgün klip animasyonun bir bölümünü gösteriyor.",
+      "notes": "Klip, üretilen hareketli grafiğin bir kısmını içeriyor. Kaynak görevi ve JavaScript ile gerçekleştirildiğini belirtiyor.",
+      "action": "Tipografinin ve sahne geçişlerinin kodla nasıl oluşturulduğunu örnek üzerinden inceleyin."
+    },
+    "case-113": {
+      "title": "Neon ajanlarıyla davul animasyonu yapma",
+      "takeaway": "Üretici, özgün animasyonu birden fazla Neon ajanının çalışmasına atfediyor. Dördüncü saniye civarında davulcunun ayak hareketleri yakından görülüyor.",
+      "notes": "Klibin başlarında davulcunun ayakları yakın planda. Yazar, çalışmayı bir Neon ajan grubuna atfediyor.",
+      "action": "Yakın plandan zamanlamayı ve animasyon ayrıntılarını değerlendirin."
+    },
+    "case-114": {
+      "title": "Blender'da fantastik bir şehir ve ejderha görüntüleme",
+      "takeaway": "Üretici, Antigravity'de Neon kullanarak Blender sahnesini kodla kurduğunu ve görüntülediğini bildiriyor. Şehri ve ejderhayı tanımlıyor, çalışmanın 11 saat sürdüğünü belirtiyor.",
+      "notes": "Kaynak, şehir ve ejderha içeren Blender sahnesinin sonucunu gösteriyor. Uzun süre, üreticinin kendi kurulumuna ait.",
+      "action": "Bildirilen kurulumu ve süreyi ilgili sahneyle birlikte değerlendirin."
+    },
+    "case-115": {
+      "title": "Sundar Pichai'nin SVG portresini çizme",
+      "takeaway": "Üretici, paylaşılan portrenin Neon ile üretilmiş bir SVG olduğunu belirtiyor. Özgün görsel sonucu gösteriyor.",
+      "notes": "Özgün görsel, tek bir model görevinden çıkan SVG portresini sunuyor. Yazar konuyu ve modeli belirtiyor.",
+      "action": "Vektör portreyi kaynak görsel üzerinden değerlendirin."
+    },
+    "case-116": {
+      "title": "Kırmızı akçaağaç bonsaisini canlandırmak",
+      "takeaway": "Üretici, bonsai görselleştirmesini Neon'a atfediyor ve ortaya çıkan animasyonu yayımlıyor.",
+      "notes": "Klip, bonsainin tamamlanmış animasyonunu gösteriyor. Yapımcı sahneyi Neon ile hazırladığını belirtiyor.",
+      "action": "Yaprakların ve dalların nasıl temsil edildiğini özgün sonuçtan inceleyin."
+    },
+    "case-117": {
+      "title": "Bir istemden kişisel animasyon klibi yapma",
+      "takeaway": "Üretici, kişisel videoyu Neon'a atfediyor ve başka bir üreticinin istemini uyarladığını söylüyor. Paylaşımda sonuç klibi bulunuyor.",
+      "notes": "Üretici, özgün istemi uyarladığını bildiriyor ve ekli klibi Neon'a atfediyor. Klip uyarlamanın sonucunu gösteriyor.",
+      "action": "İstemi kimin hazırladığını ve yeni sonucu kimin ürettiğini ayrı ayrı belirtin."
+    },
+    "case-118": {
+      "title": "Blender'da yağmurlu bir baraj sahnesini canlandırma",
+      "takeaway": "Üretici, baraj kapağı açıldığında suyun aktığı gece sahnesini Neon xhigh ve Blender ile görüntülediğini bildiriyor.",
+      "notes": "Kaynak klip, yağmur altındaki su akışını gösteriyor. Yazar Neon xhigh ve Blender görüntülemesini belirtiyor.",
+      "action": "Işık ve su etkilerini bir görsel simülasyon olarak değerlendirin."
+    },
+    "case-119": {
+      "title": "Fuji Dağı manzarası çizmek",
+      "takeaway": "Üretici, Fuji Dağı çizim dizisinde bu çalışmayı Neon sürümü olarak tanımlıyor.",
+      "notes": "Özgün sahnede dağlar, bitki örtüsü ve göl yansıması görülüyor. Bu örnek Neon çıktısını belgeliyor.",
+      "action": "Yansıyan silueti ve bitki katmanlarını kullanarak manzarayı inceleyin."
+    },
+    "case-120": {
+      "title": "Yalnızca kodla üç farklı görsel üretme",
+      "takeaway": "Üretici üç çıktıyı Neon'a atfediyor ve kodla üretildiklerini belirtiyor. Özgün eklerde sonuç görselleri var.",
+      "notes": "Üç özgün görsel, üreticinin yalnızca kodla çizim yaptığı deneyin sonuçları. Kaynak, görüntülemeyi Neon'a atfediyor.",
+      "action": "Kodla üretilen sahnelerin renk, geometri ve kompozisyonunu karşılaştırın."
+    },
+    "case-121": {
+      "title": "Üç haftalık sosyal medya verisini analiz etme",
+      "takeaway": "Üretici, Neon High'dan üç haftalık X metriklerini incelemesini istediğini ve göstergeler için sıralı bir korelasyon analizi aldığını bildiriyor. Ekte analizin bir kısmı görülüyor.",
+      "notes": "Ek, yazarın üç haftalık örnekleminden elde edilen korelasyonların bir bölümünü gösteriyor. Bulgular bildirilen hesap verileriyle sınırlı.",
+      "action": "Korelasyonları bu hesaba özgü keşif niteliğinde gözlemler olarak değerlendirin."
+    },
+    "case-122": {
+      "title": "Bir projeyi anlatan kısa hareketli grafik hazırlama",
+      "takeaway": "Üretici Neon'dan bir açık kaynak projesi hakkında 20 saniyelik hareketli grafik istediğini ve ilk sonucu kullandığını söylüyor. Paylaşımda istek ve video var.",
+      "notes": "Özgün paylaşım görevi açıklıyor ve ilk sonucu gösteriyor. Seçilen süre, anlatılan açık kaynak projesine ait.",
+      "action": "Son klibin temposunu ve geçişlerini üreticinin belirttiği görevle karşılaştırın."
+    },
+    "case-123": {
+      "title": "Blender MCP üzerinden manga arka planları modelleme",
+      "takeaway": "Üretici, manga arka planları için Neon'u Antigravity ve Blender MCP üzerinden kullandığını bildiriyor. Ek, Blender çalışma alanını ve bir modeli gösteriyor.",
+      "notes": "Üretici manga arka planını Antigravity ile Blender MCP kullanılan iş akışına atfediyor. Özgün görselde Blender geometrisi görülüyor.",
+      "action": "Üreticinin anlattığı iş akışını ara geometri üzerinden inceleyin."
+    },
+    "case-124": {
+      "title": "Animasyonlu bir sitenin tüm yapım sürecini kaydetme",
+      "takeaway": "Üretici, animasyonlu siteyi Neon'a atfediyor ve 12 dakikalık süreç kaydını paylaşıyor.",
+      "notes": "12 dakikalık kayıt sitenin yapımını gösteriyor. Üretici Neon'u kullandığını belirtiyor ve sonucu iş akışına örnek olarak sunuyor.",
+      "action": "Görsel sonuca hangi adımların ulaştırdığını kayıttan takip edin."
+    },
+    "case-125": {
+      "title": "Sesli özetten hareketli politika özeti hazırlama",
+      "takeaway": "Üretici kaynak olarak Japon bir çalışma grubunun kamuya açık belgesini, girdi olarak Gemini Notebook'un sesli özetini, eşlik eden video için de Neon'u kullanıyor.",
+      "notes": "Üretici kamuya açık toplantı belgesini belirtiyor ve ayrı oluşturulmuş sesli özeti kullanıyor. Eşlik eden videoyu Neon'a atfediyor.",
+      "action": "Kaynak belgeyi, sesli özeti ve sonradan eklenen görsel katmanı ayrı değerlendirin."
+    },
+    "case-126": {
+      "title": "Ortak ajan panosunda rollere model atama",
+      "takeaway": "Üretici, Neon'un Orchestrator olarak çalıştığı ve diğer ajanların ön yüz görevlerine atandığı bir Antigravity grubunu gösteriyor.",
+      "notes": "Ekran görüntüsü bu projedeki model atamalarını ve görev durumlarını gösteriyor. Yazar kendi kullanımındaki kurulum gözlemlerini ayrıca anlatıyor.",
+      "action": "Her göreve belirli bir model atayın ve ilerlemeyi ortak görev panosundan izleyin."
+    },
+    "case-127": {
+      "title": "Blender'da yağmurlu Kyoto sokaklarını karşılaştırma",
+      "takeaway": "Yazar üç modele aynı istemi verdi ve sonuçları yukarıdan aşağıya tanımlıyor. Blender'da sırasıyla 37, 29 ve 25 düzeltme turu bildiriyor, Neon en altta yer alıyor.",
+      "notes": "Klip üç sonucu dikey sırayla etiketliyor. Yazarın bildirdiği yineleme sayıları bu Blender karşılaştırmasına ait.",
+      "action": "Sahneleri karşılaştırırken kaynaktaki sıralamayı ve düzeltme sayılarını dikkate alın."
+    },
+    "case-128": {
+      "title": "Dört seramik fırınlama animasyonunu karşılaştırma",
+      "takeaway": "Üretici, fırınlama etkileri hakkında aynı istemi kullandı ve dört farklı animasyon yayımladı.",
+      "notes": "Üretici aynı fırınlama etkilerinin dört animasyonunu sunuyor. Görsel farkları model çıktılarıyla eşleştirmek için etiketleri kullanın.",
+      "action": "Her klibin aynı malzeme sürecini nasıl görselleştirdiğini karşılaştırın."
+    },
+    "case-129": {
+      "title": "Astra'ya karşı bildirilen satranç maçını inceleme",
+      "takeaway": "Yazar, Astra'nın beyaz, Neon'un siyah taşlarla oynadığı bir maçı belgeliyor.",
+      "notes": "Videoda tahta görülüyor. Üretici Astra'nın kazandığını bildiriyor ve maçta her modelin kullandığı token sayısını veriyor.",
+      "action": "Hamleleri ve token kullanımını bu maçtaki renk dağılımına göre karşılaştırın."
+    },
+    "case-130": {
+      "title": "Prosedürel bir dört ayaklı robot simülasyonu geliştirme",
+      "takeaway": "Üretici, bir referans görselden türetilen dört ayaklı simülasyonu Neon'a atfediyor ve prosedürel gölgelendiriciler, fizik ve kablo simülasyonu kullanıldığını belirtiyor.",
+      "notes": "Demo simüle edilen modeli ve malzemeleri gösteriyor. Paylaşımda prosedürel gölgelendiriciler ve simüle hareket içeren bir tarayıcı prototipi anlatılıyor.",
+      "action": "Ekrandaki fizik gösterimiyle fiziksel robot hakkındaki iddiaları ayrı değerlendirin."
+    },
+    "case-131": {
+      "title": "İki etkileşimli saat yapılandırıcısını karşılaştırma",
+      "takeaway": "Üretici, Neon ve Opus 5.5'e aynı saat yapılandırıcısı görevini verdi.",
+      "notes": "Klip iki sonucu etiketliyor. Üretici, Neon çıktısında eksik veya bozuk etkileşimler bildiriyor. Parça sayıları ve maliyetler bu denemeye ait.",
+      "action": "Görünüm ve parça ayrıntılarının yanı sıra yapılandırıcının etkileşimlerini test edin."
+    },
+    "case-132": {
+      "title": "Etkileşimli voksel ejderha dioramalarını karşılaştırmak",
+      "takeaway": "Yazar, Neon ve Opus'a hazır varlık kullanmadan ejderha ve pagoda yapma görevi verdi. İki sonucun farklı bölümlerini tercih etti.",
+      "notes": "Aynı ejderha ve pagoda görevi, hazır varlık kullanılmadan her iki modele de verildi. Paylaşım iki sahnenin farklı güçlü yanlarını bildiriyor.",
+      "action": "Sahne kompozisyonunu ve ışığı, yazarın denemeye ilişkin gözlemleriyle birlikte karşılaştırın."
+    },
+    "case-133": {
+      "title": "Düz bir tabloyu etkileşimli olarak yeniden aydınlatma",
+      "takeaway": "Üretici, hareketli ışığın düz bir görüntüde yönlü gölgeler oluşturup oluşturamayacağını bir Vermeer tablosuyla denedi. Özgün video sonucu gösteriyor.",
+      "notes": "Videoda ışığın tablo üzerinde hareketi görülüyor. Işık yönünün değişmesi görüntülenen gölgeleri etkiliyor.",
+      "action": "Işık kaynağının hareketiyle parlak bölgelerin ve gölgelerin nasıl değiştiğini inceleyin."
+    },
+    "case-134": {
+      "title": "ErdosBench araştırma matematiği sonuçlarını karşılaştırma",
+      "takeaway": "Kıyaslamanın sorumlusu Neon'u ErdosBench'teki 226 araştırma düzeyinde matematik problemiyle değerlendirdiğini bildiriyor.",
+      "notes": "Ekli sonuçlarda 3,234 puan ve A, B, C notlarının dağılımı yer alıyor. Veriler bu kıyaslama ve puanlama yöntemine ait.",
+      "action": "Kıyaslama sırasıyla birlikte not dağılımını inceleyin."
+    },
+    "case-135": {
+      "title": "Kodla oluşturulan üç araç sahnesini karşılaştırma",
+      "takeaway": "Yazar hazır 3B varlık kullanmadan üretilen üç etiketli araç sahnesi sunuyor ve tahmini oluşturma maliyetlerini veriyor.",
+      "notes": "Özgün görsel üç çıktıyı etiketliyor ve hazır varlık kullanılmadığını belirtiyor. Maliyetler üreticinin tahminlerine dayanıyor.",
+      "action": "Yazarın maliyet tahminlerini planlamada kullanmadan önce görsel sonuçları karşılaştırın."
+    },
+    "case-136": {
+      "title": "FutureSim tahmin sonuçlarını karşılaştırma",
+      "takeaway": "Yayıncı Neon'un FutureSim'de en yüksek puanı aldığını bildiriyor ve kıyaslama grafiğini yayımlıyor. Paylaşım, araç çağrılarını ve farklı alanlardaki simülasyon sorularını anlatıyor.",
+      "notes": "Kıyaslamanın eş yürütücüsü sıralamayı ve görev kapsamını gösteriyor. Yazarın sonucu belgelenen FutureSim kesitine ait.",
+      "action": "Tahmin sonucunu okurken kıyaslamanın tarihini ve yöntemini dikkate alın."
+    },
+    "case-137": {
+      "title": "Tablo görünümündeki iki 3B dünyayı karşılaştırma",
+      "takeaway": "Üretici, üstte Astra ve altta Neon olarak etiketlenen yağlı boya tarzında iki dünyayı karşılaştırıyor. Tamamlanma sürelerinin ve fırça darbesi sayılarının farklı olduğunu bildiriyor.",
+      "notes": "Kaynak üstte Astra'yı, altta Neon'u gösteriyor. Süreler ve fırça darbesi sayıları üreticinin karşılaştırmasına ait.",
+      "action": "Işıklandırmayı ve sahnenin okunabilirliğini, bildirilen ölçümlerle birlikte karşılaştırın."
+    },
+    "case-138": {
+      "title": "Three.js neon sahnesine bir araba eklemek",
+      "takeaway": "Üretici, Three.js ile oluşturulan neon ışıklı sahneyi Neon'a atfediyor ve sonunda bir BMW M4 CS eklemesini istediğini belirtiyor.",
+      "notes": "Klip güncellenen sahneyi ve içine yerleştirilen BMW'yi gösteriyor. Otomobil daha sonra verilen bir talimatla eklendi.",
+      "action": "Eklenen nesnenin özgün sahneye nasıl uyduğunu inceleyin."
+    },
+    "case-139": {
+      "title": "Blender'da bir karakter referansı oluşturma",
+      "takeaway": "Üretici, Blender'da gösterilen karakterin yapımını Neon'a atfediyor. Özgün görsel, modeli farklı açılardan gösteriyor.",
+      "notes": "Ekte Blender karakterinin birden çok görünümü var. Üretici modeli Neon'a atfediyor.",
+      "action": "Karakter siluetini ve görünüm tutarlılığını farklı açılardan karşılaştırın."
+    },
+    "case-140": {
+      "title": "Dört çilek animasyonu çıktısını karşılaştırma",
+      "takeaway": "Yazar Neon, Carbon, Fable 5.2 ve Opus 5.5'e aynı animasyonlu çilek görevini verdi.",
+      "notes": "Dört etiketli çıktı meyve ve çevre açısından gözle görülür biçimde farklı. Yazar denemelerdeki düşünme düzeylerini ve tahmini maliyetleri bildiriyor.",
+      "action": "Görünen sekans boyunca her çıktının istenen meyveyi koruyup korumadığını kontrol edin."
+    },
+    "case-141": {
+      "title": "Geniş bir klip koleksiyonunu videoya dönüştürme",
+      "takeaway": "Android Developers hesabı, Neon ile yaklaşık bin klibi dizine ekleyen bir iş akışı sunuyor ve sonrasındaki video düzenlemeyi gösteriyor.",
+      "notes": "Android Developers kaynağı, düzenleme sürecinde geniş bir klip koleksiyonunda arama yapıldığını gösteriyor. Yaklaşık klip sayısını yayıncı bildiriyor.",
+      "action": "Medyanın dizine eklenmesinden düzenlemeye kadar gösterilen adımları inceleyin."
+    },
+    "case-142": {
+      "title": "Görsel çıktıları BrushArena oylarına göre karşılaştırma",
+      "takeaway": "Yazar, Neon'un BrushArena'da ilk sıradan giriş yaptığını bildiriyor ve ziyaretçi oylarına dayanan bir kesit sunuyor.",
+      "notes": "Kaynak belirli bir tarihteki ziyaretçi oyu sıralamasını bildiriyor. Sonucu BrushArena kesitindeki model ve çalışmalarla birlikte yorumlayın.",
+      "action": "Sıralamayı bu kıyaslamaya ait bir tercih kesiti olarak değerlendirin."
+    },
+    "case-143": {
+      "title": "Alp manzarasını yalnızca kodla görüntüleme",
+      "takeaway": "Üretici, sahnenin kodla çizilmesini ve canlandırılmasını Neon'a atfediyor. Kaynak videoda Alp manzarası ve bir viyadük görünüyor.",
+      "notes": "Görüntülenen sahne Alp manzarasını ve viyadüğü içeriyor. Yazar hem çizim hem animasyon kodunu Neon'a atfediyor.",
+      "action": "Prosedürel sahnenin derinlik ve ölçek hissini nasıl verdiğini klipten inceleyin."
+    },
+    "case-144": {
+      "title": "Ajan geri bildirimiyle ASCII bisikletçi canlandırma",
+      "takeaway": "Üretici, ASCII ile canlandırılan bisikletli pelikanı Neon'a atfediyor ve görselleri değerlendirmek için ayrı bir eleştirmen kullandığını anlatıyor.",
+      "notes": "Üretici Neon'un yanında bir eleştirmen kullandı. Özgün klip metin karakterleriyle canlandırılan bisikletçiyi gösteriyor.",
+      "action": "Hareketi, üreticinin geri bildirim döngüsüyle birlikte değerlendirin."
+    },
+    "case-145": {
+      "title": "Neon ajan grubunu tek ajanla karşılaştırma",
+      "takeaway": "Yazar, aynı sincap bakış açılı animasyonda grup ve tek ajan yaklaşımlarını karşılaştırıyor ve bu testte tek ajanı tercih ettiğini belirtiyor.",
+      "notes": "Yazar iki ajan düzenini aynı animasyon göreviyle değerlendiriyor. Tercihi gösterilen çıktılar ve bu testin koşullarıyla sınırlı.",
+      "action": "Aynı görevden yararlanarak koordinasyon yükünü ve gözlenen çıktı kalitesini karşılaştırın."
+    },
+    "case-146": {
+      "title": "Neon'u sohbet arayüzüne entegre etme",
+      "takeaway": "Geliştirme ekibi, yeni modelin kendi sağlayıcısını sohbet arayüzüne entegre etmeye yardım ettiğini anlatıyor ve gösterilen sonucu Neon'a atfediyor.",
+      "notes": "Özgün içerikte sohbeti terminal akışına bağlayan arayüz görülüyor. Geliştirici, arka plan ajanlarını, yönlendirmeyi ve kullanım göstergesini sıralıyor.",
+      "action": "Sohbet ile terminal arasında bağlamın ve denetimlerin korunduğunu test edin."
+    },
+    "case-147": {
+      "title": "Three.js ile prosedürel bir sinematik sahne oluşturma",
+      "takeaway": "Üretici, Neon ile dış varlık kullanmadan yapılan bir WebGL sinematik sahne anlatıyor ve klibi paylaşıyor.",
+      "notes": "Yazar sahneyi dış varlıksız, prosedürel bir WebGL çalışması olarak tanımlıyor. Medya sinematik sonucu gösteriyor.",
+      "action": "Yalnızca kodla yapılan sahnede geometri, ışık ve hareketin kullanımını inceleyin."
+    },
+    "case-148": {
+      "title": "Modelleri pazarlama görevlerinde değerlendirme",
+      "takeaway": "Değerlendirmeyi yapan kişi Neon, Opus ve Sol'u pazarlama görevlerinde karşılaştırıyor ve sonuç grafiğini paylaşıyor. Karşılaştırma, değerlendiricinin test koşullarıyla sınırlı.",
+      "notes": "Yazar, beş laboratuvardan hakemlerin yer aldığı ikili oylama yöntemini açıklıyor. Grafik, değerlendirilen pazarlama görevlerinin sonuçlarını gösteriyor.",
+      "action": "Sıralamadan genel sonuç çıkarmadan önce yöntemi ve görev bazındaki sonuçları inceleyin."
+    },
+    "case-149": {
+      "title": "Motor görselleştirmesi için Hydrogen ajanlarını koordine etme",
+      "takeaway": "Yazar Neon'u koordinatör yaptı ve Hydrogen ajanlarıyla birkaç yinelemede Three.js üzerinde bir V12 görselleştirmesi oluşturduğunu bildiriyor.",
+      "notes": "Üretici Neon'u koordinatör, Hydrogen ajanlarını uygulayıcı olarak tanımlıyor. Özgün görsel, yinelemelerin sonucu olan V12 çalışmasını gösteriyor.",
+      "action": "Sonucu kime atfettiğinizi açıklarken koordinatör ve uygulayıcı rollerini kaydedin."
+    },
+    "case-150": {
+      "title": "Blender'da on iki karakter animasyonu üretme",
+      "takeaway": "Üretici on iki Blender animasyonunu Neon'a atfediyor ve hareketleri bir ızgarada paylaşıyor.",
+      "notes": "Video, üretilen karakter hareketlerinin ızgarasını gösteriyor. Yazar Blender'ı ve on iki animasyonluk kapsamı belirtiyor.",
+      "action": "Tek iş akışında oluşturulan pozları ve hareket çeşitliliğini karşılaştırın."
+    },
+    "case-151": {
+      "title": "Modelleri eğitim verisi düzenleyicisi olarak değerlendirme",
+      "takeaway": "Kıyaslama yazarları Hyper-Intervention'da Neon ve altı başka modeli eğitim yörüngelerinin düzenleyicileri olarak test ediyor.",
+      "notes": "Yayımlanan grafik, matematik kurulumunda test doğruluğunun oturum boyunca nasıl değiştiğini gösteriyor. Yazarlar yapılandırmayı ve gözlenen sınırlamaları ayrıca açıklıyor.",
+      "action": "Düzenleyicileri değerlendirirken ayrı tutulan test verisindeki doğruluğu ve çalışma süresini karşılaştırın."
+    },
+    "case-152": {
+      "title": "Dört deniz uçağı iniş sahnesini karşılaştırmak",
+      "takeaway": "Testi yapan kişi, Bora Bora yakınında deniz uçağı inişi hakkında tek cümle kullandı. Yazar, etkileşimli Three.js sahnesini Neon'a atfediyor ve denemeyi OutputBench'te kaydediyor.",
+      "notes": "Paylaşım, ortak iniş senaryosunu açıklıyor ve test bağlamına bağlantı veriyor. Ekli görüntü ortaya çıkan sahneyi incelemeyi sağlıyor.",
+      "action": "Aynı sahne için denetimleri, görsel doğruluğu ve bildirilen çalışma sürelerini karşılaştırın."
+    },
+    "case-153": {
+      "title": "Antarktika verilerini ajanlarla inceleme",
+      "takeaway": "Üretici, açık uydu hız verilerini ve Antarktika'nın buz altı topografyasını incelemek için Neon ajan grubu kullandığını bildiriyor.",
+      "notes": "Yayımlanan grafikler Thwaites ve Pine Island buzullarının incelenmesine eşlik ediyor. Kaynak, deneysel bir iş akışı anlatıyor.",
+      "action": "Veri girdilerini kaydedin ve modelin fiziksel yorumlarını hipotez olarak değerlendirin."
+    },
+    "case-154": {
+      "title": "Three.js'de Monako tünel çıkışlarını karşılaştırma",
+      "takeaway": "Yazar iki modele aynı alacakaranlık tünel görevini verdi ve etiketli bir karşılaştırma yayımladı. Neon için 55 dakika 44 saniye bildiriyor.",
+      "notes": "Üretici iki Three.js geçişini etiketliyor ve ayrı sürelerini veriyor. Ortak görev mekânı ve alacakaranlık ışığını belirliyor.",
+      "action": "Aynı görevdeki animasyon ve ışık farklarını kaynaktan inceleyin."
+    },
+    "case-155": {
+      "title": "Gün batımında dört bisiklet animasyonunu karşılaştırma",
+      "takeaway": "Üretici Neon, Fable 5.2, Sol ve DeepSeek V4.1 Flash'a atfedilen bisiklet sahnelerini gösteriyor.",
+      "notes": "Özgün klip dört animasyonu etiketliyor. Paylaşım bu karşılaştırmayı belgeliyor ancak aynı çalışma ayarlarının kullanıldığını belirtmiyor.",
+      "action": "Her etiketli sahnede pedal hareketini ve vücut duruşunu inceleyin."
+    },
+    "case-156": {
+      "title": "Sincap bakış açısından üç prosedürel filmi karşılaştırma",
+      "takeaway": "Üretici 30 saniyelik ortak bir görev verdi ve çıktının yalnızca kodla yapılmasını istedi. Video Neon, Astra ve Fable'a atfedilen sonuçları gösteriyor.",
+      "notes": "Paylaşım, üç model için aynı kodla üretim görevini belirtiyor. Etiketli video çıktılarında hareket ve kadraj düzeni karşılaştırılabiliyor.",
+      "action": "Aynı üretim kısıtları altında her çıktının bakış açısını nasıl yorumladığını karşılaştırın."
+    },
+    "case-157": {
+      "title": "Çok ajanlı kodlama ortamlarını değerlendirme",
+      "takeaway": "Değerlendirici, Neon'u ve birkaç rakip modeli 100 çok ajanlı kodlama ortamında test ettiğini bildiriyor.",
+      "notes": "Kaynak, değerlendirilen modeller için toplu sonuç tablosu veriyor. Karşılaştırma bu ortamlarla sınırlı.",
+      "action": "Puanları ortak ortam kümesi ve değerlendirme koşullarıyla birlikte karşılaştırın."
+    },
+    "case-158": {
+      "title": "Kodla çizilen resmi hızlandırılmış kayıtta gösterme",
+      "takeaway": "Üretici, kodla oluşturulan hızlandırılmış çizim kaydını Neon'a atfediyor. Özgün medya çizimin ilerleyişini gösteriyor.",
+      "notes": "Klip, çizimin zaman içinde oluşmasını gösteriyor. Yazar görsel programı Neon'a atfediyor.",
+      "action": "İşaretler eklendikçe son kompozisyonun nasıl oluştuğunu inceleyin."
+    },
+    "case-159": {
+      "title": "Üç gece kalkış sahnesinin ışığını karşılaştırma",
+      "takeaway": "Üretici aynı gece kalkış görevini kullandı ve Neon sahnesinde uçağın karanlıkta seçilemediğini bildiriyor. Özgün video birden çok etiketli çıktı gösteriyor.",
+      "notes": "Ek, ışığın her sahnede görünürlüğü nasıl etkilediğini gösteriyor. Yazara göre bu görevde Neon'un uçağını görmek zordu.",
+      "action": "Sahnelerin atmosferi ve konunun görünürlüğünü nasıl dengelediğini karşılaştırın."
+    },
+    "case-160": {
+      "title": "3B yazıcıdan çıkan iki mekanik oyuncağı karşılaştırma",
+      "takeaway": "Yazar, ek yönlendirme vermeden Neon ve Fable'dan 3B yazdırılabilir bir nesne tasarlamalarını istedi. Fotoğrafta iki baskı da var. Yazara göre Neon baskısının dişlileri daha istikrarlı çalıştı.",
+      "notes": "Fotoğraf iki basılı nesneyi gösteriyor. Dişli istikrarı, nesneleri yazdıran kişinin nitel gözlemi.",
+      "action": "Tasarımların görünümüyle birlikte basılı nesnelerin nasıl çalıştığını karşılaştırın."
+    },
+    "case-161": {
+      "title": "FrontierMemory performansını karşılaştırma",
+      "takeaway": "Kıyaslamanın sorumlusu Gemini 4 Neon'un FrontierMemory sonucunu paylaşıyor.",
+      "notes": "Özgün görsel test edilen modelin sırasını belgeliyor. Sıralama, yayımlanmış kıyaslama kesitine ait.",
+      "action": "Sıralamayı kıyaslamadaki bellek görevlerine ait bir sonuç kesiti olarak okuyun."
+    },
+    "case-162": {
+      "title": "Referanssız bir görevde Blender MCP çıktılarını karşılaştırma",
+      "takeaway": "Üretici üç modele görsel referans, web araması ve hazır varlık olmadan basit bir çekiç görevi verdi. Neon için 19 dakika bildiriyor ve sonuçları paylaşıyor.",
+      "notes": "Yazar, aynı referanssız görevde süreyi ve bildirilen kullanımı karşılaştırıyor. Özgün medya ortaya çıkan Blender nesnelerini gösteriyor.",
+      "action": "Geometri ve malzemeleri ortak göreve göre karşılaştırın."
+    },
+    "case-163": {
+      "title": "Blender'da yinelemelerle Lamborghini modelleme",
+      "takeaway": "Üretici, Blender'daki otomobil modelini Neon'a atfediyor ve birden çok yinelemede yapıldığını belirtiyor.",
+      "notes": "Özgün içerik modeli Blender içinde gösteriyor. Üretici bu iş akışı için yaklaşık iki saat bildiriyor.",
+      "action": "Ara geometriyi gözden geçirin ve karmaşık bir modelde birden çok düzeltme için süre ayırın."
+    },
+    "case-164": {
+      "title": "Ayrıntılı motosiklet görselleştirmelerini karşılaştırma",
+      "takeaway": "Üretici, Neon xhigh ve Fable 5.2 xhigh etiketli motosiklet görsellerini yan yana yayımlıyor.",
+      "notes": "Üretici gösterilen denemelerin süre ve maliyetlerini ayrı ayrı bildiriyor. Ek, model görselleştirmelerini gösteriyor.",
+      "action": "Motor ve şasi ayrıntılarını aynı paylaşımda bildirilen maliyet ve süreyle birlikte karşılaştırın."
+    },
+    "case-165": {
+      "title": "Yazdırılabilir bir şarj cihazı muhafazası tasarlama",
+      "takeaway": "Yazar cihazı kısaca tarif etti ve Neon'dan muhafaza tasarlayıp yazdırmasını istedi. Özgün fotoğrafta yazdırılan parça yer alıyor.",
+      "notes": "Fotoğraf şarj cihazının basılı muhafazasını gösteriyor. İlk görev kısa bir açıklamayla verildi.",
+      "action": "Fiziksel baskıyı yazarın muhafaza görevine göre karşılaştırın."
+    },
+    "case-166": {
+      "title": "Neon'u AFK Pilot uzantısına ekleme",
+      "takeaway": "Uzantıyı geliştiren kişi, AFK Pilot 4.16.0 ve 4.17.0 sürümlerinde Antigravity CLI ile Neon erişimi eklediğini bildiriyor ve arayüzü gösteriyor.",
+      "notes": "Geliştirici iki sürümü ve Antigravity CLI entegrasyonunu listeliyor. Özgün görsel sürümdeki değişikliğe eşlik ediyor.",
+      "action": "Uzantı sürümünü kontrol edin ve uzantının özellikleriyle modelin davranışını ayrı değerlendirin."
+    },
+    "case-167": {
+      "title": "Sayfa ayrıştırma ve tablo düzenini değerlendirme",
+      "takeaway": "ParseBench-2 yayıncısı, Neon'u düşük düşünme düzeyinde başka model sürümleriyle karşılaştırdığını bildiriyor.",
+      "notes": "Özgün tablo belge ayrıştırma, tablolar ve düzen için ayrı ölçümler verir. Kıyaslama yapılandırmasını ve veri bölünmesini dikkate alın.",
+      "action": "Belge ayrıştırıcı seçerken düzen ve tablo metriklerini ayrı ayrı inceleyin."
+    },
+    "case-168": {
+      "title": "İki The Last Take oyun sahnesini karşılaştırma",
+      "takeaway": "Üretici, The Last Take'in Neon ve Fable 5.2'ye atfedilen sürümlerini karşılaştırıyor.",
+      "notes": "Özgün yan yana klip, oyun görünümlerini ve arayüzleri gösteriyor. Paylaşımda bağımsız bir oynanabilirlik testi bulunmuyor.",
+      "action": "Etiketli iki sürümde arayüzün okunabilirliğini ve sahne kompozisyonunu karşılaştırın."
+    },
+    "case-169": {
+      "title": "AI Studio'da model tanıtım klibi oluşturma",
+      "takeaway": "Üretici, AI Studio'da Neon'dan bir tanıtım videosu istediğini bildiriyor ve ilk üretilen sekansı paylaşıyor.",
+      "notes": "Üretici klibi AI Studio'da verdiği görevin ilk sonucu olarak sunuyor. Örnek, ilk üretilen sekansı belgeliyor.",
+      "action": "Tek bir denemedeki görsel tercihleri ve zamanlamayı klip üzerinden inceleyin."
+    },
+    "case-170": {
+      "title": "Blender sahnesini gece boyunca görüntüleme",
+      "takeaway": "Üretici, Blender 5.3'teki sahneyi Neon'a atfediyor ve görüntülenen sonucu paylaşıyor. İş akışının gece boyunca çalıştığını bildiriyor.",
+      "notes": "Özgün görüntü Blender sonucunu gösteriyor. Çalışma süresi ve gözetim, üreticinin anlattığı bu projeye ait.",
+      "action": "Son ışığı, dokuları ve kompozisyonu iş akışı açıklamasıyla birlikte inceleyin."
+    },
+    "case-171": {
+      "title": "CodePilot'taki sekiz sorunun düzeltmelerini karşılaştırma",
+      "takeaway": "Geliştirici, CodePilot'ta belirlenen sekiz sorunu iki modele düzelttirdi ve değerlendirme için üçüncü bir model kullandı. Kaynak Neon için 8,5, Opus için 9 puan bildiriyor.",
+      "notes": "Yazar sorunları belirlemek ve iki düzeltme kümesini puanlamak için Fable kullandı. Puanlar bu düzene ve seçilen sekiz soruna ait.",
+      "action": "Puanları tek modelle yapılan değerlendirme ve kaynak koşullarıyla birlikte okuyun."
+    },
+    "case-172": {
+      "title": "Tek istemden çıkan iki sahneyi karşılaştırma",
+      "takeaway": "Üretici, iki sahnenin aynı istemi farklı renklerle kullandığını söylüyor ve etiketli Neon ve Opus çıktılarını yayımlıyor.",
+      "notes": "Yazar iki sahne için ortak istem ve farklı renkler kullanıldığını bildiriyor. Model yorumlarının yanında renk farklarını dikkate alın.",
+      "action": "Tek bir estetik denemeden genelleme yapmadan önce etiketli çıktıları inceleyin."
+    },
+    "case-173": {
+      "title": "Kodla üretilen bir konsept fragmanı hazırlama",
+      "takeaway": "Üretici, 60 saniyelik konsept film için Neon, Antigravity ve OpenMotion kullanıyor. Sahnelerin kodla oluşturulduğunu ve açık kaynak müziğin ayrıca miksajlandığını anlatıyor.",
+      "notes": "Üretici görsel iş akışındaki araçları belirtiyor ve açık kaynak müziği ayrı miksajladığını bildiriyor. Klip bağımsız bir konsept film olarak sunuluyor.",
+      "action": "Kodla görüntülenen sekanslarla kullanılan sesin kaynaklarını ayrı ayrı izleyin."
+    },
+    "case-174": {
+      "title": "Three.js'de Gotik katedral yürüyüşlerini karşılaştırma",
+      "takeaway": "Yazar iki modelden de vitray pencereye doğru aynı 20 saniyelik yürüyüşü istedi. Videoda Astra üstte, Neon altta.",
+      "notes": "Üretici üst ve alt çıktıları etiketliyor. Görev iki yürüyüş için hedefi ve oynatma süresini sabitliyor.",
+      "action": "Işığı ve kamera hareketini, kaynağın zamanlama gözlemleriyle birlikte karşılaştırın."
+    },
+    "case-175": {
+      "title": "Gözetimsiz çalışmada oturumun sona ermesini inceleme",
+      "takeaway": "Yazar, Neon ile bir Antigravity oturumunun kimlik doğrulama süresi dolana kadar iki saatten uzun çalıştığını bildiriyor. Ekran görüntüsü bu oturumun hatasını belgeliyor.",
+      "notes": "Görüntü, bildirilen oturumda kimlik doğrulama süresinin dolduğunu gösteriyor. Gözlem Antigravity'deki tek bir gözetimsiz çalışmaya ait.",
+      "action": "Oturum sorununu modelin görevi nasıl yürüttüğünden ayrı değerlendirin."
+    },
+    "case-176": {
+      "title": "Etkileşimli bir vitray sahnesi oluşturma",
+      "takeaway": "Üretici tek bir fotoğrafı referans aldığını, web sesini prosedürel ürettiğini ve içe varlık aktarmadan kedi ile vitray sahnesini kodla görüntülediğini bildiriyor.",
+      "notes": "Üretici fotoğrafı referans olarak gösteriyor ve geometriyle sesi prosedürel oluşturduğunu söylüyor. Özgün klip sonucu gösteriyor.",
+      "action": "Işığın ve prosedürel ses ortamının sahneye katkısını inceleyin."
+    },
+    "case-177": {
+      "title": "Tek denemelik dört HTML animasyonunu karşılaştırma",
+      "takeaway": "Yazar dört modele yağmurlu pencere pervazındaki kedi hakkında aynı istemi verdi. Her model, düzeltme veya ikinci deneme olmadan tek çıktı üretti.",
+      "notes": "Video, yazarın tek deneme koşuluyla aynı yağmurlu pencere görevine verilen dört yorumu gösteriyor.",
+      "action": "Görsel yorumları tek deneme koşullarını dikkate alarak karşılaştırın."
+    },
+    "case-178": {
+      "title": "Ajan döngüsünde turun durumunu görselleştirme",
+      "takeaway": "Üretici ajan döngüsünü etkileşimli bir HTML açıklaması olarak sunmak için Neon kullandı.",
+      "notes": "Video kod ve şema arasındaki eşleşen vurguları ve farklı çıkış yollarının dal filtrelerini gösteriyor.",
+      "action": "Okurların normal tamamlanmayı ve iptali izleyebilmesi için kaynak kodu durum şemasıyla eşleştirin."
+    },
+    "case-179": {
+      "title": "Ajanlarla Mars'ın sismik dalga biçimlerini inceleme",
+      "takeaway": "Üretici, Antigravity'deki Neon ajan grubunun dört yıllık açık NASA InSight dalga biçimi verisini işlediğini belirtiyor. Grafikler yazarın keşif niteliğindeki sonuçları.",
+      "notes": "Ek, kamuya açık NASA ölçümlerinin keşif amaçlı işlenmesini belgeliyor. Yorum, üreticinin bildirdiği bir araştırma yardımcısı niteliğinde.",
+      "action": "Analiz iş akışını kaynak verilerden ve gösterilen grafiklerden inceleyin."
+    },
+    "case-180": {
+      "title": "Etkileşimli prosedürel kiraz çiçeği sahnesi oluşturma",
+      "takeaway": "Üretici, prosedürel dalları ve kopabilen taç yaprakları olan etkileşimli siteyi Neon'a atfediyor.",
+      "notes": "Özgün klip çiçek geometrisini ve simüle edilen rüzgârı gösteriyor. Ölçümler yayımlanan örneğe ait.",
+      "action": "Bir siteye prosedürel ayrıntı eklerken hareketi ve etkileşimi ayrı değerlendirin."
+    },
+    "case-181": {
+      "title": "Dikey bir ürün animasyonu hazırlama",
+      "takeaway": "Üretici ilk hareket tasarımı denemesini Neon'a atfediyor.",
+      "notes": "Video bir telefon arayüzü maketini, hareketli metni ve yüksek kontrastlı yeşil arka planı birleştiriyor. Üretici test düzenini paylaşımda açıklıyor.",
+      "action": "Hareketi ve metin geçişlerini hedeflenen dikey biçimde önizleyin."
+    },
+    "case-182": {
+      "title": "Antigravity'de masaüstü evcil hayvan cihazının kartını tasarlama",
+      "takeaway": "Üretici, Neon'un masaüstü evcil hayvan denetleyicisi ve şarj istasyonu için EasyEDA MCP iş akışını yürüttüğünü anlatıyor.",
+      "notes": "Özgün ekler bileşen seçimini, devre şemalarını ve bağlantı yönlendirmesini belgeliyor. Paylaşım tasarım kanıtı sunuyor, donanım doğrulaması bildirmiyor.",
+      "action": "Prototipi üretmeden önce her aşamada devre şemasını ve kart yerleşimini inceleyin."
+    },
+    "case-183": {
+      "title": "Derinlik tahminlerinden normal haritaları üretme",
+      "takeaway": "Üretici, Neon desteğiyle Apple Depth Pro 2 ağırlıklarını değiştirdiğini ve normal haritalarıyla diğer PBR haritaları için prosedürel araç hazırladığını bildiriyor.",
+      "notes": "İş akışında tahmini derinlik haritası bir ara adım. Üretici malzeme haritalarından bir örnek gösteriyor ve araç üzerindeki çalışmayı Neon'a atfediyor.",
+      "action": "Bağlantıdaki uygulamayı inceleyin, derinlik modelini ve üretilen aracı ayrı ayrı belirtin."
+    },
+    "case-184": {
+      "title": "Hareket geçişlerini ve ses tercihlerini karşılaştırma",
+      "takeaway": "Üretici Neon ile oluşturulan bir hareket tasarımını gösteriyor ve Claude'un ses efektlerini tercih ettiğini belirtiyor. Görsel ve işitsel değerlendirmeler yazara ait.",
+      "notes": "Yazar, karşılaştırmada geçişleri ses tasarımından ayrı ele alıyor. Özgün medya Neon çıktısını gösteriyor, tercih yazarın değerlendirmesi.",
+      "action": "Geçişleri, yazarın bildirdiği ses karşılaştırmasından ayrı inceleyin."
+    },
+    "case-185": {
+      "title": "Üç modelin ve bir insanın kısa öykülerini karşılaştırma",
+      "takeaway": "Yazar, 500 karakterlik ortak bir görev veriyor ve insanın yardımsız yazdığı sürümü Sol, Neon ve Opus'un ilk taslaklarıyla karşılaştırıyor.",
+      "notes": "Yazar insan tarafından yazılan yanıtı ve üç model çıktısını belirtiyor. Örnek, Japonca tek bir yazma görevini ve yazarın değerlendirmesini belgeliyor.",
+      "action": "Ortak öykü fikrine dayanarak anlatım ve yapı farklarını inceleyin."
+    },
+    "case-186": {
+      "title": "Three.js ile neon ışıklı elektronikçiler bölgesi oluşturma",
+      "takeaway": "Üretici Neon'la tek bir görseli, kodla yönetilen kamera içeren kurgusal ve yağmurlu bir elektronikçiler bölgesine dönüştürdü.",
+      "notes": "Yazar görüntüleme için Three.js, referans görsel için ChatGPT, müzik için Suno kullandığını belirtiyor. Klip, kodla oluşturulan sahneyi gösteriyor.",
+      "action": "Referansı, sahne kodunu ve müziği sağlayan araçları ayrı ayrı kaydedin."
+    },
+    "case-187": {
+      "title": "Kurgusal karakter çizim arayüzlerini karşılaştırma",
+      "takeaway": "Üretici Neon ve Fable'dan kurgusal bir oyun karakteri için çizim arayüzü hazırlamalarını istiyor. Kaynak Neon için 21, Fable için 27 dakika bildiriyor.",
+      "notes": "21 ve 27 dakikalık süreler bu karakter görevine ait. Klip çizim arayüzüne yönelik iki yaklaşımı sunuyor.",
+      "action": "Arayüzleri aynı kurgusal karakter referansına göre karşılaştırın."
+    },
+    "case-188": {
+      "title": "Sayfa bloklarını ve arayüz bileşenlerini yinelemelerle geliştirme",
+      "takeaway": "Geliştirici Neon'la üretilen ve farklı bileşenlerin görüldüğü bir blok dizisi yayımlıyor. İlgili klipler aynı çalışmanın sonraki yinelemelerini gösteriyor.",
+      "notes": "Paylaşım birbirine bağlı blok öğelerini ve etkileşimlerini gösteriyor. Sonraki kliplerde aynı arayüz geliştiriliyor.",
+      "action": "Yeniden kullanılabilir bileşenleri bir geliştirme dizisi olarak değerlendirin."
+    },
+    "case-189": {
+      "title": "Film görüntüleme ve tarama emülatörü prototipi geliştirme",
+      "takeaway": "Üretici fizik temelli film görüntüleme ve tarama projesini Neon'a atfediyor ve önizlemenin yanında bir geliştirme dizisi paylaşıyor. Bağımsız maliyet ölçümü verilmemiş.",
+      "notes": "Özgün önizleme film görüntüleme tekniğini gösteriyor. Üretici süren geliştirmeye bağlantı veriyor ve örnek o aşamayı yansıtıyor.",
+      "action": "Film efektlerini, üreticinin uygulama için sunduğu kanıtlara dayandırın."
+    },
+    "case-190": {
+      "title": "OpenCode yapılandırmasında çıkarım hızını karşılaştırma",
+      "takeaway": "Kıyaslama katılımcısı, InferenceBench'te kaydedilen bir Neon yapılandırmasını sunuyor.",
+      "notes": "Ekli grafik söz konusu yapılandırmanın sonuçlarını bildiriyor. Bunları kıyaslama ölçümlerinin tanımları ve model ayarlarıyla birlikte yorumlayın.",
+      "action": "Çalıştırma ortamını ve düşünme ayarlarını toplam sıralamayla birlikte okuyun."
+    },
+    "case-191": {
+      "title": "Kod barındırma arayüzü prototipi geliştirme",
+      "takeaway": "Üretici kod barındırma prototipini Neon'a atfediyor ve uygulamanın videosunu yayımlıyor.",
+      "notes": "Özgün video prototip arayüzünü gösteriyor. Geliştirici yapımı Neon'a atfediyor.",
+      "action": "Özgün klipten hangi depo iş akışlarının gösterildiğini doğrulayın."
+    },
+    "case-192": {
+      "title": "İki etkileşimli okyanus dioramasını karşılaştırma",
+      "takeaway": "Üretici aynı görevi Neon ve Opus 5.5 ile çalıştırdığını bildiriyor.",
+      "notes": "Klip bir ağaç ve yükseltilmiş yapının bulunduğu okyanus sahnesi de dahil olmak üzere iki dioramayı gösteriyor.",
+      "action": "Aynı yapım görevini değerlendirirken sahneleri ve etkileşim denetimlerini karşılaştırın."
+    },
+    "case-193": {
+      "title": "Altı modelin site tasarımlarını karşılaştırma",
+      "takeaway": "Yazar aynı yeniden tasarım isteğini high düzeyde ve ek beceri olmadan kullandı. Kaynak deneme başına süre ve maliyetleri, Neon için de alt maliyet sınırını bildiriyor.",
+      "notes": "Bildirilen maliyetler ve süreler altı modelin bu tasarım karşılaştırmasına ait. Grafikte Neon için bir maliyet alt sınırı var.",
+      "action": "Bildirilen en düşük maliyeti alt sınır olarak alın ve ortaya çıkan tasarım farklarını inceleyin."
+    },
+    "case-194": {
+      "title": "Antigravity'de önbellek isabet değişimini izleme",
+      "takeaway": "Yapımcı sonraki paylaşımında önbellek isabet oranını %98,9, daha önceki paylaşımında ise yaklaşık %50 olarak bildiriyor.",
+      "notes": "Sonraki ekran görüntüsünde mevcut istek için %98,1, birikimli olarak %78,7 görünüyor. Görüntülenen oturuma ait bu değerler paylaşım metnindekilerden farklı.",
+      "action": "Kota değişikliklerini model kalitesine atfetmeden önce önbellek isabet oranlarını zaman içinde karşılaştırın."
+    },
+    "case-195": {
+      "title": "Ortak bir Three.js isteminden Jeep modellerini karşılaştırma",
+      "takeaway": "Üretici daha önceki Jeep istemini yeniden kullandığını bildiriyor ve sonuçları yan yana yayımlıyor. Neon High denemesinde 45 dakika kaydetti.",
+      "notes": "Karşılaştırma, bitmiş modelleri etiketlerle gösteriyor. Sonucu okurken önceki görevi ve bu denemenin süresini birlikte değerlendirin.",
+      "action": "Etiketli sahneleri karşılaştırın ve sürelerin bu teste ait olduğunu dikkate alın."
+    },
+    "case-196": {
+      "title": "Üç modelin arayüz yaklaşımlarını karşılaştırma",
+      "takeaway": "Üretici Opus 5.5, Sol ve Gemini 4 Neon ile ilişkilendirilen kullanıcı arayüzü tasarımlarını incelediğini bildiriyor.",
+      "notes": "Klip, yazarın nitel değerlendirmesine dayanak olan tasarım ayrıntılarını gösteriyor. Paylaşım kontrollü bir üretim yapılandırması belirtmiyor.",
+      "action": "Yan yana verilen özgün örneklerde bileşen durumlarını ve yerleşim tercihlerini karşılaştırın."
+    },
+    "case-197": {
+      "title": "Prosedürel kodla şarkılı bir sahne oluşturma",
+      "takeaway": "Yazar Neon'dan görselleri, müziği ve sesi harici kitaplık, varlık veya metinden sese dönüştürme kullanmadan kodla üretmesini istediğini bildiriyor. Sonucu tek deney olarak sunuyor.",
+      "notes": "Video üretilen görüntülerle şarkıyı birleştiriyor. Kitaplık ve varlık kısıtlarını üretici belirledi.",
+      "action": "Prosedürel çıktının anlatımını, üretilmiş ses veya video varlıkları kullanan projelerle karşılaştırın."
+    },
+    "case-198": {
+      "title": "Üretilen klipleri ilk ve son kareleri düzenleyerek birleştirme",
+      "takeaway": "Yazar daha uzun bir video iş akışında ilk ve son karelerin yanı sıra kurgu için Neon kullandığını anlatıyor.",
+      "notes": "Klip Seedance 2.5 Flash ve Omni 1.2 Flash çıktılarını karşılaştırıyor. Üretici, genel süreçteki birleştirme işini Neon'a atfediyor.",
+      "action": "Video üreten model ile klipleri birleştiren iş akışını ayrı ayrı belirtin."
+    },
+    "case-199": {
+      "title": "Antigravity'de kısa bir anlatım videosu hazırlama",
+      "takeaway": "Üretici, 90 saniyelik videoyu Neon ve Antigravity'ye atfediyor; Google medya araçlarını, metinden sese dönüştürmeyi ve HyperFrames'i iş akışının parçaları olarak sıralıyor.",
+      "notes": "Yazar birden çok aracın kullanıldığı üretimi ve Neon'un katkı verdiği adımları açıklıyor. Ekte bitmiş anlatım videosu var.",
+      "action": "Demoyu birden çok medya aracının koordine edildiği bir iş akışı olarak değerlendirin."
+    },
+    "case-200": {
+      "title": "Tarayıcı sahnesinde bir voksel modeli sergileme",
+      "takeaway": "Üretici voksel model demosunu Neon'a atfediyor. Video muz biçimli bir voksel nesnesini ve etkileşimli sunum denetimlerini gösteriyor.",
+      "notes": "Yazar ortaya çıkan görselleştirmeyi paylaşıyor. Tam istem ve üretim adımları gösterilmiyor.",
+      "action": "Voksel nesnenin siluetini ve ayrıntılarını döndürülebilen tarayıcı önizlemesinden inceleyin."
+    },
+    "case-201": {
+      "title": "Tanıtım görselini neon tabela gibi canlandırma",
+      "takeaway": "Üretici, Neon'dan modelin tanıtım yazısındaki bir görseli canlandırmasını istediğini belirtiyor.",
+      "notes": "Videoda logo ve yazılar neon tabela gibi yanıyor. Üretici kendi animasyonunu paylaşıyor ve kullanılan girdinin kaynağını belirtiyor.",
+      "action": "Tek bir referans görseli kısa bir açılışla döngüsel bir animasyona dönüştürün."
+    },
+    "case-202": {
+      "title": "LilyPond'da üretilen iki mazurkayı karşılaştırma",
+      "takeaway": "Üretici, Neon ve Fable 5.2'ye LilyPond'da piyano mazurkası için aynı görevi verdi.",
+      "notes": "İki özgün ek, ortaya çıkan notaları içeriyor. Talebin tamamı kaynakta yazıyor.",
+      "action": "İki notayı inceleyin ve modellerin aynı müzik biçimini nasıl yorumladığını dinleyin."
+    },
+    "case-203": {
+      "title": "Dört holografik paralaks animasyonunu karşılaştırma",
+      "takeaway": "Üretici dört görsel girdiden holografik paralaks animasyonu elde ettiğini anlatıyor ve adları belirtilen dört çıktıyı karşılaştırıyor.",
+      "notes": "Üretici çıktıları soldan sağa sıralıyor ve özgün görevi bir yanıtta veriyor. Girdiler arasında karakter resmi, derinlik haritası, arka plan ve dekoratif çerçeve bulunuyor.",
+      "action": "Karşılaştırmada sıra ve model etiketleri görünür kalsın."
+    },
+    "case-204": {
+      "title": "ASCII figürlerini kodla canlandırma",
+      "takeaway": "Üretici, yalnızca kodla yapılan bir ASCII deneyini anlatıyor. Özgün klip metinle çizilen hareketli figürleri gösteriyor.",
+      "notes": "Özgün klip, figürleri hareketli metin olarak sunuyor. Kaynak hem görüntüyü hem kodu deneye atfediyor.",
+      "action": "Dışarıdan görüntü aktarmak yerine metin karakterlerini kodla canlandırmayı deneyin."
+    },
+    "case-205": {
+      "title": "Mevcut kodda CI tür denetimini hızlandırma",
+      "takeaway": "Geliştirici, önceki iyileştirmenin ardından CI'ı Neon ile yeniden incelediğini bildiriyor. Kendi kod tabanında tür denetiminin 6,5 dakikadan 1,5 dakikaya düştüğünü belirtiyor.",
+      "notes": "Ekran görüntüsü önceki ve sonraki ölçümlere eşlik ediyor. İyileşme, paylaşımda belirtilen kod tabanı ve CI ayarlarına ait.",
+      "action": "İkinci iyileştirmeyi aynı kod tabanından elde edilen ölçümlerle değerlendirin."
+    },
+    "case-206": {
+      "title": "Sahne kurulumu ve animasyonu modellere bölüştürme",
+      "takeaway": "Üreticiye göre Neon genel sahne kurulumunu yaptı, Claude Mythos 5.2 ayrıntıları ve hareketi iyileştirdi. Video sonucu gösteriyor.",
+      "notes": "Üretici görev paylaşımını açıkça belirtiyor. Klip sahne ve animasyonun birleşik sonucunu gösteriyor.",
+      "action": "İlk yapı ile hareket ayrıntılarını ayrı aşamalara ayırın."
+    },
+    "case-207": {
+      "title": "Microduck simülasyonunda JEPA yardımcı modülünü prototipleme",
+      "takeaway": "Üretici, Microduck için proprioseptif bir JEPA yardımcı modülü geliştirirken Gemini 4 Neon ve Carbon kullandığını bildiriyor.",
+      "notes": "Kaynak prototipi simülasyonla sınırlı olarak tanımlıyor. İki modeli belirtiyor ancak uygulama parçalarını modellere tek tek atamıyor.",
+      "action": "Yardımcı modülü simülasyonda değerlendirin ve hangi parçaların donanımda doğrulanması gerektiğini kaydedin."
+    },
+    "case-208": {
+      "title": "Sekiz düğümünü fizik simülasyonu kaydıyla puanlama",
+      "takeaway": "Üreticinin KnotBench v0 kaydı dört model için aynı sekiz düğümü görevini gösteriyor. Neon, gösterilen denemede çıkarılabilir bir düğüm açıklaması üretmedi.",
+      "notes": "Klip, Neon'un simülasyona girmeden L0 düzeyinde kaldığını gösteriyor. Aynı denemede Astra ve Sol L5'e ulaşıyor. Her model için tek gönderim yer alıyor.",
+      "action": "Fizik puanını diğer çıktılarla karşılaştırmadan önce modelin kullanılabilir bir düğüm açıklaması verdiğini kontrol edin."
+    },
+    "case-209": {
+      "title": "Ozymandias'ın Minecraft yorumlarını karşılaştırma",
+      "takeaway": "Üretici Shelley'nin şiirine dayanan aynı istemi kullandı. Neon için 19 dakika ve 2,88 ABD doları, Sol için 12 dakika ve 1,06 ABD doları bildiriyor.",
+      "notes": "Yan yana çıktılar aynı şiirin iki ayrı yorumunu gösteriyor. Süre ve maliyetler üreticinin kendi denemelerine ait.",
+      "action": "Ortak yapım görevinde yaratıcı yorumları ve bildirilen çalışma sürelerini karşılaştırın."
+    },
+    "case-210": {
+      "title": "Bir beceriyle kısa bir bilgi videosu oluşturma",
+      "takeaway": "Yazar iki dakikadan uzun bir videoyu tamamlamak için Neon'u mevcut bilgi videosu becerisiyle ve ayrı bir görüntüleme iyileştirmesiyle kullandı. Zaman ve kota rakamları bu denemeye ait.",
+      "notes": "Paylaşım yeniden kullanılabilir video becerisiyle görüntüleme iyileştirmesini ayrı ayrı tanımlıyor. Medya bu ortak iş akışının sonucu.",
+      "action": "Modelin katkısını ve mevcut görüntüleme iyileştirmesini ayrı ayrı belirtin."
+    },
+    "case-211": {
+      "title": "Three.js gondol gezilerini karşılaştırma",
+      "takeaway": "Üretici Astra ve Neon'dan gün batımında bir Venedik köprüsünün altından geçen aynı yirmi saniyelik gondol gezisini istedi.",
+      "notes": "Video Büyük Kanal'a çıkan iki rotayı etiketleyip eşzamanlı gösteriyor. Açıklamada her iki çalışmanın oluşturma süresi ve maliyeti var.",
+      "action": "Sahnedeki hareketi karşılaştırmak için kamera rotasını ve klip süresini eşitleyin."
+    },
+    "case-212": {
+      "title": "Bir MotionBricks karakter demosunu yerelde çalıştırma",
+      "takeaway": "Üretici, MotionBricks deposunu inceleme ve ONNX modelleriyle etkileşimli demo kurma işini Neon'a atfediyor. Demoyu NVIDIA GPU olmadan yerelde çalıştırdığını bildiriyor.",
+      "notes": "Özgün demo karakteri ve hareket denetimlerini gösteriyor. Yerel çalışma bilgisi üreticinin kurulumuna ait.",
+      "action": "Modelin çalışma ortamına ait parçalarla çevresine eklenenleri belirleyin."
+    },
+    "case-213": {
+      "title": "Dört Three.js Eyfel Kulesi modelini karşılaştırma",
+      "takeaway": "Üretici Neon, Astra, Sol ve Opus'tan Three.js'de Eyfel Kulesi yapmalarını istedi.",
+      "notes": "Özgün video sonuçları birlikte gösteriyor. Paylaşım, bu yapım testini anlatıyor ve izleyicileri çıktıları incelemeye çağırıyor.",
+      "action": "Aynı konunun yapısını ve görsel ayrıntılarını karşılaştırmak için etiketli çıktıları bir araya getirin."
+    },
+    "case-214": {
+      "title": "İki Gemini sürümünün motor animasyonlarını karşılaştırma",
+      "takeaway": "Üretici, Antigravity'de Gemini 4 Neon High ve Gemini 3.7 Flash High'ı motor görselleştirmesinde karşılaştırıyor.",
+      "notes": "Özgün video iki sonucu etiketliyor. Üretici karşılaştırmadaki motor sesini Neon'a atfediyor.",
+      "action": "Geometriyi, animasyonu ve sesi ayrı boyutlar olarak inceleyin."
+    },
+    "case-215": {
+      "title": "Tarayıcı için sahte 3B voksel sprite'ları oluşturma",
+      "takeaway": "Üretici, kamera döndükçe sahnenin hacimli görünmesi için düz sprite katmanlarını birleştirdiğini açıklıyor. Demo yöntemi tarayıcı arayüzünde gösteriyor.",
+      "notes": "Klipte kamera sprite tabanlı sahnenin çevresinde hareket ediyor. Üretici, hacim yanılsamasını düz öğelerin katmanlarına bağlıyor.",
+      "action": "Dönüşü taklit ederken piksel sanatı kenarlarını korumak için katmanlı sprite'lar kullanın."
+    },
+    "case-216": {
+      "title": "Dört Alpine Gold sahnesini karşılaştırma",
+      "takeaway": "Karşılaştırmada ortak Alpine Gold isteminden çıkan dört çıktı etiketlenmiş. Üretici Neon'un bu testte 1 saat 31 dakika 11 saniye sürdüğünü ve 11,84 ABD doları tuttuğunu bildiriyor.",
+      "notes": "Klipteki etiketler ve süre bu Alpine Gold karşılaştırmasına ait. Maliyetlerden önce görünen hareketi ve sahne düzenini karşılaştırın.",
+      "action": "Ortak istemde sahneleri ve üreticinin bildirdiği süre ile maliyetleri karşılaştırın."
+    },
+    "case-217": {
+      "title": "Dört hareketli zebra sahnesini karşılaştırma",
+      "takeaway": "Üretici Neon, Carbon, Fable 5.2 ve DeepSeek V4.1 Flash'tan dört etiketli zebra animasyonu sunuyor.",
+      "notes": "Klip gönderilen çıktıların görsel karşılaştırmasını sağlar. Üretici aynı istemin veya üretim ayarlarının kullanıldığını belirtmiyor.",
+      "action": "Her etiketli çıktıda silueti, bacak hareketlerini ve arka planı değerlendirin."
+    },
+    "case-218": {
+      "title": "Neon ve Carbon'u FrontierMath'te karşılaştırma",
+      "takeaway": "Yazar belirli bir düzeye ait FrontierMath grafiğine işaret ediyor ve o grafikte Neon'un Carbon'un önünde olduğunu bildiriyor.",
+      "notes": "Paylaşım belirli bir FrontierMath sonuç grafiğine bağlantı veriyor. Başka matematik görevleriyle kıyaslamadan önce düzeyine ve kapsamına bakın.",
+      "action": "Puanları yorumlarken bildirilen FrontierMath düzeyini ve kesit tarihini kullanın."
+    },
+    "case-219": {
+      "title": "İki ekskavatör animasyonunu karşılaştırma",
+      "takeaway": "Özgün video Neon ve Opus 5.5 ile hazırlanan şantiye sahnelerini etiketliyor.",
+      "notes": "Modellerin ekskavatörleri ve kamyonları yan yana görülüyor. Paylaşımda ortak ayarlara ilişkin yeterli ayrıntı yok.",
+      "action": "Her sahnenin araç hareketini ve zemin temasını nasıl gösterdiğini inceleyin."
+    },
+    "case-220": {
+      "title": "JPEN Dict'in macOS arayüzünü geliştirme",
+      "takeaway": "Geliştirici JPEN Dict 1.8.0'ı geliştirirken Antigravity'de Neon'a geçtiğini bildiriyor.",
+      "notes": "Yedi özgün ek çevrimdışı Japonca–İngilizce sözlüğün arayüzünün bölümlerini belgeliyor. Geliştirici arayüz düzenlemelerini Neon destekli iş akışına atfediyor.",
+      "action": "Yayımlanan arayüz değişikliğinde modelin rolünü belgeleyin."
+    },
+    "case-221": {
+      "title": "Sekiz televizyon mekânının Minecraft yapılarını karşılaştırma",
+      "takeaway": "Üretici Neon ve Sol'a sekiz mekân için aynı Minecraft görevini verdi.",
+      "notes": "Etiketli karşılaştırmaya Neon için toplam 22, Sol için 24 dakikalık süre eşlik ediyor. Üretici maliyetleri ve görsel tercihini ayrıca bildiriyor.",
+      "action": "Sekiz mekânın tamamında görsel benzerliği, maliyet ve üretim süresiyle birlikte karşılaştırın."
+    },
+    "case-222": {
+      "title": "AI Studio'da bir zar atma aracı oluşturma",
+      "takeaway": "Üretici, evde hazırlanan masa oyunlarında kullanılan zar aracını Google AI Studio'da Neon ile yaptığını anlatıyor.",
+      "notes": "Ekli görsel zarı ve arayüzünü gösteriyor. Uygulama, açıkça tarif edilen tek bir işi yapıyor.",
+      "action": "Küçük bir tarayıcı aracıyla başlayın ve çalıştığını oyun sırasında doğrulayın."
+    },
+    "case-223": {
+      "title": "Antigravity'de W16 motor canlandırma",
+      "takeaway": "Üretici, Bugatti Chiron W16 görselleştirmesi için Antigravity'de Neon High kullandığını belirtiyor.",
+      "notes": "Özgün video, neon ışığı altında hareket eden motor grubunu gösteriyor.",
+      "action": "Hangi parçaların seçilebildiğini görmek için animasyonlu motor grubunu çeşitli açılardan inceleyin."
+    },
+    "case-224": {
+      "title": "Su setinin göçme biçimlerini üç boyutlu kesitle gösterme",
+      "takeaway": "Üretici, basitleştirilmiş iki boyutlu sızıntı hesabını üç boyutlu kesitle birleştiren bir çalışma görselleştirmesi için Neon kullandı.",
+      "notes": "Görünümler taşma, sızıntı, borulanma ve oyulmayı kapsıyor. Üretici bunları kişisel çalışma malzemesi olarak sunuyor.",
+      "action": "Farklı arıza mekanizmalarının nerede oluştuğunu döndürülebilen görünümden inceleyin."
+    },
+    "case-225": {
+      "title": "Neon'un yönettiği müzik videosunu yinelemelerle geliştirme",
+      "takeaway": "Üretici müzik videosunun yönetimini Neon'a bıraktı ve birkaç gün boyunca çalışmaya geri döndüğünü belirtiyor.",
+      "notes": "Özgün paylaşım, sonraki düzenlemeyi yinelemelerin sonucu olarak gösteriyor. Görsel ve ses araçlarının tümü ayrı ayrı belirtilmiyor.",
+      "action": "İlk çıktıyı gözden geçirin ve birkaç yineleme boyunca ek yönlendirme verin."
+    },
+    "case-226": {
+      "title": "Oynanabilir ipuçlarıyla kaçış odası prototipi yapma",
+      "takeaway": "Üretici, Astrolab kaçış odasının ilk oynanabilir sürümünü tek istekten oluşturmayı Neon'a atfediyor.",
+      "notes": "Üretici bir arkadaşının oyunu denemesinin ardından küçük değişiklikler yaptığını bildiriyor. Video bulmaca ortamını ve tezgâhı gösteriyor.",
+      "action": "Düzenleme gereken ipuçlarını ve etkileşimleri bulmak için ilk sürümü oynayın."
+    },
+    "case-227": {
+      "title": "Pi'nin ajan altyapısını etkileşimli şemayla açıklama",
+      "takeaway": "Üretici Pi'nin ajan altyapısını ve dört yerleşik aracını göstermek için Neon kullandı.",
+      "notes": "Anlatım araç çağrılarını, MCP bağlamını ve çekirdekle uzantılar arasındaki sınırı kapsıyor. Video durumların adım adım incelendiğini gösteriyor.",
+      "action": "Araçların ve uzantıların ajan durumunu nasıl etkilediğini etkileşimli şemadan izleyin."
+    },
+    "case-228": {
+      "title": "İki Three.js kütüphane gezisini karşılaştırma",
+      "takeaway": "Üretici Astra ve Neon'a büyük bir Barok kütüphanesi için aynı görevi verdi.",
+      "notes": "Eşzamanlı klipte Astra üstte, Neon altta etiketlenmiş. Zaman ve maliyet rakamları üreticinin denemesinden geliyor.",
+      "action": "Aynı yirmi saniyelik gezide kamera temposunu ve iç mekân ayrıntılarını karşılaştırın."
+    },
+    "case-229": {
+      "title": "Etkileşimli bir likidite radarı oluşturma",
+      "takeaway": "Üretici, yayımlanan SI Liquidity Radar'ın yapımını Neon'a atfediyor.",
+      "notes": "Kaynak video görselleştirmeyi ve etkileşimi gösteriyor. Geliştirme süresi bu yayına ait.",
+      "action": "Tek bir arayüzün fon hareketlerini ve likidite değişimlerini incelemeyi kolaylaştırıp kolaylaştırmadığını deneyin."
+    },
+    "case-230": {
+      "title": "Ondalık sayı karşılaştırmasında yanıt tarzını inceleme",
+      "takeaway": "Neon olarak etiketlenen ekran görüntüsü 9,3 ile 9,12'yi karşılaştırıyor ve 9,3'ün daha büyük olduğunu belirtiyor.",
+      "notes": "Doğru sonuca alaycı bir yanıt eşlik ediyor. Kaynak tek bir etkileşimi belgeliyor ve kısa sorunun tam metnini ekran görüntüsünde veriyor.",
+      "action": "Matematiksel doğruluğu ve yanıtın tonunu ayrı ayrı değerlendirin."
+    },
+    "case-231": {
+      "title": "Ağırlıklı LiveBench 2.0 sonuçlarını karşılaştırma",
+      "takeaway": "Paylaşımda, gösterilen LiveBench 2.0 sürümünde Neon'un genel puanı 87,4.",
+      "notes": "Kıyaslama sahibinin sürüm dosyalarında Long Agentic 2×, Coding ve Design 1,5× ağırlıkla 87,4 sonucu yeniden elde ediliyor. Sıralama, gösterilen sürümü ve değerlendirme düzenini yansıtıyor.",
+      "action": "Genel puanla model seçmeden önce görev grubu ağırlıklarını ve tek tek puanları inceleyin."
+    },
+    "case-232": {
+      "title": "Referans klipten fantastik bir geçiş kurgulama",
+      "takeaway": "Üretici referans klip verdi ve kurguyu Neon'a atfetti. Klonlanmış anlatımı Doubao TTS2 üretti.",
+      "notes": "Kaynak video kurgulanmış sonucu gösteriyor. Üretici referans klibi ayrı girdi olarak belirtiyor ve seslendirmeyi Doubao TTS2'ye atfediyor.",
+      "action": "Birden çok aracın kullanıldığı video iş akışında kurgu ve seslendirme katkılarını ayrı kaydedin."
+    },
+    "case-233": {
+      "title": "Ondalık basamak değerini açıklayan iki yanıtı karşılaştırma",
+      "takeaway": "Yazar 9,12 ve 9,8'i karşılaştıran aynı soruya verilmiş iki yanıt gösteriyor.",
+      "notes": "Neon ekran görüntüsü 9,8'in daha büyük olduğunu doğru belirtiyor. Diğer çıktı, 9,8'i 9,80'e çevirmesine rağmen ters sonuca varıyor. İki çıktıyı da yazar yayımladı.",
+      "action": "Akıl yürütme adımını ve sayısal sonucu birbirinden bağımsız kontrol edin."
+    },
+    "case-234": {
+      "title": "Sulu boya gözetleme kulesini WebGPU sahnesine dönüştürme",
+      "takeaway": "Üretici Neon ve Carbon'a aynı sulu boya görselini ve WebGPU gözetleme kulesi görevini verdi.",
+      "notes": "Video Neon'u sağda etiketliyor ve iki etkileşimli çalışmayı yan yana gösteriyor.",
+      "action": "Prosedürel sahneleri karşılaştırırken referans görseli ve yineleme sayısını sabit tutun."
+    },
+    "case-235": {
+      "title": "Three.js otomobil yapımında Hydrogen ajanlarını koordine etme",
+      "takeaway": "Üretici, Three.js'de Lamborghini Veneno yapan beş Hydrogen ajanının koordinasyonunu Neon'a verdi.",
+      "notes": "Üretici üç yineleme bildiriyor. Özgün klip, oluşturulan otomobili ve iç mekânı farklı açılardan gösteriyor.",
+      "action": "Koordinasyonu bir modele verin ve geometri işini farklı ajanlara bölüştürün."
+    },
+    "case-236": {
+      "title": "tvOS için sıra tabanlı topçu oyunu prototipi geliştirme",
+      "takeaway": "Geliştirici, tvOS topçu oyunu prototipini Neon'a ve Amp'in Mac yardımcı süreçlerine atfediyor.",
+      "notes": "Özgün klip oyun alanını ve geliştirme ortamını gösteriyor. Paylaşım, geliştirme sürecini belgeliyor.",
+      "action": "Oturma odasındaki oynanışta oyun alanının ve sıra durumunun kolayca görülüp görülmediğini kontrol edin."
+    },
+    "case-237": {
+      "title": "Neon için verilere uyarlanan kıyaslama eğrilerini okuma",
+      "takeaway": "Priors yazarı, 45 kıyaslama için ayrı Neon gözlemleri içeren uyum eğrilerini gösteriyor.",
+      "notes": "Grafik 20 Kasım kesiti için 172,1 değeri ve 0,6 standart hata veriyor. Model başına test edilen en güçlü ayarı kullanıyor.",
+      "action": "Her eğriyi ve toplu sonuca temel oluşturan kıyaslama kümesini inceleyin."
+    },
+    "case-238": {
+      "title": "Kodla bir şarkı ve ASCII görselleştirmesi yazma",
+      "takeaway": "Üretici Neon'dan kendi şarkı sözlerini seçmesini ve düşünme sürecini ASCII animasyonu olarak göstermesini istedi.",
+      "notes": "Üretici dış varlık, metinden sese dönüştürme veya eklenti olmadan yalnızca kod kullanıldığını belirtiyor. Klip hareketli figürü ve altyazıları içeriyor.",
+      "action": "Uyumlu bir görsel-işitsel sekansı test etmek için kodla üretilen ses ve metin animasyonu kullanın."
+    },
+    "case-239": {
+      "title": "Ezberden çizilen üç SVG logosunu değerlendirme",
+      "takeaway": "Üretici, web erişimi kapalı ve terminal çalıştırma açıkken Antigravity'de orta düşünme düzeyindeki Neon'un hazırladığı üç logoyu gösteriyor.",
+      "notes": "Üretici sonraki paylaşımında Google'ın G harfindeki küçük ve OpenAI simgesindeki daha görünür farkları belirtiyor. Ekran görüntüsünde görevin özgün metni var.",
+      "action": "Çevrimdışı tek dosyalı SVG isteyin ve geometrilerini özgün logolarla karşılaştırın."
+    },
+    "case-240": {
+      "title": "Dört motor kesiti animasyonunu karşılaştırma",
+      "takeaway": "Üretici dört modele çalışan bir motoru kesit olarak gösteren aynı görevi verdi.",
+      "notes": "Özgün karşılaştırma dört çıktıyı etiketliyor ve pistonların, dişlilerin ve yakıtın farklı çizimlerini gösteriyor.",
+      "action": "Her çıktının aynı hareketli motor parçalarını anlaşılır biçimde gösterip göstermediğini kontrol edin."
+    },
+    "case-241": {
+      "title": "Düşük poligonlu bir karakter tabanı oluşturma",
+      "takeaway": "Üretici, tek istemden çıkan karakter ağını Gemini 4 Neon ve Blender'a atfediyor ve yaklaşık 4.800 üçgen bildiriyor.",
+      "notes": "Özgün paylaşım ön ve yan geometriyle Blender ağını gösteriyor. Üretici Japonca girdinin tamamını bir yanıtta paylaşıyor ve bunu başlangıç noktası olarak tanımlıyor.",
+      "action": "Ön ve yan referanslar sağlayın, karakteri ayrıntılandırmadan önce topolojiyi inceleyin."
+    },
+    "case-242": {
+      "title": "Dört donmuş karpuz animasyonunu karşılaştırma",
+      "takeaway": "Üretici dört modele aynı donma, erime ve patlama görevini verdiğini bildiriyor. Etiketli dört panel çıktıları tek klipte gösteriyor.",
+      "notes": "Karşılaştırma üreticinin tek testine ait. Gösterilen süreler ve maliyet tahminleri bildirilen kuruluma bağlı.",
+      "action": "Her animasyonun geçişlerde nesnenin tanınabilirliğini koruyup korumadığını ortak olay dizisiyle sınayın."
     }
   },
   "strings": {

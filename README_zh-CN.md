@@ -26,13 +26,13 @@
 <a id="overview"></a>
 ## 📊 概述
 
-**105 个 Gemini 4 Neon 案例**，附有 141 项来源媒体。
+**242 个 Gemini 4 Neon 案例**，附有 309 项来源媒体。
 
-- 工程与集成 · 6
-- 图形和界面原型 · 59
-- 游戏和模拟 · 12
-- 知识工作 · 9
-- 评估和限制 · 19
+- 工程与集成 · 22
+- 图形和界面原型 · 141
+- 游戏和模拟 · 19
+- 知识工作 · 20
+- 评估和限制 · 40
 
 > [!NOTE]
 > 每个案例均附原始来源。所列耗时、成本和评测结果只适用于来源所述的测试条件。
@@ -154,6 +154,143 @@
 | [制作机甲组装与升空动画](#case-103) | 图形和界面原型 | 创作者沿用了自己的 Three.js 机甲组装及升空任务。视频显示机甲逐步组合并升空。 | Demo |
 | [用音乐视频介绍模型训练](#case-104) | 知识工作 | 创作者请 Gemini 4 Neon 制作一段解释前沿模型如何训练的音乐视频。 | Demo |
 | [用综合指数比较代码模型](#case-105) | 评估和限制 | 在作者发布的 Models Engineering Index 快照中，Gemini 4 Neon 以 68.1 分在 20 个上榜条目中排名第一。 | Benchmark |
+| [在 OpenClaw 中查找 Neon 模型条目](#case-106) | 工程与集成 | OpenClaw 将 Gemini 4 Neon 列入已提交的推荐模型配置。 | Integration |
+| [比较两种推理强度的基准成绩](#case-107) | 评估和限制 | 基准维护者公布了 Neon xhigh 和 high 在缺陷修复评测中的成绩。 | Benchmark |
+| [让自行车动画与滑音同步](#case-108) | 图形和界面原型 | 创作者将自行车视听实验归于 Neon，并发布了有声片段。 | Demo |
+| [用 Three.js 程序化建模怪兽](#case-109) | 图形和界面原型 | 创作者用 Neon 制作了一个 Three.js TSL 程序化生物，并分享了视频。 | Demo |
+| [用 Paper 设计落地页](#case-110) | 图形和界面原型 | 创作者使用 Neon 和 Paper 设计落地页，并分享布局截图。 | Demo |
+| [为公开地理空间数据制作仪表盘](#case-111) | 工程与集成 | 创作者使用调用 Neon 的 Grok Bot 制作 GROUND，将公开地理空间数据和新闻汇集到同一界面。 | Integration |
+| [用 JavaScript 制作 IPO 讲解动画](#case-112) | 图形和界面原型 | 创作者请 Neon 制作讲解动画，并说明成品由 JavaScript 实现。 | Demo |
+| [用 Neon 代理协作制作击鼓动画](#case-113) | 图形和界面原型 | 创作者将动画归于 Neon 多代理流程，约第 4 秒出现鼓手脚部特写。 | Demo |
+| [在 Blender 中渲染奇幻城与龙](#case-114) | 图形和界面原型 | 创作者使用 Antigravity 中的 Neon 编写代码并渲染 Blender 场景，内容包括城市和龙。 | Demo |
+| [绘制 Sundar Pichai 的 SVG 肖像](#case-115) | 图形和界面原型 | 创作者称发布的是 Neon 生成的 SVG 肖像。 | Demo |
+| [制作红枫盆景动画](#case-116) | 图形和界面原型 | 创作者称盆景可视化由 Neon 实现，并发布动画。 | Demo |
+| [改写提示词制作个人动画短片](#case-117) | 图形和界面原型 | 创作者称用 Neon 制作个人短片，并改写了另一位创作者的提示词。 | Demo |
+| [在 Blender 中制作雨夜大坝动画](#case-118) | 图形和界面原型 | 创作者用 Neon xhigh 和 Blender 渲染大坝开闸后水流涌出的夜景。 | Demo |
+| [绘制富士山风景](#case-119) | 图形和界面原型 | 创作者在连帖中说明这是 Neon 绘制的富士山版本。 | Demo |
+| [完全用代码生成三种图形](#case-120) | 图形和界面原型 | 创作者称三幅作品都由 Neon 以代码生成。 | Demo |
+| [分析三周的 X 数据](#case-121) | 知识工作 | 创作者请 Neon High 复盘三周的 X 指标，并称收到按相关性排序的分析。 | Demo |
+| [用动态图形制作项目短讲解](#case-122) | 图形和界面原型 | 创作者请 Neon 为开源项目做一段 20 秒的动态图形，并称采用首版。 | Demo |
+| [通过 Blender MCP 搭建漫画背景](#case-123) | 图形和界面原型 | 创作者用 Antigravity 中的 Neon 和 Blender MCP 建模漫画背景。 | Demo |
+| [记录动画网站的完整制作过程](#case-124) | 图形和界面原型 | 创作者称网站动画由 Neon 辅助制作，并分享 12 分钟录屏。 | Tutorial |
+| [把音频摘要做成动态政策简报](#case-125) | 知识工作 | 创作者采用日本公开工作组文件，将 Gemini Notebook 生成的音频摘要输入视频制作流程。 | Demo |
+| [在协作看板上为代理角色分配模型](#case-126) | 工程与集成 | 创作者展示以 Neon 担任 Orchestrator、其他代理承担前端任务的 Antigravity 协作流程。 | Integration |
+| [比较 Blender 渲染的京都雨巷](#case-127) | 图形和界面原型 | 作者给三个模型同一个提示词，并从上到下标注成品，最后一个是 Neon。 | Evaluation |
+| [比较四种陶瓷烧制动画](#case-128) | 图形和界面原型 | 创作者用一个关于窑炉烧制效果的提示词，发布四种不同的动画演绎。 | Evaluation |
+| [分析与 Astra 对弈的实录](#case-129) | 评估和限制 | 作者记录了 Astra 执白、Neon 执黑的一局棋。 | Evaluation |
+| [搭建程序化四足机器人仿真](#case-130) | 游戏和模拟 | 创作者称用 Neon 根据参考图做出四足机器人仿真，并包含程序化着色、物理效果和线缆模拟。 | Demo |
+| [比较两款可交互手表配置器](#case-131) | 图形和界面原型 | 创作者给 Neon 和 Opus 5.5 同一个手表配置器需求。 | Evaluation |
+| [比较交互式体素龙微缩场景](#case-132) | 图形和界面原型 | 作者给 Neon 和 Opus 同一个不使用预制素材的龙与宝塔任务，并分别指出两种结果的优点。 | Evaluation |
+| [给平面画作交互式补光](#case-133) | 图形和界面原型 | 创作者用维米尔的画作测试光源移动能否在平面展示中产生有方向的阴影。 | Demo |
+| [比较 ErdosBench 研究级数学成绩](#case-134) | 评估和限制 | 维护者报告了 Neon 在 ErdosBench 的 226 道研究级数学题上的评测。 | Benchmark |
+| [比较三个用代码构建的车辆场景](#case-135) | 图形和界面原型 | 作者分享三个带标签的车辆场景，均未使用预制 3D 素材，并附有费用估算。 | Evaluation |
+| [比较 FutureSim 预测成绩](#case-136) | 评估和限制 | 发布者展示了 Neon 的领先分数，并描述了跨领域模拟题和工具调用。 | Benchmark |
+| [比较两个油画风格的 3D 世界](#case-137) | 图形和界面原型 | 创作者发布并排对照，Astra 在上、Neon 在下，并记录各自耗时和笔触数量。 | Evaluation |
+| [为 Three.js 霓虹场景添加汽车](#case-138) | 图形和界面原型 | 创作者称用 Neon 制作 Three.js 霓虹动画，并在末尾要求加入 BMW M4 CS。 | Demo |
+| [在 Blender 中制作角色参考](#case-139) | 图形和界面原型 | 创作者称展示的 Blender 角色由 Neon 构建。 | Demo |
+| [比较四种草莓动画](#case-140) | 图形和界面原型 | 作者向 Neon、Carbon、Fable 5.2 和 Opus 5.5 提出同一个草莓动画需求。 | Evaluation |
+| [从大量素材中剪出一条视频](#case-141) | 知识工作 | Android Developers 展示了用 Neon 为约一千条片段建立索引，再用于视频制作的流程。 | Demo |
+| [按 BrushArena 投票对比视觉结果](#case-142) | 评估和限制 | 作者报告 Neon 首次登上 BrushArena 时排名第一，并展示访客投票结果。 | Benchmark |
+| [完全用代码渲染高山场景](#case-143) | 图形和界面原型 | 创作者称用 Neon 编写绘制和动画代码，视频展示高山和高架桥。 | Demo |
+| [用代理反馈改进 ASCII 骑行动画](#case-144) | 图形和界面原型 | 创作者用 Neon 做 ASCII 鹈鹕骑车动画，并另设一个评审代理查看画面。 | Demo |
+| [比较 Neon 多代理与单代理](#case-145) | 图形和界面原型 | 作者用多代理与单代理制作同一个松鼠视角动画，在该次测试中更喜欢单代理结果。 | Evaluation |
+| [将 Neon 集成到聊天界面](#case-146) | 工程与集成 | 工程团队描述用新接入的模型来集成其提供方，并将所示聊天界面结果归于 Neon。 | Integration |
+| [用 Three.js 制作程序化影视片段](#case-147) | 图形和界面原型 | 创作者称使用 Neon 制作没有外部素材的 WebGL 片段，并分享成品。 | Demo |
+| [评估模型在营销任务上的表现](#case-148) | 评估和限制 | 评测作者在营销任务中比较 Neon、Opus 和 Sol，并发布结果图。比较需保留其测试条件。 | Benchmark |
+| [用 Hydrogen 代理协作制作引擎可视化](#case-149) | 工程与集成 | 作者指派 Neon 负责协调，由 Hydrogen 代理分轮构建 Three.js V12 可视化。 | Integration |
+| [在 Blender 生成十二段角色动画](#case-150) | 图形和界面原型 | 创作者称十二段 Blender 角色动画由 Neon 制作，并公布动作网格。 | Demo |
+| [评估模型作为训练数据编辑器](#case-151) | 评估和限制 | 基准作者在 Hyper-Intervention 中用 Neon 和另外六个模型编辑训练轨迹。 | Benchmark |
+| [比较四个水上飞机降落场景](#case-152) | 图形和界面原型 | 测试者用一句话描述水上飞机在波拉波拉岛附近降落，称 Neon 制作了交互式 Three.js 场景，并在 OutputBench 记录此次运行。 | Evaluation |
+| [用代理协作探索南极数据](#case-153) | 知识工作 | 创作者称借助 Neon 代理探索公开卫星速度数据和南极冰床地形。 | Demo |
+| [比较 Three.js 中的摩纳哥隧道出口](#case-154) | 图形和界面原型 | 作者给两个模型相同的黄昏隧道需求，发布带标签的比较，并报告 Neon 耗时 55 分 44 秒。 | Evaluation |
+| [比较四种日落骑行动画](#case-155) | 图形和界面原型 | 创作者展示归于 Neon、Fable 5.2、Sol 和 DeepSeek V4.1 Flash 的四个骑行场景。 | Evaluation |
+| [比较三部松鼠视角的程序化短片](#case-156) | 图形和界面原型 | 创作者向各模型提供同一个 30 秒任务，要求纯代码输出。视频标注了 Neon、Astra 和 Fable 的结果。 | Evaluation |
+| [评估多代理编程环境中的表现](#case-157) | 评估和限制 | 评测者报告在 100 个多代理编程环境中运行 Neon 及其他模型。 | Benchmark |
+| [用代码延时动画绘制图画](#case-158) | 图形和界面原型 | 创作者称用 Neon 生成绘图代码，并用原片展示绘制过程。 | Demo |
+| [比较三个夜间起飞场景的光照](#case-159) | 图形和界面原型 | 创作者使用同一个夜间起飞需求，报告 Neon 场景偏暗、飞机难以辨认。 | Evaluation |
+| [比较两个打印出来的机械玩具](#case-160) | 工程与集成 | 作者请 Neon 和 Fable 在不加进一步限制的情况下设计可 3D 打印物件，称 Neon 版齿轮较稳定。 | Evaluation |
+| [比较 FrontierMemory 成绩](#case-161) | 评估和限制 | 基准维护者公布 Gemini 4 Neon 的 FrontierMemory 成绩。 | Benchmark |
+| [比较 Blender MCP 的同题盲测结果](#case-162) | 图形和界面原型 | 创作者让三个模型制作锤子，不提供参考图、网页搜索或素材，报告 Neon 用时 19 分钟。 | Evaluation |
+| [在 Blender 中迭代制作兰博基尼](#case-163) | 图形和界面原型 | 创作者称使用 Neon 反复迭代 Blender 汽车模型。 | Demo |
+| [比较两种详细的摩托车渲染](#case-164) | 图形和界面原型 | 创作者并排发布摩托车渲染，分别标注 Neon xhigh 和 Fable 5.2 xhigh。 | Evaluation |
+| [设计可打印的充电器外壳](#case-165) | 工程与集成 | 作者向 Neon 简要描述充电器，要求设计并打印外壳。 | Demo |
+| [让 AFK Pilot 扩展接入 Neon](#case-166) | 工程与集成 | 维护者报告 AFK Pilot 4.16.0 和 4.17.0 通过 Antigravity CLI 提供 Neon，并展示扩展界面。 | Integration |
+| [评估文档解析与表格布局](#case-167) | 评估和限制 | ParseBench-2 发布者用低推理强度测 Neon，并与其他近期模型比较。 | Benchmark |
+| [比较 The Last Take 的两个游戏场景](#case-168) | 游戏和模拟 | 创作者比较归于 Neon 和 Fable 5.2 的 The Last Take 版本。 | Evaluation |
+| [在 AI Studio 制作模型发布短片](#case-169) | 图形和界面原型 | 创作者请 Neon 在 AI Studio 中制作发布视频，并分享初次生成的片段。 | Demo |
+| [让 Blender 场景渲染过夜](#case-170) | 图形和界面原型 | 创作者用 Neon 在 Blender 5.3 中构建场景，报告让该流程运行一整夜。 | Demo |
+| [比较 CodePilot 八个问题的修复结果](#case-171) | 评估和限制 | 开发者请两个模型解决 CodePilot 中的八个问题，再用第三个模型打分。Neon 得 8.5 分，Opus 得 9 分。 | Evaluation |
+| [比较同一个提示词生成的两种场景](#case-172) | 图形和界面原型 | 创作者说两个场景共用一个提示词并选用不同颜色，发布了带 Neon 和 Opus 标签的结果。 | Evaluation |
+| [用代码制作概念预告片](#case-173) | 图形和界面原型 | 创作者用 Neon、Antigravity 和 OpenMotion 制作 60 秒概念影片，场景由代码构建，开源音乐单独混音。 | Demo |
+| [比较 Three.js 哥特式教堂漫游](#case-174) | 图形和界面原型 | 作者让两个模型制作同一段 20 秒的漫游，终点是彩色玻璃窗。视频上方为 Astra，下方为 Neon。 | Evaluation |
+| [观察无人值守任务中的会话过期](#case-175) | 评估和限制 | 作者称 Antigravity 中的 Neon 会话运行两小时以上后报身份验证过期。 | Limit |
+| [制作交互式彩色玻璃场景](#case-176) | 图形和界面原型 | 创作者以一张照片为参考，使用程序化网页音频和代码渲染猫及彩色玻璃场景，未导入素材。 | Demo |
+| [比较四个一次生成的 HTML 动画](#case-177) | 图形和界面原型 | 作者给四个模型相同的雨天窗台小猫主题，每个模型只提交一份结果，无修订或重试。 | Evaluation |
+| [用交互图展示代理循环的回合状态](#case-178) | 知识工作 | 创作者用 Neon 把代理循环做成交互式 HTML 讲解。 | Tutorial |
+| [用代理探索火星地震波形](#case-179) | 知识工作 | 创作者称在 Antigravity 中使用 Neon 多代理处理 NASA InSight 四年的公开波形。 | Demo |
+| [制作交互式程序化樱花场景](#case-180) | 图形和界面原型 | 创作者称 Neon 制作了交互式樱花页面，枝条程序化生成，花瓣可以脱落。 | Demo |
+| [制作竖屏产品动态图形](#case-181) | 图形和界面原型 | 创作者将第一次动效设计实验归于 Neon。 | Demo |
+| [在 Antigravity 中设计桌面宠物 PCB](#case-182) | 工程与集成 | 创作者描述用 Neon 操作 EasyEDA MCP，为桌面宠物控制板及充电底座做设计。 | Demo |
+| [从估计深度生成法线贴图](#case-183) | 图形和界面原型 | 创作者借助 Neon 调整 Apple Depth Pro 2 权重，制作程序化法线贴图及其他 PBR 贴图工具。 | Demo |
+| [比较动态转场与音效选择](#case-184) | 图形和界面原型 | 创作者展示 Neon 的动效成品，并报告更喜欢 Claude 的音效。画面和声音判断都来自作者。 | Evaluation |
+| [比较三个模型和一位作者的短篇](#case-185) | 知识工作 | 作者设定同一个 500 字挑战，对照自己无辅助写作的版本与 Sol、Neon、Opus 的初稿。 | Evaluation |
+| [用 Three.js 搭建霓虹电子零件街](#case-186) | 图形和界面原型 | 创作者用 Neon 把一张图转成虚构的雨夜电子零件街，镜头由代码控制。 | Demo |
+| [比较虚构角色的绘图界面](#case-187) | 图形和界面原型 | 创作者让 Neon 和 Fable 为虚构游戏角色制作草图界面，报告 Neon 耗时 21 分钟、Fable 27 分钟。 | Evaluation |
+| [迭代页面区块和界面组件](#case-188) | 图形和界面原型 | 开发者发布 Neon 生成的一组页面区块，并展示各组件的不同版本。 | Demo |
+| [制作胶片渲染与扫描模拟原型](#case-189) | 图形和界面原型 | 创作者称用 Neon 搭建基于物理的胶片渲染和扫描项目，分享预览与开发连帖。 | Demo |
+| [比较 OpenCode 配置下的推理速度](#case-190) | 评估和限制 | 基准贡献者展示 InferenceBench 记录的 Neon 配置。 | Benchmark |
+| [制作代码托管界面原型](#case-191) | 工程与集成 | 创作者称用 Neon 搭建代码托管原型，并发布应用演示视频。 | Demo |
+| [比较两个交互式海上微缩场景](#case-192) | 图形和界面原型 | 创作者报告把同一个任务交给 Neon 和 Opus 5.5。 | Evaluation |
+| [比较六个模型的网站改版](#case-193) | 图形和界面原型 | 作者在高推理强度下给六个模型相同的改版任务，不附加技能。原帖报告各次耗时和费用。 | Evaluation |
+| [追踪 Antigravity 的缓存命中率](#case-194) | 评估和限制 | 创作者在后发的帖子中报告 98.9% 的缓存命中率，早前一帖报告约 50%。 | Limit |
+| [比较同题 Three.js Jeep 模型](#case-195) | 图形和界面原型 | 创作者复用先前的 Jeep 提示词并分享并排比较，记录 Neon High 用时 45 分钟。 | Evaluation |
+| [比较三个模型的界面设计](#case-196) | 图形和界面原型 | 创作者比较与 Opus 5.5、Sol 和 Gemini 4 Neon 相关联的界面设计。 | Evaluation |
+| [用程序化代码制作歌唱场景](#case-197) | 图形和界面原型 | 来源称创作者请 Neon 用代码写画面、音乐和人声，不用外部库、素材或 TTS。 | Demo |
+| [用首尾帧衔接生成片段](#case-198) | 图形和界面原型 | 作者用 Neon 处理首尾帧和剪辑，作为较长视频工作流的一部分。 | Integration |
+| [在 Antigravity 中制作讲解短片](#case-199) | 知识工作 | 创作者称用 Neon 和 Antigravity 制作 90 秒讲解视频，同时使用 Google 媒体工具、TTS 和 HyperFrames。 | Demo |
+| [在浏览器中展示体素模型](#case-200) | 图形和界面原型 | 创作者称体素建模演示由 Neon 实现，视频显示香蕉形体素模型及交互控件。 | Demo |
+| [将发布图做成霓虹灯动画](#case-201) | 图形和界面原型 | 创作者称请 Neon 为模型发布博客中的图片制作动画。 | Demo |
+| [比较两首生成的 LilyPond 玛祖卡](#case-202) | 图形和界面原型 | 创作者用同一个要求，让 Neon 和 Fable 5.2 用 LilyPond 写一首钢琴玛祖卡。 | Evaluation |
+| [比较四种全息视差动画](#case-203) | 图形和界面原型 | 创作者使用四张输入图生成全息视差动画，并比较四个已注明模型的结果。 | Evaluation |
+| [用代码制作 ASCII 角色动画](#case-204) | 图形和界面原型 | 创作者说明这是一项纯代码 ASCII 实验。 | Demo |
+| [缩短已有代码库的 CI 类型检查时间](#case-205) | 工程与集成 | 开发者在早先优化后请 Neon 再次检查 CI，报告该代码库的类型检查从 6.5 分钟降到 1.5 分钟。 | Evaluation |
+| [让不同模型分担搭景和动画](#case-206) | 图形和界面原型 | 创作者报告 Neon 负责场景框架，Claude Mythos 5.2 优化细节和动画。 | Integration |
+| [在 Microduck 仿真中构建 JEPA 辅助模块](#case-207) | 工程与集成 | 创作者称用 Gemini 4 Neon 和 Carbon 为 Microduck 开发本体感知 JEPA 辅助模块。 | Demo |
+| [用物理回放评估八字结](#case-208) | 评估和限制 | 创作者的 KnotBench v0 回放让四个模型完成同一个八字结任务，本次 Neon 未生成可提取的绳结描述。 | Limit |
+| [比较 Minecraft 中的《奥西曼狄斯》](#case-209) | 游戏和模拟 | 创作者按雪莱诗作给出同一个要求，并记录 Neon 用时 19 分钟、花费 2.88 美元，Sol 用时 12 分钟、花费 1.06 美元。 | Evaluation |
+| [用现有技能渲染知识短片](#case-210) | 知识工作 | 作者用 Neon、现有知识视频技能和单独的渲染优化，完成一条超过两分钟的视频。耗时和用量对应此次运行。 | Demo |
+| [比较 Three.js 贡多拉漫游](#case-211) | 图形和界面原型 | 创作者给 Astra 和 Neon 相同的需求，制作一段穿过威尼斯桥洞的 20 秒日落航程。 | Evaluation |
+| [在本机运行 MotionBricks 角色演示](#case-212) | 工程与集成 | 创作者称 Neon 检查了 MotionBricks 仓库，并用其中的 ONNX 模型搭建交互演示，所述本地环境无 NVIDIA GPU。 | Integration |
+| [比较四个 Three.js 埃菲尔铁塔模型](#case-213) | 图形和界面原型 | 创作者让 Neon、Astra、Sol 和 Opus 用 Three.js 搭建埃菲尔铁塔。 | Evaluation |
+| [比较两个 Gemini 版本的引擎动画](#case-214) | 图形和界面原型 | 创作者比较 Gemini 4 Neon High 和 Gemini 3.7 Flash High 在 Antigravity 中的引擎可视化。 | Evaluation |
+| [制作浏览器中的伪 3D 体素精灵](#case-215) | 图形和界面原型 | 创作者把平面精灵分层组合，让相机转动时场景看起来有体积，并以浏览器界面展示。 | Demo |
+| [比较四个 Alpine Gold 场景](#case-216) | 图形和界面原型 | 此次 Alpine Gold 对比共用提示词并标记四种结果，作者报告 Neon 用时 1 小时 31 分 11 秒，费用 11.84 美元。 | Evaluation |
+| [比较四种斑马动画](#case-217) | 图形和界面原型 | 创作者展示 Neon、Carbon、Fable 5.2 和 DeepSeek V4.1 Flash 制作的四个斑马动画。 | Evaluation |
+| [比较 Neon 与 Carbon 的 FrontierMath 成绩](#case-218) | 评估和限制 | 作者指向某个档位的 FrontierMath 成绩图，报告 Neon 领先于 Carbon。 | Benchmark |
+| [比较两种挖掘机动画](#case-219) | 图形和界面原型 | 原片标出 Neon 和 Opus 5.5 的施工场景。 | Evaluation |
+| [开发 JPEN Dict 的 macOS 界面](#case-220) | 工程与集成 | 开发者制作 JPEN Dict 1.8.0 时改用 Antigravity 中的 Neon。 | Integration |
+| [比较八个影视场景的 Minecraft 搭建](#case-221) | 游戏和模拟 | 创作者给 Neon 和 Sol 同一个 Minecraft 八场景任务。 | Evaluation |
+| [在 AI Studio 制作骰子工具](#case-222) | 游戏和模拟 | 创作者在 Google AI Studio 用 Neon 制作骰子工具，用于自制桌游。 | Demo |
+| [在 Antigravity 中制作 W16 引擎动画](#case-223) | 图形和界面原型 | 创作者注明用 Antigravity 中的 Neon High 制作 Bugatti Chiron W16 可视化。 | Demo |
+| [用三维剖面展示堤防失效模式](#case-224) | 知识工作 | 创作者用 Neon 将简化二维渗流计算和三维剖面结合，供个人学习。 | Demo |
+| [迭代 Neon 导演的音乐视频](#case-225) | 图形和界面原型 | 创作者让 Neon 主导音乐视频，并报告在数天内反复修改。 | Demo |
+| [用可实玩的线索搭建密室原型](#case-226) | 游戏和模拟 | 作者称根据一项请求用 Neon 制成首个可玩的 Astrolab 密室版本。 | Demo |
+| [用交互图讲解 Pi 的代理运行框架](#case-227) | 知识工作 | 创作者用 Neon 解释 Pi 运行框架及其四个内置工具。 | Tutorial |
+| [比较两段 Three.js 图书馆漫游](#case-228) | 图形和界面原型 | 创作者给 Astra 和 Neon 相同的巴洛克图书馆任务。 | Evaluation |
+| [构建交互式流动性雷达](#case-229) | 工程与集成 | 创作者称用 Neon 构建并发布 SI Liquidity Radar。 | Demo |
+| [检查小数比较答案的语气](#case-230) | 评估和限制 | 标为 Neon 的截图比较 9.3 和 9.12，判断 9.3 更大。 | Evaluation |
+| [比较 LiveBench 2.0 加权成绩](#case-231) | 评估和限制 | 原帖展示的 LiveBench 2.0 版本中，Neon 的总分为 87.4。 | Benchmark |
+| [用参考片段剪出奇幻转场](#case-232) | 图形和界面原型 | 创作者提供参考片段，将剪辑归于 Neon，使用 Doubao TTS2 生成克隆旁白。 | Tutorial |
+| [比较两个小数位值解释](#case-233) | 评估和限制 | 作者分享两个对同一问题的解答，题目比较 9.12 和 9.8。 | Evaluation |
+| [把水彩瞭望塔转为 WebGPU 场景](#case-234) | 图形和界面原型 | 创作者给 Neon 和 Carbon 同一幅水彩画，以及制作 WebGPU 瞭望塔的需求。 | Evaluation |
+| [协调 Hydrogen 代理搭建 Three.js 汽车](#case-235) | 工程与集成 | 创作者让 Neon 协调五个 Hydrogen 代理，用 Three.js 构建 Lamborghini Veneno。 | Integration |
+| [在 tvOS 上制作回合制炮战游戏原型](#case-236) | 游戏和模拟 | 开发者称借助 Neon 和 Amp 的 Mac sidecars 制作 tvOS 炮战原型。 | Demo |
+| [查看 Neon 的基准拟合曲线](#case-237) | 评估和限制 | Priors 作者展示拟合得分曲线，其中包括 Neon 在 45 项基准中的观测。 | Benchmark |
+| [用代码写歌并制作 ASCII 可视化](#case-238) | 图形和界面原型 | 创作者让 Neon 自选歌词，并用 ASCII 动画演示其对思考过程的表现。 | Demo |
+| [评估从记忆绘制的三个 SVG 标志](#case-239) | 评估和限制 | 创作者展示在 Antigravity 生成的三个标志，Neon 采用 Medium Effort，关闭网页访问、开启终端执行。 | Evaluation |
+| [比较四种引擎剖面动画](#case-240) | 图形和界面原型 | 创作者给四个模型同一个运转引擎剖面需求。 | Evaluation |
+| [制作低多边形角色基础网格](#case-241) | 图形和界面原型 | 创作者用 Gemini 4 Neon 和 Blender，以一条提示词生成角色基础模型，报告约 4,800 个三角面。 | Tutorial |
+| [比较四种冰冻西瓜动画](#case-242) | 图形和界面原型 | 创作者报告向四个模型给出相同的冻结、融化和爆裂任务。 | Evaluation |
 
 | 部分 | 用途 |
 |---|---|
@@ -255,6 +392,261 @@ Type: Integration | Date: 2026-11-19
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/images/case-6-1-a5dafa9b6b4e.jpg" alt="重新设计 Spotify 推荐 MCP · 1" width="560">
 
 Type: Integration | Date: 2026-11-19
+
+---
+
+<a id="case-106"></a>
+### Case 106: [在 OpenClaw 中查找 Neon 模型条目](https://x.com/openclaw/status/2123640619931484511) (by [@openclaw](https://x.com/openclaw))
+
+**查看集成方发布的模型条目，确认公告所指的支持范围。**
+
+OpenClaw 将 Gemini 4 Neon 列入已提交的推荐模型配置。
+
+OpenClaw 账号宣布了该条目，发布的配置中也列有 gemini-4-neon。
+
+[补充来源](https://github.com/openclaw/openclaw/blob/adb2f7c4d4bc3b7479b180c24db943b9cc64923c/scripts/lib/recommended-models.json)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-106-1-7d8612587051.jpg" alt="在 OpenClaw 中查找 Neon 模型条目 · 1" width="560">
+
+Type: Integration | Date: 2026-11-20
+
+---
+
+<a id="case-111"></a>
+### Case 111: [为公开地理空间数据制作仪表盘](https://x.com/GOD2FREEX/status/2123659651703292096) (by [@GOD2FREEX](https://x.com/GOD2FREEX))
+
+**检查生成的界面，记录哪些输入来自外部数据源。**
+
+创作者使用调用 Neon 的 Grok Bot 制作 GROUND，将公开地理空间数据和新闻汇集到同一界面。
+
+原始视频展示 GROUND 仪表盘，作者也说明了 Grok Bot 与 Neon 在构建中的作用。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-111-1-18a94faed52a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-111-1-93e664897230.jpg" alt="为公开地理空间数据制作仪表盘 · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-20
+
+---
+
+<a id="case-126"></a>
+### Case 126: [在协作看板上为代理角色分配模型](https://x.com/SimonT242613/status/2123753724367826978) (by [@SimonT242613](https://x.com/SimonT242613))
+
+**为各角色明确指定模型，并在共享任务看板上查看进度。**
+
+创作者展示以 Neon 担任 Orchestrator、其他代理承担前端任务的 Antigravity 协作流程。
+
+截图记录了项目中的模型分工和任务状态。作者还描述了亲自配置时的观察。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-126-1-6c3fe29fa2c2.jpg" alt="在协作看板上为代理角色分配模型 · 1" width="560">
+
+Type: Integration | Date: 2026-11-20
+
+---
+
+<a id="case-146"></a>
+### Case 146: [将 Neon 集成到聊天界面](https://x.com/superdoteng/status/2123834081515635115) (by [@superdoteng](https://x.com/superdoteng))
+
+**检查聊天视图和终端视图能否保留上下文与控制项。**
+
+工程团队描述用新接入的模型来集成其提供方，并将所示聊天界面结果归于 Neon。
+
+原片展示聊天到终端的工作流。开发者列出后台代理、方向控制和用量展示。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-146-1-486b313368a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-146-1-144e4deed3ec.jpg" alt="将 Neon 集成到聊天界面 · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-20
+
+---
+
+<a id="case-149"></a>
+### Case 149: [用 Hydrogen 代理协作制作引擎可视化](https://x.com/thtbee_/status/2123843882937155607) (by [@thtbee_](https://x.com/thtbee_))
+
+**归因时分别记下协调者和执行者的职责。**
+
+作者指派 Neon 负责协调，由 Hydrogen 代理分轮构建 Three.js V12 可视化。
+
+原片展示多次迭代后的 V12 可视化，作者说明 Neon 协调、Hydrogen 代理负责构建。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-149-1-5487f081868e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-149-1-6d1c71ce1847.jpg" alt="用 Hydrogen 代理协作制作引擎可视化 · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-20
+
+---
+
+<a id="case-160"></a>
+### Case 160: [比较两个打印出来的机械玩具](https://x.com/davis7/status/2123906899074822159) (by [@davis7](https://x.com/davis7))
+
+**除了外观，还要比较打印件的实际动作。**
+
+作者请 Neon 和 Fable 在不加进一步限制的情况下设计可 3D 打印物件，称 Neon 版齿轮较稳定。
+
+照片展示两个打印件，齿轮稳定性是作者实际打印后的定性观察。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-160-1-2ac12dc80c68.jpg" alt="比较两个打印出来的机械玩具 · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-165"></a>
+### Case 165: [设计可打印的充电器外壳](https://x.com/davis7/status/2123934402510287059) (by [@davis7](https://x.com/davis7))
+
+**对照作者的原始需求，检查打印件是否符合用途。**
+
+作者向 Neon 简要描述充电器，要求设计并打印外壳。
+
+照片展示实际打印出的充电器外壳，需求来自简短描述。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-165-1-5ca9c7b79790.jpg" alt="设计可打印的充电器外壳 · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-165-2-4ca465c878d2.jpg" alt="设计可打印的充电器外壳 · 2" width="560">
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-166"></a>
+### Case 166: [让 AFK Pilot 扩展接入 Neon](https://x.com/PawelHuryn/status/2123934736049488318) (by [@PawelHuryn](https://x.com/PawelHuryn))
+
+**核对扩展版本，并区分扩展能力和模型行为。**
+
+维护者报告 AFK Pilot 4.16.0 和 4.17.0 通过 Antigravity CLI 提供 Neon，并展示扩展界面。
+
+原帖列出两个版本及其 Antigravity CLI 集成，附件记录了这次版本变更。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-166-1-719205d06961.jpg" alt="让 AFK Pilot 扩展接入 Neon · 1" width="560">
+
+Type: Integration | Date: 2026-11-21
+
+---
+
+<a id="case-182"></a>
+### Case 182: [在 Antigravity 中设计桌面宠物 PCB](https://x.com/GoGoFly23/status/2124036617937760579) (by [@GoGoFly23](https://x.com/GoGoFly23))
+
+**原型投产前逐阶段核对原理图和电路板布局。**
+
+创作者描述用 Neon 操作 EasyEDA MCP，为桌面宠物控制板及充电底座做设计。
+
+原始附件记录元器件选择、原理图与布线。帖子展示设计过程，未报告硬件验证。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-1-ea3cf789e3e3.jpg" alt="在 Antigravity 中设计桌面宠物 PCB · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-2-c4998720a0a2.jpg" alt="在 Antigravity 中设计桌面宠物 PCB · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-3-dba688ec02b8.jpg" alt="在 Antigravity 中设计桌面宠物 PCB · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-4-6881f9f40dfd.jpg" alt="在 Antigravity 中设计桌面宠物 PCB · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-5-8a9eff67f95b.jpg" alt="在 Antigravity 中设计桌面宠物 PCB · 5" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-6-2cec402f5c8a.jpg" alt="在 Antigravity 中设计桌面宠物 PCB · 6" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-182-7-a3a91362e1cf.jpg" alt="在 Antigravity 中设计桌面宠物 PCB · 7" width="560">
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-191"></a>
+### Case 191: [制作代码托管界面原型](https://x.com/TheDoraaaaaaaa/status/2124105099522068925) (by [@TheDoraaaaaaaa](https://x.com/TheDoraaaaaaaa))
+
+**用原片确认展示了哪些仓库操作。**
+
+创作者称用 Neon 搭建代码托管原型，并发布应用演示视频。
+
+原始视频呈现原型界面，开发者注明 Neon 参与构建。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-191-1-5ced1b8bdd0c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-191-1-e229f7eea576.jpg" alt="制作代码托管界面原型 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-205"></a>
+### Case 205: [缩短已有代码库的 CI 类型检查时间](https://x.com/PokeBenchTV/status/2124158885749485816) (by [@PokeBenchTV](https://x.com/PokeBenchTV))
+
+**使用同一代码库的测试数据评估第二次优化。**
+
+开发者在早先优化后请 Neon 再次检查 CI，报告该代码库的类型检查从 6.5 分钟降到 1.5 分钟。
+
+截图对应优化前后的耗时，改进数值限于原帖的代码库和 CI 设置。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-205-1-7b61661c2400.jpg" alt="缩短已有代码库的 CI 类型检查时间 · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-207"></a>
+### Case 207: [在 Microduck 仿真中构建 JEPA 辅助模块](https://x.com/rafaelcaricio/status/2124160567417897088) (by [@rafaelcaricio](https://x.com/rafaelcaricio))
+
+**先在仿真中评估模块，记录仍需在真实硬件验证的部分。**
+
+创作者称用 Gemini 4 Neon 和 Carbon 为 Microduck 开发本体感知 JEPA 辅助模块。
+
+来源明确该原型限于仿真，并注明两种模型都参与，未细分各自实现的部分。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-207-1-ea19fe8ae519.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-207-1-53c032afc54f.jpg" alt="在 Microduck 仿真中构建 JEPA 辅助模块 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-212"></a>
+### Case 212: [在本机运行 MotionBricks 角色演示](https://x.com/ai_for_success/status/2124192968345338206) (by [@ai_for_success](https://x.com/ai_for_success))
+
+**跟踪哪些部分属于模型运行，哪些来自外围实现。**
+
+创作者称 Neon 检查了 MotionBricks 仓库，并用其中的 ONNX 模型搭建交互演示，所述本地环境无 NVIDIA GPU。
+
+原片展示构建的角色与动作控件，本地运行情况对应创作者的环境。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-212-1-5908a6b66d3f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-212-1-90af2b83d938.jpg" alt="在本机运行 MotionBricks 角色演示 · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-21
+
+---
+
+<a id="case-220"></a>
+### Case 220: [开发 JPEN Dict 的 macOS 界面](https://x.com/jake_j_jung/status/2124293069797495257) (by [@jake_j_jung](https://x.com/jake_j_jung))
+
+**在界面版本记录中注明模型参与的环节。**
+
+开发者制作 JPEN Dict 1.8.0 时改用 Antigravity 中的 Neon。
+
+七个原始附件展示离线日英词典的不同界面部分，开发者将界面整理归于 Neon 辅助流程。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-1-b51af065b24f.jpg" alt="开发 JPEN Dict 的 macOS 界面 · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-2-89151a2fd48f.jpg" alt="开发 JPEN Dict 的 macOS 界面 · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-3-1451faf9f0bc.jpg" alt="开发 JPEN Dict 的 macOS 界面 · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-4-da3ced85253b.jpg" alt="开发 JPEN Dict 的 macOS 界面 · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-5-3102c60b17cb.jpg" alt="开发 JPEN Dict 的 macOS 界面 · 5" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-6-bc25ae9b22e4.jpg" alt="开发 JPEN Dict 的 macOS 界面 · 6" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-220-7-3af8cc4f6099.jpg" alt="开发 JPEN Dict 的 macOS 界面 · 7" width="560">
+
+Type: Integration | Date: 2026-11-22
+
+---
+
+<a id="case-229"></a>
+### Case 229: [构建交互式流动性雷达](https://x.com/G33K13765260/status/2124355729507365148) (by [@G33K13765260](https://x.com/G33K13765260))
+
+**验证一个界面能否更方便地查看资金轮动和流动性变化。**
+
+创作者称用 Neon 构建并发布 SI Liquidity Radar。
+
+原片展示可视化结果和交互，开发时间由作者针对本次部署报告。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-229-1-006c1092d04c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-229-1-7e81a5c9049e.jpg" alt="构建交互式流动性雷达 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-235"></a>
+### Case 235: [协调 Hydrogen 代理搭建 Three.js 汽车](https://x.com/Leviwoyun/status/2124421508563149279) (by [@Leviwoyun](https://x.com/Leviwoyun))
+
+**把协调工作交给一个模型，将几何建模拆给不同代理。**
+
+创作者让 Neon 协调五个 Hydrogen 代理，用 Three.js 构建 Lamborghini Veneno。
+
+作者报告做了三轮迭代，原片从多个角度展示汽车和内饰。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-235-1-de84a06d03f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-235-1-043c69234b09.jpg" alt="协调 Hydrogen 代理搭建 Three.js 汽车 · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-22
 
 ---
 
@@ -1203,6 +1595,1256 @@ Type: Demo | Date: 2026-11-20
 
 ---
 
+<a id="case-108"></a>
+### Case 108: [让自行车动画与滑音同步](https://x.com/alexanderchen/status/2123653501616320961) (by [@alexanderchen](https://x.com/alexanderchen))
+
+**回放原片，检查音高变化是否与运动同步。**
+
+创作者将自行车视听实验归于 Neon，并发布了有声片段。
+
+原片将自行车运动与连续滑音配在一起。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-108-1-6771e5e897fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-108-1-09d488ebf67c.jpg" alt="让自行车动画与滑音同步 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-109"></a>
+### Case 109: [用 Three.js 程序化建模怪兽](https://x.com/majidmanzarpour/status/2123654802626220217) (by [@majidmanzarpour](https://x.com/majidmanzarpour))
+
+**从成片观察代码渲染的形态和质感，避免推断未展示的实现。**
+
+创作者用 Neon 制作了一个 Three.js TSL 程序化生物，并分享了视频。
+
+作者说明了 Three.js 着色方案，片段展示了怪兽最终的外观和动画。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-109-1-6c6d98ed0242.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-109-1-06e38f5f5820.jpg" alt="用 Three.js 程序化建模怪兽 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-110"></a>
+### Case 110: [用 Paper 设计落地页](https://x.com/robinebers/status/2123658087722856773) (by [@robinebers](https://x.com/robinebers))
+
+**借助页面预览检查视觉层级和插图。**
+
+创作者使用 Neon 和 Paper 设计落地页，并分享布局截图。
+
+截图展示了这次设计的页面构图。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-110-1-680ee1274833.jpg" alt="用 Paper 设计落地页 · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-112"></a>
+### Case 112: [用 JavaScript 制作 IPO 讲解动画](https://x.com/ann_nnng/status/2123690116296372624) (by [@ann_nnng](https://x.com/ann_nnng))
+
+**用片段检查代码实现的文字排版和场景转场。**
+
+创作者请 Neon 制作讲解动画，并说明成品由 JavaScript 实现。
+
+原片展示生成动画的部分序列，原帖交代了任务和实现语言。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-112-1-248cf18556a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-112-1-d7c6529c4f69.jpg" alt="用 JavaScript 制作 IPO 讲解动画 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-113"></a>
+### Case 113: [用 Neon 代理协作制作击鼓动画](https://x.com/RainG999/status/2123702323692380671) (by [@RainG999](https://x.com/RainG999))
+
+**用脚部特写检查打击节奏和动作细节。**
+
+创作者将动画归于 Neon 多代理流程，约第 4 秒出现鼓手脚部特写。
+
+原片在开头不久展示了踩踏动作，作者说明成品由 Neon 代理协作制作。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-113-1-5355fdb1bce1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-113-1-68e65a603aee.jpg" alt="用 Neon 代理协作制作击鼓动画 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-114"></a>
+### Case 114: [在 Blender 中渲染奇幻城与龙](https://x.com/mspd4100/status/2123720793888829509) (by [@mspd4100](https://x.com/mspd4100))
+
+**将作者报告的环境和耗时与对应场景一起记录。**
+
+创作者使用 Antigravity 中的 Neon 编写代码并渲染 Blender 场景，内容包括城市和龙。
+
+原帖展示 Blender 成品，作者报告自己的环境下运行了 11 小时。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-114-1-c8affe5eeb9d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-114-1-13091fab9c1f.jpg" alt="在 Blender 中渲染奇幻城与龙 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-115"></a>
+### Case 115: [绘制 Sundar Pichai 的 SVG 肖像](https://x.com/Haleeeemahh/status/2123722575884763480) (by [@Haleeeemahh](https://x.com/Haleeeemahh))
+
+**通过原图评估矢量肖像的表现。**
+
+创作者称发布的是 Neon 生成的 SVG 肖像。
+
+原始图片展示了一次生成任务的结果，作者注明了人物和模型。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-115-1-6b9d34896640.png" alt="绘制 Sundar Pichai 的 SVG 肖像 · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-116"></a>
+### Case 116: [制作红枫盆景动画](https://x.com/anxuanng/status/2123725543421935630) (by [@anxuanng](https://x.com/anxuanng))
+
+**从成片检查枝条结构和叶片的表现。**
+
+创作者称盆景可视化由 Neon 实现，并发布动画。
+
+原片展示完成的盆景动画，作者注明使用了 Neon。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-116-1-68111ee5c6ce.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-116-1-bb4fc08e7454.jpg" alt="制作红枫盆景动画 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-117"></a>
+### Case 117: [改写提示词制作个人动画短片](https://x.com/wenwen11703261/status/2123726068712706176) (by [@wenwen11703261](https://x.com/wenwen11703261))
+
+**分别标明提示词出处和新成品作者。**
+
+创作者称用 Neon 制作个人短片，并改写了另一位创作者的提示词。
+
+原帖说明提示词经过改写，并用视频展示改写所得成品。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-117-1-d0d7f68574da.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-117-1-e18f2f687dc7.jpg" alt="改写提示词制作个人动画短片 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-118"></a>
+### Case 118: [在 Blender 中制作雨夜大坝动画](https://x.com/lucian__03/status/2123732898230755591) (by [@lucian__03](https://x.com/lucian__03))
+
+**把灯光和水流作为场景模拟的结果来分析。**
+
+创作者用 Neon xhigh 和 Blender 渲染大坝开闸后水流涌出的夜景。
+
+原片展示雨景及放水效果，作者注明使用的模型档位和渲染工具。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-118-1-e949de8cc6d1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-118-1-faeed3c97e90.jpg" alt="在 Blender 中制作雨夜大坝动画 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-119"></a>
+### Case 119: [绘制富士山风景](https://x.com/thegenioo/status/2123733388461006999) (by [@thegenioo](https://x.com/thegenioo))
+
+**检查倒影轮廓和前后植被层次。**
+
+创作者在连帖中说明这是 Neon 绘制的富士山版本。
+
+原片展示山体、植被和湖面倒影，记录了 Neon 的结果。
+
+[补充来源](https://x.com/thegenioo/status/2123733377626829049)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-119-1-3f6cf888062a.jpg" alt="绘制富士山风景 · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-120"></a>
+### Case 120: [完全用代码生成三种图形](https://x.com/BubbleBrain/status/2123740760306827297) (by [@BubbleBrain](https://x.com/BubbleBrain))
+
+**比较代码场景如何呈现色彩、几何和布局。**
+
+创作者称三幅作品都由 Neon 以代码生成。
+
+三张原图记录了这次纯代码绘图实验的结果。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-120-1-0af17d5fdeb2.jpg" alt="完全用代码生成三种图形 · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-120-2-e50d5b747b95.jpg" alt="完全用代码生成三种图形 · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-120-3-e86f71feffdf.jpg" alt="完全用代码生成三种图形 · 3" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-122"></a>
+### Case 122: [用动态图形制作项目短讲解](https://x.com/hqmank/status/2123745410405831123) (by [@hqmank](https://x.com/hqmank))
+
+**对照需求检查成片节奏和转场。**
+
+创作者请 Neon 为开源项目做一段 20 秒的动态图形，并称采用首版。
+
+原帖同时展示需求和初次成片，时长对应这次项目介绍。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-122-1-7cf664de112d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-122-1-7587fa343b00.jpg" alt="用动态图形制作项目短讲解 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-123"></a>
+### Case 123: [通过 Blender MCP 搭建漫画背景](https://x.com/rootport/status/2123749016928460873) (by [@rootport](https://x.com/rootport))
+
+**查看中间的模型几何，核对作者报告的建模流程。**
+
+创作者用 Antigravity 中的 Neon 和 Blender MCP 建模漫画背景。
+
+原始附件展示 Blender 工作区中的几何模型，对应作者所用的 Antigravity 和 Blender MCP 流程。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-123-1-69fb56b09f2d.jpg" alt="通过 Blender MCP 搭建漫画背景 · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-124"></a>
+### Case 124: [记录动画网站的完整制作过程](https://x.com/viktoroddy/status/2123749364963426674) (by [@viktoroddy](https://x.com/viktoroddy))
+
+**用录屏回看影响最终视觉效果的制作步骤。**
+
+创作者称网站动画由 Neon 辅助制作，并分享 12 分钟录屏。
+
+录屏展示网页的构建过程，作者将成品作为流程实例。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-124-1-fbaac8aa35d6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-124-1-31224659e289.jpg" alt="记录动画网站的完整制作过程 · 1" width="560"></a>
+
+Type: Tutorial | Date: 2026-11-20
+
+---
+
+<a id="case-127"></a>
+### Case 127: [比较 Blender 渲染的京都雨巷](https://x.com/mizugame_22/status/2123756243827486822) (by [@mizugame_22](https://x.com/mizugame_22))
+
+**根据原片排序和返工轮次对照各个场景。**
+
+作者给三个模型同一个提示词，并从上到下标注成品，最后一个是 Neon。
+
+原片按顺序标注三种结果。作者报告本次 Blender 比较的迭代次数分别是 37、29 和 25。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-127-1-297dd4a15d79.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-127-1-8d5572ca8197.jpg" alt="比较 Blender 渲染的京都雨巷 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-128"></a>
+### Case 128: [比较四种陶瓷烧制动画](https://x.com/lemomo_ai/status/2123756402879631565) (by [@lemomo_ai](https://x.com/lemomo_ai))
+
+**观察各片如何呈现同一种材料变化。**
+
+创作者用一个关于窑炉烧制效果的提示词，发布四种不同的动画演绎。
+
+根据原片标注，可以把不同烧制画面与产生它们的模型对应起来。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-128-1-3bf6f9cb050f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-128-1-4ce0c0ac5a03.jpg" alt="比较四种陶瓷烧制动画 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-131"></a>
+### Case 131: [比较两款可交互手表配置器](https://x.com/karanC_12/status/2123765421388234855) (by [@karanC_12](https://x.com/karanC_12))
+
+**在比较外观和部件细节时实际检查交互。**
+
+创作者给 Neon 和 Opus 5.5 同一个手表配置器需求。
+
+原片标出两种结果。创作者报告 Neon 版存在缺失或失效的交互，部件数量和费用均为本次结果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-131-1-c9df0cda7792.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-131-1-690e6caf50aa.jpg" alt="比较两款可交互手表配置器 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-132"></a>
+### Case 132: [比较交互式体素龙微缩场景](https://x.com/marcthecreatorr/status/2123772997328576587) (by [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**对比场景构图、灯光和作者记录的运行观察。**
+
+作者给 Neon 和 Opus 同一个不使用预制素材的龙与宝塔任务，并分别指出两种结果的优点。
+
+该帖记录了此次任务中两个场景各自出彩的部分。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-132-1-1cb05044d9d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-132-1-22f253d0078d.jpg" alt="比较交互式体素龙微缩场景 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-133"></a>
+### Case 133: [给平面画作交互式补光](https://x.com/ai_for_success/status/2123780898562986388) (by [@ai_for_success](https://x.com/ai_for_success))
+
+**观察光源移动时高光和阴影的变化。**
+
+创作者用维米尔的画作测试光源移动能否在平面展示中产生有方向的阴影。
+
+原片展示光照在画面上的移动，以及光向变化对阴影的影响。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-133-1-53f1359312b0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-133-1-ccffe7cefd7d.jpg" alt="给平面画作交互式补光 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-135"></a>
+### Case 135: [比较三个用代码构建的车辆场景](https://x.com/ivanainai/status/2123787634787098976) (by [@ivanainai](https://x.com/ivanainai))
+
+**先看可视结果，再参考作者估算的构建费用。**
+
+作者分享三个带标签的车辆场景，均未使用预制 3D 素材，并附有费用估算。
+
+原片标注了三种成品和素材约束，金额采用创作者的估算。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-135-1-520573442b93.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-135-1-e1c037befdfe.jpg" alt="比较三个用代码构建的车辆场景 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-137"></a>
+### Case 137: [比较两个油画风格的 3D 世界](https://x.com/FiniYang/status/2123807667026264561) (by [@FiniYang](https://x.com/FiniYang))
+
+**结合作者给出的运行指标，对比灯光和场景可读性。**
+
+创作者发布并排对照，Astra 在上、Neon 在下，并记录各自耗时和笔触数量。
+
+原片标注了上下两个结果，时间和笔触数均来自本次比较。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-137-1-bb92b945afc9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-137-1-2b1ca2f87b39.jpg" alt="比较两个油画风格的 3D 世界 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-138"></a>
+### Case 138: [为 Three.js 霓虹场景添加汽车](https://x.com/HarshithLucky3/status/2123809735401202001) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**观察后加入的物体如何融入原有场景。**
+
+创作者称用 Neon 制作 Three.js 霓虹动画，并在末尾要求加入 BMW M4 CS。
+
+成片展示更新后的场景和汽车，作者将添加汽车记录为后续指令。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-138-1-dd60068cfc4f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-138-1-47630aa4d643.jpg" alt="为 Three.js 霓虹场景添加汽车 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-139"></a>
+### Case 139: [在 Blender 中制作角色参考](https://x.com/HarshithLucky3/status/2123813583054414160) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**从多个方向对比角色轮廓和造型一致性。**
+
+创作者称展示的 Blender 角色由 Neon 构建。
+
+原图从多个视角呈现同一个角色。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-139-1-e3a8eb0d8ebc.jpg" alt="在 Blender 中制作角色参考 · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-140"></a>
+### Case 140: [比较四种草莓动画](https://x.com/AIMind_Ai/status/2123816445180088544) (by [@AIMind_Ai](https://x.com/AIMind_Ai))
+
+**检查每个结果能否在整个可见片段中保留指定的水果。**
+
+作者向 Neon、Carbon、Fable 5.2 和 Opus 5.5 提出同一个草莓动画需求。
+
+四个带模型标签的片段在水果和周围环境上有所不同。作者给出各次运行的推理档位和估算费用。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-140-1-b4c69ccb7471.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-140-1-c560c3d3f255.jpg" alt="比较四种草莓动画 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-143"></a>
+### Case 143: [完全用代码渲染高山场景](https://x.com/Mr_Salio/status/2123828049598611929) (by [@Mr_Salio](https://x.com/Mr_Salio))
+
+**从片段观察程序化场景如何表现纵深和比例。**
+
+创作者称用 Neon 编写绘制和动画代码，视频展示高山和高架桥。
+
+高山与高架桥出现在渲染画面中，作者将两部分代码都归于 Neon。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-143-1-01247a901cf2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-143-1-4ca5b794ae1d.jpg" alt="完全用代码渲染高山场景 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-144"></a>
+### Case 144: [用代理反馈改进 ASCII 骑行动画](https://x.com/chetaslua/status/2123831991061840145) (by [@chetaslua](https://x.com/chetaslua))
+
+**结合作者的反馈循环检查最终的运动效果。**
+
+创作者用 Neon 做 ASCII 鹈鹕骑车动画，并另设一个评审代理查看画面。
+
+原片用文本字符表现骑行动作，作者描述了评审代理的参与方式。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-144-1-8315e85c1e75.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-144-1-5cd6f4e87199.jpg" alt="用代理反馈改进 ASCII 骑行动画 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-145"></a>
+### Case 145: [比较 Neon 多代理与单代理](https://x.com/DanielZambrini/status/2123832990598045903) (by [@DanielZambrini](https://x.com/DanielZambrini))
+
+**以同一个动画需求比较协作成本和实际成品。**
+
+作者用多代理与单代理制作同一个松鼠视角动画，在该次测试中更喜欢单代理结果。
+
+原帖展示两种代理设置的成品，作者的偏好针对这次任务与测试条件。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-145-1-b4b90886d367.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-145-1-2f1bbc10a111.jpg" alt="比较 Neon 多代理与单代理 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-147"></a>
+### Case 147: [用 Three.js 制作程序化影视片段](https://x.com/filicroval/status/2123842978925977909) (by [@filicroval](https://x.com/filicroval))
+
+**检查纯代码场景中的几何、光照与动作。**
+
+创作者称使用 Neon 制作没有外部素材的 WebGL 片段，并分享成品。
+
+原片展示程序化 WebGL 场景经过影视化处理的结果，作者说明未使用外部素材。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-147-1-619523d42513.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-147-1-130e24ca2112.jpg" alt="用 Three.js 制作程序化影视片段 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-150"></a>
+### Case 150: [在 Blender 生成十二段角色动画](https://x.com/HarshithLucky3/status/2123862930152460362) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**比较同一流程产出的姿势和动作多样性。**
+
+创作者称十二段 Blender 角色动画由 Neon 制作，并公布动作网格。
+
+视频用网格排列这些动作，作者记载了 Blender 和十二段动画的范围。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-150-1-9b37b516bd99.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-150-1-5bf5f0b4bb8c.jpg" alt="在 Blender 生成十二段角色动画 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-152"></a>
+### Case 152: [比较四个水上飞机降落场景](https://x.com/eliadele/status/2123878763624857693) (by [@eliadele](https://x.com/eliadele))
+
+**用同一场景比较操作、视觉效果和作者报告的运行耗时。**
+
+测试者用一句话描述水上飞机在波拉波拉岛附近降落，称 Neon 制作了交互式 Three.js 场景，并在 OutputBench 记录此次运行。
+
+原帖注明共同的降落任务并链接测试背景，附件可用于观察场景成品。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-152-1-0699c6160306.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-152-1-cecb296db1d9.jpg" alt="比较四个水上飞机降落场景 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-154"></a>
+### Case 154: [比较 Three.js 中的摩纳哥隧道出口](https://x.com/teddyaisi/status/2123884091221348830) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**在共享需求下对照原片中的动画与照明。**
+
+作者给两个模型相同的黄昏隧道需求，发布带标签的比较，并报告 Neon 耗时 55 分 44 秒。
+
+作者标注各段 Three.js 场景及其各自耗时，两段使用相同的黄昏和场景要求。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-154-1-9160086c7475.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-154-1-8c08634c295f.jpg" alt="比较 Three.js 中的摩纳哥隧道出口 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-155"></a>
+### Case 155: [比较四种日落骑行动画](https://x.com/jony_palino/status/2123889278501495127) (by [@jony_palino](https://x.com/jony_palino))
+
+**逐个检查有标签场景中的踩踏动作与身体姿势。**
+
+创作者展示归于 Neon、Fable 5.2、Sol 和 DeepSeek V4.1 Flash 的四个骑行场景。
+
+原片标出了四个动画结果，这次比较没有说明各模型的运行设置是否相同。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-155-1-3d8d70616e52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-155-1-c43c4d2e3c43.jpg" alt="比较四种日落骑行动画 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-156"></a>
+### Case 156: [比较三部松鼠视角的程序化短片](https://x.com/DanielZambrini/status/2123891957529510012) (by [@DanielZambrini](https://x.com/DanielZambrini))
+
+**在相同的媒介限制下比较各结果如何表现第一视角。**
+
+创作者向各模型提供同一个 30 秒任务，要求纯代码输出。视频标注了 Neon、Astra 和 Fable 的结果。
+
+同一份纯代码需求覆盖三个模型，可用原片对比各自的运动和镜头组织。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-156-1-fae523eef096.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-156-1-5f3aca1ce926.jpg" alt="比较三部松鼠视角的程序化短片 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-158"></a>
+### Case 158: [用代码延时动画绘制图画](https://x.com/chetaslua/status/2123895603973537832) (by [@chetaslua](https://x.com/chetaslua))
+
+**观察逐步加上的笔画如何形成最终构图。**
+
+创作者称用 Neon 生成绘图代码，并用原片展示绘制过程。
+
+原片以时间顺序呈现绘图进度，作者将视觉程序归于 Neon。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-158-1-32e734b1fd02.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-158-1-3d83cb3153ed.jpg" alt="用代码延时动画绘制图画 · 1" width="560"></a>
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-158-2-cf80c3fa2e6b.jpg" alt="用代码延时动画绘制图画 · 2" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-159"></a>
+### Case 159: [比较三个夜间起飞场景的光照](https://x.com/SamgreyAi/status/2123898746329071698) (by [@SamgreyAi](https://x.com/SamgreyAi))
+
+**在同一任务下比较氛围与主体可见度的取舍。**
+
+创作者使用同一个夜间起飞需求，报告 Neon 场景偏暗、飞机难以辨认。
+
+附件标注多种结果，展示不同光照条件对飞机可见度的影响。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-159-1-76cb2adcbe79.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-159-1-bc7acdd749ae.jpg" alt="比较三个夜间起飞场景的光照 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-162"></a>
+### Case 162: [比较 Blender MCP 的同题盲测结果](https://x.com/maxt3chno/status/2123911052832190818) (by [@maxt3chno](https://x.com/maxt3chno))
+
+**在创作者给定的同一任务下比较几何和材质。**
+
+创作者让三个模型制作锤子，不提供参考图、网页搜索或素材，报告 Neon 用时 19 分钟。
+
+作者对照相同条件下的时长与用量，原片展示生成的 Blender 物件。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-162-1-7693de561db9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-162-1-22bc25d26fbc.jpg" alt="比较 Blender MCP 的同题盲测结果 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-163"></a>
+### Case 163: [在 Blender 中迭代制作兰博基尼](https://x.com/scottstts/status/2123919916244128036) (by [@scottstts](https://x.com/scottstts))
+
+**检查中间几何模型，并给复杂模型预留修订时间。**
+
+创作者称使用 Neon 反复迭代 Blender 汽车模型。
+
+原片展示 Blender 中的模型，作者报告整个流程约两小时。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-163-1-7734196d1ca6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-163-1-e6bf72104971.jpg" alt="在 Blender 中迭代制作兰博基尼 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-164"></a>
+### Case 164: [比较两种详细的摩托车渲染](https://x.com/ZryMiller/status/2123921248191479993) (by [@ZryMiller](https://x.com/ZryMiller))
+
+**对照引擎和车架细节，同时核对原帖的成本和耗时。**
+
+创作者并排发布摩托车渲染，分别标注 Neon xhigh 和 Fable 5.2 xhigh。
+
+作者报告各自的运行时间和费用，附件展示最终模型。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-164-1-8d800cc8674a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-164-1-f4b1a2ced69c.jpg" alt="比较两种详细的摩托车渲染 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-169"></a>
+### Case 169: [在 AI Studio 制作模型发布短片](https://x.com/liu8in/status/2123948163539329148) (by [@liu8in](https://x.com/liu8in))
+
+**从第一次输出中检查画面选择与节奏。**
+
+创作者请 Neon 在 AI Studio 中制作发布视频，并分享初次生成的片段。
+
+作者将片段作为该需求的首版，记录了第一次生成的镜头序列。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-169-1-5a7a870bc691.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-169-1-63ff63cc9554.jpg" alt="在 AI Studio 制作模型发布短片 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-170"></a>
+### Case 170: [让 Blender 场景渲染过夜](https://x.com/KanaWorks_AI/status/2123950255389749729) (by [@KanaWorks_AI](https://x.com/KanaWorks_AI))
+
+**结合创作者的操作说明，检查成品的灯光、纹理与构图。**
+
+创作者用 Neon 在 Blender 5.3 中构建场景，报告让该流程运行一整夜。
+
+原始渲染展示结果，作者说明了本次项目的运行时间和监督情况。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-170-1-99360ff2dd50.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-170-1-f45a02be80a1.jpg" alt="让 Blender 场景渲染过夜 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-172"></a>
+### Case 172: [比较同一个提示词生成的两种场景](https://x.com/JamesMalsawm/status/2123967133084516858) (by [@JamesMalsawm](https://x.com/JamesMalsawm))
+
+**先观察带标签的成品，再判断单次审美测试能否外推。**
+
+创作者说两个场景共用一个提示词并选用不同颜色，发布了带 Neon 和 Opus 标签的结果。
+
+对照时应把颜色差异与各模型的场景诠释一起纳入观察。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-172-1-3fd237b363b0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-172-1-3fd75fdb0851.jpg" alt="比较同一个提示词生成的两种场景 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-173"></a>
+### Case 173: [用代码制作概念预告片](https://x.com/likka_ailive/status/2123978932336881882) (by [@likka_ailive](https://x.com/likka_ailive))
+
+**分别追踪代码渲染镜头及外部音乐。**
+
+创作者用 Neon、Antigravity 和 OpenMotion 制作 60 秒概念影片，场景由代码构建，开源音乐单独混音。
+
+作者指明画面使用的工具，并将作品作为独立概念短片发布。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-173-1-743b25bb0fcd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-173-1-8d3ee500229f.jpg" alt="用代码制作概念预告片 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-174"></a>
+### Case 174: [比较 Three.js 哥特式教堂漫游](https://x.com/teddyaisi/status/2123993556419264532) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**结合作者的耗时记录，对比光照与相机运动。**
+
+作者让两个模型制作同一段 20 秒的漫游，终点是彩色玻璃窗。视频上方为 Astra，下方为 Neon。
+
+原片标注上下两种结果，两次任务使用相同终点和播放时长。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-174-1-556584bdda3f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-174-1-299bed6ec042.jpg" alt="比较 Three.js 哥特式教堂漫游 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-176"></a>
+### Case 176: [制作交互式彩色玻璃场景](https://x.com/abhinavflac/status/2124001055939891411) (by [@abhinavflac](https://x.com/abhinavflac))
+
+**区分光照与程序化背景音对场景的贡献。**
+
+创作者以一张照片为参考，使用程序化网页音频和代码渲染猫及彩色玻璃场景，未导入素材。
+
+作者交代了参考图，原片展示程序化生成的场景几何与声音。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-176-1-c6d6da01fdde.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-176-1-fac673484965.jpg" alt="制作交互式彩色玻璃场景 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-177"></a>
+### Case 177: [比较四个一次生成的 HTML 动画](https://x.com/bangbuilds/status/2124005847655125400) (by [@bangbuilds](https://x.com/bangbuilds))
+
+**在各模型仅生成一次的前提下比较视觉演绎。**
+
+作者给四个模型相同的雨天窗台小猫主题，每个模型只提交一份结果，无修订或重试。
+
+原视频展示四种演绎，均对应这次单次生成的共同需求。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-177-1-5a940614e1d4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-177-1-cb04b35cf781.jpg" alt="比较四个一次生成的 HTML 动画 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-180"></a>
+### Case 180: [制作交互式程序化樱花场景](https://x.com/thebuggeddev/status/2124033700350525497) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**给网站加上程序化细节时，分别检查动画与交互。**
+
+创作者称 Neon 制作了交互式樱花页面，枝条程序化生成，花瓣可以脱落。
+
+原片展示樱花的几何形态和模拟风，数量指标只描述这次发布的示例。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-180-1-34434d7bbd8e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-180-1-24dc153c8f53.jpg" alt="制作交互式程序化樱花场景 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-181"></a>
+### Case 181: [制作竖屏产品动态图形](https://x.com/ogabezim/status/2124036193776263671) (by [@ogabezim](https://x.com/ogabezim))
+
+**以目标竖屏比例预览动作和文字过渡。**
+
+创作者将第一次动效设计实验归于 Neon。
+
+视频把手机界面样稿、动画文字和高对比绿色背景组合在一起。作者在帖中说明了实验方式。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-181-1-0fa3c92f6742.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-181-1-a2ecdbad56b2.jpg" alt="制作竖屏产品动态图形 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-183"></a>
+### Case 183: [从估计深度生成法线贴图](https://x.com/WrongNebula/status/2124037902594387991) (by [@WrongNebula](https://x.com/WrongNebula))
+
+**查看所链接的实现，分别标明深度模型和生成工具的来源。**
+
+创作者借助 Neon 调整 Apple Depth Pro 2 权重，制作程序化法线贴图及其他 PBR 贴图工具。
+
+流程以估计深度图为中间输入，作者展示材质贴图实例，并将工具开发归于 Neon。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-183-1-bc725e19fcf1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-183-1-3cb208dca4ab.jpg" alt="从估计深度生成法线贴图 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-184"></a>
+### Case 184: [比较动态转场与音效选择](https://x.com/pankajkumar_dev/status/2124040952658682263) (by [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**单独检查转场，再看作者对音效的比较。**
+
+创作者展示 Neon 的动效成品，并报告更喜欢 Claude 的音效。画面和声音判断都来自作者。
+
+比较分别讨论动画过渡和声音设计，原片呈现 Neon 的输出。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-184-1-92892fee2e04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-184-1-86891b989575.jpg" alt="比较动态转场与音效选择 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-186"></a>
+### Case 186: [用 Three.js 搭建霓虹电子零件街](https://x.com/niramayo2096/status/2124042263512904187) (by [@niramayo2096](https://x.com/niramayo2096))
+
+**记录参考图、场景代码和配乐分别来自哪个工具。**
+
+创作者用 Neon 把一张图转成虚构的雨夜电子零件街，镜头由代码控制。
+
+作者说明用 Three.js 渲染、ChatGPT 提供参考图、Suno 生成音乐。原片展示代码搭建的街景。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-186-1-49a8afa32037.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-186-1-ebf8f615af74.jpg" alt="用 Three.js 搭建霓虹电子零件街 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-187"></a>
+### Case 187: [比较虚构角色的绘图界面](https://x.com/noclipepe/status/2124074648266535253) (by [@noclipepe](https://x.com/noclipepe))
+
+**使用同一个虚构角色参考，对照两套界面。**
+
+创作者让 Neon 和 Fable 为虚构游戏角色制作草图界面，报告 Neon 耗时 21 分钟、Fable 27 分钟。
+
+视频呈现两种草图界面设计，耗时对应这次指定的角色需求。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-187-1-51123c7e0e4d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-187-1-65794f737a1b.jpg" alt="比较虚构角色的绘图界面 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-188"></a>
+### Case 188: [迭代页面区块和界面组件](https://x.com/csaba_kissi/status/2124080629642154476) (by [@csaba_kissi](https://x.com/csaba_kissi))
+
+**把可复用组件放回系列中一起评估。**
+
+开发者发布 Neon 生成的一组页面区块，并展示各组件的不同版本。
+
+原帖呈现相关区块及其交互，后续片段是同一界面的迭代。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-188-1-e34e22429fe4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-188-1-934dceb92441.jpg" alt="迭代页面区块和界面组件 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-189"></a>
+### Case 189: [制作胶片渲染与扫描模拟原型](https://x.com/WrongNebula/status/2124083607635718386) (by [@WrongNebula](https://x.com/WrongNebula))
+
+**用开发记录追溯片段中胶片效果的实现。**
+
+创作者称用 Neon 搭建基于物理的胶片渲染和扫描项目，分享预览与开发连帖。
+
+原片展示胶片渲染效果，开发信息对应当时阶段。来源未提供独立成本测量。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-189-1-1c30899f38b7.jpg" alt="制作胶片渲染与扫描模拟原型 · 1" width="560">
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-192"></a>
+### Case 192: [比较两个交互式海上微缩场景](https://x.com/thebuggeddev/status/2124109788883853698) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**在同一个构建需求下，对照场景与交互控件。**
+
+创作者报告把同一个任务交给 Neon 和 Opus 5.5。
+
+原片展示两座海上微缩景观，包括在海面上的高架建筑和树木。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-192-1-f857f4c4c848.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-192-1-72361365787b.jpg" alt="比较两个交互式海上微缩场景 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-193"></a>
+### Case 193: [比较六个模型的网站改版](https://x.com/guilippert_v4/status/2124110586753482802) (by [@guilippert_v4](https://x.com/guilippert_v4))
+
+**把费用下限按下界解读，并检查渲染差异。**
+
+作者在高推理强度下给六个模型相同的改版任务，不附加技能。原帖报告各次耗时和费用。
+
+图表记录这次六模型对比，Neon 的费用以最低估计呈现。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-193-1-99e1c89f24f0.jpg" alt="比较六个模型的网站改版 · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-195"></a>
+### Case 195: [比较同题 Three.js Jeep 模型](https://x.com/maxt3chno/status/2124122272440951080) (by [@maxt3chno](https://x.com/maxt3chno))
+
+**查看带标签的场景，把耗时限定在此次测试。**
+
+创作者复用先前的 Jeep 提示词并分享并排比较，记录 Neon High 用时 45 分钟。
+
+两种模型的成品在视频中有标签，解读耗时可结合复用的原始任务。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-195-1-d8995fa4ad08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-195-1-b043ad346c1f.jpg" alt="比较同题 Three.js Jeep 模型 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-196"></a>
+### Case 196: [比较三个模型的界面设计](https://x.com/csaba_kissi/status/2124131369076887639) (by [@csaba_kissi](https://x.com/csaba_kissi))
+
+**对照原片中的组件状态和布局选择。**
+
+创作者比较与 Opus 5.5、Sol 和 Gemini 4 Neon 相关联的界面设计。
+
+视频展示作者用来做定性判断的细节，原帖未给出受控生成配置。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-196-1-29b7d822288e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-196-1-1b9b7d84fabd.jpg" alt="比较三个模型的界面设计 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-197"></a>
+### Case 197: [用程序化代码制作歌唱场景](https://x.com/chetaslua/status/2124131378770182389) (by [@chetaslua](https://x.com/chetaslua))
+
+**将纯代码成品与使用生成音频或视频素材的项目作比较。**
+
+来源称创作者请 Neon 用代码写画面、音乐和人声，不用外部库、素材或 TTS。
+
+视频把渲染画面和歌曲放在一起，库和素材限制均来自作者对这次实验的说明。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-197-1-213fbfb6cae0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-197-1-1888ae3cd2cf.jpg" alt="用程序化代码制作歌唱场景 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-198"></a>
+### Case 198: [用首尾帧衔接生成片段](https://x.com/leaf_sanren/status/2124132471046606916) (by [@leaf_sanren](https://x.com/leaf_sanren))
+
+**分别注明生成视频的模型和负责串接剪辑的流程。**
+
+作者用 Neon 处理首尾帧和剪辑，作为较长视频工作流的一部分。
+
+片段比较 Seedance 2.5 Flash 与 Omni 1.2 Flash 的输出，作者将整个流程中的组接工作归于 Neon。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-198-1-8f18177543e8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-198-1-3fd9cb6977d0.jpg" alt="用首尾帧衔接生成片段 · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-21
+
+---
+
+<a id="case-200"></a>
+### Case 200: [在浏览器中展示体素模型](https://x.com/DrstaOne/status/2124141602629439754) (by [@DrstaOne](https://x.com/DrstaOne))
+
+**利用可旋转的浏览器预览检查体素物体的轮廓与细节。**
+
+创作者称体素建模演示由 Neon 实现，视频显示香蕉形体素模型及交互控件。
+
+原帖分享可视化结果，未展示确切提示词和制作步骤。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-200-1-8229b8e32f2f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-200-1-f27b8f50fc90.jpg" alt="在浏览器中展示体素模型 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-201"></a>
+### Case 201: [将发布图做成霓虹灯动画](https://x.com/blueemi99/status/2124142635808084445) (by [@blueemi99](https://x.com/blueemi99))
+
+**用短促的亮灯过程把一张参考图变成可循环的画面。**
+
+创作者称请 Neon 为模型发布博客中的图片制作动画。
+
+原片展示标志和文字像霓虹灯一样点亮。参考图出处由创作者说明。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-201-1-de28701f4a50.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-201-1-8a321a8314f2.jpg" alt="将发布图做成霓虹灯动画 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-202"></a>
+### Case 202: [比较两首生成的 LilyPond 玛祖卡](https://x.com/aug5thmusic/status/2124143855474024663) (by [@aug5thmusic](https://x.com/aug5thmusic))
+
+**查看两份乐谱，听出各模型如何处理同一体裁。**
+
+创作者用同一个要求，让 Neon 和 Fable 5.2 用 LilyPond 写一首钢琴玛祖卡。
+
+原始两个附件分别呈现生成的乐谱，原帖刊出确切请求。
+
+<table>
+<tr>
+<td><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-202-1-72d2c08479e2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-202-1-e3bd42078e4b.jpg" alt="比较两首生成的 LilyPond 玛祖卡 · 1" width="560"></a></td>
+<td><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-202-2-7ef00c8de125.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-202-2-687e3078bdd4.jpg" alt="比较两首生成的 LilyPond 玛祖卡 · 2" width="560"></a></td>
+</tr>
+</table>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-203"></a>
+### Case 203: [比较四种全息视差动画](https://x.com/DeepBlueX0/status/2124148150525128836) (by [@DeepBlueX0](https://x.com/DeepBlueX0))
+
+**在比较中保留输出顺序及模型标签。**
+
+创作者使用四张输入图生成全息视差动画，并比较四个已注明模型的结果。
+
+作者按从左到右列出结果，在回复中提供原任务。输入包括角色图、深度图、背景和装饰框。
+
+[补充来源](https://x.com/DeepBlueX0/status/2124148165456896504)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-203-1-81f1ab3f9fc3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-203-1-a11f9dd1c373.jpg" alt="比较四种全息视差动画 · 1" width="560"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-203-2-a2e7f9bd83df.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-203-2-5438f383c859.jpg" alt="比较四种全息视差动画 · 2" width="560"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-203-3-5379a86e8c80.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-203-3-4532a2efa270.jpg" alt="比较四种全息视差动画 · 3" width="560"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-203-4-c7ac0b28dcb2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-203-4-cef9725be0b4.jpg" alt="比较四种全息视差动画 · 4" width="560"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-203-5-16e550968df5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-203-5-d7c9a8051252.jpg" alt="比较四种全息视差动画 · 5" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-204"></a>
+### Case 204: [用代码制作 ASCII 角色动画](https://x.com/chetaslua/status/2124157978425294867) (by [@chetaslua](https://x.com/chetaslua))
+
+**用代码驱动文本字符运动，探索直接生成动画画面的方式。**
+
+创作者说明这是一项纯代码 ASCII 实验。
+
+原片展示由字符组成的动画角色，作者将画面与代码都归于这次实验。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-204-1-58ddb14c108f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-204-1-ac09984e8d2e.jpg" alt="用代码制作 ASCII 角色动画 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-206"></a>
+### Case 206: [让不同模型分担搭景和动画](https://x.com/nemumusitocha/status/2124160079398314141) (by [@nemumusitocha](https://x.com/nemumusitocha))
+
+**把初始搭建与后续动作优化分配到不同阶段。**
+
+创作者报告 Neon 负责场景框架，Claude Mythos 5.2 优化细节和动画。
+
+作者明确说明分工，原片展示两部分结合后的场景。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-206-1-c5b50ac39e35.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-206-1-62c30412688a.jpg" alt="让不同模型分担搭景和动画 · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-21
+
+---
+
+<a id="case-211"></a>
+### Case 211: [比较 Three.js 贡多拉漫游](https://x.com/teddyaisi/status/2124190810900140286) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**用相同的运镜路线和片长对照场景运动。**
+
+创作者给 Astra 和 Neon 相同的需求，制作一段穿过威尼斯桥洞的 20 秒日落航程。
+
+原片给两条驶向大运河的路线加上标签并同步播放，说明文字列出生成耗时和费用。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-211-1-174a20462ed7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-211-1-422ac975b76b.jpg" alt="比较 Three.js 贡多拉漫游 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-213"></a>
+### Case 213: [比较四个 Three.js 埃菲尔铁塔模型](https://x.com/Bhavani_00007/status/2124203254011854973) (by [@Bhavani_00007](https://x.com/Bhavani_00007))
+
+**把带标签的结果并排，比较同一对象的结构和视觉细节。**
+
+创作者让 Neon、Astra、Sol 和 Opus 用 Three.js 搭建埃菲尔铁塔。
+
+原视频集中展示四个结果，作者交代这次建造任务，并邀请读者评估各版本。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-213-1-ee11cc01b612.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-213-1-174020bf0c57.jpg" alt="比较四个 Three.js 埃菲尔铁塔模型 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-214"></a>
+### Case 214: [比较两个 Gemini 版本的引擎动画](https://x.com/HarshithLucky3/status/2124205275272097970) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**将几何、动画和声音作为不同维度检查。**
+
+创作者比较 Gemini 4 Neon High 和 Gemini 3.7 Flash High 在 Antigravity 中的引擎可视化。
+
+原片标出两个结果，作者将对比中的引擎音效归于 Neon。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-214-1-ffd6e1923276.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-214-1-2c9a3ecfc799.jpg" alt="比较两个 Gemini 版本的引擎动画 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-215"></a>
+### Case 215: [制作浏览器中的伪 3D 体素精灵](https://x.com/studio_yebisu/status/2124212957332799933) (by [@studio_yebisu](https://x.com/studio_yebisu))
+
+**用分层精灵图模拟旋转，同时保留像素画的边缘。**
+
+创作者把平面精灵分层组合，让相机转动时场景看起来有体积，并以浏览器界面展示。
+
+原片显示相机环绕精灵场景，作者将立体观感归于多层平面元素。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-215-1-d0a6a4368033.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-215-1-e6726fb3bbd6.jpg" alt="制作浏览器中的伪 3D 体素精灵 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-216"></a>
+### Case 216: [比较四个 Alpine Gold 场景](https://x.com/EnvolDev/status/2124238419140444661) (by [@EnvolDev](https://x.com/EnvolDev))
+
+**在相同提示词下比较场景、作者报告的耗时和费用。**
+
+此次 Alpine Gold 对比共用提示词并标记四种结果，作者报告 Neon 用时 1 小时 31 分 11 秒，费用 11.84 美元。
+
+原片的标签和耗时均对应这次对照，参考成本前可先检查画面动作与布局。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-216-1-089c1cb26acd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-216-1-b373fcaeaef5.jpg" alt="比较四个 Alpine Gold 场景 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-217"></a>
+### Case 217: [比较四种斑马动画](https://x.com/jony_palino/status/2124246473667961005) (by [@jony_palino](https://x.com/jony_palino))
+
+**逐个查看带标签输出的斑马轮廓、腿部动作和背景。**
+
+创作者展示 Neon、Carbon、Fable 5.2 和 DeepSeek V4.1 Flash 制作的四个斑马动画。
+
+原片可用于比较各模型的视觉结果，作者未说明提示词和生成配置是否相同。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-217-1-b408ad8ddc0a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-217-1-50fbb1ab984d.jpg" alt="比较四种斑马动画 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-219"></a>
+### Case 219: [比较两种挖掘机动画](https://x.com/ivanainai/status/2124273127614017837) (by [@ivanainai](https://x.com/ivanainai))
+
+**查看各场景如何表现车辆动作和地面接触。**
+
+原片标出 Neon 和 Opus 5.5 的施工场景。
+
+两种模型渲染的挖掘机和卡车并排可见，来源没有给出相同设置的充分证据。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-219-1-5dabf3de2232.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-219-1-340c55caaee6.jpg" alt="比较两种挖掘机动画 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-223"></a>
+### Case 223: [在 Antigravity 中制作 W16 引擎动画](https://x.com/HarshithLucky3/status/2124313664790671814) (by [@HarshithLucky3](https://x.com/HarshithLucky3))
+
+**从多个角度观察组件结构是否清楚。**
+
+创作者注明用 Antigravity 中的 Neon High 制作 Bugatti Chiron W16 可视化。
+
+原片展示霓虹照明下运转的引擎总成。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-223-1-0f69dc8a5571.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-223-1-7dc0da961dd8.jpg" alt="在 Antigravity 中制作 W16 引擎动画 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-225"></a>
+### Case 225: [迭代 Neon 导演的音乐视频](https://x.com/anabology/status/2124322570652528876) (by [@anabology](https://x.com/anabology))
+
+**审核早期输出，分几轮给出后续方向。**
+
+创作者让 Neon 主导音乐视频，并报告在数天内反复修改。
+
+原帖把较后的剪辑作为迭代成品展示，没有逐一标注音视频工具。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-225-1-128f7f022ace.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-225-1-7b92100ced8e.jpg" alt="迭代 Neon 导演的音乐视频 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-228"></a>
+### Case 228: [比较两段 Three.js 图书馆漫游](https://x.com/teddyaisi/status/2124353151646200097) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**用同样的 20 秒漫游，对比运镜节奏及建筑内部细节。**
+
+创作者给 Astra 和 Neon 相同的巴洛克图书馆任务。
+
+同步片段标明 Astra 在上、Neon 在下，耗时和费用均由作者记录。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-228-1-2aa76da8bbd0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-228-1-1f13fcf905f2.jpg" alt="比较两段 Three.js 图书馆漫游 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-232"></a>
+### Case 232: [用参考片段剪出奇幻转场](https://x.com/GeekCatX/status/2124365617243595014) (by [@GeekCatX](https://x.com/GeekCatX))
+
+**在多工具视频流程中分别记录剪辑和配音职责。**
+
+创作者提供参考片段，将剪辑归于 Neon，使用 Doubao TTS2 生成克隆旁白。
+
+原视频为剪辑成品，作者说明参考片段是单独输入，旁白由 Doubao TTS2 生成。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-232-1-36b1032c3599.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-232-1-6fcad8e8f8d9.jpg" alt="用参考片段剪出奇幻转场 · 1" width="560"></a>
+
+Type: Tutorial | Date: 2026-11-22
+
+---
+
+<a id="case-234"></a>
+### Case 234: [把水彩瞭望塔转为 WebGPU 场景](https://x.com/thebuggeddev/status/2124387668461236268) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**比较程序化搭建时保持参考图和迭代次数相同。**
+
+创作者给 Neon 和 Carbon 同一幅水彩画，以及制作 WebGPU 瞭望塔的需求。
+
+原片将 Neon 标在右侧，并排展示两个交互式场景作品。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-234-1-26a170aa0e64.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-234-1-49bef4fc01c7.jpg" alt="把水彩瞭望塔转为 WebGPU 场景 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-238"></a>
+### Case 238: [用代码写歌并制作 ASCII 可视化](https://x.com/chetaslua/status/2124460788501106722) (by [@chetaslua](https://x.com/chetaslua))
+
+**用代码生成的声音和文本动画测试声画是否同步。**
+
+创作者让 Neon 自选歌词，并用 ASCII 动画演示其对思考过程的表现。
+
+作者说明只用代码，不用外部素材、TTS 或插件。原片展示动态字符和字幕。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-238-1-ae91d567a285.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-238-1-2ca901896111.jpg" alt="用代码写歌并制作 ASCII 可视化 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-240"></a>
+### Case 240: [比较四种引擎剖面动画](https://x.com/kinderlayer/status/2124465319087308918) (by [@kinderlayer](https://x.com/kinderlayer))
+
+**检查各结果能否清晰展示相同的运动部件。**
+
+创作者给四个模型同一个运转引擎剖面需求。
+
+原对比片标明四个结果，展示活塞、齿轮和燃料的不同表现。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-240-1-18c6e9ce30c8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-240-1-ceec44a1212a.jpg" alt="比较四种引擎剖面动画 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-241"></a>
+### Case 241: [制作低多边形角色基础网格](https://x.com/fe_yukichi/status/2124470064422527151) (by [@fe_yukichi](https://x.com/fe_yukichi))
+
+**给出正面和侧面参考图，细化角色前先检查拓扑。**
+
+创作者用 Gemini 4 Neon 和 Blender，以一条提示词生成角色基础模型，报告约 4,800 个三角面。
+
+原帖展示正面、侧面和 Blender 网格。作者在回复中分享完整日语输入，并称可作为起点。
+
+[补充来源](https://x.com/fe_yukichi/status/2124470794327843162)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-241-1-1487bbbb7c98.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-241-1-cb267d3ea061.jpg" alt="制作低多边形角色基础网格 · 1" width="560"></a>
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-241-2-b2df80e6eb9b.png" alt="制作低多边形角色基础网格 · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-241-3-81209abff7e9.png" alt="制作低多边形角色基础网格 · 3" width="560">
+
+Type: Tutorial | Date: 2026-11-22
+
+---
+
+<a id="case-242"></a>
+### Case 242: [比较四种冰冻西瓜动画](https://x.com/AIMind_Ai/status/2124474268079567329) (by [@AIMind_Ai](https://x.com/AIMind_Ai))
+
+**用相同的事件顺序检查水果在转场前后是否一致。**
+
+创作者报告向四个模型给出相同的冻结、融化和爆裂任务。
+
+对比片用四个带标签的画面展示一次评测，所列耗时和成本估算取决于本次设置。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-242-1-51a984366ca1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-242-1-8782fd0ff6d5.jpg" alt="比较四种冰冻西瓜动画 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
 ## 🎮 游戏和模拟
 <a id="games"></a>
 
@@ -1394,6 +3036,111 @@ Type: Demo | Date: 2026-11-18
 
 ---
 
+<a id="case-130"></a>
+### Case 130: [搭建程序化四足机器人仿真](https://x.com/thebuggeddev/status/2123760487183872482) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**把物理仿真的屏幕演示与实体机器人的表现区分开。**
+
+创作者称用 Neon 根据参考图做出四足机器人仿真，并包含程序化着色、物理效果和线缆模拟。
+
+演示展示了浏览器中的机器人模型、材质和模拟动作。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-130-1-0bf50c697b90.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-130-1-57d1a7297441.jpg" alt="搭建程序化四足机器人仿真 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-168"></a>
+### Case 168: [比较 The Last Take 的两个游戏场景](https://x.com/atakoylanai/status/2123947041147740484) (by [@atakoylanai](https://x.com/atakoylanai))
+
+**在两种带标签的版本中比较界面可读性与场景构图。**
+
+创作者比较归于 Neon 和 Fable 5.2 的 The Last Take 版本。
+
+原片并排展示游戏视图和界面处理，帖子未提供独立的可玩性测试。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-168-1-33c5197747b2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-168-1-d3791fbcdfd2.jpg" alt="比较 The Last Take 的两个游戏场景 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-209"></a>
+### Case 209: [比较 Minecraft 中的《奥西曼狄斯》](https://x.com/jan_volad/status/2124174497914003925) (by [@jan_volad](https://x.com/jan_volad))
+
+**在同一建造要求下对比创意演绎与报告耗时。**
+
+创作者按雪莱诗作给出同一个要求，并记录 Neon 用时 19 分钟、花费 2.88 美元，Sol 用时 12 分钟、花费 1.06 美元。
+
+并排画面展示两种模型对同一首诗的演绎，耗时和成本来自作者的运行记录。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-209-1-2c405e9f4e01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-209-1-3bad09e19ba2.jpg" alt="比较 Minecraft 中的《奥西曼狄斯》 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-221"></a>
+### Case 221: [比较八个影视场景的 Minecraft 搭建](https://x.com/jan_volad/status/2124308264456233400) (by [@jan_volad](https://x.com/jan_volad))
+
+**对照八处场景的还原度、生成费用和耗时。**
+
+创作者给 Neon 和 Sol 同一个 Minecraft 八场景任务。
+
+原片有模型标签，作者报告 Neon 用时 22 分钟、Sol 用时 24 分钟，并单独说明费用与视觉偏好。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-221-1-538854ff5d01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-221-1-5f26eb812b14.jpg" alt="比较八个影视场景的 Minecraft 搭建 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-222"></a>
+### Case 222: [在 AI Studio 制作骰子工具](https://x.com/LyalinDotCom/status/2124309371932832221) (by [@LyalinDotCom](https://x.com/LyalinDotCom))
+
+**从小型浏览器工具入手，在实际游戏中检验是否可用。**
+
+创作者在 Google AI Studio 用 Neon 制作骰子工具，用于自制桌游。
+
+附件展示骰面与界面，应用只解决这项具体任务。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-222-1-56174d1476fd.jpg" alt="在 AI Studio 制作骰子工具 · 1" width="560">
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-226"></a>
+### Case 226: [用可实玩的线索搭建密室原型](https://x.com/jacalulu/status/2124325874212446345) (by [@jacalulu](https://x.com/jacalulu))
+
+**试玩首版，找出需要调整的线索和交互。**
+
+作者称根据一项请求用 Neon 制成首个可玩的 Astrolab 密室版本。
+
+创作者请朋友试玩后进行小幅调整，原片展示谜题环境和工作台。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-226-1-9c47f9e589ce.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-226-1-949fefc74792.jpg" alt="用可实玩的线索搭建密室原型 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-236"></a>
+### Case 236: [在 tvOS 上制作回合制炮战游戏原型](https://x.com/thorstenball/status/2124439072235991520) (by [@thorstenball](https://x.com/thorstenball))
+
+**检查客厅屏幕上的游戏区域和回合状态是否清楚。**
+
+开发者称借助 Neon 和 Amp 的 Mac sidecars 制作 tvOS 炮战原型。
+
+原片展示比赛区域与开发环境，原帖记录的是开发中版本。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-236-1-383dae26ca13.jpg" alt="在 tvOS 上制作回合制炮战游戏原型 · 1" width="560">
+
+Type: Demo | Date: 2026-11-22
+
+---
+
 ## 📚 知识工作
 <a id="knowledge"></a>
 
@@ -1536,6 +3283,178 @@ Type: Demo | Date: 2026-11-18
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/videos/case-104-1-704072667b23.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-20/posters/case-104-1-fd4f10acc8b5.jpg" alt="用音乐视频介绍模型训练 · 1" width="560"></a>
 
 Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-121"></a>
+### Case 121: [分析三周的 X 数据](https://x.com/poolmoon6/status/2123744162285785300) (by [@poolmoon6](https://x.com/poolmoon6))
+
+**把相关性结果当作针对该账号的探索性观察。**
+
+创作者请 Neon High 复盘三周的 X 指标，并称收到按相关性排序的分析。
+
+附件展示部分相关性结果，结论基于作者所报告的账号数据。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-121-1-d3d49f1d7a7f.jpg" alt="分析三周的 X 数据 · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-125"></a>
+### Case 125: [把音频摘要做成动态政策简报](https://x.com/HiromitsuTakagi/status/2123751869319389642) (by [@HiromitsuTakagi](https://x.com/HiromitsuTakagi))
+
+**分别记录源文件、音频摘要与新增画面。**
+
+创作者采用日本公开工作组文件，将 Gemini Notebook 生成的音频摘要输入视频制作流程。
+
+作者指明了公开会议文件及单独生成的音频摘要，并注明 Neon 制作了配套视频。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-125-1-8144b9389ca3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-125-1-6d61156c32ae.jpg" alt="把音频摘要做成动态政策简报 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-141"></a>
+### Case 141: [从大量素材中剪出一条视频](https://x.com/AndroidDev/status/2123824825198170569) (by [@AndroidDev](https://x.com/AndroidDev))
+
+**按演示查看从素材索引到视频剪辑的步骤。**
+
+Android Developers 展示了用 Neon 为约一千条片段建立索引，再用于视频制作的流程。
+
+原帖演示如何在剪辑中搜索大量片段，素材数量为发布者估算。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-141-1-a8c7174a1ef5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-141-1-2b58a5045533.png" alt="从大量素材中剪出一条视频 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-153"></a>
+### Case 153: [用代理协作探索南极数据](https://x.com/DynamicWebPaige/status/2123880090203570480) (by [@DynamicWebPaige](https://x.com/DynamicWebPaige))
+
+**记录输入数据集，把模型生成的物理解释当作有待验证的假设。**
+
+创作者称借助 Neon 代理探索公开卫星速度数据和南极冰床地形。
+
+图表对应对思韦茨冰川和派恩岛冰川的探索，作者将其描述为实验性流程。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-153-1-3751af053ea4.jpg" alt="用代理协作探索南极数据 · 1" width="560">
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-178"></a>
+### Case 178: [用交互图展示代理循环的回合状态](https://x.com/antiAIvo/status/2124028084022353961) (by [@antiAIvo](https://x.com/antiAIvo))
+
+**让源代码与状态图对应，便于追踪正常完成和取消路径。**
+
+创作者用 Neon 把代理循环做成交互式 HTML 讲解。
+
+视频展示代码与状态图的联动高亮，以及筛选不同退出路径的分支控件。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-178-1-4f6d09202c74.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-178-1-7c5ece5f7cef.jpg" alt="用交互图展示代理循环的回合状态 · 1" width="560"></a>
+
+Type: Tutorial | Date: 2026-11-21
+
+---
+
+<a id="case-179"></a>
+### Case 179: [用代理探索火星地震波形](https://x.com/DynamicWebPaige/status/2124030792385052735) (by [@DynamicWebPaige](https://x.com/DynamicWebPaige))
+
+**结合源数据和图表回看探索性分析流程。**
+
+创作者称在 Antigravity 中使用 Neon 多代理处理 NASA InSight 四年的公开波形。
+
+附件记录了对 NASA 公开读数的探索性转换，作者提出的解读仅作为研究辅助。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-179-1-e8e966e654bb.jpg" alt="用代理探索火星地震波形 · 1" width="560">
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-185"></a>
+### Case 185: [比较三个模型和一位作者的短篇](https://x.com/risui1012/status/2124041518109614235) (by [@risui1012](https://x.com/risui1012))
+
+**通过同一故事设定比较文风和结构。**
+
+作者设定同一个 500 字挑战，对照自己无辅助写作的版本与 Sol、Neon、Opus 的初稿。
+
+作者标明人工版本和三个模型版本，并解释自己对这次日语写作挑战的比较。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-1-49210b78c3ea.jpg" alt="比较三个模型和一位作者的短篇 · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-2-00ffccb0856e.jpg" alt="比较三个模型和一位作者的短篇 · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-3-57fcab7847e7.jpg" alt="比较三个模型和一位作者的短篇 · 3" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-4-3d39c206cff1.jpg" alt="比较三个模型和一位作者的短篇 · 4" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-5-dedf7868e54d.jpg" alt="比较三个模型和一位作者的短篇 · 5" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-6-3a8317a8d885.jpg" alt="比较三个模型和一位作者的短篇 · 6" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-7-7397ce5c273e.jpg" alt="比较三个模型和一位作者的短篇 · 7" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-185-8-d29e292ef86b.jpg" alt="比较三个模型和一位作者的短篇 · 8" width="560">
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-199"></a>
+### Case 199: [在 Antigravity 中制作讲解短片](https://x.com/DynamicWebPaige/status/2124132842179350814) (by [@DynamicWebPaige](https://x.com/DynamicWebPaige))
+
+**通过演示了解多种媒介工具如何协作。**
+
+创作者称用 Neon 和 Antigravity 制作 90 秒讲解视频，同时使用 Google 媒体工具、TTS 和 HyperFrames。
+
+作者交代多工具组合及 Neon 参与的环节，附件提供成片证据。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-199-1-96168cce27f0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-199-1-fe669c11d8c2.jpg" alt="在 Antigravity 中制作讲解短片 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-210"></a>
+### Case 210: [用现有技能渲染知识短片](https://x.com/GeekCatX/status/2124175490516918376) (by [@GeekCatX](https://x.com/GeekCatX))
+
+**分别记录模型负责的工作和既有渲染优化的作用。**
+
+作者用 Neon、现有知识视频技能和单独的渲染优化，完成一条超过两分钟的视频。耗时和用量对应此次运行。
+
+原帖区分可复用视频技能与渲染优化，附件展示组合流程的结果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-210-1-41bd33ccd376.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-210-1-537494d8c9fe.jpg" alt="用现有技能渲染知识短片 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-21
+
+---
+
+<a id="case-224"></a>
+### Case 224: [用三维剖面展示堤防失效模式](https://x.com/doboku_works/status/2124318343780090323) (by [@doboku_works](https://x.com/doboku_works))
+
+**旋转剖面，检查各模拟失效机制发生的位置。**
+
+创作者用 Neon 将简化二维渗流计算和三维剖面结合，供个人学习。
+
+画面涵盖漫顶、渗流、管涌和冲刷，作者作为学习资料展示。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-224-1-90625643834c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-224-1-660c143ab28d.jpg" alt="用三维剖面展示堤防失效模式 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-227"></a>
+### Case 227: [用交互图讲解 Pi 的代理运行框架](https://x.com/chasen_liao/status/2124352577852821919) (by [@chasen_liao](https://x.com/chasen_liao))
+
+**沿交互图追踪工具和扩展如何影响代理状态。**
+
+创作者用 Neon 解释 Pi 运行框架及其四个内置工具。
+
+讲解涵盖工具调用、MCP 上下文及核心与扩展的边界。视频展示了解各个状态的操作。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-227-1-0d9f175cbc3f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-227-1-15fc189a1e88.jpg" alt="用交互图讲解 Pi 的代理运行框架 · 1" width="560"></a>
+
+Type: Tutorial | Date: 2026-11-22
 
 ---
 
@@ -1841,6 +3760,340 @@ Type: Benchmark | Date: 2026-11-19
 
 ---
 
+<a id="case-107"></a>
+### Case 107: [比较两种推理强度的基准成绩](https://x.com/PawelHuryn/status/2123650600453693460) (by [@PawelHuryn](https://x.com/PawelHuryn))
+
+**比较各档推理强度的得分和估算订阅成本。**
+
+基准维护者公布了 Neon xhigh 和 high 在缺陷修复评测中的成绩。
+
+原图按推理强度对比结果。按作者的估算口径，xhigh 在 105 项中得 63 分，high 得 57 分。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-107-1-6d411a52a86a.jpg" alt="比较两种推理强度的基准成绩 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-129"></a>
+### Case 129: [分析与 Astra 对弈的实录](https://x.com/Leapofcode/status/2123757501531476294) (by [@Leapofcode](https://x.com/Leapofcode))
+
+**在先后手固定的单局范围内比较走法和 token 用量。**
+
+作者记录了 Astra 执白、Neon 执黑的一局棋。
+
+原视频展示棋盘，作者报告 Astra 获胜，并给出这局的逐模型 token 用量。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-129-1-a9b885b8c116.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-129-1-230174feb89a.jpg" alt="分析与 Astra 对弈的实录 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-134"></a>
+### Case 134: [比较 ErdosBench 研究级数学成绩](https://x.com/prz_chojecki/status/2123782382876602540) (by [@prz_chojecki](https://x.com/prz_chojecki))
+
+**结合各评分档的分布解读榜单名次。**
+
+维护者报告了 Neon 在 ErdosBench 的 226 道研究级数学题上的评测。
+
+所附成绩显示得分为 3.234，并记录 A、B 和 C 档分布。成绩属于该基准的评分流程。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-134-1-551f173bb536.jpg" alt="比较 ErdosBench 研究级数学成绩 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-136"></a>
+### Case 136: [比较 FutureSim 预测成绩](https://x.com/nikhilchandak29/status/2123804028312203664) (by [@nikhilchandak29](https://x.com/nikhilchandak29))
+
+**结合基准方法和结果日期解读预测成绩。**
+
+发布者展示了 Neon 的领先分数，并描述了跨领域模拟题和工具调用。
+
+基准共同负责人公布排名和任务范围，结果适用于这次 FutureSim 快照。
+
+[补充来源](https://openforecaster.github.io/futuresim/)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-136-1-52f1bff62ba9.jpg" alt="比较 FutureSim 预测成绩 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-142"></a>
+### Case 142: [按 BrushArena 投票对比视觉结果](https://x.com/kickingkeys/status/2123826506287939624) (by [@kickingkeys](https://x.com/kickingkeys))
+
+**把名次视为对应基准和时间点的偏好记录。**
+
+作者报告 Neon 首次登上 BrushArena 时排名第一，并展示访客投票结果。
+
+原帖记录某个时间点的投票排名，可结合快照中所列模型和参赛作品解读。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-142-1-a134e1ddeeac.jpg" alt="按 BrushArena 投票对比视觉结果 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-148"></a>
+### Case 148: [评估模型在营销任务上的表现](https://x.com/boringmarketer/status/2123843589063008291) (by [@boringmarketer](https://x.com/boringmarketer))
+
+**参考任务级结果和评测方法，再考虑排名能否外推。**
+
+评测作者在营销任务中比较 Neon、Opus 和 Sol，并发布结果图。比较需保留其测试条件。
+
+作者说明了两两投票的做法，评审来自五家实验室。结果图反映这次所评估的营销任务。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-148-1-9c51ceb178cc.jpg" alt="评估模型在营销任务上的表现 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-151"></a>
+### Case 151: [评估模型作为训练数据编辑器](https://x.com/hyperstition_cc/status/2123877109907288098) (by [@hyperstition_cc](https://x.com/hyperstition_cc))
+
+**评估编辑结果时同时比较留出测试的准确率和运行时间。**
+
+基准作者在 Hyper-Intervention 中用 Neon 和另外六个模型编辑训练轨迹。
+
+所发图表记录数学设置下测试准确率随运行时间的变化。作者另行说明了评测设置与观察到的局限。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-151-1-1842a7df516d.jpg" alt="评估模型作为训练数据编辑器 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-157"></a>
+### Case 157: [评估多代理编程环境中的表现](https://x.com/leo_linsky/status/2123894236789739768) (by [@leo_linsky](https://x.com/leo_linsky))
+
+**结合使用的环境和评测条件来比较各模型分数。**
+
+评测者报告在 100 个多代理编程环境中运行 Neon 及其他模型。
+
+原帖给出参与评测模型的汇总成绩表，比较范围限于这批环境。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-157-1-9f4d245131ab.jpg" alt="评估多代理编程环境中的表现 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-161"></a>
+### Case 161: [比较 FrontierMemory 成绩](https://x.com/Letta_AI/status/2123910446021530047) (by [@Letta_AI](https://x.com/Letta_AI))
+
+**把排行榜当作该基准记忆任务在特定时间点的结果。**
+
+基准维护者公布 Gemini 4 Neon 的 FrontierMemory 成绩。
+
+原图记录参与评测的模型名次，排名反映维护方公布的快照。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-161-1-0b52f1bd3f05.jpg" alt="比较 FrontierMemory 成绩 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-20
+
+---
+
+<a id="case-167"></a>
+### Case 167: [评估文档解析与表格布局](https://x.com/jerryjliu0/status/2123945742872293505) (by [@jerryjliu0](https://x.com/jerryjliu0))
+
+**选择文档解析器时分别查看表格和版式指标。**
+
+ParseBench-2 发布者用低推理强度测 Neon，并与其他近期模型比较。
+
+原始表格分别记录文档解析、表格和布局指标，比较时需对应基准配置及数据划分。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-167-1-2fc287ffe70d.jpg" alt="评估文档解析与表格布局 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-171"></a>
+### Case 171: [比较 CodePilot 八个问题的修复结果](https://x.com/op7418/status/2123959051126177841) (by [@op7418](https://x.com/op7418))
+
+**展示分数时一并说明单模型评审以及原始测试条件。**
+
+开发者请两个模型解决 CodePilot 中的八个问题，再用第三个模型打分。Neon 得 8.5 分，Opus 得 9 分。
+
+作者使用 Fable 识别问题并给两组修复打分，结果适用于这套评审设置与八个选定问题。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-171-1-371bdf9cfbd4.jpg" alt="比较 CodePilot 八个问题的修复结果 · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-21
+
+---
+
+<a id="case-175"></a>
+### Case 175: [观察无人值守任务中的会话过期](https://x.com/vipinxtwt/status/2123995317410349467) (by [@vipinxtwt](https://x.com/vipinxtwt))
+
+**把会话问题与模型处理任务的表现分别判断。**
+
+作者称 Antigravity 中的 Neon 会话运行两小时以上后报身份验证过期。
+
+截图显示身份验证过期，记录了这次无人值守的 Antigravity 会话。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-175-1-6108a9aa4efc.jpg" alt="观察无人值守任务中的会话过期 · 1" width="560">
+
+Type: Limit | Date: 2026-11-21
+
+---
+
+<a id="case-190"></a>
+### Case 190: [比较 OpenCode 配置下的推理速度](https://x.com/maksym_andr/status/2124100080152035403) (by [@maksym_andr](https://x.com/maksym_andr))
+
+**解读汇总排名时一并核对运行工具和推理设置。**
+
+基准贡献者展示 InferenceBench 记录的 Neon 配置。
+
+原始图表报告该配置的结果，应结合该基准的指标定义和模型设置阅读。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-190-1-2e1161cc8668.jpg" alt="比较 OpenCode 配置下的推理速度 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-194"></a>
+### Case 194: [追踪 Antigravity 的缓存命中率](https://x.com/leo114119/status/2124119129863209157) (by [@leo114119](https://x.com/leo114119))
+
+**先比较不同时点的缓存命中，再判断用量差异与模型表现的关系。**
+
+创作者在后发的帖子中报告 98.9% 的缓存命中率，早前一帖报告约 50%。
+
+后发帖的附件显示本次请求为 98.1%、累计为 78.7%。这是截图所示会话的数据，与帖文数字有差异。
+
+[补充来源](https://x.com/leo114119/status/2123738543214506324)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-194-1-24575429840c.png" alt="追踪 Antigravity 的缓存命中率 · 1" width="560">
+
+Type: Limit | Date: 2026-11-21
+
+---
+
+<a id="case-208"></a>
+### Case 208: [用物理回放评估八字结](https://x.com/li9292/status/2124165078014427440) (by [@li9292](https://x.com/li9292))
+
+**先确认模型能输出可用的绳结描述，再对照其他结果比较物理评分。**
+
+创作者的 KnotBench v0 回放让四个模型完成同一个八字结任务，本次 Neon 未生成可提取的绳结描述。
+
+原片显示 Neon 为 L0，没有进入仿真，Astra 和 Sol 达到 L5。视频标注各模型只提交一次。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-208-1-c8cb041cac46.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-208-1-d3f1f68bdb20.jpg" alt="用物理回放评估八字结 · 1" width="560"></a>
+
+Type: Limit | Date: 2026-11-21
+
+---
+
+<a id="case-218"></a>
+### Case 218: [比较 Neon 与 Carbon 的 FrontierMath 成绩](https://x.com/DominikPeters/status/2124251171061981439) (by [@DominikPeters](https://x.com/DominikPeters))
+
+**解读成绩时核对 FrontierMath 的题目档位与快照日期。**
+
+作者指向某个档位的 FrontierMath 成绩图，报告 Neon 领先于 Carbon。
+
+原帖链接此次成绩图，可核对档位与覆盖范围后，再和其他数学题集比较。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-218-1-83c8764a3819.jpg" alt="比较 Neon 与 Carbon 的 FrontierMath 成绩 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-21
+
+---
+
+<a id="case-230"></a>
+### Case 230: [检查小数比较答案的语气](https://x.com/JamesMalsawm/status/2124359719523332536) (by [@JamesMalsawm](https://x.com/JamesMalsawm))
+
+**分别评估数学判断是否正确，以及回复采用的语气。**
+
+标为 Neon 的截图比较 9.3 和 9.12，判断 9.3 更大。
+
+回复得出正确结论，同时用了讽刺语气。截图记录一次互动并显示确切的简短问题。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-230-1-4aba910e6c2b.jpg" alt="检查小数比较答案的语气 · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-231"></a>
+### Case 231: [比较 LiveBench 2.0 加权成绩](https://x.com/alexmichael/status/2124364037270253826) (by [@alexmichael](https://x.com/alexmichael))
+
+**用总分选模型前，核对各套题的权重和单项分数。**
+
+原帖展示的 LiveBench 2.0 版本中，Neon 的总分为 87.4。
+
+维护方发布的文件可复算 87.4。Long Agentic 权重为 2，Coding 和 Design 各为 1.5。排名对应所示版本及评测设置。
+
+[补充来源](https://livebench.ai/)
+
+[补充来源](https://livebench.ai/data/20261106/table.csv)
+
+[补充来源](https://livebench.ai/data/20261106/categories.json)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-231-1-cc4b47c2de35.jpg" alt="比较 LiveBench 2.0 加权成绩 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-22
+
+---
+
+<a id="case-233"></a>
+### Case 233: [比较两个小数位值解释](https://x.com/itsvishaltwt/status/2124366238013145441) (by [@itsvishaltwt](https://x.com/itsvishaltwt))
+
+**分别核对推理步骤和数值结论。**
+
+作者分享两个对同一问题的解答，题目比较 9.12 和 9.8。
+
+Neon 截图正确判断 9.8 更大。另一份虽把 9.8 写成 9.80，却给出相反结论。两个结果均为作者分享。
+
+<table>
+<tr>
+<td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-233-1-3e763f2c2978.jpg" alt="比较两个小数位值解释 · 1" width="560"></td>
+<td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-233-2-a701c521d929.jpg" alt="比较两个小数位值解释 · 2" width="560"></td>
+</tr>
+</table>
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
+<a id="case-237"></a>
+### Case 237: [查看 Neon 的基准拟合曲线](https://x.com/AdamHoltererer/status/2124457945983267216) (by [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**逐条查看拟合曲线及支持汇总指标的基准。**
+
+Priors 作者展示拟合得分曲线，其中包括 Neon 在 45 项基准中的观测。
+
+11 月 20 日快照为 172.1，标准误差为 0.6。图表采用各模型参与测试的最强设置。
+
+[补充来源](https://www.mypriors.com/models/gemini-4-neon)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-237-1-6b7ce21da511.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-237-1-b22d95d7c3d9.jpg" alt="查看 Neon 的基准拟合曲线 · 1" width="560"></a>
+
+Type: Benchmark | Date: 2026-11-22
+
+---
+
+<a id="case-239"></a>
+### Case 239: [评估从记忆绘制的三个 SVG 标志](https://x.com/a__tomala/status/2124463500517113952) (by [@a__tomala](https://x.com/a__tomala))
+
+**在离线条件下要求生成单文件 SVG，并将几何形状与品牌原样对照。**
+
+创作者展示在 Antigravity 生成的三个标志，Neon 采用 Medium Effort，关闭网页访问、开启终端执行。
+
+作者后续指出 Google 的 G 有细微偏差，OpenAI 的标志差异更明显。截图保留原始任务措辞。
+
+[补充来源](https://x.com/a__tomala/status/2124468291385299120)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-239-1-27b3bdb30704.jpg" alt="评估从记忆绘制的三个 SVG 标志 · 1" width="560">
+
+Type: Evaluation | Date: 2026-11-22
+
+---
+
 <a id="related-repositories"></a>
 ## 相关仓库
 
@@ -1852,6 +4105,6 @@ Type: Benchmark | Date: 2026-11-19
 
 感谢分享作品的创作者和评估者。
 
-[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin)
+[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin), [@openclaw](https://x.com/openclaw), [@PawelHuryn](https://x.com/PawelHuryn), [@alexanderchen](https://x.com/alexanderchen), [@majidmanzarpour](https://x.com/majidmanzarpour), [@robinebers](https://x.com/robinebers), [@GOD2FREEX](https://x.com/GOD2FREEX), [@ann_nnng](https://x.com/ann_nnng), [@RainG999](https://x.com/RainG999), [@mspd4100](https://x.com/mspd4100), [@Haleeeemahh](https://x.com/Haleeeemahh), [@anxuanng](https://x.com/anxuanng), [@wenwen11703261](https://x.com/wenwen11703261), [@lucian__03](https://x.com/lucian__03), [@thegenioo](https://x.com/thegenioo), [@BubbleBrain](https://x.com/BubbleBrain), [@poolmoon6](https://x.com/poolmoon6), [@hqmank](https://x.com/hqmank), [@rootport](https://x.com/rootport), [@viktoroddy](https://x.com/viktoroddy), [@HiromitsuTakagi](https://x.com/HiromitsuTakagi), [@SimonT242613](https://x.com/SimonT242613), [@mizugame_22](https://x.com/mizugame_22), [@lemomo_ai](https://x.com/lemomo_ai), [@Leapofcode](https://x.com/Leapofcode), [@karanC_12](https://x.com/karanC_12), [@marcthecreatorr](https://x.com/marcthecreatorr), [@prz_chojecki](https://x.com/prz_chojecki), [@ivanainai](https://x.com/ivanainai), [@nikhilchandak29](https://x.com/nikhilchandak29), [@FiniYang](https://x.com/FiniYang), [@AIMind_Ai](https://x.com/AIMind_Ai), [@AndroidDev](https://x.com/AndroidDev), [@DanielZambrini](https://x.com/DanielZambrini), [@superdoteng](https://x.com/superdoteng), [@filicroval](https://x.com/filicroval), [@boringmarketer](https://x.com/boringmarketer), [@hyperstition_cc](https://x.com/hyperstition_cc), [@eliadele](https://x.com/eliadele), [@DynamicWebPaige](https://x.com/DynamicWebPaige), [@leo_linsky](https://x.com/leo_linsky), [@SamgreyAi](https://x.com/SamgreyAi), [@davis7](https://x.com/davis7), [@Letta_AI](https://x.com/Letta_AI), [@maxt3chno](https://x.com/maxt3chno), [@scottstts](https://x.com/scottstts), [@jerryjliu0](https://x.com/jerryjliu0), [@atakoylanai](https://x.com/atakoylanai), [@liu8in](https://x.com/liu8in), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@JamesMalsawm](https://x.com/JamesMalsawm), [@likka_ailive](https://x.com/likka_ailive), [@vipinxtwt](https://x.com/vipinxtwt), [@bangbuilds](https://x.com/bangbuilds), [@antiAIvo](https://x.com/antiAIvo), [@ogabezim](https://x.com/ogabezim), [@GoGoFly23](https://x.com/GoGoFly23), [@WrongNebula](https://x.com/WrongNebula), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@risui1012](https://x.com/risui1012), [@niramayo2096](https://x.com/niramayo2096), [@noclipepe](https://x.com/noclipepe), [@csaba_kissi](https://x.com/csaba_kissi), [@maksym_andr](https://x.com/maksym_andr), [@TheDoraaaaaaaa](https://x.com/TheDoraaaaaaaa), [@guilippert_v4](https://x.com/guilippert_v4), [@leo114119](https://x.com/leo114119), [@leaf_sanren](https://x.com/leaf_sanren), [@DrstaOne](https://x.com/DrstaOne), [@blueemi99](https://x.com/blueemi99), [@aug5thmusic](https://x.com/aug5thmusic), [@DeepBlueX0](https://x.com/DeepBlueX0), [@PokeBenchTV](https://x.com/PokeBenchTV), [@rafaelcaricio](https://x.com/rafaelcaricio), [@li9292](https://x.com/li9292), [@GeekCatX](https://x.com/GeekCatX), [@Bhavani_00007](https://x.com/Bhavani_00007), [@studio_yebisu](https://x.com/studio_yebisu), [@EnvolDev](https://x.com/EnvolDev), [@DominikPeters](https://x.com/DominikPeters), [@jake_j_jung](https://x.com/jake_j_jung), [@doboku_works](https://x.com/doboku_works), [@anabology](https://x.com/anabology), [@jacalulu](https://x.com/jacalulu), [@chasen_liao](https://x.com/chasen_liao), [@G33K13765260](https://x.com/G33K13765260), [@alexmichael](https://x.com/alexmichael), [@itsvishaltwt](https://x.com/itsvishaltwt), [@Leviwoyun](https://x.com/Leviwoyun), [@thorstenball](https://x.com/thorstenball), [@a__tomala](https://x.com/a__tomala), [@kinderlayer](https://x.com/kinderlayer), [@fe_yukichi](https://x.com/fe_yukichi)
 
 *媒体和第三方作品仍属于其各自的权利所有者。如果来源、来源或媒体项目需要更正，请提出问题。*
