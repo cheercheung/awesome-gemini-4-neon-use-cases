@@ -26,13 +26,13 @@
 <a id="overview"></a>
 ## 📊 概述
 
-**242 个 Gemini 4 Neon 案例**，附有 309 项来源媒体。
+**252 个 Gemini 4 Neon 案例**，附有 321 项来源媒体。
 
-- 工程与集成 · 22
-- 图形和界面原型 · 141
-- 游戏和模拟 · 19
-- 知识工作 · 20
-- 评估和限制 · 40
+- 工程与集成 · 24
+- 图形和界面原型 · 144
+- 游戏和模拟 · 20
+- 知识工作 · 21
+- 评估和限制 · 43
 
 > [!NOTE]
 > 每个案例均附原始来源。所列耗时、成本和评测结果只适用于来源所述的测试条件。
@@ -291,6 +291,16 @@
 | [比较四种引擎剖面动画](#case-240) | 图形和界面原型 | 创作者给四个模型同一个运转引擎剖面需求。 | Evaluation |
 | [制作低多边形角色基础网格](#case-241) | 图形和界面原型 | 创作者用 Gemini 4 Neon 和 Blender，以一条提示词生成角色基础模型，报告约 4,800 个三角面。 | Tutorial |
 | [比较四种冰冻西瓜动画](#case-242) | 图形和界面原型 | 创作者报告向四个模型给出相同的冻结、融化和爆裂任务。 | Evaluation |
+| [用交互模型讲解人眼光学](#case-243) | 知识工作 | 视频展示了 3D 眼球、焦点控制、镜片调节和色觉视图。 | Demo |
+| [比较三款助手各一次随机数字回答](#case-244) | 评估和限制 | 作者发布的三张截图显示，Gemini 4 Neon Medium、6 Luna Medium 和 Sonnet 5.5 High 都回答了 47。 | Limit |
+| [在 3D 街区制作第一人称推理游戏](#case-245) | 游戏和模拟 | 演示中，玩家走进店铺、询问人物并检查线索。 | Demo |
+| [通过自建 DAW 编写钢琴曲](#case-246) | 工程与集成 | 录像中，编排完成的音符随播放进度滚动。 | Integration |
+| [根据参考照片制作可动机器人模型](#case-247) | 图形和界面原型 | 视频先展示分阶段组装，再用滑动对照比较模型与参考图。 | Demo |
+| [在固定 GPU 预算下比较 Polytopia 训练方案](#case-248) | 评估和限制 | 约 325 Elo 时，图表显示 Neon 约用 3 个 GPU 小时，图中最佳替代方案约用 7 个 GPU 小时。 | Benchmark |
+| [在浏览器中实时显示卫星轨道](#case-249) | 图形和界面原型 | 视频展示了切换视角时，地球周围的卫星和轨迹如何变化。 | Demo |
+| [为智能家居训练自定义唤醒词](#case-250) | 工程与集成 | 演示中，唤醒词模型与语音触发的智能家居操作一同运行。 | Integration |
+| [在 Antigravity 中验证视频抠像原型](#case-251) | 图形和界面原型 | 截图显示了作者在开发中的帧预览。 | Demo |
+| [对比四个模型制作的 3D 圆环动画](#case-252) | 评估和限制 | 原视频并排展示四套带标签的 3D 动画，圆环逐渐打开。 | Evaluation |
 
 | 部分 | 用途 |
 |---|---|
@@ -647,6 +657,36 @@ Type: Demo | Date: 2026-11-22
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-235-1-de84a06d03f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-235-1-043c69234b09.jpg" alt="协调 Hydrogen 代理搭建 Three.js 汽车 · 1" width="560"></a>
 
 Type: Integration | Date: 2026-11-22
+
+---
+
+<a id="case-246"></a>
+### Case 246: [通过自建 DAW 编写钢琴曲](https://x.com/WichtelArt/status/2124570040318005314) (by [@WichtelArt](https://x.com/WichtelArt))
+
+**用 MCP 将 DAW 接入 Neon，让模型直接把音符写入可编辑的钢琴卷帘。**
+
+录像中，编排完成的音符随播放进度滚动。
+
+作者在 Antigravity 中使用 Neon 和自建 DAW。公开帖给出的描述词是“nice”，并展示了成品音乐。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-246-1-8f9dda0956e4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-246-1-d3f6fe0d1fab.jpg" alt="通过自建 DAW 编写钢琴曲 · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-22
+
+---
+
+<a id="case-250"></a>
+### Case 250: [为智能家居训练自定义唤醒词](https://x.com/ivanleomk/status/2124733026282406216) (by [@ivanleomk](https://x.com/ivanleomk))
+
+**用 Antigravity 中的 Neon 训练自定义唤醒模型，再把触发信号交给单独的意图分类器。**
+
+演示中，唤醒词模型与语音触发的智能家居操作一同运行。
+
+作者展示了训练好的 hey_vanya.onnx。独立的 Gemini Decisions 分类器负责选择操作，视频还展示了 Neon 部署的 Home Assistant。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-250-1-0b48e53c99c7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-250-1-0974fdf48dde.jpg" alt="为智能家居训练自定义唤醒词 · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-23
 
 ---
 
@@ -2845,6 +2885,51 @@ Type: Evaluation | Date: 2026-11-22
 
 ---
 
+<a id="case-247"></a>
+### Case 247: [根据参考照片制作可动机器人模型](https://x.com/majidmanzarpour/status/2124582261374742710) (by [@majidmanzarpour](https://x.com/majidmanzarpour))
+
+**测量参考图，在 Blender 中拆分建模，并用并排渲染核对外形。**
+
+视频先展示分阶段组装，再用滑动对照比较模型与参考图。
+
+作者称，Antigravity 中的 Neon 用 Tesla Optimus Gen 2 的参考照片创建了 145 个已绑定的零件，并检查了渲染结果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-247-1-c0babc1e04a7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-247-1-aacac143c86e.jpg" alt="根据参考照片制作可动机器人模型 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-249"></a>
+### Case 249: [在浏览器中实时显示卫星轨道](https://x.com/DynamicWebPaige/status/2124698835801031129) (by [@DynamicWebPaige](https://x.com/DynamicWebPaige))
+
+**缓存 CelesTrak 的公开轨道数据，在浏览器中计算位置并呈现可交互的 3D 画面。**
+
+视频展示了切换视角时，地球周围的卫星和轨迹如何变化。
+
+作者用 Neon 构建追踪器，并说明它如何利用公开数据预测星链卫星、国际空间站与 GPS 卫星等对象的位置。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-249-1-53d247877385.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-249-1-8e3a28ab80f1.jpg" alt="在浏览器中实时显示卫星轨道 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-23
+
+---
+
+<a id="case-251"></a>
+### Case 251: [在 Antigravity 中验证视频抠像原型](https://x.com/ai_for_success/status/2124760076825301195) (by [@ai_for_success](https://x.com/ai_for_success))
+
+**用 Neon 串联分割与视频抠像工具，再对照各阶段的预览帧。**
+
+截图显示了作者在开发中的帧预览。
+
+作者在 Antigravity 中将 Gemini 4 Neon 与 Meta SAM 3、MatAnyone 2 搭配使用。本次展示为原型，原帖没有定量评估。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-251-1-86fdd55e6559.jpg" alt="在 Antigravity 中验证视频抠像原型 · 1" width="560">
+
+Type: Demo | Date: 2026-11-23
+
+---
+
 ## 🎮 游戏和模拟
 <a id="games"></a>
 
@@ -3136,6 +3221,21 @@ Type: Demo | Date: 2026-11-22
 原片展示比赛区域与开发环境，原帖记录的是开发中版本。
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-236-1-383dae26ca13.jpg" alt="在 tvOS 上制作回合制炮战游戏原型 · 1" width="560">
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-245"></a>
+### Case 245: [在 3D 街区制作第一人称推理游戏](https://x.com/venturetwins/status/2124568183902449764) (by [@venturetwins](https://x.com/venturetwins))
+
+**把 Three.js 街区、分支问话和线索界面组合起来，供玩家作出最终指认。**
+
+演示中，玩家走进店铺、询问人物并检查线索。
+
+作者将故事、Golden Gai 的 3D 重建、16 家可进入酒吧中的人物和线索以及预告片归功于 Neon。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-245-1-2389fb584242.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-245-1-c8850b38c8df.jpg" alt="在 3D 街区制作第一人称推理游戏 · 1" width="560"></a>
 
 Type: Demo | Date: 2026-11-22
 
@@ -3455,6 +3555,21 @@ Type: Demo | Date: 2026-11-22
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-227-1-0d9f175cbc3f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-227-1-15fc189a1e88.jpg" alt="用交互图讲解 Pi 的代理运行框架 · 1" width="560"></a>
 
 Type: Tutorial | Date: 2026-11-22
+
+---
+
+<a id="case-243"></a>
+### Case 243: [用交互模型讲解人眼光学](https://x.com/thebuggeddev/status/2124508873897726028) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**让学习者调节光学控件，观察模拟光路和视网膜焦点如何改变。**
+
+视频展示了 3D 眼球、焦点控制、镜片调节和色觉视图。
+
+作者用 Neon 基于 Navarro 和 Gullstrand 人眼模型构建教学可视化，演示涵盖散光和矫正镜片。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-243-1-a6e63a9e64b8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-243-1-d0dca018e12c.jpg" alt="用交互模型讲解人眼光学 · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
 
 ---
 
@@ -4094,6 +4209,59 @@ Type: Evaluation | Date: 2026-11-22
 
 ---
 
+<a id="case-244"></a>
+### Case 244: [比较三款助手各一次随机数字回答](https://news.ycombinator.com/item?id=50600208) (by [@financltravsty](https://news.ycombinator.com/user?id=financltravsty))
+
+**比较单次输出时，记录每次的提示词原文和设置。**
+
+作者发布的三张截图显示，Gemini 4 Neon Medium、6 Luna Medium 和 Sonnet 5.5 High 都回答了 47。
+
+每张图只展示一次回答。应用和提示词措辞略有差异。作者说，他在已有内容的项目中为 Neon 新建了会话。
+
+**Prompt:**
+
+```
+Pick a random numbe
+```
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-244-1-cb6ed3fbc4de.png" alt="比较三款助手各一次随机数字回答 · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-244-2-4b666a2aa98b.png" alt="比较三款助手各一次随机数字回答 · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-244-3-80fb07a79b19.png" alt="比较三款助手各一次随机数字回答 · 3" width="560">
+
+Type: Limit | Date: 2026-11-22
+
+---
+
+<a id="case-248"></a>
+### Case 248: [在固定 GPU 预算下比较 Polytopia 训练方案](https://x.com/maxbittker/status/2124694590250693021) (by [@maxbittker](https://x.com/maxbittker))
+
+**保持 GPU 预算一致，对比模型为游戏智能体生成的训练方案。**
+
+约 325 Elo 时，图表显示 Neon 约用 3 个 GPU 小时，图中最佳替代方案约用 7 个 GPU 小时。
+
+作者在图上标注 2.3×。这一比较限于图中相同 Elo 下的 Polytopia 试验。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-248-1-350942e64ce6.jpg" alt="在固定 GPU 预算下比较 Polytopia 训练方案 · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-23
+
+---
+
+<a id="case-252"></a>
+### Case 252: [对比四个模型制作的 3D 圆环动画](https://x.com/SPAC89/status/2124760560445030409) (by [@SPAC89](https://x.com/SPAC89))
+
+**在同一机械圆环主题下制作四套方案，并在相同的动作节点观察它们。**
+
+原视频并排展示四套带标签的 3D 动画，圆环逐渐打开。
+
+视频标注 GLM-5.4 Max、Gemini 4 Neon Extra、Claude Fable 5.2 High 和 Claude Opus 5.5 xhigh。作者的排序仅针对这次演示。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-252-1-87957df8ab6f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-252-1-70135862cc61.jpg" alt="对比四个模型制作的 3D 圆环动画 · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-23
+
+---
+
 <a id="related-repositories"></a>
 ## 相关仓库
 
@@ -4105,6 +4273,6 @@ Type: Evaluation | Date: 2026-11-22
 
 感谢分享作品的创作者和评估者。
 
-[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin), [@openclaw](https://x.com/openclaw), [@PawelHuryn](https://x.com/PawelHuryn), [@alexanderchen](https://x.com/alexanderchen), [@majidmanzarpour](https://x.com/majidmanzarpour), [@robinebers](https://x.com/robinebers), [@GOD2FREEX](https://x.com/GOD2FREEX), [@ann_nnng](https://x.com/ann_nnng), [@RainG999](https://x.com/RainG999), [@mspd4100](https://x.com/mspd4100), [@Haleeeemahh](https://x.com/Haleeeemahh), [@anxuanng](https://x.com/anxuanng), [@wenwen11703261](https://x.com/wenwen11703261), [@lucian__03](https://x.com/lucian__03), [@thegenioo](https://x.com/thegenioo), [@BubbleBrain](https://x.com/BubbleBrain), [@poolmoon6](https://x.com/poolmoon6), [@hqmank](https://x.com/hqmank), [@rootport](https://x.com/rootport), [@viktoroddy](https://x.com/viktoroddy), [@HiromitsuTakagi](https://x.com/HiromitsuTakagi), [@SimonT242613](https://x.com/SimonT242613), [@mizugame_22](https://x.com/mizugame_22), [@lemomo_ai](https://x.com/lemomo_ai), [@Leapofcode](https://x.com/Leapofcode), [@karanC_12](https://x.com/karanC_12), [@marcthecreatorr](https://x.com/marcthecreatorr), [@prz_chojecki](https://x.com/prz_chojecki), [@ivanainai](https://x.com/ivanainai), [@nikhilchandak29](https://x.com/nikhilchandak29), [@FiniYang](https://x.com/FiniYang), [@AIMind_Ai](https://x.com/AIMind_Ai), [@AndroidDev](https://x.com/AndroidDev), [@DanielZambrini](https://x.com/DanielZambrini), [@superdoteng](https://x.com/superdoteng), [@filicroval](https://x.com/filicroval), [@boringmarketer](https://x.com/boringmarketer), [@hyperstition_cc](https://x.com/hyperstition_cc), [@eliadele](https://x.com/eliadele), [@DynamicWebPaige](https://x.com/DynamicWebPaige), [@leo_linsky](https://x.com/leo_linsky), [@SamgreyAi](https://x.com/SamgreyAi), [@davis7](https://x.com/davis7), [@Letta_AI](https://x.com/Letta_AI), [@maxt3chno](https://x.com/maxt3chno), [@scottstts](https://x.com/scottstts), [@jerryjliu0](https://x.com/jerryjliu0), [@atakoylanai](https://x.com/atakoylanai), [@liu8in](https://x.com/liu8in), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@JamesMalsawm](https://x.com/JamesMalsawm), [@likka_ailive](https://x.com/likka_ailive), [@vipinxtwt](https://x.com/vipinxtwt), [@bangbuilds](https://x.com/bangbuilds), [@antiAIvo](https://x.com/antiAIvo), [@ogabezim](https://x.com/ogabezim), [@GoGoFly23](https://x.com/GoGoFly23), [@WrongNebula](https://x.com/WrongNebula), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@risui1012](https://x.com/risui1012), [@niramayo2096](https://x.com/niramayo2096), [@noclipepe](https://x.com/noclipepe), [@csaba_kissi](https://x.com/csaba_kissi), [@maksym_andr](https://x.com/maksym_andr), [@TheDoraaaaaaaa](https://x.com/TheDoraaaaaaaa), [@guilippert_v4](https://x.com/guilippert_v4), [@leo114119](https://x.com/leo114119), [@leaf_sanren](https://x.com/leaf_sanren), [@DrstaOne](https://x.com/DrstaOne), [@blueemi99](https://x.com/blueemi99), [@aug5thmusic](https://x.com/aug5thmusic), [@DeepBlueX0](https://x.com/DeepBlueX0), [@PokeBenchTV](https://x.com/PokeBenchTV), [@rafaelcaricio](https://x.com/rafaelcaricio), [@li9292](https://x.com/li9292), [@GeekCatX](https://x.com/GeekCatX), [@Bhavani_00007](https://x.com/Bhavani_00007), [@studio_yebisu](https://x.com/studio_yebisu), [@EnvolDev](https://x.com/EnvolDev), [@DominikPeters](https://x.com/DominikPeters), [@jake_j_jung](https://x.com/jake_j_jung), [@doboku_works](https://x.com/doboku_works), [@anabology](https://x.com/anabology), [@jacalulu](https://x.com/jacalulu), [@chasen_liao](https://x.com/chasen_liao), [@G33K13765260](https://x.com/G33K13765260), [@alexmichael](https://x.com/alexmichael), [@itsvishaltwt](https://x.com/itsvishaltwt), [@Leviwoyun](https://x.com/Leviwoyun), [@thorstenball](https://x.com/thorstenball), [@a__tomala](https://x.com/a__tomala), [@kinderlayer](https://x.com/kinderlayer), [@fe_yukichi](https://x.com/fe_yukichi)
+[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin), [@openclaw](https://x.com/openclaw), [@PawelHuryn](https://x.com/PawelHuryn), [@alexanderchen](https://x.com/alexanderchen), [@majidmanzarpour](https://x.com/majidmanzarpour), [@robinebers](https://x.com/robinebers), [@GOD2FREEX](https://x.com/GOD2FREEX), [@ann_nnng](https://x.com/ann_nnng), [@RainG999](https://x.com/RainG999), [@mspd4100](https://x.com/mspd4100), [@Haleeeemahh](https://x.com/Haleeeemahh), [@anxuanng](https://x.com/anxuanng), [@wenwen11703261](https://x.com/wenwen11703261), [@lucian__03](https://x.com/lucian__03), [@thegenioo](https://x.com/thegenioo), [@BubbleBrain](https://x.com/BubbleBrain), [@poolmoon6](https://x.com/poolmoon6), [@hqmank](https://x.com/hqmank), [@rootport](https://x.com/rootport), [@viktoroddy](https://x.com/viktoroddy), [@HiromitsuTakagi](https://x.com/HiromitsuTakagi), [@SimonT242613](https://x.com/SimonT242613), [@mizugame_22](https://x.com/mizugame_22), [@lemomo_ai](https://x.com/lemomo_ai), [@Leapofcode](https://x.com/Leapofcode), [@karanC_12](https://x.com/karanC_12), [@marcthecreatorr](https://x.com/marcthecreatorr), [@prz_chojecki](https://x.com/prz_chojecki), [@ivanainai](https://x.com/ivanainai), [@nikhilchandak29](https://x.com/nikhilchandak29), [@FiniYang](https://x.com/FiniYang), [@AIMind_Ai](https://x.com/AIMind_Ai), [@AndroidDev](https://x.com/AndroidDev), [@DanielZambrini](https://x.com/DanielZambrini), [@superdoteng](https://x.com/superdoteng), [@filicroval](https://x.com/filicroval), [@boringmarketer](https://x.com/boringmarketer), [@hyperstition_cc](https://x.com/hyperstition_cc), [@eliadele](https://x.com/eliadele), [@DynamicWebPaige](https://x.com/DynamicWebPaige), [@leo_linsky](https://x.com/leo_linsky), [@SamgreyAi](https://x.com/SamgreyAi), [@davis7](https://x.com/davis7), [@Letta_AI](https://x.com/Letta_AI), [@maxt3chno](https://x.com/maxt3chno), [@scottstts](https://x.com/scottstts), [@jerryjliu0](https://x.com/jerryjliu0), [@atakoylanai](https://x.com/atakoylanai), [@liu8in](https://x.com/liu8in), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@JamesMalsawm](https://x.com/JamesMalsawm), [@likka_ailive](https://x.com/likka_ailive), [@vipinxtwt](https://x.com/vipinxtwt), [@bangbuilds](https://x.com/bangbuilds), [@antiAIvo](https://x.com/antiAIvo), [@ogabezim](https://x.com/ogabezim), [@GoGoFly23](https://x.com/GoGoFly23), [@WrongNebula](https://x.com/WrongNebula), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@risui1012](https://x.com/risui1012), [@niramayo2096](https://x.com/niramayo2096), [@noclipepe](https://x.com/noclipepe), [@csaba_kissi](https://x.com/csaba_kissi), [@maksym_andr](https://x.com/maksym_andr), [@TheDoraaaaaaaa](https://x.com/TheDoraaaaaaaa), [@guilippert_v4](https://x.com/guilippert_v4), [@leo114119](https://x.com/leo114119), [@leaf_sanren](https://x.com/leaf_sanren), [@DrstaOne](https://x.com/DrstaOne), [@blueemi99](https://x.com/blueemi99), [@aug5thmusic](https://x.com/aug5thmusic), [@DeepBlueX0](https://x.com/DeepBlueX0), [@PokeBenchTV](https://x.com/PokeBenchTV), [@rafaelcaricio](https://x.com/rafaelcaricio), [@li9292](https://x.com/li9292), [@GeekCatX](https://x.com/GeekCatX), [@Bhavani_00007](https://x.com/Bhavani_00007), [@studio_yebisu](https://x.com/studio_yebisu), [@EnvolDev](https://x.com/EnvolDev), [@DominikPeters](https://x.com/DominikPeters), [@jake_j_jung](https://x.com/jake_j_jung), [@doboku_works](https://x.com/doboku_works), [@anabology](https://x.com/anabology), [@jacalulu](https://x.com/jacalulu), [@chasen_liao](https://x.com/chasen_liao), [@G33K13765260](https://x.com/G33K13765260), [@alexmichael](https://x.com/alexmichael), [@itsvishaltwt](https://x.com/itsvishaltwt), [@Leviwoyun](https://x.com/Leviwoyun), [@thorstenball](https://x.com/thorstenball), [@a__tomala](https://x.com/a__tomala), [@kinderlayer](https://x.com/kinderlayer), [@fe_yukichi](https://x.com/fe_yukichi), [@financltravsty](https://news.ycombinator.com/user?id=financltravsty), [@venturetwins](https://x.com/venturetwins), [@WichtelArt](https://x.com/WichtelArt), [@ivanleomk](https://x.com/ivanleomk)
 
 *媒体和第三方作品仍属于其各自的权利所有者。如果来源、来源或媒体项目需要更正，请提出问题。*

@@ -1454,6 +1454,66 @@
       "takeaway": "Le créateur dit avoir donné aux quatre modèles le même brief de congélation, de fonte et d’éclatement. Les quatre panneaux étiquetés rassemblent les résultats dans un clip.",
       "notes": "La comparaison documente un essai du créateur. Les estimations de temps et de coût dépendent de la configuration décrite.",
       "action": "Utiliser la même succession d’événements pour vérifier que chaque animation préserve l’identité de l’objet pendant les transitions."
+    },
+    "case-252": {
+      "title": "Comparer quatre animations d’un anneau en 3D",
+      "action": "Réalisez quatre versions du même anneau mécanique et comparez-les aux mêmes étapes du mouvement.",
+      "takeaway": "La vidéo d’origine montre quatre anneaux 3D légendés qui s’ouvrent côte à côte.",
+      "notes": "Les libellés sont GLM-5.4 Max, Gemini 4 Neon Extra, Claude Fable 5.2 High et Claude Opus 5.5 xhigh. Le classement de l’auteur porte sur cette démonstration."
+    },
+    "case-251": {
+      "title": "Prototyper un détourage vidéo dans Antigravity",
+      "action": "Reliez avec Neon un outil de segmentation et un outil de détourage vidéo, puis comparez les images intermédiaires.",
+      "takeaway": "La capture montre les aperçus d’images au cours du développement.",
+      "notes": "L’auteur a associé Gemini 4 Neon dans Antigravity à Meta SAM 3 et MatAnyone 2. La source présente un prototype sans évaluation quantitative."
+    },
+    "case-250": {
+      "title": "Entraîner un mot d’activation pour la domotique",
+      "action": "Entraînez le modèle de réveil avec Neon dans Antigravity, puis reliez le déclencheur à un classificateur d’intentions distinct.",
+      "takeaway": "La démonstration montre le modèle de réveil associé à des actions domotiques déclenchées par la voix.",
+      "notes": "L’auteur montre le modèle entraîné hey_vanya.onnx. Un classificateur distinct, Gemini Decisions, choisit les actions, et la vidéo montre Home Assistant déployé par Neon."
+    },
+    "case-249": {
+      "title": "Suivre les orbites des satellites dans le navigateur",
+      "action": "Mettez en cache les données orbitales publiques de CelesTrak et calculez les positions dans le navigateur pour créer une vue 3D navigable.",
+      "takeaway": "La vidéo montre les satellites et leurs trajectoires évoluer quand l’auteur déplace le point de vue autour de la Terre.",
+      "notes": "L’auteur a créé le suivi avec Neon. Il explique que les données publiques servent à prévoir les positions des satellites Starlink, de l’ISS et des satellites GPS, entre autres."
+    },
+    "case-248": {
+      "title": "Comparer l’entraînement sur Polytopia à budget GPU fixe",
+      "action": "Gardez le même budget GPU lorsque vous comparez les méthodes d’entraînement d’un agent de jeu.",
+      "takeaway": "Vers 325 Elo, le graphique indique environ 3 heures GPU pour Neon et environ 7 pour la meilleure autre méthode représentée.",
+      "notes": "L’auteur indique un rapport de 2,3× sur le graphique. La comparaison concerne les essais Polytopia représentés à ce niveau Elo."
+    },
+    "case-247": {
+      "title": "Reconstituer un robot articulé à partir de photos",
+      "action": "Mesurez les images de référence, créez des pièces distinctes dans Blender, puis comparez les rendus à la référence.",
+      "takeaway": "La vidéo montre un assemblage par étapes et termine sur une comparaison glissante entre le modèle et la photo.",
+      "notes": "Selon l’auteur, Neon dans Antigravity s’est appuyé sur des photos de Tesla Optimus Gen 2 pour créer 145 pièces articulées et vérifier les rendus."
+    },
+    "case-246": {
+      "title": "Composer pour le piano dans une station audio sur mesure",
+      "action": "Reliez le logiciel à Neon par MCP afin que l’agent puisse placer des notes dans une grille de piano modifiable.",
+      "takeaway": "L’enregistrement montre l’arrangement terminé qui défile pendant la lecture.",
+      "notes": "L’auteur a utilisé Neon dans Antigravity avec son propre logiciel audio. La publication emploie le mot « nice » et donne à entendre le résultat."
+    },
+    "case-245": {
+      "title": "Créer une enquête à la première personne dans un quartier 3D",
+      "action": "Combinez un quartier en Three.js, des dialogues à embranchements et une interface d’indices qui permet au joueur de désigner un suspect.",
+      "takeaway": "Dans la visite, le joueur entre dans des établissements, interroge les personnages et examine les indices.",
+      "notes": "L’auteur attribue à Neon le scénario, la reconstitution 3D de Golden Gai, les personnages et indices de 16 bars accessibles, et une bande-annonce."
+    },
+    "case-243": {
+      "title": "Enseigner l’optique de l’œil avec un modèle interactif",
+      "action": "Laissez les élèves modifier les paramètres optiques et observer le trajet lumineux simulé ainsi que la mise au point sur la rétine.",
+      "takeaway": "La vidéo présente un œil en 3D, des réglages de mise au point et de lentilles, et des vues de la vision des couleurs.",
+      "notes": "L’auteur a utilisé Neon pour réaliser le support pédagogique à partir des modèles oculaires de Navarro et Gullstrand. La démonstration aborde l’astigmatisme et les lentilles correctrices."
+    },
+    "case-244": {
+      "title": "Comparer les réponses de trois assistants à une demande de nombre aléatoire",
+      "action": "Conserver les requêtes exactes et les réglages pour comparer des réponses isolées.",
+      "takeaway": "L’auteur a publié trois captures où Gemini 4 Neon Medium, 6 Luna Medium et Sonnet 5.5 High répondent chacun 47.",
+      "notes": "Chaque capture montre une réponse. Les applications et la formulation varient légèrement. L’auteur décrit la session Neon comme nouvelle, dans un projet existant."
     }
   },
   "strings": {

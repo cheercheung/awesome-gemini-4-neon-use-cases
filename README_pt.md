@@ -26,13 +26,13 @@
 <a id="overview"></a>
 ## 📊 Visão geral
 
-**242 casos de Gemini 4 Neon** com 309 recursos visuais das fontes.
+**252 casos de Gemini 4 Neon** com 321 recursos visuais das fontes.
 
-- Engenharia e Integrações · 22
-- Protótipos gráficos e de interface · 141
-- Jogos e Simulações · 19
-- Trabalho de conhecimento · 20
-- Avaliações e Limites · 40
+- Engenharia e Integrações · 24
+- Protótipos gráficos e de interface · 144
+- Jogos e Simulações · 20
+- Trabalho de conhecimento · 21
+- Avaliações e Limites · 43
 
 > [!NOTE]
 > Cada caso leva à sua fonte. Os tempos, custos e resultados de benchmarks referem-se às condições de teste descritas.
@@ -291,6 +291,16 @@
 | [Comparar quatro animações em corte de um motor](#case-240) | Protótipos gráficos e de interface | O criador deu a quatro modelos o mesmo pedido de representar em corte um motor em combustão. | Evaluation |
 | [Construir uma malha-base de personagem com poucos polígonos](#case-241) | Protótipos gráficos e de interface | O criador atribui a Gemini 4 Neon e Blender uma malha-base de personagem feita com um único prompt e informa cerca de 4.800 triângulos. | Tutorial |
 | [Comparar quatro animações de melancia congelada](#case-242) | Protótipos gráficos e de interface | O criador diz ter usado o mesmo pedido de congelar, derreter e estourar para quatro modelos. Os quatro painéis identificados reúnem os resultados em um clipe. | Evaluation |
+| [Ensinar a óptica do olho humano com um modelo interativo](#case-243) | Trabalho de conhecimento | O vídeo mostra um olho em 3D, ajustes de foco e lentes e visualizações da percepção de cores. | Demo |
+| [Comparar respostas isoladas sobre números aleatórios em três assistentes](#case-244) | Avaliações e Limites | O autor publicou três capturas nas quais Gemini 4 Neon Medium, 6 Luna Medium e Sonnet 5.5 High responderam 47. | Limit |
+| [Criar um mistério em primeira pessoa em um bairro 3D](#case-245) | Jogos e Simulações | Na demonstração, o jogador entra nos estabelecimentos, entrevista personagens e examina pistas. | Demo |
+| [Compor para piano com uma DAW personalizada](#case-246) | Engenharia e Integrações | A gravação mostra o arranjo pronto rolando ao longo da reprodução. | Integration |
+| [Reconstruir um robô articulado a partir de fotos](#case-247) | Protótipos gráficos e de interface | O vídeo mostra a montagem por etapas e uma transição final entre o modelo e a foto. | Demo |
+| [Comparar treinamento em Polytopia com orçamento fixo de GPU](#case-248) | Avaliações e Limites | Por volta de 325 Elo, o gráfico mostra cerca de 3 horas de GPU para Neon e cerca de 7 para a melhor alternativa exibida. | Benchmark |
+| [Acompanhar órbitas de satélites no navegador](#case-249) | Protótipos gráficos e de interface | No vídeo, os satélites e suas trajetórias mudam à medida que o autor gira a visualização da Terra. | Demo |
+| [Treinar uma palavra de ativação para automação residencial](#case-250) | Engenharia e Integrações | A demonstração mostra o modelo de ativação funcionando junto com a automação acionada por voz. | Integration |
+| [Prototipar um recorte de vídeo no Antigravity](#case-251) | Protótipos gráficos e de interface | A captura mostra as prévias de quadros durante o desenvolvimento. | Demo |
+| [Comparar quatro animações de um anel em 3D](#case-252) | Avaliações e Limites | O vídeo original mostra quatro anéis 3D identificados se abrindo lado a lado. | Evaluation |
 
 | Seção | Finalidade |
 |---|---|
@@ -647,6 +657,36 @@ O autor relata três iterações. O clipe original mostra o carro renderizado e 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-235-1-de84a06d03f1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-235-1-043c69234b09.jpg" alt="Coordenar a criação de um carro em Three.js com agentes Hydrogen · 1" width="560"></a>
 
 Type: Integration | Date: 2026-11-22
+
+---
+
+<a id="case-246"></a>
+### Case 246: [Compor para piano com uma DAW personalizada](https://x.com/WichtelArt/status/2124570040318005314) (by [@WichtelArt](https://x.com/WichtelArt))
+
+**Conecte a DAW ao Neon por MCP para que o agente insira notas diretamente em uma grade de piano editável.**
+
+A gravação mostra o arranjo pronto rolando ao longo da reprodução.
+
+O autor conectou Neon no Antigravity a uma DAW própria. A publicação usa o termo “nice” e mostra o resultado musical.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-246-1-8f9dda0956e4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-246-1-d3f6fe0d1fab.jpg" alt="Compor para piano com uma DAW personalizada · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-22
+
+---
+
+<a id="case-250"></a>
+### Case 250: [Treinar uma palavra de ativação para automação residencial](https://x.com/ivanleomk/status/2124733026282406216) (by [@ivanleomk](https://x.com/ivanleomk))
+
+**Treine um modelo de ativação com Neon no Antigravity e passe o gatilho para um classificador de intenções separado.**
+
+A demonstração mostra o modelo de ativação funcionando junto com a automação acionada por voz.
+
+O autor mostra o modelo treinado hey_vanya.onnx. O classificador separado Gemini Decisions escolhe as ações, e o vídeo mostra o Home Assistant implantado pelo Neon.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-250-1-0b48e53c99c7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-250-1-0974fdf48dde.jpg" alt="Treinar uma palavra de ativação para automação residencial · 1" width="560"></a>
+
+Type: Integration | Date: 2026-11-23
 
 ---
 
@@ -2845,6 +2885,51 @@ Type: Evaluation | Date: 2026-11-22
 
 ---
 
+<a id="case-247"></a>
+### Case 247: [Reconstruir um robô articulado a partir de fotos](https://x.com/majidmanzarpour/status/2124582261374742710) (by [@majidmanzarpour](https://x.com/majidmanzarpour))
+
+**Meça as imagens de referência, modele peças separadas no Blender e compare a renderização com a referência.**
+
+O vídeo mostra a montagem por etapas e uma transição final entre o modelo e a foto.
+
+Segundo o autor, Neon no Antigravity usou imagens do Tesla Optimus Gen 2 para produzir 145 peças articuladas e revisar as renderizações.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-247-1-c0babc1e04a7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-247-1-aacac143c86e.jpg" alt="Reconstruir um robô articulado a partir de fotos · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-249"></a>
+### Case 249: [Acompanhar órbitas de satélites no navegador](https://x.com/DynamicWebPaige/status/2124698835801031129) (by [@DynamicWebPaige](https://x.com/DynamicWebPaige))
+
+**Coloque em cache os dados orbitais públicos da CelesTrak e calcule as posições no navegador para uma visualização 3D navegável.**
+
+No vídeo, os satélites e suas trajetórias mudam à medida que o autor gira a visualização da Terra.
+
+O autor construiu o rastreador com Neon e explica como os dados públicos permitem prever as posições de satélites Starlink, da ISS e de satélites GPS, entre outros.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-249-1-53d247877385.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-249-1-8e3a28ab80f1.jpg" alt="Acompanhar órbitas de satélites no navegador · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-23
+
+---
+
+<a id="case-251"></a>
+### Case 251: [Prototipar um recorte de vídeo no Antigravity](https://x.com/ai_for_success/status/2124760076825301195) (by [@ai_for_success](https://x.com/ai_for_success))
+
+**Use Neon para conectar ferramentas de segmentação e recorte de vídeo e compare os quadros intermediários.**
+
+A captura mostra as prévias de quadros durante o desenvolvimento.
+
+O autor combinou Gemini 4 Neon no Antigravity com Meta SAM 3 e MatAnyone 2. A fonte mostra um protótipo e não traz avaliação quantitativa.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-251-1-86fdd55e6559.jpg" alt="Prototipar um recorte de vídeo no Antigravity · 1" width="560">
+
+Type: Demo | Date: 2026-11-23
+
+---
+
 ## 🎮 Jogos e Simulações
 <a id="games"></a>
 
@@ -3136,6 +3221,21 @@ O desenvolvedor dá crédito ao Neon e aos módulos auxiliares do Amp para Mac p
 O clipe original mostra o campo de jogo e o ambiente de desenvolvimento. A publicação documenta um trabalho em andamento.
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/images/case-236-1-383dae26ca13.jpg" alt="Prototipar um jogo de artilharia por turnos para tvOS · 1" width="560">
+
+Type: Demo | Date: 2026-11-22
+
+---
+
+<a id="case-245"></a>
+### Case 245: [Criar um mistério em primeira pessoa em um bairro 3D](https://x.com/venturetwins/status/2124568183902449764) (by [@venturetwins](https://x.com/venturetwins))
+
+**Combine um bairro em Three.js com entrevistas ramificadas e uma interface de pistas para o jogador formular a acusação.**
+
+Na demonstração, o jogador entra nos estabelecimentos, entrevista personagens e examina pistas.
+
+O autor atribui a Neon a história, a recriação 3D de Golden Gai, os personagens e as pistas em 16 bares acessíveis e um trailer.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-245-1-2389fb584242.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-245-1-c8850b38c8df.jpg" alt="Criar um mistério em primeira pessoa em um bairro 3D · 1" width="560"></a>
 
 Type: Demo | Date: 2026-11-22
 
@@ -3455,6 +3555,21 @@ O percurso cobre chamadas de ferramentas, contexto MCP e a separação entre o n
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/videos/case-227-1-0d9f175cbc3f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-22-backfill/posters/case-227-1-15fc189a1e88.jpg" alt="Explicar o ambiente de agentes do Pi em um diagrama interativo · 1" width="560"></a>
 
 Type: Tutorial | Date: 2026-11-22
+
+---
+
+<a id="case-243"></a>
+### Case 243: [Ensinar a óptica do olho humano com um modelo interativo](https://x.com/thebuggeddev/status/2124508873897726028) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**Deixe os estudantes ajustar os controles ópticos e observar as mudanças no trajeto simulado da luz e no foco retiniano.**
+
+O vídeo mostra um olho em 3D, ajustes de foco e lentes e visualizações da percepção de cores.
+
+O autor usou Neon para montar a visualização com base nos modelos oculares de Navarro e Gullstrand. A demonstração inclui astigmatismo e lentes corretivas.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-243-1-a6e63a9e64b8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-243-1-d0dca018e12c.jpg" alt="Ensinar a óptica do olho humano com um modelo interativo · 1" width="560"></a>
+
+Type: Demo | Date: 2026-11-22
 
 ---
 
@@ -4094,6 +4209,59 @@ Type: Evaluation | Date: 2026-11-22
 
 ---
 
+<a id="case-244"></a>
+### Case 244: [Comparar respostas isoladas sobre números aleatórios em três assistentes](https://news.ycombinator.com/item?id=50600208) (by [@financltravsty](https://news.ycombinator.com/user?id=financltravsty))
+
+**Guarde os textos exatos e as configurações ao comparar respostas isoladas.**
+
+O autor publicou três capturas nas quais Gemini 4 Neon Medium, 6 Luna Medium e Sonnet 5.5 High responderam 47.
+
+Cada captura mostra uma resposta. Os aplicativos e o texto variam um pouco. Segundo o autor, a sessão Neon era nova e foi iniciada em um projeto existente.
+
+**Prompt:**
+
+```
+Pick a random numbe
+```
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-244-1-cb6ed3fbc4de.png" alt="Comparar respostas isoladas sobre números aleatórios em três assistentes · 1" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-244-2-4b666a2aa98b.png" alt="Comparar respostas isoladas sobre números aleatórios em três assistentes · 2" width="560">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-244-3-80fb07a79b19.png" alt="Comparar respostas isoladas sobre números aleatórios em três assistentes · 3" width="560">
+
+Type: Limit | Date: 2026-11-22
+
+---
+
+<a id="case-248"></a>
+### Case 248: [Comparar treinamento em Polytopia com orçamento fixo de GPU](https://x.com/maxbittker/status/2124694590250693021) (by [@maxbittker](https://x.com/maxbittker))
+
+**Use o mesmo orçamento de GPU para comparar métodos de treinamento de um agente de jogo.**
+
+Por volta de 325 Elo, o gráfico mostra cerca de 3 horas de GPU para Neon e cerca de 7 para a melhor alternativa exibida.
+
+O autor marca a relação de 2,3× no gráfico. A comparação vale para as execuções de Polytopia exibidas nesse Elo.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-248-1-350942e64ce6.jpg" alt="Comparar treinamento em Polytopia com orçamento fixo de GPU · 1" width="560">
+
+Type: Benchmark | Date: 2026-11-23
+
+---
+
+<a id="case-252"></a>
+### Case 252: [Comparar quatro animações de um anel em 3D](https://x.com/SPAC89/status/2124760560445030409) (by [@SPAC89](https://x.com/SPAC89))
+
+**Crie quatro versões do mesmo anel mecânico e compare-as nos mesmos pontos do movimento.**
+
+O vídeo original mostra quatro anéis 3D identificados se abrindo lado a lado.
+
+As legendas são GLM-5.4 Max, Gemini 4 Neon Extra, Claude Fable 5.2 High e Claude Opus 5.5 xhigh. A classificação do autor se refere a esta demonstração.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-252-1-87957df8ab6f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-252-1-70135862cc61.jpg" alt="Comparar quatro animações de um anel em 3D · 1" width="560"></a>
+
+Type: Evaluation | Date: 2026-11-23
+
+---
+
 <a id="related-repositories"></a>
 ## Repositórios Relacionados
 
@@ -4105,6 +4273,6 @@ Type: Evaluation | Date: 2026-11-22
 
 Obrigado aos criadores e avaliadores que compartilharam seus trabalhos.
 
-[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin), [@openclaw](https://x.com/openclaw), [@PawelHuryn](https://x.com/PawelHuryn), [@alexanderchen](https://x.com/alexanderchen), [@majidmanzarpour](https://x.com/majidmanzarpour), [@robinebers](https://x.com/robinebers), [@GOD2FREEX](https://x.com/GOD2FREEX), [@ann_nnng](https://x.com/ann_nnng), [@RainG999](https://x.com/RainG999), [@mspd4100](https://x.com/mspd4100), [@Haleeeemahh](https://x.com/Haleeeemahh), [@anxuanng](https://x.com/anxuanng), [@wenwen11703261](https://x.com/wenwen11703261), [@lucian__03](https://x.com/lucian__03), [@thegenioo](https://x.com/thegenioo), [@BubbleBrain](https://x.com/BubbleBrain), [@poolmoon6](https://x.com/poolmoon6), [@hqmank](https://x.com/hqmank), [@rootport](https://x.com/rootport), [@viktoroddy](https://x.com/viktoroddy), [@HiromitsuTakagi](https://x.com/HiromitsuTakagi), [@SimonT242613](https://x.com/SimonT242613), [@mizugame_22](https://x.com/mizugame_22), [@lemomo_ai](https://x.com/lemomo_ai), [@Leapofcode](https://x.com/Leapofcode), [@karanC_12](https://x.com/karanC_12), [@marcthecreatorr](https://x.com/marcthecreatorr), [@prz_chojecki](https://x.com/prz_chojecki), [@ivanainai](https://x.com/ivanainai), [@nikhilchandak29](https://x.com/nikhilchandak29), [@FiniYang](https://x.com/FiniYang), [@AIMind_Ai](https://x.com/AIMind_Ai), [@AndroidDev](https://x.com/AndroidDev), [@DanielZambrini](https://x.com/DanielZambrini), [@superdoteng](https://x.com/superdoteng), [@filicroval](https://x.com/filicroval), [@boringmarketer](https://x.com/boringmarketer), [@hyperstition_cc](https://x.com/hyperstition_cc), [@eliadele](https://x.com/eliadele), [@DynamicWebPaige](https://x.com/DynamicWebPaige), [@leo_linsky](https://x.com/leo_linsky), [@SamgreyAi](https://x.com/SamgreyAi), [@davis7](https://x.com/davis7), [@Letta_AI](https://x.com/Letta_AI), [@maxt3chno](https://x.com/maxt3chno), [@scottstts](https://x.com/scottstts), [@jerryjliu0](https://x.com/jerryjliu0), [@atakoylanai](https://x.com/atakoylanai), [@liu8in](https://x.com/liu8in), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@JamesMalsawm](https://x.com/JamesMalsawm), [@likka_ailive](https://x.com/likka_ailive), [@vipinxtwt](https://x.com/vipinxtwt), [@bangbuilds](https://x.com/bangbuilds), [@antiAIvo](https://x.com/antiAIvo), [@ogabezim](https://x.com/ogabezim), [@GoGoFly23](https://x.com/GoGoFly23), [@WrongNebula](https://x.com/WrongNebula), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@risui1012](https://x.com/risui1012), [@niramayo2096](https://x.com/niramayo2096), [@noclipepe](https://x.com/noclipepe), [@csaba_kissi](https://x.com/csaba_kissi), [@maksym_andr](https://x.com/maksym_andr), [@TheDoraaaaaaaa](https://x.com/TheDoraaaaaaaa), [@guilippert_v4](https://x.com/guilippert_v4), [@leo114119](https://x.com/leo114119), [@leaf_sanren](https://x.com/leaf_sanren), [@DrstaOne](https://x.com/DrstaOne), [@blueemi99](https://x.com/blueemi99), [@aug5thmusic](https://x.com/aug5thmusic), [@DeepBlueX0](https://x.com/DeepBlueX0), [@PokeBenchTV](https://x.com/PokeBenchTV), [@rafaelcaricio](https://x.com/rafaelcaricio), [@li9292](https://x.com/li9292), [@GeekCatX](https://x.com/GeekCatX), [@Bhavani_00007](https://x.com/Bhavani_00007), [@studio_yebisu](https://x.com/studio_yebisu), [@EnvolDev](https://x.com/EnvolDev), [@DominikPeters](https://x.com/DominikPeters), [@jake_j_jung](https://x.com/jake_j_jung), [@doboku_works](https://x.com/doboku_works), [@anabology](https://x.com/anabology), [@jacalulu](https://x.com/jacalulu), [@chasen_liao](https://x.com/chasen_liao), [@G33K13765260](https://x.com/G33K13765260), [@alexmichael](https://x.com/alexmichael), [@itsvishaltwt](https://x.com/itsvishaltwt), [@Leviwoyun](https://x.com/Leviwoyun), [@thorstenball](https://x.com/thorstenball), [@a__tomala](https://x.com/a__tomala), [@kinderlayer](https://x.com/kinderlayer), [@fe_yukichi](https://x.com/fe_yukichi)
+[@IndependentEco](https://x.com/IndependentEco), [@SamuelAlbanie](https://x.com/SamuelAlbanie), [@seveibar](https://x.com/seveibar), [@kajikent](https://x.com/kajikent), [@theo](https://x.com/theo), [@Lentils80](https://x.com/Lentils80), [@HarshithLucky3](https://x.com/HarshithLucky3), [@AdamHoltererer](https://x.com/AdamHoltererer), [@StatsWire](https://x.com/StatsWire), [@lyraxana](https://x.com/lyraxana), [@xiangning0](https://x.com/xiangning0), [@Angaisb_](https://x.com/Angaisb_), [@cfenghub](https://x.com/cfenghub), [@kickingkeys](https://x.com/kickingkeys), [@Super_Nius](https://x.com/Super_Nius), [@AI_Screening](https://x.com/AI_Screening), [@Mr_Salio](https://x.com/Mr_Salio), [@LuminaBench](https://x.com/LuminaBench), [@notjazii](https://x.com/notjazii), [@jony_palino](https://x.com/jony_palino), [@thebuggeddev](https://x.com/thebuggeddev), [@GeokenAI](https://x.com/GeokenAI), [@LeslieNooteboom](https://x.com/LeslieNooteboom), [@SPAC89](https://x.com/SPAC89), [@agenticjay](https://x.com/agenticjay), [@Google](https://x.com/Google), [@LyalinDotCom](https://x.com/LyalinDotCom), [@fofrAI](https://x.com/fofrAI), [@thehypedotnews](https://x.com/thehypedotnews), [@chetaslua](https://x.com/chetaslua), [@aipulseda1ly](https://x.com/aipulseda1ly), [@jan_volad](https://x.com/jan_volad), [@ai_for_success](https://x.com/ai_for_success), [@abhinavflac](https://x.com/abhinavflac), [@DesignArena](https://x.com/DesignArena), [@ZryMiller](https://x.com/ZryMiller), [@thtbee_](https://x.com/thtbee_), [@op7418](https://x.com/op7418), [@nemumusitocha](https://x.com/nemumusitocha), [@GoogleAI](https://x.com/GoogleAI), [@antigravity](https://x.com/antigravity), [@GlitterPixely](https://x.com/GlitterPixely), [@badboyfoxy](https://x.com/badboyfoxy), [@DeryaTR_](https://x.com/DeryaTR_), [@Google](https://blog.google/), [@Arcadia_Bao](https://x.com/Arcadia_Bao), [@gracepursuits](https://x.com/gracepursuits), [@Msfs2000J](https://x.com/Msfs2000J), [@viticci](https://x.com/viticci), [@tetumemo](https://x.com/tetumemo), [@MichaelLee009](https://x.com/MichaelLee009), [@ValsAI](https://x.com/ValsAI), [@kimmonismus](https://x.com/kimmonismus), [@arena](https://x.com/arena), [@lukaspet](https://x.com/lukaspet), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@andonlabs](https://x.com/andonlabs), [@maxbittker](https://x.com/maxbittker), [@mercor](https://x.com/mercor), [@cursor_ai](https://x.com/cursor_ai), [@elliotarledge](https://x.com/elliotarledge), [@HelloSurgeAI](https://x.com/HelloSurgeAI), [@wenhaocha1](https://x.com/wenhaocha1), [@browser_use](https://x.com/browser_use), [@aicodeking](https://x.com/aicodeking), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Da7_Tech](https://x.com/Da7_Tech), [@aiiii498](https://x.com/aiiii498), [@teddyaisi](https://x.com/teddyaisi), [@aisearchio](https://x.com/aisearchio), [@petergyang](https://x.com/petergyang), [@alohaproxy](https://x.com/alohaproxy), [@hn-aarvin](https://news.ycombinator.com/user?id=hn-aarvin), [@openclaw](https://x.com/openclaw), [@PawelHuryn](https://x.com/PawelHuryn), [@alexanderchen](https://x.com/alexanderchen), [@majidmanzarpour](https://x.com/majidmanzarpour), [@robinebers](https://x.com/robinebers), [@GOD2FREEX](https://x.com/GOD2FREEX), [@ann_nnng](https://x.com/ann_nnng), [@RainG999](https://x.com/RainG999), [@mspd4100](https://x.com/mspd4100), [@Haleeeemahh](https://x.com/Haleeeemahh), [@anxuanng](https://x.com/anxuanng), [@wenwen11703261](https://x.com/wenwen11703261), [@lucian__03](https://x.com/lucian__03), [@thegenioo](https://x.com/thegenioo), [@BubbleBrain](https://x.com/BubbleBrain), [@poolmoon6](https://x.com/poolmoon6), [@hqmank](https://x.com/hqmank), [@rootport](https://x.com/rootport), [@viktoroddy](https://x.com/viktoroddy), [@HiromitsuTakagi](https://x.com/HiromitsuTakagi), [@SimonT242613](https://x.com/SimonT242613), [@mizugame_22](https://x.com/mizugame_22), [@lemomo_ai](https://x.com/lemomo_ai), [@Leapofcode](https://x.com/Leapofcode), [@karanC_12](https://x.com/karanC_12), [@marcthecreatorr](https://x.com/marcthecreatorr), [@prz_chojecki](https://x.com/prz_chojecki), [@ivanainai](https://x.com/ivanainai), [@nikhilchandak29](https://x.com/nikhilchandak29), [@FiniYang](https://x.com/FiniYang), [@AIMind_Ai](https://x.com/AIMind_Ai), [@AndroidDev](https://x.com/AndroidDev), [@DanielZambrini](https://x.com/DanielZambrini), [@superdoteng](https://x.com/superdoteng), [@filicroval](https://x.com/filicroval), [@boringmarketer](https://x.com/boringmarketer), [@hyperstition_cc](https://x.com/hyperstition_cc), [@eliadele](https://x.com/eliadele), [@DynamicWebPaige](https://x.com/DynamicWebPaige), [@leo_linsky](https://x.com/leo_linsky), [@SamgreyAi](https://x.com/SamgreyAi), [@davis7](https://x.com/davis7), [@Letta_AI](https://x.com/Letta_AI), [@maxt3chno](https://x.com/maxt3chno), [@scottstts](https://x.com/scottstts), [@jerryjliu0](https://x.com/jerryjliu0), [@atakoylanai](https://x.com/atakoylanai), [@liu8in](https://x.com/liu8in), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@JamesMalsawm](https://x.com/JamesMalsawm), [@likka_ailive](https://x.com/likka_ailive), [@vipinxtwt](https://x.com/vipinxtwt), [@bangbuilds](https://x.com/bangbuilds), [@antiAIvo](https://x.com/antiAIvo), [@ogabezim](https://x.com/ogabezim), [@GoGoFly23](https://x.com/GoGoFly23), [@WrongNebula](https://x.com/WrongNebula), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@risui1012](https://x.com/risui1012), [@niramayo2096](https://x.com/niramayo2096), [@noclipepe](https://x.com/noclipepe), [@csaba_kissi](https://x.com/csaba_kissi), [@maksym_andr](https://x.com/maksym_andr), [@TheDoraaaaaaaa](https://x.com/TheDoraaaaaaaa), [@guilippert_v4](https://x.com/guilippert_v4), [@leo114119](https://x.com/leo114119), [@leaf_sanren](https://x.com/leaf_sanren), [@DrstaOne](https://x.com/DrstaOne), [@blueemi99](https://x.com/blueemi99), [@aug5thmusic](https://x.com/aug5thmusic), [@DeepBlueX0](https://x.com/DeepBlueX0), [@PokeBenchTV](https://x.com/PokeBenchTV), [@rafaelcaricio](https://x.com/rafaelcaricio), [@li9292](https://x.com/li9292), [@GeekCatX](https://x.com/GeekCatX), [@Bhavani_00007](https://x.com/Bhavani_00007), [@studio_yebisu](https://x.com/studio_yebisu), [@EnvolDev](https://x.com/EnvolDev), [@DominikPeters](https://x.com/DominikPeters), [@jake_j_jung](https://x.com/jake_j_jung), [@doboku_works](https://x.com/doboku_works), [@anabology](https://x.com/anabology), [@jacalulu](https://x.com/jacalulu), [@chasen_liao](https://x.com/chasen_liao), [@G33K13765260](https://x.com/G33K13765260), [@alexmichael](https://x.com/alexmichael), [@itsvishaltwt](https://x.com/itsvishaltwt), [@Leviwoyun](https://x.com/Leviwoyun), [@thorstenball](https://x.com/thorstenball), [@a__tomala](https://x.com/a__tomala), [@kinderlayer](https://x.com/kinderlayer), [@fe_yukichi](https://x.com/fe_yukichi), [@financltravsty](https://news.ycombinator.com/user?id=financltravsty), [@venturetwins](https://x.com/venturetwins), [@WichtelArt](https://x.com/WichtelArt), [@ivanleomk](https://x.com/ivanleomk)
 
 *A mídia e o trabalho de terceiros permanecem com seus respectivos detentores de direitos. Abra um problema se uma fonte, crédito ou item de mídia precisar de correção.*
