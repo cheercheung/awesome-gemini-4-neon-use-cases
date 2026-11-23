@@ -1454,6 +1454,66 @@
       "takeaway": "O criador diz ter usado o mesmo pedido de congelar, derreter e estourar para quatro modelos. Os quatro painéis identificados reúnem os resultados em um clipe.",
       "notes": "A comparação registra um teste do criador. As estimativas de tempo e custo dependem da configuração relatada.",
       "action": "Use a mesma sequência de eventos para conferir se cada animação preserva a identidade do objeto entre as transições."
+    },
+    "case-252": {
+      "title": "Comparar quatro animações de um anel em 3D",
+      "action": "Crie quatro versões do mesmo anel mecânico e compare-as nos mesmos pontos do movimento.",
+      "takeaway": "O vídeo original mostra quatro anéis 3D identificados se abrindo lado a lado.",
+      "notes": "As legendas são GLM-5.4 Max, Gemini 4 Neon Extra, Claude Fable 5.2 High e Claude Opus 5.5 xhigh. A classificação do autor se refere a esta demonstração."
+    },
+    "case-251": {
+      "title": "Prototipar um recorte de vídeo no Antigravity",
+      "action": "Use Neon para conectar ferramentas de segmentação e recorte de vídeo e compare os quadros intermediários.",
+      "takeaway": "A captura mostra as prévias de quadros durante o desenvolvimento.",
+      "notes": "O autor combinou Gemini 4 Neon no Antigravity com Meta SAM 3 e MatAnyone 2. A fonte mostra um protótipo e não traz avaliação quantitativa."
+    },
+    "case-250": {
+      "title": "Treinar uma palavra de ativação para automação residencial",
+      "action": "Treine um modelo de ativação com Neon no Antigravity e passe o gatilho para um classificador de intenções separado.",
+      "takeaway": "A demonstração mostra o modelo de ativação funcionando junto com a automação acionada por voz.",
+      "notes": "O autor mostra o modelo treinado hey_vanya.onnx. O classificador separado Gemini Decisions escolhe as ações, e o vídeo mostra o Home Assistant implantado pelo Neon."
+    },
+    "case-249": {
+      "title": "Acompanhar órbitas de satélites no navegador",
+      "action": "Coloque em cache os dados orbitais públicos da CelesTrak e calcule as posições no navegador para uma visualização 3D navegável.",
+      "takeaway": "No vídeo, os satélites e suas trajetórias mudam à medida que o autor gira a visualização da Terra.",
+      "notes": "O autor construiu o rastreador com Neon e explica como os dados públicos permitem prever as posições de satélites Starlink, da ISS e de satélites GPS, entre outros."
+    },
+    "case-248": {
+      "title": "Comparar treinamento em Polytopia com orçamento fixo de GPU",
+      "action": "Use o mesmo orçamento de GPU para comparar métodos de treinamento de um agente de jogo.",
+      "takeaway": "Por volta de 325 Elo, o gráfico mostra cerca de 3 horas de GPU para Neon e cerca de 7 para a melhor alternativa exibida.",
+      "notes": "O autor marca a relação de 2,3× no gráfico. A comparação vale para as execuções de Polytopia exibidas nesse Elo."
+    },
+    "case-247": {
+      "title": "Reconstruir um robô articulado a partir de fotos",
+      "action": "Meça as imagens de referência, modele peças separadas no Blender e compare a renderização com a referência.",
+      "takeaway": "O vídeo mostra a montagem por etapas e uma transição final entre o modelo e a foto.",
+      "notes": "Segundo o autor, Neon no Antigravity usou imagens do Tesla Optimus Gen 2 para produzir 145 peças articuladas e revisar as renderizações."
+    },
+    "case-246": {
+      "title": "Compor para piano com uma DAW personalizada",
+      "action": "Conecte a DAW ao Neon por MCP para que o agente insira notas diretamente em uma grade de piano editável.",
+      "takeaway": "A gravação mostra o arranjo pronto rolando ao longo da reprodução.",
+      "notes": "O autor conectou Neon no Antigravity a uma DAW própria. A publicação usa o termo “nice” e mostra o resultado musical."
+    },
+    "case-245": {
+      "title": "Criar um mistério em primeira pessoa em um bairro 3D",
+      "action": "Combine um bairro em Three.js com entrevistas ramificadas e uma interface de pistas para o jogador formular a acusação.",
+      "takeaway": "Na demonstração, o jogador entra nos estabelecimentos, entrevista personagens e examina pistas.",
+      "notes": "O autor atribui a Neon a história, a recriação 3D de Golden Gai, os personagens e as pistas em 16 bares acessíveis e um trailer."
+    },
+    "case-243": {
+      "title": "Ensinar a óptica do olho humano com um modelo interativo",
+      "action": "Deixe os estudantes ajustar os controles ópticos e observar as mudanças no trajeto simulado da luz e no foco retiniano.",
+      "takeaway": "O vídeo mostra um olho em 3D, ajustes de foco e lentes e visualizações da percepção de cores.",
+      "notes": "O autor usou Neon para montar a visualização com base nos modelos oculares de Navarro e Gullstrand. A demonstração inclui astigmatismo e lentes corretivas."
+    },
+    "case-244": {
+      "title": "Comparar respostas isoladas sobre números aleatórios em três assistentes",
+      "action": "Guarde os textos exatos e as configurações ao comparar respostas isoladas.",
+      "takeaway": "O autor publicou três capturas nas quais Gemini 4 Neon Medium, 6 Luna Medium e Sonnet 5.5 High responderam 47.",
+      "notes": "Cada captura mostra uma resposta. Os aplicativos e o texto variam um pouco. Segundo o autor, a sessão Neon era nova e foi iniciada em um projeto existente."
     }
   },
   "strings": {

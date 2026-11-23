@@ -1454,6 +1454,66 @@
       "takeaway": "Üretici dört modele aynı donma, erime ve patlama görevini verdiğini bildiriyor. Etiketli dört panel çıktıları tek klipte gösteriyor.",
       "notes": "Karşılaştırma üreticinin tek testine ait. Gösterilen süreler ve maliyet tahminleri bildirilen kuruluma bağlı.",
       "action": "Her animasyonun geçişlerde nesnenin tanınabilirliğini koruyup korumadığını ortak olay dizisiyle sınayın."
+    },
+    "case-252": {
+      "title": "Dört modelin 3B halka animasyonlarını karşılaştırın",
+      "action": "Aynı mekanik halkanın dört sürümünü oluşturup hareketin aynı anlarında karşılaştırın.",
+      "takeaway": "Kaynak video, etiketli dört 3B halkanın yan yana açılmasını gösteriyor.",
+      "notes": "Video etiketleri GLM-5.4 Max, Gemini 4 Neon Extra, Claude Fable 5.2 High ve Claude Opus 5.5 xhigh. Yazarın sıralaması bu gösterime ait."
+    },
+    "case-251": {
+      "title": "Antigravity’de video maskeleme prototipi oluşturun",
+      "action": "Neon ile segmentasyon ve video maskeleme araçlarını bağlayın, ardından ara kareleri karşılaştırın.",
+      "takeaway": "Ekran görüntüsü, geliştirme sırasındaki kare önizlemelerini gösteriyor.",
+      "notes": "Yazar Antigravity’de Gemini 4 Neon, Meta SAM 3 ve MatAnyone 2’yi birlikte kullandı. Kaynak, nicel değerlendirmesi bulunmayan bir prototip gösteriyor."
+    },
+    "case-250": {
+      "title": "Akıllı ev için özel bir uyandırma sözcüğü eğitin",
+      "action": "Antigravity’de Neon ile bir uyandırma modeli eğitin ve tetikleyiciyi ayrı bir niyet sınıflandırıcısına bağlayın.",
+      "takeaway": "Gösterimde uyandırma modeli, sesle tetiklenen ev otomasyonuyla birlikte çalışıyor.",
+      "notes": "Yazar eğitilen hey_vanya.onnx modelini gösteriyor. Eylemleri ayrı Gemini Decisions sınıflandırıcısı seçiyor ve videoda Neon’un Home Assistant kurulumu görülüyor."
+    },
+    "case-249": {
+      "title": "Uydu yörüngelerini tarayıcıda canlı izleyin",
+      "action": "CelesTrak’ın açık yörünge verilerini önbelleğe alın ve gezilebilir bir 3B görünüm için konumları tarayıcıda hesaplayın.",
+      "takeaway": "Videoda yazar Dünya çevresindeki bakış açısını oynattıkça uydular ve izleri değişiyor.",
+      "notes": "Yazar izleyiciyi Neon ile kurdu ve açık verilerle Starlink uyduları, ISS ve GPS uydularının konumlarını nasıl öngördüğünü açıkladı."
+    },
+    "case-248": {
+      "title": "Sabit GPU bütçesiyle Polytopia eğitimini karşılaştırın",
+      "action": "Oyun ajanı için eğitim yöntemlerini karşılaştırırken GPU bütçesini sabit tutun.",
+      "takeaway": "Yaklaşık 325 Elo’da grafik Neon için yaklaşık 3 GPU saati, gösterilen en iyi alternatif için yaklaşık 7 saat gösteriyor.",
+      "notes": "Yazar grafikte 2,3× oranını işaretliyor. Karşılaştırma bu Elo düzeyinde grafiğe alınan Polytopia çalıştırmalarına ait."
+    },
+    "case-247": {
+      "title": "Referans fotoğraflardan hareketli robotu yeniden oluşturun",
+      "action": "Görsellerden ölçü alın, Blender’da parçaları ayrı modelleyin ve sonucu referansla yan yana inceleyin.",
+      "takeaway": "Video, aşamalı montajı ve modelle referans fotoğrafı karşılaştıran son geçişi gösteriyor.",
+      "notes": "Yazar, Antigravity’de Neon’un Tesla Optimus Gen 2 fotoğraflarına dayanarak 145 rig’li parça oluşturduğunu ve görselleri denetlediğini söylüyor."
+    },
+    "case-246": {
+      "title": "Özel bir DAW üzerinden piyano parçası besteleyin",
+      "action": "DAW’ı MCP ile Neon’a bağlayın ve ajanın düzenlenebilir nota ızgarasına doğrudan nota yerleştirmesini sağlayın.",
+      "takeaway": "Kayıt, tamamlanan düzenlemenin çalma sırasında nota ızgarasında kaydığını gösteriyor.",
+      "notes": "Yazar Antigravity’de Neon’u kendi DAW’u ile kullandı. Herkese açık gönderide “nice” ifadesi ve parçanın sonucu yer alıyor."
+    },
+    "case-245": {
+      "title": "3B mahallede birinci şahıs dedektiflik oyunu oluşturun",
+      "action": "Oyuncunun şüpheliyi işaretleyebilmesi için bir Three.js mahallesini dallanan diyaloglar ve ipucu ekranıyla birleştirin.",
+      "takeaway": "Gösterimde oyuncu mekânlara giriyor, karakterleri sorguluyor ve ipuçlarını inceliyor.",
+      "notes": "Yazar hikâyeyi, Golden Gai’nin 3B canlandırmasını, girilebilen 16 bardaki karakter ve ipuçlarını ve tanıtım videosunu Neon’a atfediyor."
+    },
+    "case-243": {
+      "title": "Etkileşimli bir modelle göz optiğini öğretin",
+      "action": "Öğrencilerin optik ayarları değiştirmesini, benzetilen ışık yolu ve retina odağını gözlemlemesini sağlayın.",
+      "takeaway": "Video 3B bir gözü, odak ve mercek ayarlarını ve renkli görme görünümlerini gösteriyor.",
+      "notes": "Yazar eğitim görselleştirmesini Neon kullanarak Navarro ve Gullstrand göz modelleri üzerine kurdu. Gösterimde astigmatizm ve düzeltici mercekler bulunuyor."
+    },
+    "case-244": {
+      "title": "Üç asistanın tek seferlik rastgele sayı yanıtlarını karşılaştırmak",
+      "action": "Tekil yanıtları karşılaştırırken istemleri ve ayarları aynen kaydedin.",
+      "takeaway": "Yazarın paylaştığı üç ekran görüntüsünde Gemini 4 Neon Medium, 6 Luna Medium ve Sonnet 5.5 High 47 yanıtını verdi.",
+      "notes": "Her görüntü bir yanıt gösteriyor. Uygulamalar ve istem metinleri biraz farklı. Yazar, mevcut bir projede yeni Neon oturumu açtığını söylüyor."
     }
   },
   "strings": {

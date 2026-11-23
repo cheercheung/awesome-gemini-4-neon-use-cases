@@ -1454,6 +1454,66 @@
       "action": "用同一組事件順序，檢查各動畫在轉場過程能否保持水果的一致性。",
       "takeaway": "創作者回報給四個模型相同的冷凍、融化與爆裂需求。",
       "notes": "這段四格對照片標示單次測試的各項結果，顯示的時間與成本估算取決於本次設定。"
+    },
+    "case-252": {
+      "title": "比較四個模型製作的 3D 圓環動畫",
+      "action": "用同一個機械圓環構想製作四個版本，再在相同的動作節點觀察差異。",
+      "takeaway": "原始影片並排呈現四個有標籤的 3D 版本及圓環打開的動作。",
+      "notes": "影片的標籤是 GLM-5.4 Max、Gemini 4 Neon Extra、Claude Fable 5.2 High 及 Claude Opus 5.5 xhigh。作者的排序僅適用於這次示範。"
+    },
+    "case-251": {
+      "title": "在 Antigravity 製作影片去背原型",
+      "action": "透過 Neon 串接分割和影片去背工具，再對照各個階段的預覽影格。",
+      "takeaway": "截圖呈現作者開發中看到的影格預覽。",
+      "notes": "作者在 Antigravity 搭配 Gemini 4 Neon、Meta SAM 3 與 MatAnyone 2。來源展示原型，未附量化評估。"
+    },
+    "case-250": {
+      "title": "為智慧家庭訓練自訂喚醒詞",
+      "action": "用 Antigravity 的 Neon 訓練喚醒模型，再把觸發訊號送到獨立的意圖分類器。",
+      "takeaway": "示範中，喚醒詞模型搭配語音觸發的家庭自動化執行。",
+      "notes": "作者展示訓練好的 hey_vanya.onnx。獨立的 Gemini Decisions 分類器負責選擇動作，影片也呈現由 Neon 部署的 Home Assistant。"
+    },
+    "case-249": {
+      "title": "在瀏覽器顯示即時衛星軌道",
+      "action": "快取 CelesTrak 的公開軌道資料，讓瀏覽器計算位置並提供可操作的 3D 視圖。",
+      "takeaway": "影片呈現操作視角時在地球周圍變動的衛星和軌跡。",
+      "notes": "作者以 Neon 打造追蹤器，說明它如何用公開資料預測 Starlink 衛星、國際太空站及 GPS 衛星等物體的位置。"
+    },
+    "case-248": {
+      "title": "以固定 GPU 預算比較 Polytopia 訓練方案",
+      "action": "維持相同的 GPU 預算，再比較模型為遊戲代理產生的訓練方案。",
+      "takeaway": "約 325 Elo 時，圖表顯示 Neon 約耗費 3 個 GPU 小時，而圖中最佳替代方案約耗費 7 個 GPU 小時。",
+      "notes": "作者在圖上標示 2.3×。這個比較適用於該 Elo 下圖中所示的 Polytopia 試驗。"
+    },
+    "case-247": {
+      "title": "用參考照片重建可動機器人",
+      "action": "測量參考照片，在 Blender 分開建模，再用並排算圖檢查外觀。",
+      "takeaway": "影片展示逐步組裝，最後滑動畫面比較模型與參考圖。",
+      "notes": "作者表示，Antigravity 裡的 Neon 根據 Tesla Optimus Gen 2 的參考照片做出 145 個已綁定的零件，並檢查算圖結果。"
+    },
+    "case-246": {
+      "title": "透過自製 DAW 創作鋼琴曲",
+      "action": "用 MCP 把 DAW 連到 Neon，讓代理直接在可編輯的鋼琴捲軸中輸入音符。",
+      "takeaway": "錄影呈現編排完成的樂段隨播放進度捲動。",
+      "notes": "作者在 Antigravity 搭配 Neon 和自製 DAW。公開貼文使用了「nice」這個描述，並播放成果。"
+    },
+    "case-245": {
+      "title": "在 3D 街區打造第一人稱推理遊戲",
+      "action": "結合 Three.js 街區、可分支的詢問對話和線索介面，供玩家做出最後指認。",
+      "takeaway": "遊玩示範呈現玩家進入店家、訪談人物並調查線索。",
+      "notes": "作者把故事、Golden Gai 的 3D 重建、16 間可進入酒吧中的人物和線索，以及一支預告片歸功於 Neon。"
+    },
+    "case-243": {
+      "title": "以互動模型說明人眼光學",
+      "action": "讓學習者調整光學控制項，觀察模擬光線路徑和視網膜焦點改變。",
+      "takeaway": "影片展示 3D 眼球、對焦功能、鏡片調整和色覺視圖。",
+      "notes": "作者以 Neon 依 Navarro 與 Gullstrand 人眼模型製作教學視覺化，示範包含散光和矯正鏡片。"
+    },
+    "case-244": {
+      "title": "比較三款助理各一次隨機數字回答",
+      "action": "比較單次輸出時，記下每次的提示詞原文和設定。",
+      "takeaway": "作者發布的三張截圖顯示，Gemini 4 Neon Medium、6 Luna Medium 和 Sonnet 5.5 High 都回答了 47。",
+      "notes": "每張圖只顯示一次回答，應用程式和提示詞措辭略有差異。作者說，他在已有內容的專案中為 Neon 開啟新對話。"
     }
   },
   "strings": {

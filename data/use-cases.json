@@ -8872,6 +8872,364 @@
       "media_source_urls": [
         "https://video.twimg.com/amplify_video/2124474006644338688/vid/avc1/480x600/j8ncsHCuK8VYNHRZ.mp4?tag=29"
       ]
+    },
+    {
+      "id": "x-2124508873897726028",
+      "public_number": 243,
+      "source_url": "https://x.com/thebuggeddev/status/2124508873897726028",
+      "source_platform": "x",
+      "source_posted_by": "thebuggeddev",
+      "author_handle": "@thebuggeddev",
+      "author_url": "https://x.com/thebuggeddev",
+      "date": "2026-11-22",
+      "title": "Teach human-eye optics with an interactive model",
+      "takeaway": "Let learners adjust optical controls and observe how the simulated light path and retinal focus change.",
+      "observation": "The video demonstrates a 3D eye, focus controls, lens adjustments, and color vision views.",
+      "body_notes": "The author used Neon to build the educational visualization based on Navarro and Gullstrand eye models. The displayed demos include astigmatism and corrective lenses.",
+      "type": "Demo",
+      "category_key": "knowledge",
+      "dedup_key": "x-2124508873897726028",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-243-1-a6e63a9e64b8.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-243-1-d0dca018e12c.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124506977971892224/vid/avc1/552x360/Aon9UMSxB4J4Iil5.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124506977971892224/img/yUdKs3yxdtJwGZqH.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124506977971892224/vid/avc1/552x360/Aon9UMSxB4J4Iil5.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "hn-50600208",
+      "public_number": 244,
+      "source_url": "https://news.ycombinator.com/item?id=50600208",
+      "source_platform": "hn",
+      "source_posted_by": "financltravsty",
+      "author_handle": "@financltravsty",
+      "author_url": "https://news.ycombinator.com/user?id=financltravsty",
+      "date": "2026-11-22",
+      "title": "Compare one-off random-number answers across three assistants",
+      "takeaway": "Keep the exact prompts and settings when comparing isolated model outputs.",
+      "observation": "The author posted three screenshots in which Gemini 4 Neon Medium, 6 Luna Medium and Sonnet 5.5 High each returned 47.",
+      "body_notes": "Each screenshot shows one answer. The apps and prompt wording vary slightly, and the author describes the Neon session as fresh inside a populated project.",
+      "type": "Limit",
+      "category_key": "evaluations",
+      "dedup_key": "hn-50600208",
+      "kind": "usecase",
+      "prompt_public": true,
+      "prompt_text": "Pick a random numbe",
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-244-1-cb6ed3fbc4de.png",
+          "source_url": "https://i.ibb.co/ycGn5wKj/Screenshot-2026-11-22-at-9-43-56-AM.png",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-244-2-4b666a2aa98b.png",
+          "source_url": "https://i.ibb.co/hFfTtZnq/Screenshot-2026-11-22-at-9-46-28-AM.png",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-244-3-80fb07a79b19.png",
+          "source_url": "https://i.ibb.co/DPHRrppL/Screenshot-2026-11-22-at-9-47-40-AM.png",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://i.ibb.co/ycGn5wKj/Screenshot-2026-11-22-at-9-43-56-AM.png",
+        "https://i.ibb.co/hFfTtZnq/Screenshot-2026-11-22-at-9-46-28-AM.png",
+        "https://i.ibb.co/DPHRrppL/Screenshot-2026-11-22-at-9-47-40-AM.png"
+      ]
+    },
+    {
+      "id": "x-2124568183902449764",
+      "public_number": 245,
+      "source_url": "https://x.com/venturetwins/status/2124568183902449764",
+      "source_platform": "x",
+      "source_posted_by": "venturetwins",
+      "author_handle": "@venturetwins",
+      "author_url": "https://x.com/venturetwins",
+      "date": "2026-11-22",
+      "title": "Build a first-person mystery in a 3D neighborhood",
+      "takeaway": "Combine a Three.js neighborhood, branching witness interviews, and a clue interface for the player's final accusation.",
+      "observation": "The walkthrough shows the player entering venues, interviewing characters, and examining clues.",
+      "body_notes": "The author credits Neon with the storyline, the 3D recreation of Golden Gai, characters and clues in 16 accessible bars, and a trailer.",
+      "type": "Demo",
+      "category_key": "games",
+      "dedup_key": "x-2124568183902449764",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-245-1-2389fb584242.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-245-1-c8850b38c8df.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124568108753211392/vid/avc1/640x360/8_03cq61Bp3IWCYH.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124568108753211392/img/gQ42BSLY9o272ivn.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124568108753211392/vid/avc1/640x360/8_03cq61Bp3IWCYH.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2124570040318005314",
+      "public_number": 246,
+      "source_url": "https://x.com/WichtelArt/status/2124570040318005314",
+      "source_platform": "x",
+      "source_posted_by": "WichtelArt",
+      "author_handle": "@WichtelArt",
+      "author_url": "https://x.com/WichtelArt",
+      "date": "2026-11-22",
+      "title": "Compose a piano piece through a custom DAW",
+      "takeaway": "Connect the DAW to Neon through MCP so the agent can place notes directly in an editable piano roll.",
+      "observation": "The recording shows the completed arrangement scrolling with playback.",
+      "body_notes": "The author used Neon in Antigravity with a custom DAW. The public post gives the descriptor “nice” and shows the resulting music.",
+      "type": "Integration",
+      "category_key": "engineering",
+      "dedup_key": "x-2124570040318005314",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-246-1-8f9dda0956e4.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-246-1-d3f6fe0d1fab.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124567623417450496/vid/avc1/640x360/8PDtg-QpTqnGWm0i.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124567623417450496/img/bbq2fbrcDl4E-7DB.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124567623417450496/vid/avc1/640x360/8PDtg-QpTqnGWm0i.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2124582261374742710",
+      "public_number": 247,
+      "source_url": "https://x.com/majidmanzarpour/status/2124582261374742710",
+      "source_platform": "x",
+      "source_posted_by": "majidmanzarpour",
+      "author_handle": "@majidmanzarpour",
+      "author_url": "https://x.com/majidmanzarpour",
+      "date": "2026-11-22",
+      "title": "Reconstruct a rigged robot from reference photos",
+      "takeaway": "Measure reference images, build separate Blender parts, and inspect the result with a side-by-side render.",
+      "observation": "The video shows a staged assembly and a final sweep between the model and a reference image.",
+      "body_notes": "The author reports that Neon in Antigravity used Tesla Optimus Gen 2 reference photos to create 145 rigged parts and review the renders.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2124582261374742710",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-247-1-c0babc1e04a7.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-247-1-aacac143c86e.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124582010068840448/vid/avc1/640x360/chbZKOZpeHJOHtmj.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124582010068840448/img/_AoMJAz9HLE_qmCc.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124582010068840448/vid/avc1/640x360/chbZKOZpeHJOHtmj.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2124694590250693021",
+      "public_number": 248,
+      "source_url": "https://x.com/maxbittker/status/2124694590250693021",
+      "source_platform": "x",
+      "source_posted_by": "maxbittker",
+      "author_handle": "@maxbittker",
+      "author_url": "https://x.com/maxbittker",
+      "date": "2026-11-23",
+      "title": "Compare Polytopia training under a fixed GPU budget",
+      "takeaway": "Hold the GPU budget fixed when comparing model-generated training recipes for a game-playing agent.",
+      "observation": "At about 325 Elo, the chart shows about 3 GPU hours for Neon and about 7 for the best plotted alternative.",
+      "body_notes": "The author labels the comparison 2.3× in the chart. It applies to the plotted Polytopia runs at that Elo.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2124694590250693021",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-248-1-350942e64ce6.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXxsauWWUAAWheW.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXxsauWWUAAWheW.jpg"
+      ]
+    },
+    {
+      "id": "x-2124698835801031129",
+      "public_number": 249,
+      "source_url": "https://x.com/DynamicWebPaige/status/2124698835801031129",
+      "source_platform": "x",
+      "source_posted_by": "DynamicWebPaige",
+      "author_handle": "@DynamicWebPaige",
+      "author_url": "https://x.com/DynamicWebPaige",
+      "date": "2026-11-23",
+      "title": "Build a browser tracker for live satellite orbits",
+      "takeaway": "Cache public CelesTrak orbital data and calculate positions in the browser for a navigable 3D view.",
+      "observation": "The video shows satellites and orbital tracks changing as the author moves around the globe.",
+      "body_notes": "The author used Neon to build the tracker and describes how it uses public orbital data to predict positions for objects including Starlink satellites, the ISS, and GPS satellites.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2124698835801031129",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-249-1-53d247877385.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-249-1-8e3a28ab80f1.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124698740179283968/vid/avc1/640x360/XXBhsZ2NbOb-s4B5.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124698740179283968/img/5mBCmKFX8G0O5R3o.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124698740179283968/vid/avc1/640x360/XXBhsZ2NbOb-s4B5.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2124733026282406216",
+      "public_number": 250,
+      "source_url": "https://x.com/ivanleomk/status/2124733026282406216",
+      "source_platform": "x",
+      "source_posted_by": "ivanleomk",
+      "author_handle": "@ivanleomk",
+      "author_url": "https://x.com/ivanleomk",
+      "date": "2026-11-23",
+      "title": "Train a custom wake word for home automation",
+      "takeaway": "Use Neon in Antigravity to train a custom wake model, then connect the trigger to a separate intent classifier.",
+      "observation": "The demonstration shows the wake-word model running alongside voice-triggered home automation.",
+      "body_notes": "The author shows the trained hey_vanya.onnx model. A separate Gemini Decisions classifier chooses actions, and the author shows Home Assistant deployed by Neon.",
+      "type": "Integration",
+      "category_key": "engineering",
+      "dedup_key": "x-2124733026282406216",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-250-1-0b48e53c99c7.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-250-1-0974fdf48dde.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124732693707722752/vid/avc1/640x360/cYLItRIfeocE84u2.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124732693707722752/img/qS-4tBCu4qR4-K_O.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124732693707722752/vid/avc1/640x360/cYLItRIfeocE84u2.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2124760076825301195",
+      "public_number": 251,
+      "source_url": "https://x.com/ai_for_success/status/2124760076825301195",
+      "source_platform": "x",
+      "source_posted_by": "ai_for_success",
+      "author_handle": "@ai_for_success",
+      "author_url": "https://x.com/ai_for_success",
+      "date": "2026-11-23",
+      "title": "Prototype a video matting workflow in Antigravity",
+      "takeaway": "Use Neon to connect a segmentation tool and a video-matting tool, then compare intermediate frames.",
+      "observation": "The screenshot shows the author's frame previews from a work in progress.",
+      "body_notes": "The author used Gemini 4 Neon in Antigravity alongside Meta SAM 3 and MatAnyone 2. The source shows a prototype and provides no quantitative evaluation.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2124760076825301195",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/images/case-251-1-86fdd55e6559.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXypRjBbEAAQObs.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HXypRjBbEAAQObs.jpg"
+      ]
+    },
+    {
+      "id": "x-2124760560445030409",
+      "public_number": 252,
+      "source_url": "https://x.com/SPAC89/status/2124760560445030409",
+      "source_platform": "x",
+      "source_posted_by": "SPAC89",
+      "author_handle": "@SPAC89",
+      "author_url": "https://x.com/SPAC89",
+      "date": "2026-11-23",
+      "title": "Compare four models on a 3D ring animation",
+      "takeaway": "Render the same mechanical ring concept in four versions and inspect them at matching points in the motion.",
+      "observation": "The source places four labeled 3D interpretations side by side as their rings open.",
+      "body_notes": "The video labels the outputs GLM-5.4 Max, Gemini 4 Neon Extra, Claude Fable 5.2 High, and Claude Opus 5.5 xhigh. The author's ranking applies to this demonstration.",
+      "type": "Evaluation",
+      "category_key": "evaluations",
+      "dedup_key": "x-2124760560445030409",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/videos/case-252-1-87957df8ab6f.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-23/posters/case-252-1-70135862cc61.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124760428240687104/vid/avc1/640x360/R7KFakrivG_D6Uvb.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124760428240687104/img/eNKF9M_ictO0dcBV.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124760428240687104/vid/avc1/640x360/R7KFakrivG_D6Uvb.mp4?tag=29"
+      ]
     }
   ]
 }

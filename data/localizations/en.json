@@ -1487,6 +1487,66 @@
       "takeaway": "The creator reports using the same freeze, melt, and burst brief for four models. The four labeled panels show the individual outputs in a single comparison clip.",
       "notes": "The comparison records one test by the creator. The displayed runtime and cost estimates depend on the reported setup.",
       "action": "Use a shared sequence of events to check whether each animation preserves object identity across transitions."
+    },
+    "case-243": {
+      "title": "Teach human-eye optics with an interactive model",
+      "takeaway": "The video demonstrates a 3D eye, focus controls, lens adjustments, and color vision views.",
+      "notes": "The author used Neon to build the educational visualization based on Navarro and Gullstrand eye models. The displayed demos include astigmatism and corrective lenses.",
+      "action": "Let learners adjust optical controls and observe how the simulated light path and retinal focus change."
+    },
+    "case-244": {
+      "title": "Compare one-off random-number answers across three assistants",
+      "takeaway": "The author posted three screenshots in which Gemini 4 Neon Medium, 6 Luna Medium and Sonnet 5.5 High each returned 47.",
+      "notes": "Each screenshot shows one answer. The apps and prompt wording vary slightly, and the author describes the Neon session as fresh inside a populated project.",
+      "action": "Keep the exact prompts and settings when comparing isolated model outputs."
+    },
+    "case-245": {
+      "title": "Build a first-person mystery in a 3D neighborhood",
+      "takeaway": "The walkthrough shows the player entering venues, interviewing characters, and examining clues.",
+      "notes": "The author credits Neon with the storyline, the 3D recreation of Golden Gai, characters and clues in 16 accessible bars, and a trailer.",
+      "action": "Combine a Three.js neighborhood, branching witness interviews, and a clue interface for the player's final accusation."
+    },
+    "case-246": {
+      "title": "Compose a piano piece through a custom DAW",
+      "takeaway": "The recording shows the completed arrangement scrolling with playback.",
+      "notes": "The author used Neon in Antigravity with a custom DAW. The public post gives the descriptor “nice” and shows the resulting music.",
+      "action": "Connect the DAW to Neon through MCP so the agent can place notes directly in an editable piano roll."
+    },
+    "case-247": {
+      "title": "Reconstruct a rigged robot from reference photos",
+      "takeaway": "The video shows a staged assembly and a final sweep between the model and a reference image.",
+      "notes": "The author reports that Neon in Antigravity used Tesla Optimus Gen 2 reference photos to create 145 rigged parts and review the renders.",
+      "action": "Measure reference images, build separate Blender parts, and inspect the result with a side-by-side render."
+    },
+    "case-248": {
+      "title": "Compare Polytopia training under a fixed GPU budget",
+      "takeaway": "At about 325 Elo, the chart shows about 3 GPU hours for Neon and about 7 for the best plotted alternative.",
+      "notes": "The author labels the comparison 2.3× in the chart. It applies to the plotted Polytopia runs at that Elo.",
+      "action": "Hold the GPU budget fixed when comparing model-generated training recipes for a game-playing agent."
+    },
+    "case-249": {
+      "title": "Build a browser tracker for live satellite orbits",
+      "takeaway": "The video shows satellites and orbital tracks changing as the author moves around the globe.",
+      "notes": "The author used Neon to build the tracker and describes how it uses public orbital data to predict positions for objects including Starlink satellites, the ISS, and GPS satellites.",
+      "action": "Cache public CelesTrak orbital data and calculate positions in the browser for a navigable 3D view."
+    },
+    "case-250": {
+      "title": "Train a custom wake word for home automation",
+      "takeaway": "The demonstration shows the wake-word model running alongside voice-triggered home automation.",
+      "notes": "The author shows the trained hey_vanya.onnx model. A separate Gemini Decisions classifier chooses actions, and the author shows Home Assistant deployed by Neon.",
+      "action": "Use Neon in Antigravity to train a custom wake model, then connect the trigger to a separate intent classifier."
+    },
+    "case-251": {
+      "title": "Prototype a video matting workflow in Antigravity",
+      "takeaway": "The screenshot shows the author's frame previews from a work in progress.",
+      "notes": "The author used Gemini 4 Neon in Antigravity alongside Meta SAM 3 and MatAnyone 2. The source shows a prototype and provides no quantitative evaluation.",
+      "action": "Use Neon to connect a segmentation tool and a video-matting tool, then compare intermediate frames."
+    },
+    "case-252": {
+      "title": "Compare four models on a 3D ring animation",
+      "takeaway": "The source places four labeled 3D interpretations side by side as their rings open.",
+      "notes": "The video labels the outputs GLM-5.4 Max, Gemini 4 Neon Extra, Claude Fable 5.2 High, and Claude Opus 5.5 xhigh. The author's ranking applies to this demonstration.",
+      "action": "Render the same mechanical ring concept in four versions and inspect them at matching points in the motion."
     }
   }
 }
