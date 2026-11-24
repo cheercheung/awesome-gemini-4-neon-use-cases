@@ -1514,6 +1514,66 @@
       "action": "Beim Vergleich einzelner Ausgaben die genauen Eingaben und Einstellungen festhalten.",
       "takeaway": "Der Autor veröffentlichte drei Screenshots, auf denen Gemini 4 Neon Medium, 6 Luna Medium und Sonnet 5.5 High jeweils 47 ausgaben.",
       "notes": "Jeder Screenshot zeigt eine Antwort. Apps und Eingabetexte unterscheiden sich leicht. Laut Autor war die Neon-Sitzung neu und lief in einem bestehenden Projekt."
+    },
+    "case-262": {
+      "title": "Eine Karte für Gezeiten und Abflussmeldungen bauen",
+      "action": "Öffentliche Wetter- und Gezeitendaten mit lokalen Meldungen über verstopfte Abflüsse auf einer Karte zusammenführen.",
+      "takeaway": "Die Demo zeigt Kartenebenen für San Francisco und Detailansichten einzelner Abflussmeldungen.",
+      "notes": "Der Autor nutzte Neon, um den hydrologischen Prototyp auf Basis des SmallSF-Repositorys, öffentlicher Wetterdaten und Meldungen von San Francisco 311 zu bauen."
+    },
+    "case-261": {
+      "title": "Ein Dungeon-Spiel mit automatischer Erkundung bauen",
+      "action": "Die automatische Erkundung in einem isometrischen Spiel so gestalten, dass der Spieler die Steuerung selbst übernehmen kann.",
+      "takeaway": "Der Three.js-Prototyp zeigt eine Figur, die Räume im Fackelschein erkundet und Beute findet.",
+      "notes": "Laut Autor entstand das Spiel mit Neon. Der Spieler kann jederzeit die Steuerung übernehmen."
+    },
+    "case-260": {
+      "title": "Figurenanimation mit programmierten Keyframes vorbereiten",
+      "action": "Bewegungsablauf und Silhouetten mit programmierten Keyframes skizzieren, bevor die Sequenz an ein Videomodell übergeben wird.",
+      "takeaway": "Das Video zeigt mehrere Figurenbeispiele mit den zugehörigen Keyframes auf der Zeitleiste.",
+      "notes": "Laut Autor zeichnete Neon fünf Keyframes per Code. H3 Max erzeugte aus diesen Zeichnungen die fertige Animation."
+    },
+    "case-259": {
+      "title": "Eine lokale Inferenz-Engine für die RTX 5090 entwickeln",
+      "action": "Mit einem Skill zur Inferenzoptimierung die Engine an die Hardware anpassen und den Speicherbedarf bei einem lokalen Lauf prüfen.",
+      "takeaway": "Das Dashboard zeigt, dass Inkling 2 Mini 22,7 von 32 GiB GPU-Speicher belegt, ohne Speicher auszulagern.",
+      "notes": "Laut Autor schrieb Neon die Engine in Zig und CUDA. In der Demo ist sie auf einen Kontext von 1.048.576 Tokens eingestellt."
+    },
+    "case-258": {
+      "title": "Trainingsversuche über Nacht auf identischen GPUs vergleichen",
+      "action": "Dieselbe autoresearch-Aufgabe auf identischer Hardware ausführen und die besten Änderungen an zurückgehaltenen Daten erneut testen.",
+      "takeaway": "Der Autor berichtet für den zurückgehaltenen Text 0,994 Bit pro Byte für die ursprüngliche Baseline, 0,973 für Opus 5.5 und 0,957 für Neon.",
+      "notes": "Beim Vergleich über Nacht auf H100-GPUs kamen Gemini 4 Neon High und Claude Opus 5.5 Medium zum Einsatz. Die jeweils beste Variante wurde für den Test mit zurückgehaltenen Daten von Grund auf neu trainiert."
+    },
+    "case-256": {
+      "title": "Ein Origami-Karussell bauen, das sich beim Scrollen faltet",
+      "action": "Die Faltanimation an die Scrollposition koppeln, damit Leser eine Reihe von 3D-Formen durchlaufen können.",
+      "takeaway": "Die Demo zeigt, wie sich flache Papierbögen beim Bewegen des Karussells unter anderem zu einem Boot, einem Schmetterling und einem Wal falten.",
+      "notes": "Der Autor schreibt Neon acht Papierfiguren zu und beschreibt den Einsatz von XPBD für die Faltphysik und eigens entwickelten WebGPU-Shadern."
+    },
+    "case-254": {
+      "title": "Eine Straße in Mexiko-Stadt in Blender nachbauen",
+      "action": "Mit einem Agentenschwarm eine Stadtszene erstellen und sie anschließend aus Straßenperspektive prüfen.",
+      "takeaway": "Der Clip zeigt eine Straßenszene bei Tageslicht mit Fahrzeugen, Ladenfronten und Schildern.",
+      "notes": "Der Autor berichtet, Mexiko-Stadt in Blender mit dem Befehl /swarm und Gemini 4 Neon nachgebaut zu haben."
+    },
+    "case-253": {
+      "title": "Eine Figur aus gestapelten Sprites in Pseudo-3D animieren",
+      "action": "Mit gestapelten Sprites räumliche Tiefe vortäuschen und die Figur bewegen, um den Effekt aus verschiedenen Blickwinkeln zu prüfen.",
+      "takeaway": "Im Video dreht sich ein Pixel-Art-Hai über einer Plattform. Das beigefügte Standbild zeigt einen Plüschhai als Vorlage.",
+      "notes": "Der Autor experimentierte mit Neon zunächst mit gestapelten Sprites und animierte sie anschließend."
+    },
+    "case-255": {
+      "title": "Zwei Modellanimationen eines fallenden Blatts im Jahreszeitenwechsel vergleichen",
+      "action": "Beiden Modellen dieselbe Aufgabe zu einem fallenden Blatt geben und Bewegung, Übergänge und die angegebenen Kosten je Lauf vergleichen.",
+      "takeaway": "Das Video stellt Gemini 4 Neon xhigh und Astra 6.2 Max in der Szene mit wechselnden Jahreszeiten gegenüber.",
+      "notes": "Für diesen Vergleich gibt der Autor bei Neon 1 h 31 min und $15,36 an, bei Astra 46 min 32 s und $10,15."
+    },
+    "case-257": {
+      "title": "Neons Tokenverbrauch bei paarweisen Programmieraufgaben vergleichen",
+      "action": "Zwei Modelle denselben Prompt in derselben Umgebung bearbeiten lassen und Ausgabetokens, Dauer und Toolaufrufe getrennt vergleichen.",
+      "takeaway": "Das Diagramm aus den Agent Duel-Daten des Autors zeigt einen Median von rund 22.000 Ausgabetokens für Neon und 11.400 für die jeweiligen Vergleichsmodelle.",
+      "notes": "Die Vergleiche mit OpenCode zeigen als dargestellte Medianwerte außerdem rund 6,1 gegenüber 4,1 Minuten und 32 gegenüber 30 Toolaufrufe."
     }
   },
   "strings": {

@@ -1514,6 +1514,66 @@
       "action": "Tekil yanıtları karşılaştırırken istemleri ve ayarları aynen kaydedin.",
       "takeaway": "Yazarın paylaştığı üç ekran görüntüsünde Gemini 4 Neon Medium, 6 Luna Medium ve Sonnet 5.5 High 47 yanıtını verdi.",
       "notes": "Her görüntü bir yanıt gösteriyor. Uygulamalar ve istem metinleri biraz farklı. Yazar, mevcut bir projede yeni Neon oturumu açtığını söylüyor."
+    },
+    "case-262": {
+      "title": "Gelgitleri ve tıkalı yağmur suyu gideri bildirimlerini gösteren bir harita oluşturun",
+      "action": "Herkese açık hava durumu ve gelgit verilerini yerel tıkalı gider bildirimleriyle tek bir haritada birleştirin.",
+      "takeaway": "Gösterimde San Francisco haritasının katmanları ve tek tek gider bildirimlerinin panelleri yer alıyor.",
+      "notes": "Yazar, hidrolojik prototipi SmallSF deposu, herkese açık hava durumu verileri ve San Francisco 311 bildirimlerinden yararlanarak Neon ile oluşturdu."
+    },
+    "case-261": {
+      "title": "Oyuncunun kontrolü devralabildiği bir zindan keşif oyunu yapın",
+      "action": "İzometrik bir oyunda otomatik keşfi, oyuncunun kontrolü devralabilme seçeneğiyle birleştirin.",
+      "takeaway": "Three.js prototipinde bir karakter meşalelerle aydınlatılmış odaları keşfediyor ve ganimet buluyor.",
+      "notes": "Yazar, oyunu Neon'un oluşturduğunu ve oyuncunun istediği anda kontrolü devralabildiğini belirtiyor."
+    },
+    "case-260": {
+      "title": "Karakter animasyonunu kodla çizilen ana karelerle yönlendirin",
+      "action": "Diziyi bir video modeline vermeden önce hareketin zamanlamasını ve silüetleri kodla çizilen ana karelerle taslak haline getirin.",
+      "takeaway": "Video, birkaç karakter örneğini ve bunların ana kare zaman çizelgelerini gösteriyor.",
+      "notes": "Yazar, beş ana kareyi Neon'un kodla çizdiğini ve H3 Max'in bu çizimleri son animasyona dönüştürdüğünü belirtiyor."
+    },
+    "case-259": {
+      "title": "RTX 5090 için yerel bir çıkarım motoru prototipi hazırlayın",
+      "action": "Bir çıkarım optimizasyonu becerisiyle motoru donanıma uyarlayın ve yerel çalıştırma sırasında bellek kullanımını inceleyin.",
+      "takeaway": "Gösterge panelinde, Inkling 2 Mini çalışırken 32 GiB GPU belleğinin 22,7 GiB'ının kullanıldığı ve bellek taşması olmadığı görülüyor.",
+      "notes": "Yazar, Zig ve CUDA motorunu Neon'un yazdığını belirtiyor. Gösterimde motorun 1.048.576 tokenlık bir bağlam için yapılandırıldığı görülüyor."
+    },
+    "case-258": {
+      "title": "Özdeş GPU'larda gece boyunca yapılan eğitim deneylerini karşılaştırın",
+      "action": "Aynı autoresearch görevini eşdeğer donanımda çalıştırın ve en iyi değişiklikleri değerlendirme için ayrılan verilerle yeniden sınayın.",
+      "takeaway": "Yazar, değerlendirme için ayrılan metinde bayt başına 0,994 bitlik özgün referans sonucuna karşı Opus 5.5 için 0,973, Neon için ise 0,957 bildiriyor.",
+      "notes": "Gece boyunca süren H100 karşılaştırmasında Gemini 4 Neon High ve Claude Opus 5.5 Medium kullanıldı. En iyi sonuçları veren modeller, ayrılan verilerdeki kontrol için sıfırdan yeniden eğitildi."
+    },
+    "case-256": {
+      "title": "Sayfa kaydırıldıkça katlanan bir origami karuseli oluşturun",
+      "action": "Okurların 3B şekiller arasında ilerleyebilmesi için katlanma animasyonunu sayfanın kaydırma konumuna bağlayın.",
+      "takeaway": "Gösterimde, karusel ilerledikçe düz kağıtların tekne, kelebek ve balina gibi şekillere katlandığı görülüyor.",
+      "notes": "Yazar, sekiz heykeli Neon'un oluşturduğunu belirtiyor ve XPBD katlanma fiziği ile özel WebGPU gölgelendiricilerini nasıl kullandığını anlatıyor."
+    },
+    "case-254": {
+      "title": "Meksiko'da bir sokağı Blender'da yeniden oluşturun",
+      "action": "Bir ajan sürüsüyle şehir sahnesi kurun ve ardından sahneyi sokak seviyesinden inceleyin.",
+      "takeaway": "Klipte gün ışığında araçların, mağaza cephelerinin ve tabelaların yer aldığı bir sokak görülüyor.",
+      "notes": "Yazar, Meksiko'yu Blender'da yeniden oluşturmak için /swarm komutunu Gemini 4 Neon ile kullandığını bildiriyor."
+    },
+    "case-253": {
+      "title": "Katmanlı sprite'larla 3B görünümlü bir karakteri canlandırın",
+      "action": "Sprite'ları üst üste yerleştirerek derinlik yanılsaması yaratın ve farklı açılardan sınamak için hareket ekleyin.",
+      "takeaway": "Videoda piksel sanat tarzında bir köpekbalığı platformun üzerinde dönüyor, ekli fotoğrafta ise referans olarak kullanılan pelüş köpekbalığı görülüyor.",
+      "notes": "Yazar, sprite'ları katmanlama ve ardından canlandırma deneyinde Neon'u kullandı."
+    },
+    "case-255": {
+      "title": "Mevsimler boyunca düşen bir yaprağı canlandıran iki modeli karşılaştırın",
+      "action": "Her iki modele de düşen yaprak için aynı talimatı verin ve hareketi, geçişleri ve bildirilen çalıştırma maliyetini karşılaştırın.",
+      "takeaway": "Videoda, mevsimleri gösteren sahne için Gemini 4 Neon xhigh ve Astra 6.2 Max'in çıktıları yan yana yer alıyor.",
+      "notes": "Yazar, bu karşılaştırmada Neon için 1 sa 31 dk ve $15,36, Astra için 46 dk 32 sn ve $10,15 bildiriyor."
+    },
+    "case-257": {
+      "title": "Neon'un eşleştirilmiş kodlama görevlerindeki token kullanımını karşılaştırın",
+      "action": "İki modeli aynı istemle, aynı ortamda çalıştırın ve çıktı tokenlarını, geçen süreyi ve araç çağrılarını ayrı ayrı karşılaştırın.",
+      "takeaway": "Yazarın Agent Duel grafiğinde medyan çıktı Neon için yaklaşık 22.000 token, onunla eşleştirilen modeller için yaklaşık 11.400 token.",
+      "notes": "OpenCode karşılaştırmalarındaki grafiklerin medyan değerleri süre için yaklaşık 6,1 ve 4,1 dakika, araç çağrıları için ise yaklaşık 32 ve 30."
     }
   },
   "strings": {

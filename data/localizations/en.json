@@ -1547,6 +1547,66 @@
       "takeaway": "The source places four labeled 3D interpretations side by side as their rings open.",
       "notes": "The video labels the outputs GLM-5.4 Max, Gemini 4 Neon Extra, Claude Fable 5.2 High, and Claude Opus 5.5 xhigh. The author's ranking applies to this demonstration.",
       "action": "Render the same mechanical ring concept in four versions and inspect them at matching points in the motion."
+    },
+    "case-253": {
+      "title": "Animate a faux-3D character with stacked sprites",
+      "takeaway": "The video shows a pixel-art shark rotating above a platform, while the attached still shows a plush-shark reference.",
+      "notes": "The author used Neon for a sprite-stacking experiment followed by animation.",
+      "action": "Build the illusion of depth with stacked sprites and add motion to test it from different angles."
+    },
+    "case-254": {
+      "title": "Recreate a Mexico City street in Blender",
+      "takeaway": "The clip shows a daylight street scene with vehicles, storefronts and signs.",
+      "notes": "The author reports using the /swarm command with Gemini 4 Neon to recreate Mexico City in Blender.",
+      "action": "Use an agent swarm to build a city scene, then inspect it from street level."
+    },
+    "case-255": {
+      "title": "Compare two models animating a leaf through seasons",
+      "takeaway": "The video pairs Gemini 4 Neon xhigh with Astra 6.2 Max on the seasonal scene.",
+      "notes": "The author reports 1 h 31 min and $15.36 for Neon, and 46 min 32 s and $10.15 for Astra in this comparison.",
+      "action": "Give both models the same falling-leaf brief and compare motion, transitions and the reported run cost."
+    },
+    "case-256": {
+      "title": "Build an origami carousel that folds on scroll",
+      "takeaway": "The demo shows flat sheets folding into shapes such as a boat, butterfly and whale as the carousel moves.",
+      "notes": "The author credits Neon with eight sculptures and describes using XPBD folding physics and custom WebGPU shaders.",
+      "action": "Tie the folding animation to scroll position so readers can move through a series of 3D shapes."
+    },
+    "case-257": {
+      "title": "Compare Neon token use in paired coding tasks",
+      "takeaway": "In the author's Agent Duel data, the chart shows median output of about 22,000 tokens for Neon and 11,400 for its matched opponents.",
+      "notes": "The OpenCode comparisons also show about 6.1 versus 4.1 minutes and 32 versus 30 tool calls at the plotted medians.",
+      "action": "Run two models on the same prompt and environment, then compare output tokens, time and tool calls separately."
+    },
+    "case-258": {
+      "title": "Compare overnight training experiments on identical GPUs",
+      "takeaway": "The author reports 0.994 bits per byte for the original baseline, 0.973 for Opus 5.5, and 0.957 for Neon on held-out text.",
+      "notes": "The overnight H100 comparison used Gemini 4 Neon High and Claude Opus 5.5 Medium. Each best result was retrained from scratch for the held-out check.",
+      "action": "Run the same autoresearch task on matching hardware and retest the best changes on held-out data."
+    },
+    "case-259": {
+      "title": "Prototype a local inference engine for RTX 5090",
+      "takeaway": "The dashboard shows Inkling 2 Mini running with 22.7 of 32 GiB of GPU memory in use and zero spill.",
+      "notes": "The author credits Neon with writing the Zig and CUDA engine. The demonstration shows the resulting engine configured for a context of 1,048,576 tokens.",
+      "action": "Use an inference optimization skill to tailor an engine to hardware and inspect memory use during a local run."
+    },
+    "case-260": {
+      "title": "Use code-drawn keyframes to guide character animation",
+      "takeaway": "The video shows several character examples and their keyframe timelines.",
+      "notes": "The author credits Neon with drawing five keyframes in code and H3 Max with turning those drawings into the final animation.",
+      "action": "Sketch timing and silhouettes with code-drawn keyframes before handing the sequence to a video model."
+    },
+    "case-261": {
+      "title": "Build a dungeon explorer with manual takeover",
+      "takeaway": "The Three.js prototype shows a character exploring torchlit rooms and finding loot.",
+      "notes": "The author credits Neon with the game and says the player can take control at any point.",
+      "action": "Pair automatic exploration with a control the player can take over in an isometric game."
+    },
+    "case-262": {
+      "title": "Build a map for tides and drain reports",
+      "takeaway": "The demonstration shows San Francisco map layers and individual drain report panels.",
+      "notes": "The author used Neon to build the hydrological prototype from the SmallSF repository, public weather data, and San Francisco 311 reports.",
+      "action": "Combine public weather and tide information with locally reported clogged drains in a map."
     }
   }
 }

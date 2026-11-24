@@ -1514,6 +1514,66 @@
       "action": "Guarde os textos exatos e as configurações ao comparar respostas isoladas.",
       "takeaway": "O autor publicou três capturas nas quais Gemini 4 Neon Medium, 6 Luna Medium e Sonnet 5.5 High responderam 47.",
       "notes": "Cada captura mostra uma resposta. Os aplicativos e o texto variam um pouco. Segundo o autor, a sessão Neon era nova e foi iniciada em um projeto existente."
+    },
+    "case-262": {
+      "title": "Crie um mapa de marés e registros de bueiros",
+      "action": "Combine, em um mapa, dados públicos sobre o tempo e as marés com ocorrências locais de bueiros entupidos.",
+      "takeaway": "A demonstração mostra camadas do mapa de São Francisco e painéis com cada ocorrência de bueiro entupido.",
+      "notes": "O autor usou o Neon para criar o protótipo hidrológico com base no repositório SmallSF, em dados meteorológicos públicos e em registros do serviço 311 de São Francisco."
+    },
+    "case-261": {
+      "title": "Crie um explorador de masmorras com controle manual",
+      "action": "Combine a exploração automática com a opção de o jogador assumir o controle em um jogo isométrico.",
+      "takeaway": "O protótipo em Three.js mostra um personagem explorando salas iluminadas por tochas e encontrando itens.",
+      "notes": "O autor atribui o jogo ao Neon e diz que o jogador pode assumir o controle a qualquer momento."
+    },
+    "case-260": {
+      "title": "Use quadros-chave desenhados em código para orientar uma animação",
+      "action": "Esboce o ritmo e as silhuetas em quadros-chave desenhados em código antes de passar a sequência para um modelo de vídeo.",
+      "takeaway": "O vídeo mostra vários exemplos de personagens e suas linhas do tempo com quadros-chave.",
+      "notes": "O autor atribui ao Neon o desenho de cinco quadros-chave em código e ao H3 Max a transformação desses desenhos na animação final."
+    },
+    "case-259": {
+      "title": "Crie um protótipo de motor de inferência local para RTX 5090",
+      "action": "Use uma habilidade de otimização de inferência para adaptar o motor ao hardware e verificar o uso de memória durante uma execução local.",
+      "takeaway": "O painel mostra o Inkling 2 Mini em execução, com 22,7 dos 32 GiB de memória da GPU em uso e sem transferências por falta de espaço.",
+      "notes": "O autor atribui ao Neon o código do motor em Zig e CUDA. A demonstração mostra o motor configurado para um contexto de 1.048.576 tokens."
+    },
+    "case-258": {
+      "title": "Compare treinos noturnos em GPUs idênticas",
+      "action": "Execute a mesma tarefa de autoresearch em hardware equivalente e teste novamente as melhores alterações com dados reservados para avaliação.",
+      "takeaway": "O autor relata 0,994 bit por byte para a referência original, 0,973 para o Opus 5.5 e 0,957 para o Neon no texto reservado para avaliação.",
+      "notes": "A comparação noturna com H100 usou Gemini 4 Neon High e Claude Opus 5.5 Medium. A melhor configuração de cada modelo foi treinada novamente do zero para a avaliação nos dados reservados."
+    },
+    "case-256": {
+      "title": "Crie um carrossel de origamis que se dobram ao rolar a página",
+      "action": "Vincule a animação de dobragem à posição de rolagem para que os leitores possam percorrer várias formas em 3D.",
+      "takeaway": "A demonstração mostra folhas planas se dobrando em formas como barco, borboleta e baleia à medida que o carrossel avança.",
+      "notes": "O autor atribui oito esculturas ao Neon e descreve o uso de física de dobragem XPBD e de shaders personalizados em WebGPU."
+    },
+    "case-254": {
+      "title": "Recrie no Blender uma rua da Cidade do México",
+      "action": "Use um enxame de agentes para montar uma cena urbana e depois examine-a no nível da rua.",
+      "takeaway": "O clipe mostra uma rua à luz do dia com veículos, fachadas de lojas e placas.",
+      "notes": "O autor relata ter usado o comando /swarm com Gemini 4 Neon para recriar a Cidade do México no Blender."
+    },
+    "case-253": {
+      "title": "Anime um personagem em falso 3D com sprites sobrepostos",
+      "action": "Crie uma ilusão de profundidade com sprites sobrepostos e aplique movimento para testar o resultado de vários ângulos.",
+      "takeaway": "O vídeo mostra um tubarão em pixel art girando sobre uma plataforma, enquanto a imagem anexa mostra um tubarão de pelúcia usado como referência.",
+      "notes": "O autor usou o Neon em um experimento de sobreposição de sprites, seguido de animação."
+    },
+    "case-255": {
+      "title": "Compare dois modelos animando uma folha ao longo das estações",
+      "action": "Dê aos dois modelos a mesma descrição de uma folha caindo e compare o movimento, as transições e o custo de execução informado.",
+      "takeaway": "O vídeo coloca Gemini 4 Neon xhigh e Astra 6.2 Max lado a lado na cena das estações.",
+      "notes": "Nessa comparação, o autor relata 1 h 31 min e $15,36 para o Neon, e 46 min 32 s e $10,15 para o Astra."
+    },
+    "case-257": {
+      "title": "Compare o uso de tokens pelo Neon em tarefas de programação pareadas",
+      "action": "Execute dois modelos com o mesmo prompt e no mesmo ambiente e compare separadamente os tokens gerados, o tempo e as chamadas de ferramentas.",
+      "takeaway": "Nos dados do autor para o Agent Duel, o gráfico mostra uma mediana aproximada de 22.000 tokens gerados pelo Neon e de 11.400 pelos modelos pareados com ele.",
+      "notes": "As medianas nos gráficos das comparações no OpenCode também indicam cerca de 6,1 contra 4,1 minutos e 32 contra 30 chamadas de ferramentas."
     }
   },
   "strings": {
