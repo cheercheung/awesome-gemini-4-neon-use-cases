@@ -9230,6 +9230,398 @@
       "media_source_urls": [
         "https://video.twimg.com/amplify_video/2124760428240687104/vid/avc1/640x360/R7KFakrivG_D6Uvb.mp4?tag=29"
       ]
+    },
+    {
+      "id": "x-2124849481351069716",
+      "public_number": 253,
+      "source_url": "https://x.com/_ryu15_/status/2124849481351069716",
+      "source_platform": "x",
+      "source_posted_by": "_ryu15_",
+      "author_handle": "@_ryu15_",
+      "author_url": "https://x.com/_ryu15_",
+      "date": "2026-11-23",
+      "title": "Animate a faux-3D character with stacked sprites",
+      "takeaway": "Build the illusion of depth with stacked sprites and add motion to test it from different angles.",
+      "observation": "The video shows a pixel-art shark rotating above a platform, while the attached still shows a plush-shark reference.",
+      "body_notes": "The author used Neon for a sprite-stacking experiment followed by animation.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2124849481351069716",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/videos/case-253-1-63b3f3b519b3.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/posters/case-253-1-c95d1897f87e.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124849470248783872/vid/avc1/508x474/IKilvv7-VJCleuwn.mp4",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124849470248783872/img/zPG-IRA8CKF1-BQK.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/images/case-253-2-df9f66265acc.jpg",
+          "source_url": "https://pbs.twimg.com/media/HXz7VcJakAEobkB.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124849470248783872/vid/avc1/508x474/IKilvv7-VJCleuwn.mp4",
+        "https://pbs.twimg.com/media/HXz7VcJakAEobkB.jpg"
+      ]
+    },
+    {
+      "id": "x-2124872477985644633",
+      "public_number": 254,
+      "source_url": "https://x.com/shridharathi/status/2124872477985644633",
+      "source_platform": "x",
+      "source_posted_by": "shridharathi",
+      "author_handle": "@shridharathi",
+      "author_url": "https://x.com/shridharathi",
+      "date": "2026-11-23",
+      "title": "Recreate a Mexico City street in Blender",
+      "takeaway": "Use an agent swarm to build a city scene, then inspect it from street level.",
+      "observation": "The clip shows a daylight street scene with vehicles, storefronts and signs.",
+      "body_notes": "The author reports using the /swarm command with Gemini 4 Neon to recreate Mexico City in Blender.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2124872477985644633",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/videos/case-254-1-a4145e350c6d.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/posters/case-254-1-b114da88788b.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124872057657638912/vid/avc1/622x360/HcimYebiSC7pA0IT.mp4",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124872057657638912/img/u535oQTVQagrbkOJ.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124872057657638912/vid/avc1/622x360/HcimYebiSC7pA0IT.mp4"
+      ]
+    },
+    {
+      "id": "x-2124897056280219998",
+      "public_number": 255,
+      "source_url": "https://x.com/ZryMiller/status/2124897056280219998",
+      "source_platform": "x",
+      "source_posted_by": "ZryMiller",
+      "author_handle": "@ZryMiller",
+      "author_url": "https://x.com/ZryMiller",
+      "date": "2026-11-23",
+      "title": "Compare two models animating a leaf through seasons",
+      "takeaway": "Give both models the same falling-leaf brief and compare motion, transitions and the reported run cost.",
+      "observation": "The video pairs Gemini 4 Neon xhigh with Astra 6.2 Max on the seasonal scene.",
+      "body_notes": "The author reports 1 h 31 min and $15.36 for Neon, and 46 min 32 s and $10.15 for Astra in this comparison.",
+      "type": "Evaluation",
+      "category_key": "evaluations",
+      "dedup_key": "x-2124897056280219998",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/videos/case-255-1-b9581458709c.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/posters/case-255-1-2311b13e9b83.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124896907252379648/vid/avc1/480x600/CdBjNBqjpxk9VzWf.mp4",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124896907252379648/img/xkrM-OsVYQWFTui3.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124896907252379648/vid/avc1/480x600/CdBjNBqjpxk9VzWf.mp4"
+      ]
+    },
+    {
+      "id": "x-2124916161083314420",
+      "public_number": 256,
+      "source_url": "https://x.com/thebuggeddev/status/2124916161083314420",
+      "source_platform": "x",
+      "source_posted_by": "thebuggeddev",
+      "author_handle": "@thebuggeddev",
+      "author_url": "https://x.com/thebuggeddev",
+      "date": "2026-11-23",
+      "title": "Build an origami carousel that folds on scroll",
+      "takeaway": "Tie the folding animation to scroll position so readers can move through a series of 3D shapes.",
+      "observation": "The demo shows flat sheets folding into shapes such as a boat, butterfly and whale as the carousel moves.",
+      "body_notes": "The author credits Neon with eight sculptures and describes using XPBD folding physics and custom WebGPU shaders.",
+      "type": "Demo",
+      "category_key": "graphics",
+      "dedup_key": "x-2124916161083314420",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/videos/case-256-1-5157d5aaf49f.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/posters/case-256-1-8e764746331c.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124914015868735488/vid/avc1/552x360/-4L22Tu-07R-19hM.mp4",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124914015868735488/img/NADxiefho5II-dYR.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124914015868735488/vid/avc1/552x360/-4L22Tu-07R-19hM.mp4"
+      ]
+    },
+    {
+      "id": "hn-50615884",
+      "public_number": 257,
+      "source_url": "https://micjm.com/blog/do-chinese-models-overthink-compared-to-american-ones/",
+      "source_platform": "hn",
+      "source_posted_by": "Michael Mayer",
+      "author_handle": "@micjm",
+      "author_url": "https://micjm.com/about/",
+      "date": "2026-11-23",
+      "title": "Compare Neon token use in paired coding tasks",
+      "takeaway": "Run two models on the same prompt and environment, then compare output tokens, time and tool calls separately.",
+      "observation": "In the author's Agent Duel data, the chart shows median output of about 22,000 tokens for Neon and 11,400 for its matched opponents.",
+      "body_notes": "The OpenCode comparisons also show about 6.1 versus 4.1 minutes and 32 versus 30 tool calls at the plotted medians.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "hn-50615884",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [
+        "https://news.ycombinator.com/item?id=50615884"
+      ],
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/images/case-257-1-b76688b0925d.png",
+          "source_url": "https://micjm.com/images/do-chinese-models-overthink-compared-to-american-ones/output-tokens.png",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/images/case-257-2-07d3ccb693b4.png",
+          "source_url": "https://micjm.com/images/do-chinese-models-overthink-compared-to-american-ones/completion-time.png",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/images/case-257-3-3f171d6b2855.png",
+          "source_url": "https://micjm.com/images/do-chinese-models-overthink-compared-to-american-ones/tool-calls.png",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/images/case-257-4-df911aa01358.png",
+          "source_url": "https://micjm.com/images/do-chinese-models-overthink-compared-to-american-ones/head-to-head.png",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://micjm.com/images/do-chinese-models-overthink-compared-to-american-ones/output-tokens.png",
+        "https://micjm.com/images/do-chinese-models-overthink-compared-to-american-ones/completion-time.png",
+        "https://micjm.com/images/do-chinese-models-overthink-compared-to-american-ones/tool-calls.png",
+        "https://micjm.com/images/do-chinese-models-overthink-compared-to-american-ones/head-to-head.png"
+      ]
+    },
+    {
+      "id": "x-2124953374349013449",
+      "public_number": 258,
+      "source_url": "https://x.com/harris_p10/status/2124953374349013449",
+      "source_platform": "x",
+      "source_posted_by": "harris_p10",
+      "author_handle": "@harris_p10",
+      "author_url": "https://x.com/harris_p10",
+      "date": "2026-11-23",
+      "title": "Compare overnight training experiments on identical GPUs",
+      "takeaway": "Run the same autoresearch task on matching hardware and retest the best changes on held-out data.",
+      "observation": "The author reports 0.994 bits per byte for the original baseline, 0.973 for Opus 5.5, and 0.957 for Neon on held-out text.",
+      "body_notes": "The overnight H100 comparison used Gemini 4 Neon High and Claude Opus 5.5 Medium. Each best result was retrained from scratch for the held-out check.",
+      "type": "Benchmark",
+      "category_key": "evaluations",
+      "dedup_key": "x-2124953374349013449",
+      "kind": "comparison",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/videos/case-258-1-e17ab3acb085.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/posters/case-258-1-dee84294619a.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124952010768130048/vid/avc1/480x600/Ko42ZCViAU4Sp0kM.mp4",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124952010768130048/img/bT9i5mw66cFCeh2s.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/images/case-258-2-9770a27bc8c8.jpg",
+          "source_url": "https://pbs.twimg.com/media/HX1YmGNXEAEFfzI.jpg",
+          "publication": "r2"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/images/case-258-3-6e31a40a07eb.jpg",
+          "source_url": "https://pbs.twimg.com/media/HX1YmGQW8AAO0aS.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124952010768130048/vid/avc1/480x600/Ko42ZCViAU4Sp0kM.mp4",
+        "https://pbs.twimg.com/media/HX1YmGNXEAEFfzI.jpg",
+        "https://pbs.twimg.com/media/HX1YmGQW8AAO0aS.jpg"
+      ]
+    },
+    {
+      "id": "x-2124975715141689818",
+      "public_number": 259,
+      "source_url": "https://x.com/tensorfish/status/2124975715141689818",
+      "source_platform": "x",
+      "source_posted_by": "tensorfish",
+      "author_handle": "@tensorfish",
+      "author_url": "https://x.com/tensorfish",
+      "date": "2026-11-23",
+      "title": "Prototype a local inference engine for RTX 5090",
+      "takeaway": "Use an inference optimization skill to tailor an engine to hardware and inspect memory use during a local run.",
+      "observation": "The dashboard shows Inkling 2 Mini running with 22.7 of 32 GiB of GPU memory in use and zero spill.",
+      "body_notes": "The author credits Neon with writing the Zig and CUDA engine. The demonstration shows the resulting engine configured for a context of 1,048,576 tokens.",
+      "type": "Integration",
+      "category_key": "engineering",
+      "dedup_key": "x-2124975715141689818",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/videos/case-259-1-2d6d085658aa.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/posters/case-259-1-942e7735d7e9.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124974850808913921/vid/avc1/640x360/Cbi_KD5g3XK5o3rm.mp4",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124974850808913921/img/VC1ivFgs5D3VVvU0.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124974850808913921/vid/avc1/640x360/Cbi_KD5g3XK5o3rm.mp4"
+      ]
+    },
+    {
+      "id": "x-2124998786863055080",
+      "public_number": 260,
+      "source_url": "https://x.com/OdinLovis/status/2124998786863055080",
+      "source_platform": "x",
+      "source_posted_by": "OdinLovis",
+      "author_handle": "@OdinLovis",
+      "author_url": "https://x.com/OdinLovis",
+      "date": "2026-11-23",
+      "title": "Use code-drawn keyframes to guide character animation",
+      "takeaway": "Sketch timing and silhouettes with code-drawn keyframes before handing the sequence to a video model.",
+      "observation": "The video shows several character examples and their keyframe timelines.",
+      "body_notes": "The author credits Neon with drawing five keyframes in code and H3 Max with turning those drawings into the final animation.",
+      "type": "Integration",
+      "category_key": "graphics",
+      "dedup_key": "x-2124998786863055080",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/videos/case-260-1-8a7df02af305.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/posters/case-260-1-b73020bdc4b1.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2124998425595072512/vid/avc1/640x360/_W_SfypS0lKrabsL.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2124998425595072512/img/4HF89siHdDJwuApS.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2124998425595072512/vid/avc1/640x360/_W_SfypS0lKrabsL.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2125016726224212386",
+      "public_number": 261,
+      "source_url": "https://x.com/MathiBarea/status/2125016726224212386",
+      "source_platform": "x",
+      "source_posted_by": "MathiBarea",
+      "author_handle": "@MathiBarea",
+      "author_url": "https://x.com/MathiBarea",
+      "date": "2026-11-24",
+      "title": "Build a dungeon explorer with manual takeover",
+      "takeaway": "Pair automatic exploration with a control the player can take over in an isometric game.",
+      "observation": "The Three.js prototype shows a character exploring torchlit rooms and finding loot.",
+      "body_notes": "The author credits Neon with the game and says the player can take control at any point.",
+      "type": "Demo",
+      "category_key": "games",
+      "dedup_key": "x-2125016726224212386",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/videos/case-261-1-8448d9e3caf4.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/posters/case-261-1-62412c1ed0e3.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2125015194606727168/vid/avc1/640x360/aDwTESDVke5xzAS0.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2125015194606727168/img/GgTNujV9y4U5SylH.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2125015194606727168/vid/avc1/640x360/aDwTESDVke5xzAS0.mp4?tag=29"
+      ]
+    },
+    {
+      "id": "x-2125051736406770029",
+      "public_number": 262,
+      "source_url": "https://x.com/DanielleFong/status/2125051736406770029",
+      "source_platform": "x",
+      "source_posted_by": "DanielleFong",
+      "author_handle": "@DanielleFong",
+      "author_url": "https://x.com/DanielleFong",
+      "date": "2026-11-24",
+      "title": "Build a map for tides and drain reports",
+      "takeaway": "Combine public weather and tide information with locally reported clogged drains in a map.",
+      "observation": "The demonstration shows San Francisco map layers and individual drain report panels.",
+      "body_notes": "The author used Neon to build the hydrological prototype from the SmallSF repository, public weather data, and San Francisco 311 reports.",
+      "type": "Integration",
+      "category_key": "engineering",
+      "dedup_key": "x-2125051736406770029",
+      "kind": "usecase",
+      "prompt_public": false,
+      "prompt_text": null,
+      "evidence_origin": "creator-report",
+      "supporting_urls": [],
+      "media_assets": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/videos/case-262-1-8e104b959b8b.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-neon-use-cases/daily/2026-11-24/posters/case-262-1-b47e0ff38107.jpg",
+          "source_url": "https://video.twimg.com/amplify_video/2125051339587948544/vid/avc1/480x498/ykspBAmhRGzWqZ89.mp4?tag=29",
+          "poster_source_url": "https://pbs.twimg.com/amplify_video_thumb/2125051339587948544/img/hKfQM8eoWIJuiXzo.jpg",
+          "publication": "r2"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2125051339587948544/vid/avc1/480x498/ykspBAmhRGzWqZ89.mp4?tag=29"
+      ]
     }
   ]
 }

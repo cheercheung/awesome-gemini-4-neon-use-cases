@@ -17,3 +17,8 @@ or release that supports the change.
 
 - Added 10 cases from [Case 243](../README.md#case-243) through [Case 252](../README.md#case-252).
 - Added 12 original visuals spanning coding, scene generation, games, learning, and evaluations.
+
+## 2026-11-24
+
+- Added 10 cases from [Case 253](../README.md#case-253) through [Case 262](../README.md#case-262).
+- Added 16 original visuals spanning coding, scene generation, games, learning, and evaluations.
